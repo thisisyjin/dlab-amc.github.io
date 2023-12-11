@@ -1,0 +1,322 @@
+---
+layout: landing-page
+---
+<!-- Main -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+		  * { padding: 0; margin: 0; }
+		  #wrap { width:100%; margin:0 auto; }
+		  .contents { width:100%;}
+	
+		  #cta {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: center;
+        	align-items: center;
+		  }
+	
+		  #cta header {
+			width: 50%;
+			order: 2; /* 변경된 부분 */
+			padding: 20px; /* 글자 부분에 패딩 추가 */
+			color: #ffffff;
+			text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+			height: 500px;
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+        	align-items: center;
+		  }
+	
+		  #cta iframe {
+			width: 50%;
+			order: 1; /* 변경된 부분 */
+			height: 500px;
+		  }
+	
+		  @media (max-width: 768px) {
+			#cta {
+			flex-direction: column; /* 변경된 부분 */
+			}
+
+			#cta header {
+			width: 100%;
+			padding: 20px; /* 모바일 글자 부분에 패딩 추가 */
+			
+			}
+
+			#cta iframe {
+			width: 100%;
+			margin-bottom: 50px;
+			}
+		  }
+		</style>
+	</head>
+	<body>
+		<article id="main">
+
+			<header class="special container">
+				<span class="icon fa-solid fa-heart-pulse"></span>
+				<h2>Our mission is to drive innovation,<br /> develop transformative solutions, and <br />shape the future of
+					digital medicine.
+					<br />
+				</h2>
+				<p>Through rigorous exploration of digital technologies, data analytics, and interdisciplinary collaboration,
+					<br />our trials are still on going, <strong>since 2021.</strong>
+					<br />
+					<br />
+				</p>
+			</header>
+		
+			<!-- One -->
+			<section class="wrapper style1 container special">
+		
+		
+				<div class="num-container" id="num-container">
+					<div class="num-item">
+						<h4 class="in-title">Paper</h4>
+						<span class="nums" data-count="239">0</span><span id="num-unit"></span><br>
+						<!-- <span class="sub-title">test1</span><br> -->
+					</div>
+					<div class="num-item">
+						<h4 class="in-title">Project</h4>
+						<span class="nums" data-count="26">0</span><span id="num-unit"></span><br>
+						<!-- <span class="sub-title">test1</span><br> -->
+					</div>
+					<div class="num-item">
+						<h4 class="in-title">Patent</h4>
+						<span class="nums" data-count="173">0</span><span id="num-unit"></span><br>
+						<!-- <span class="sub-title">test1</span><br> -->
+					</div>
+				</div>
+		
+				<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+				<script>
+					setTimeout(function () {
+						// 숫자 카운트 애니메이션
+						$('.nums').each(function () {
+							const $this = $(this),
+								countTo = $this.attr('data-count');
+		
+							$({
+								countNum: $this.text()
+							}).animate({
+								countNum: countTo
+							}, {
+								duration: 3000,
+								easing: 'linear',
+								step: function () {
+									$this.text(Math.floor(this.countNum));
+								},
+								complete: function () {
+									$this.text(this.countNum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ','));
+									// 3자리 마다 콤마 표시 적용
+								}
+							});
+						});
+					}, 2500); // 2.5초 뒤에 실행 (1000 밀리초 = 1초)
+				</script>
+			</section>
+		
+		
+		
+			<!-- Two -->
+		
+		
+		
+			<section class="wrapper style2 container special-alt">
+				<div class="row half">
+					<div class="8u">
+		
+						<header>
+							<h2>Why <strong>D</strong> Lab ?</h2>
+						</header>
+						<p style="color: #ffffff">&emsp;<strong>D</strong>igital Healthcare & Medicine leverages technology such as the Internet of Things (IoT) and
+							artificial intelligence (AI) to collect, analyze, and manage medical data. </br>
+							&emsp;This
+							<strong>D</strong>ata-driven approach enhances patient care, <strong>D</strong>iagnoses &
+							<strong>D</strong>ecision support and treatment
+							by enabling real-time monitoring,
+							predictive analytics, and personalized medicine. </br>
+							&emsp;It also promotes remote healthcare
+							<strong>D</strong>elivery through
+							telemedicine and mobile health apps, improving accessibility and healthcare efficiency while
+							transforming how healthcare is delivered and experienced.
+						</p>
+						<footer>
+							<ul class="buttons">
+								<li><a href="htmls/inside_the_lab/DHLAB@AMC.html" class="button">Inside The Lab</a></li>
+							</ul>
+						</footer>
+						<br>
+						<header>
+							<h3>Latest News</h3>
+						</header>
+						<ul class="posts">
+							{% for post in site.posts limit: 3%}
+							<li class="wrapper style1" style="margin-bottom: 0;">
+								<p style="margin-bottom: 0; "><a href="{{ post.url }}" style="color: white;">{{ post.title
+										}}</a></p>
+								<p class="post-date" style="font-size: 14px; margin-bottom: 0;">{{ post.date | date:
+									"%Y-%m-%d" }}</p>
+							</li>
+							{% if forloop.last == false %}
+							<hr style="border: 1px solid #ccc; margin-bottom: 0;"> <!-- 게시물 간의 밑줄 -->
+							{% endif %}
+							{% endfor %}
+						</ul>
+		
+		
+					</div>
+					<div class="4u skel-cell-important">
+		
+		
+						<ul class="featured-icons">
+							<li><span class="icon fa-solid fa-heart-pulse" style="color:#ffffff"><span class="label">Feature
+										1</span></span></li>
+							<li><span class="icon fa-solid fa-bed-pulse" style="color:#252422"><span class="label">Feature
+										2</span></span></li>
+							<li><span class="icon fa-solid fa-server" style="color:#252422"><span class="label">Feature
+										3</span></span></li>
+							<li><span class="icon fa-solid fa-network-wired" style="color:#ffffff"><span class="label">Feature
+										4</span></span></li>
+							<li><span class="icon fa-solid fa-person-dots-from-line" style="color:#ffffff"><span
+										class="label">Feature 5</span></span>
+							</li>
+							<li><span class="icon fa-solid fa-hand-holding-medical" style="color:#252422"><span
+										class="label">Feature 6</span></span>
+							</li>
+						</ul>
+		
+		
+					</div>
+				</div>
+			</section>
+		
+		
+		
+			<!-- Three -->
+			<section class="wrapper style4 container">
+				<header class="major">
+					<h2>Research Topics</h2>
+		
+		
+				</header>
+		
+				<div class="row">
+					<div class="6u">
+		
+						<section>
+							<a href="htmls/research_topics.html#BiomedicalSignalMonitoring" class="image featured"><img
+									src="images/image1.jpg" alt="" /></a>
+							<header>
+								<h3>Biomedical Signal Monitoring
+								</h3>
+							</header>
+							<p>Sensors, Wearable devices, Data collection software, Algorithms.</p>
+						</section>
+		
+					</div>
+					<div class="6u">
+		
+						<section>
+							<a href="htmls/research_topics.html#BiomedicalSignalProcessing&Analysis" class="image featured"><img
+									src="images/image2.jpg" alt="" /></a>
+							<header>
+								<h3>Biomedical Signal Processing&Analysis
+								</h3>
+							</header>
+							<p>Signal collection, Noise removal, Extraction of crucial features, 
+								Specific pattern recognition, Deriving indicators for disease diagnosis.</p>
+						</section>
+		
+					</div>
+				</div>
+				<div class="row">
+					<div class="6u">
+		
+						<section>
+							<a href="htmls/research_topics.html#CardiovascularHealthAssessment" class="image featured"><img
+									src="images/image3.jpg" alt="" /></a>
+							<header>
+								<h3>Cardiovascular Health Assessment
+								</h3>
+							</header>
+							<p>Electrocardiography(ECG), 
+								Photoplethysmography (PPG), 
+								Analyzing blood pressure waveforms.</p>
+						</section>
+		
+					</div>
+					<div class="6u">
+		
+						<section>
+							<a href="htmls/research_topics.html#ClinicalDecisionSupport" class="image featured"><img
+									src="images/image4.jpg" alt="" /></a>
+							<header>
+								<h3>Clinical Decision Support
+								</h3>
+							</header>
+							<p>Statistical and Artificial Intelligence techniques, Reduce errors.</p>
+						</section>
+		
+					</div>
+				</div>
+				<div class="row">
+					<div class="6u">
+		
+						<section>
+							<a href="htmls/research_topics.html#DigitalMedicine" class="image featured"><img
+									src="images/image5.jpg" alt="" /></a>
+							<header>
+								<h3>Digital Medicine
+								</h3>
+							</header>
+							<p>Patient-generated health data, Wearable devices and IoT sensors, Predictive modeling.</p>
+						</section>
+					</div>
+				</div>
+		
+				<footer class="major">
+					<ul class="buttons">
+						<li><a href="/htmls/research_topics.html" class="button">More About</a></li>
+					</ul>
+				</footer>
+		
+		
+		
+			</section>
+		
+		</article>
+		
+		<!-- CTA -->
+		<div id="wrap">
+			<div class="contents">
+				<section id="cta">
+					<header>
+						<h2>Contact</h2>
+						<h3>Address</h3>
+						<p>
+							Asan Institute for Life Sciences, 88 Olympic-ro 43-gil, Songpa-gu, Seoul,<br />
+							05505, Republic of Korea
+						</p>
+						<h3>Contact e-mail</h3>
+						<p>
+							digitalhealth.amc@gmail.com
+						</p>
+					</header>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.2330040640663!2d127.10569547589313!3d37.52600437645127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca56a3f5c178f%3A0x6f94e28da52f732a!2z7ISc7Jq47JWE7IKw67OR7JuQ!5e0!3m2!1sko!2skr!4v1697526819162!5m2!1sko!2skr"
+						width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</section>
+			</div>
+		</div>
+
+	</body>
+	
+</html>
