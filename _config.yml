@@ -1,0 +1,18 @@
+# Site settings
+title:  D Lab
+subtitle : Digital Medicine Laboratory @ Asan Medical Center
+description: 서울아산병원 디지털의학연구실 testSite
+
+url: "https://ydon1111.github.io" 
+baseurl: ""
+teaser: "images/logo/logo1.png"
+
+
+
+lang: "ko_KR"
+timezone: "Asia/Seoul"
+future: true
+
+# Build settings
+markdown: kramdown
+

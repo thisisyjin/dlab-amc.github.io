@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<article id="main">
+    <header class="special container">
+        <span class="icon fa-solid fa-scroll"></span>
+        <h2>publications</h2>
+        &nbsp;
+        <p style="font-size: 28px; color:#999999;">Journal</p>
+    </header>
+
+    <section class="wrapper style4 container">
+        <div class="row oneandhalf">
+            <div class="3u">
+                <!-- Sidebar -->
+                <div class="sidebar">
+                    <section>
+                        <div class="sidebar small-sidebar">
+                            <p onclick='journal()' class="small-button" id="journalTestPara">journal
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="9u skel-cell-important">
+                <!-- Content -->
+                <div id='my_div' class="my-div">
+                    <!-- Content will be displayed here -->
+                    <span>'논문표시'</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+
+
+<script>
+
+    window.onload = function () {
+        journal();
+    };
+</script>
