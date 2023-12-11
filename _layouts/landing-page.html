@@ -1,36 +1,40 @@
+
 <!DOCTYPE html>
 <html>
+  
 
-  {% include head.html %}
+{% include head.html %}
 
 
 
-  <body class="index">
+<body class="index">
 
-    {% include header.html %}
-    {% include banner.html %}
+  {% include header.html %}
+  {% include banner.html %}
 
-    <div class="page-content">
-        {{ content }}
-    </div>
+  <div class="page-content">
+    {{ content }}
+  </div>
+  <button id="upButton" onclick="scrollToTop()"><span class="icon fa-solid fa-arrow-up"
+      style="font-family: NanumSquareNeo-Variable;"><br>TOP</span></button>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-  </body>
+</body>
 
-  <script>
-    // 스크롤 이벤트를 감지하여 헤더 위치 조정
-    window.addEventListener("scroll", function () {
-      const header = document.getElementById("header");
-      const image = header.querySelector("img");
-      if (window.scrollY > 100) {
-        header.classList.add("scroll-down");
-        image.style.maxHeight = "60px"; // 스크롤 시 이미지 크기 줄이기
-      } else {
-        header.classList.remove("scroll-down");
-        image.style.maxHeight = "100px"; // 스크롤을 올릴 때 이미지 크기 복원
-      }
-    });
-  </script>
+<script>
+  // 스크롤 이벤트를 감지하여 헤더 위치 조정
+  window.addEventListener("scroll", function () {
+    const header = document.getElementById("header");
+    const image = header.querySelector("img");
+    if (window.scrollY > 100) {
+      header.classList.add("scroll-down");
+      image.style.maxHeight = "60px"; // 스크롤 시 이미지 크기 줄이기
+    } else {
+      header.classList.remove("scroll-down");
+      image.style.maxHeight = "100px"; // 스크롤을 올릴 때 이미지 크기 복원
+    }
+  });
+</script>
 
 </html>

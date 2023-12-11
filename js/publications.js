@@ -1,6 +1,10 @@
 function journalALL() {
   resetButtons()
-  const papers = `Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
+  const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
+  Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
+  Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
+  Shinae Yu, Kyung-Hwa Shin, Sunghwan Shin, Hyeyoung Lee, Soo Jin Yoo, Kyung Ran Jun, Hangsik Shin, Sollip Kim, "Practical delta check limits for tumour markers in different clinical settings," Clinical Chemistry and Laboratory Medicine (CCLM), 61(10), 1829-1840, 2023
+  Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
   Hangsik Shin, “A novel method for non‐invasive blood pressure estimation based on continuous pulse transit time: An observational study,” Psychophysiology, 60(2), e14173, 2023 
   Hangsik Shin, “Photoplethysmogram based vascular aging assessment using the deep convolutional neural network,” Scientific Reports, 12, 11377, 2022 
   Hangsik Shin, “XGBoost Regression of the Most Significant Photoplethysmogram Features for Assessing Vascular Aging,” IEEE Journal of Biomedical and Health Informatics, 26(7), 3354-3361, 2022
@@ -74,6 +78,8 @@ function journalALL() {
   Se-Dong Min, Young-Hyun Yun, Chung-Keun Lee, Hang-Sik Shin, Ha-Kyung Cho, Seon-Cheol Hwang and MyoungHo Lee, “Respiration Measurement System using Textile Capacitive Pressure Sensor,” The Transactions of the Korean Institute of Electrical Engineers, 59(1), 58-63, 2010 
   Hangsik Shin, Sung Won Yoon, Jae Young Kim and Myoungho Lee, “Down-Scaled 3D Object for Telediagnostic Imaging Support System,” Journal of Biomedical Engineering Research, 26(4), 185-191, 2005 
   Hangsik Shin, Se Dong Min, Hee-Joung Kim and Myoungho Lee, “Down-Scaled 3D Medical Image Transfer System Using Instant Messenger,” Journal of Korean Society Medical Information, 11(1), 97-105, 2005
+  Changwon Wang, Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers, 72(11), 1441-1448, 2023
+  Hamin Lim, Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, 72(11), 1427-1433, 2023
   Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
@@ -85,14 +91,109 @@ function journalALL() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"><span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a href="#" onclick="ALLOpenPaper(${i});" class='paperclick'>${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+  element.addEventListener("click", function (event) {
+    if (event.target.classList.contains("paperclick")) {
+      event.preventDefault(); // Prevent default behavior of the link
+    }
+  });
 }
 
 
+
+
+
+function ALLOpenPaper(paperIndex) {
+  const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
+  https://ieeexplore.ieee.org/document/10049215
+  https://iopscience.iop.org/article/10.1088/1361-6579/acead2
+  https://pubmed.ncbi.nlm.nih.gov/36994761/
+  https://www.nature.com/articles/s41746-023-00777-z
+  https://pubmed.ncbi.nlm.nih.gov/36073769/
+  https://www.nature.com/articles/s41598-022-15240-4
+  https://ieeexplore.ieee.org/document/9713685
+  https://pubmed.ncbi.nlm.nih.gov/35339844/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8972117/
+  https://ieeexplore.ieee.org/document/9736959
+  https://www.mdpi.com/1424-8220/22/5/1920
+  https://www.frontiersin.org/articles/10.3389/fphys.2021.808451/full
+  https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9423964
+  https://pubmed.ncbi.nlm.nih.gov/33973860/
+  https://pubmed.ncbi.nlm.nih.gov/33859568/
+  https://www.mdpi.com/1424-8220/21/6/2188
+  https://pubmed.ncbi.nlm.nih.gov/33762962/
+  https://pubmed.ncbi.nlm.nih.gov/33533723/
+  https://ieeexplore.ieee.org/document/9274312
+  https://ieeexplore.ieee.org/document/9110878
+  https://www.sciencedirect.com/science/article/pii/S2211285520304894
+  https://ieeexplore.ieee.org/document/9075220
+  https://www.nature.com/articles/s41598-020-64033-0
+  https://www.mdpi.com/1424-8220/20/1/33
+  https://www.mdpi.com/1424-8220/19/24/5441
+  https://ieeexplore.ieee.org/document/8599135
+  https://pubmed.ncbi.nlm.nih.gov/31547437/
+  https://link.springer.com/article/10.1007/s42835-019-00185-y
+  https://ieeexplore.ieee.org/document/8556368
+  https://pubmed.ncbi.nlm.nih.gov/30398064/
+  https://lib.jucs.org/article/23522/
+  https://pubmed.ncbi.nlm.nih.gov/29790159/
+  https://pubmed.ncbi.nlm.nih.gov/30210363/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6052119/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6022123/
+  https://pubmed.ncbi.nlm.nih.gov/28169836/
+  https://ieeexplore.ieee.org/document/7903646
+  https://pubmed.ncbi.nlm.nih.gov/28169836/
+  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5234121/
+  https://pubmed.ncbi.nlm.nih.gov/26511754/
+  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150144
+  https://ieeexplore.ieee.org/document/7273819
+  https://www.researchgate.net/publication/282923577_A_Localization_Method_for_First_and_Second_Heart_Sounds_Based_on_Energy_Detection_and_Interval_Regulation
+  https://ieeexplore.ieee.org/abstract/document/6837453
+  https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-116
+  https://pubmed.ncbi.nlm.nih.gov/24693921/
+  https://pubmed.ncbi.nlm.nih.gov/24616586/
+  https://ieeexplore.ieee.org/abstract/document/5985462
+  https://pubmed.ncbi.nlm.nih.gov/21806292/
+  https://ieeexplore.ieee.org/abstract/document/5571922
+  https://pubmed.ncbi.nlm.nih.gov/20703930/
+  https://www.sciencedirect.com/science/article/pii/S0010482509001826
+  https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-8-31
+  https://pubmed.ncbi.nlm.nih.gov/19441955/
+  https://www.researchgate.net/publication/245405213_Adaptive_motion_artifacts_reduction_algorithm_for_ECG_signal_in_textile_wearable_sensor
+  https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002704114
+  https://www.researchgate.net/publication/338952190_Feasibility_Study_of_Ultra-Short-Term_Heart_Rate_Variability_in_Recovery_Condition_after_Exercise
+  https://www.researchgate.net/publication/338278472_Comparison_of_Classifier_for_Pain_Assessment_based_on_Photoplethysmogram_and_Machine_Learning
+  https://www.researchgate.net/publication/338278476_Force_Sensor_and_MSP430-based_System_for_Motion_Detection_During_Sleep
+  https://www.researchgate.net/publication/336948869_Postoperative_Pain_Assessment_Features_Based_on_Derivative_Photoplethysmogram
+  https://www.researchgate.net/publication/327438305_Investigation_of_the_pulse_to_pulse_interval_and_amplitude_variation_of_photoplethymogram_as_a_pain_assessment_parameter_during_anesthseia
+  http://journal.auric.kr/kiee/XmlViewer/f379178
+  https://www.researchgate.net/publication/326153933_Investigation_of_the_Feasibility_of_Postoperative_Pain_Assessment_by_Analysing_Photoplethysmogram_Variability_Analysis
+  https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07284296
+  https://koreascience.kr/article/JAKO201734158605923.page
+  https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
+  https://koreascience.kr/article/JAKO201621650895994.page
+  https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201529362421541
+  https://www.researchgate.net/publication/283032236_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_of_the_Young_Adult_through_the_Frequency_Analysis_of_the_Heart_Rate_Variability
+  https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
+  https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894609
+  https://www.ingentaconnect.com/contentone/asp/asl/2012/00000018/00000001/art00015
+  https://www.ingentaconnect.com/contentone/asp/asl/2012/00000006/00000001/art00011?crawler=true&mimetype=application/pdf
+  https://koreascience.kr/article/JAKO201123457285030.page
+  http://journal.auric.kr/kieep/ArticleDetail/RD_R/361209
+  https://www.researchgate.net/publication/263401299_Down-Scaled_3D_Object_for_Telediagnostic_Imaging_Support_System
+  https://synapse.koreamed.org/articles/1103183`; // 각 논문에 대한 실제 링크 URL
+
+  const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
+
+  if (paperIndex >= 0 && paperIndex < linksArray.length) {
+    window.open(linksArray[paperIndex], '_blank');// 클릭 시 해당 URL로 이동
+  }
+}
 
 
 
@@ -102,7 +203,11 @@ function journalALL() {
 
 function journalSCI() {
   resetButtons()
-  const papers = `Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
+  const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
+  Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
+  Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
+  Shinae Yu, Kyung-Hwa Shin, Sunghwan Shin, Hyeyoung Lee, Soo Jin Yoo, Kyung Ran Jun, Hangsik Shin, Sollip Kim, "Practical delta check limits for tumour markers in different clinical settings," Clinical Chemistry and Laboratory Medicine (CCLM), 61(10), 1829-1840, 2023
+  Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
   Hangsik Shin, “A novel method for non‐invasive blood pressure estimation based on continuous pulse transit time: An observational study,” Psychophysiology, 60(2), e14173, 2023 
   Hangsik Shin, “Photoplethysmogram based vascular aging assessment using the deep convolutional neural network,” Scientific Reports, 12, 11377, 2022 
   Hangsik Shin, “XGBoost Regression of the Most Significant Photoplethysmogram Features for Assessing Vascular Aging,” IEEE Journal of Biomedical and Health Informatics, 26(7), 3354-3361, 2022
@@ -160,16 +265,26 @@ function journalSCI() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a href="#" onclick="SCIOpenPaper(${i})" style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a href="#" onclick="SCIOpenPaper(${i})" class='paperclick'>${paperInfo}</a><br><br>`;
 
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+  element.addEventListener("click", function (event) {
+    if (event.target.classList.contains("paperclick")) {
+      event.preventDefault(); // Prevent default behavior of the link
+    }
+  });
 }
 
 function SCIOpenPaper(paperIndex) {
-  const paperLinks = `https://www.nature.com/articles/s41746-023-00777-z
+  const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
+  https://ieeexplore.ieee.org/document/10049215
+  https://iopscience.iop.org/article/10.1088/1361-6579/acead2
+  https://pubmed.ncbi.nlm.nih.gov/36994761/
+  https://www.nature.com/articles/s41746-023-00777-z
   https://pubmed.ncbi.nlm.nih.gov/36073769/
   https://www.nature.com/articles/s41598-022-15240-4
   https://ieeexplore.ieee.org/document/9713685
@@ -225,7 +340,7 @@ function SCIOpenPaper(paperIndex) {
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-    window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
+    window.open(linksArray[paperIndex], '_blank'); // 클릭 시 해당 URL로 이동
   }
 }
 
@@ -263,18 +378,24 @@ function journalSCOPUS() {
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
 
-    paperList += `<a href="#" onclick="SCOPUSOpenPaper(${i})" style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a href="#" onclick="SCOPUSOpenPaper(${i})" class='paperclick'"> ${paperInfo}</a><br><br>`;
 
 
   }
-  
+
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+  element.addEventListener("click", function (event) {
+    if (event.target.classList.contains("paperclick")) {
+      event.preventDefault(); // Prevent default behavior of the link
+    }
+  });
 }
 
 function SCOPUSOpenPaper(paperIndex) {
-  const paperLinks = `https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002704114
+  const paperLinks = ` https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002704114
   https://www.researchgate.net/publication/338952190_Feasibility_Study_of_Ultra-Short-Term_Heart_Rate_Variability_in_Recovery_Condition_after_Exercise
   https://www.researchgate.net/publication/338278472_Comparison_of_Classifier_for_Pain_Assessment_based_on_Photoplethysmogram_and_Machine_Learning
   https://www.researchgate.net/publication/338278476_Force_Sensor_and_MSP430-based_System_for_Motion_Detection_During_Sleep
@@ -286,30 +407,30 @@ function SCOPUSOpenPaper(paperIndex) {
   https://koreascience.kr/article/JAKO201734158605923.page
   https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
   https://koreascience.kr/article/JAKO201621650895994.page
-  https://koreascience.kr/article/JAKO201734158605923.page
-  https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
-  https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
-  https://www.researchgate.net/publication/283032083_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_through_the_Time_Domain_Analysis_of_the_Heart_Rate_Variability
+  https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201529362421541
   https://www.researchgate.net/publication/283032236_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_of_the_Young_Adult_through_the_Frequency_Analysis_of_the_Heart_Rate_Variability
+  https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
   https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894609
   https://www.ingentaconnect.com/contentone/asp/asl/2012/00000018/00000001/art00015
-  https://www.ingentaconnect.com/content/asp/asl/2012/00000006/00000001/art00011
+  https://www.ingentaconnect.com/contentone/asp/asl/2012/00000006/00000001/art00011?crawler=true&mimetype=application/pdf
   https://koreascience.kr/article/JAKO201123457285030.page
-  https://www.semanticscholar.org/paper/Respiration-Measurement-System-using-Textile-Sensor-Min-Yun/466825ed67219f0bbb3c1f5e5458be1ca7db2b37
+  http://journal.auric.kr/kieep/ArticleDetail/RD_R/361209
   https://www.researchgate.net/publication/263401299_Down-Scaled_3D_Object_for_Telediagnostic_Imaging_Support_System
   https://synapse.koreamed.org/articles/1103183`; // 각 논문에 대한 실제 링크 URL
 
   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
 
   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-    window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
+    window.open(linksArray[paperIndex], '_blank'); // 클릭 시 해당 URL로 이동
   }
 }
 
 
 function journalKCI() {
   resetButtons()
-  const papers = `Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
+  const papers = `Changwon Wang, Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers, 72(11), 1441-1448, 2023
+  Hamin Lim, Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, 72(11), 1427-1433, 2023
+  Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
   Hangsik Shin, Chungkeun Lee, Boyoung Joung and Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 55D(3), 142-145, 2006 `;
@@ -319,30 +440,30 @@ function journalKCI() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'"> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
 }
 
-// function KCIOpenPaper(paperIndex) {
-//   const paperLinks = `https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
-
-//   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
-
-//   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-//     window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
-//   }
-// }
 
 function confernceAll() {
   resetButtons()
-  const papers = `Junyung Park and Hangsik Shin, “Feasibility Study for Local Pulse Transit Time as an Alternative of Pulse Arrival Time,” The 22nd International Symposium on Advanced Intelligent Systems(ISIS 2021), Dec. 15-18, Chungbuk National University, Cheongju, Republic of Korea, 2021
+  const papers = `Changwon Wang, Hamin Lim, Sung Woo Joo, Jungsun Lee, Hangsik Shin, "Investigating Abnormal Behavior Patterns in Psychiatric Inpatients," IEEE BHI, Pittsburgh, USA, 2023
+  Yuna Choi, Hyeon Seok Seok, Hangsik Shin, Seunghoo Lee, Joonsang Yu, Sollip Kim, Woochang Lee, Sail Chun, "Application of machine learning for developing delta check method for five tumor markers," LMCE 2023, Suwon Convention Center, South Korea, 2023
+  Hyeon Seok Seok, Ga Yeon Ryu, Hangsik Shin, Byung-Moon Choi and Jae Moon Choi, "Arrival Times of Maximum Pain and Pain Suppression After Acute Pain Stimulation in Surgical Procedure," IEEE EMBC, Sydney, Australia, 2023
+  Hyeon Seok Seok, Yuna Choi, Sollip Kim, Hangsik Shin, "Deep Learning-Based Sample Mix-Up Error Detection in Clinical Chemistry Test," IEEE Data Science, Malta, 2023
+  Jaehyung Lee, Oh-Seok Kwon, Ye Eun Choi, Hangsik Shin, Hui-Nam Pak, "Atrial Fibrillation Diagnosis Using Machine Learning: Leveraging Minimal Health Data from UK Biobank," IEEE Data Science, Malta, 2023
+  Ga Yeon Ryu, Hyeon Seok Seok, Hangsik Shin, Byung-Moon Choi and Jae Moon Choi, "Ectopic Beat Correction Strategies for Accurate Heart Rate Variability Analysis," IEEE Data Science, Malta, 2023
+  Changwon Wang, Hamin Lim, Seungmin Jeong, Ye Eun Kon, A Hyun Jung, Ji Hee Choi, Se Dong Min, Hangsik Shin, "Implementation of a Real-time Location and Abnormal Situation Alarm Platform for Inpatients in a Psychiatric ward Using a Galaxy Watch," CICS'24 Conference on Information and Control Systems, SAINTJOHNS HOTEL, Kangwon, Republic of Korea, 2023
+  Ji Hyeun Park, Chungkeun Lee, Hangsik Shin, "Standard Specifications for Testing of U.S. FDA-Cleared Home Sleep Apnea Testing Device," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University ,Seoul, Republic of Korea, 2023
+  Jaehyung Lee, Oh-Seok Kwon, Hangsik Shin, Hui-Nam Pak, "Graph Neural Network-Based Atrial Fibrillation Recurrence Prediction Using Left Atrial Three-Dimensional Anatomical and Physiology Characteristics," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Gayeon Ryu, Hyeon Seok Seok, Byung-Moon Choi, Jae Moon Choi, Hangsik Shin, "Photoplethysmogram based on Surgical Pain Severity Assessment Feature Analysis," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Hyeon Seok Seok, Sollip Kim, Hangsik Shin, "Deep Learning for Tumor Marker Misidentification Error Detection: inter-center model performance comparison," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Changwon Wang, Hangsik Shin, "Development of an Emotional State Prediction Model Using Acceleration Signal, Heart rate, Electrodermal Activity, and Emotional Questionnaires," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Hyoen Seok Seok, Sollip Kim, Hangsik Shin, "Performance Analysis of Diagnostic Test Error Detection Using Artificial Intelligence in Class Imbalance Scenarios," CICS'23 Conference on Information and Control Systems, SAINTJOHNS HOTEL, Kangwon, Republic of Korea, 2023
+  Junyung Park and Hangsik Shin, “Feasibility Study for Local Pulse Transit Time as an Alternative of Pulse Arrival Time,” The 22nd International Symposium on Advanced Intelligent Systems(ISIS 2021), Dec. 15-18, Chungbuk National University, Cheongju, Republic of Korea, 2021
   Ji Yeon Yim and Hangsik Shin, “Postoperative Pain Assesment Model based on Photoplethysmogram and Convolutional Neural Network,” ISIS 2019-ICBAKE 2019 Joint Conference, Dec 4-7, Jeju ICC, Jeju Island, Republic of Korea, 2019 
   Hangsik Shin, Junyung Part, Hyeon Seok Seok and Younghyeon Yun, “Postoperative Pain Assessment Using Convolutional Neural Network,” 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC'19), Jul 23-27, Berlin, Germany, 2019
   Hangsik Shin, Deuk Yong Lee, Yonghyeon Yun, “Design of Strip-type Force Sensor Interfacing Circuit for Body Movement during Sleep Study,” 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC'19), Jul 23-27, Berlin, Germany, 2019
@@ -508,22 +629,26 @@ function confernceAll() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'>${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
 }
-
-
-
 
 
 
 
 function confernceInter() {
   resetButtons()
-  const papers = `Junyung Park and Hangsik Shin, “Feasibility Study for Local Pulse Transit Time as an Alternative of Pulse Arrival Time,” The 22nd International Symposium on Advanced Intelligent Systems(ISIS 2021), Dec. 15-18, Chungbuk National University, Cheongju, Republic of Korea, 2021
+  const papers = `Changwon Wang, Hamin Lim, Sung Woo Joo, Jungsun Lee, Hangsik Shin, "Investigating Abnormal Behavior Patterns in Psychiatric Inpatients," IEEE BHI, Pittsburgh, USA, 2023
+  Yuna Choi, Hyeon Seok Seok, Hangsik Shin, Seunghoo Lee, Joonsang Yu, Sollip Kim, Woochang Lee, Sail Chun, "Application of machine learning for developing delta check method for five tumor markers," LMCE 2023, Suwon Convention Center, South Korea, 2023
+  Hyeon Seok Seok, Ga Yeon Ryu, Hangsik Shin, Byung-Moon Choi and Jae Moon Choi, "Arrival Times of Maximum Pain and Pain Suppression After Acute Pain Stimulation in Surgical Procedure," IEEE EMBC, Sydney, Australia, 2023
+  Hyeon Seok Seok, Yuna Choi, Sollip Kim, Hangsik Shin, "Deep Learning-Based Sample Mix-Up Error Detection in Clinical Chemistry Test," IEEE Data Science, Malta, 2023
+  Jaehyung Lee, Oh-Seok Kwon, Ye Eun Choi, Hangsik Shin, Hui-Nam Pak, "Atrial Fibrillation Diagnosis Using Machine Learning: Leveraging Minimal Health Data from UK Biobank," IEEE Data Science, Malta, 2023
+  Ga Yeon Ryu, Hyeon Seok Seok, Hangsik Shin, Byung-Moon Choi and Jae Moon Choi, "Ectopic Beat Correction Strategies for Accurate Heart Rate Variability Analysis," IEEE Data Science, Malta, 2023
+  Junyung Park and Hangsik Shin, “Feasibility Study for Local Pulse Transit Time as an Alternative of Pulse Arrival Time,” The 22nd International Symposium on Advanced Intelligent Systems(ISIS 2021), Dec. 15-18, Chungbuk National University, Cheongju, Republic of Korea, 2021
   Ji Yeon Yim and Hangsik Shin, “Postoperative Pain Assesment Model based on Photoplethysmogram and Convolutional Neural Network,” ISIS 2019-ICBAKE 2019 Joint Conference, Dec 4-7, Jeju ICC, Jeju Island, Republic of Korea, 2019 
   Hangsik Shin, Junyung Part, Hyeon Seok Seok and Younghyeon Yun, “Postoperative Pain Assessment Using Convolutional Neural Network,” 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC'19), Jul 23-27, Berlin, Germany, 2019
   Hangsik Shin, Deuk Yong Lee, Yonghyeon Yun, “Design of Strip-type Force Sensor Interfacing Circuit for Body Movement during Sleep Study,” 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC'19), Jul 23-27, Berlin, Germany, 2019
@@ -581,17 +706,26 @@ function confernceInter() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'"> ${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
+
+
 }
 
 
 function confernceDome() {
   resetButtons()
-  const papers = `Hamin Lim, Changwon Wang and Hangsik Shin, “Preliminary Study for the Optimal Attachment Position of Accelerometer for Detecting Abnormal Behavior of Psychiatric Inpatient,” The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023
+  const papers = `Changwon Wang, Hamin Lim, Seungmin Jeong, Ye Eun Kon, A Hyun Jung, Ji Hee Choi, Se Dong Min, Hangsik Shin, "Implementation of a Real-time Location and Abnormal Situation Alarm Platform for Inpatients in a Psychiatric ward Using a Galaxy Watch," CICS'24 Conference on Information and Control Systems, SAINTJOHNS HOTEL, Kangwon, Republic of Korea, 2023
+  Ji Hyeun Park, Chungkeun Lee, Hangsik Shin, "Standard Specifications for Testing of U.S. FDA-Cleared Home Sleep Apnea Testing Device," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University ,Seoul, Republic of Korea, 2023
+  Jaehyung Lee, Oh-Seok Kwon, Hangsik Shin, Hui-Nam Pak, "Graph Neural Network-Based Atrial Fibrillation Recurrence Prediction Using Left Atrial Three-Dimensional Anatomical and Physiology Characteristics," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Gayeon Ryu, Hyeon Seok Seok, Byung-Moon Choi, Jae Moon Choi, Hangsik Shin, "Photoplethysmogram based on Surgical Pain Severity Assessment Feature Analysis," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Hyeon Seok Seok, Sollip Kim, Hangsik Shin, "Deep Learning for Tumor Marker Misidentification Error Detection: inter-center model performance comparison," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Changwon Wang, Hangsik Shin, "Development of an Emotional State Prediction Model Using Acceleration Signal, Heart rate, Electrodermal Activity, and Emotional Questionnaires," 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University,Seoul, Republic of Korea, 2023
+  Hyoen Seok Seok, Sollip Kim, Hangsik Shin, "Performance Analysis of Diagnostic Test Error Detection Using Artificial Intelligence in Class Imbalance Scenarios," CICS'23 Conference on Information and Control Systems, SAINTJOHNS HOTEL, Kangwon, Republic of Korea, 2023
+  Hamin Lim, Changwon Wang and Hangsik Shin, “Preliminary Study for the Optimal Attachment Position of Accelerometer for Detecting Abnormal Behavior of Psychiatric Inpatient,” The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023
   Jaehyung Lee, Hyeon Seok Seok, Oh-Seok Kwon, Hui-Nam Pak and Hangsik Shin, “Analyzing the Performance of a Convolutional Neural Network-based Atrial Fibrillation Classifier According to the Genetic Screening Thresholds,” The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023 
   Ga Yeon Ryu, Hyeon Seok Seok, Hangsik Shin, Byung-Moon Choi and Jae Moon Choi, “Analysis of a surgical pain severity assessment feature based on photoplethysmogram,” The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023
   Hyeon Seok Seok, Oh-Seok Kwon, Hui-Nam Pak and Hangsik Shin, “Assessment of Atrial Fibrillation Recurrence Risk Using an Artificial Intelligence Model Based on Multiview Cardiac Images,” The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023 
@@ -706,7 +840,7 @@ function confernceDome() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'">${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -796,8 +930,11 @@ function patentAll() {
   Portable electronic device with GUI, Filed (No:US425912, Date: 2012/06/28), Granted (No: USD0739413, Date: 2015/09/22) 
   Portable electronic device with GUI, Filed (No:US425904, Date: 2012/06/28), Granted (No: USD0739412, Date: 2015/09/22) 
   Tablet PC with graphical user interface, Filed (No:US425919, Date: 2012/06/28), Granted (No: USD0716829, Date: 2014/11/04)
-  생체신호 품질 평가 방법 및 장치, Filed (No: KR1020230012122, Date: 2023/01/30) 
-  연속맥파 도달시간 기반 혈압 추정 방법 및 그 방법을 수행 하는 서버, Filed (No: KR1020230012121, Date: 2023/01/30) 
+  보간 위치 및 보간 샘플 수를 이용하여 심장 박동을 보간하는 전자 장치 및 이의 이소성 박동 교정 방법, Filed (No: KR1020230147182, Date: 2023/10/30)
+  대동맥 압력 파형을 추정하는 방법 및 장치, Filed (No: KR1020230145004, Date: 2023/10/26) 
+  준주기적 생체 신호 파형을 복원하기 위한 파형 복원 모델 학습 방법 및 장치, Filed (No: KR1020230136907, Date: 2023/10/13) 
+  연속맥파 도달시간 기반 혈압 추정 방법 및 그 방법을 수행하는 서버, Filed (No: KR1020230012121, Date: 2023/01/30)
+  생체신호 품질 평가 방법 및 장치, Filed (No: KR1020230012122, Date: 2023/01/30)  
   생리적 나이 추정 방법 및 장치, Filed (No: KR1020230007614, Date: 2023/01/18) 
   공기 진동 전달형 다중 배열 압력 센서 및 이를 포함하는 웨어러블 장치, Filed (No: KR1020210193739, Date: 2021/12/31) 
   광용적맥파의 입사파와 반사파를 사용한 혈관노화 평가 방법 및 장치, Filed (No: KR1020210193460, Date: 2021/12/30) 
@@ -861,7 +998,7 @@ function patentAll() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'">${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -943,7 +1080,7 @@ function patentInter() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'">${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -973,7 +1110,7 @@ function patentDesignInter() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'>${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -998,8 +1135,11 @@ function patentDesignInter() {
 
 function patentDome() {
   resetButtons()
-  const papers = `생체신호 품질 평가 방법 및 장치, Filed (No: KR1020230012122, Date: 2023/01/30) 
-  연속맥파 도달시간 기반 혈압 추정 방법 및 그 방법을 수행 하는 서버, Filed (No: KR1020230012121, Date: 2023/01/30) 
+  const papers = `보간 위치 및 보간 샘플 수를 이용하여 심장 박동을 보간하는 전자 장치 및 이의 이소성 박동 교정 방법, Filed (No: KR1020230147182, Date: 2023/10/30)
+  대동맥 압력 파형을 추정하는 방법 및 장치, Filed (No: KR1020230145004, Date: 2023/10/26) 
+  준주기적 생체 신호 파형을 복원하기 위한 파형 복원 모델 학습 방법 및 장치, Filed (No: KR1020230136907, Date: 2023/10/13) 
+  연속맥파 도달시간 기반 혈압 추정 방법 및 그 방법을 수행하는 서버, Filed (No: KR1020230012121, Date: 2023/01/30)
+  생체신호 품질 평가 방법 및 장치, Filed (No: KR1020230012122, Date: 2023/01/30)  
   생리적 나이 추정 방법 및 장치, Filed (No: KR1020230007614, Date: 2023/01/18) 
   공기 진동 전달형 다중 배열 압력 센서 및 이를 포함하는 웨어러블 장치, Filed (No: KR1020210193739, Date: 2021/12/31) 
   광용적맥파의 입사파와 반사파를 사용한 혈관노화 평가 방법 및 장치, Filed (No: KR1020210193460, Date: 2021/12/30) 
@@ -1048,7 +1188,7 @@ function patentDome() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'>${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
@@ -1080,27 +1220,12 @@ function patentDesignDome() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'>${paperInfo}</a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
 }
-
-// function patentDesignDomeOpenPaper(paperIndex) {
-//   const paperLinks = `https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/ 
-//   https://www.naver.com/`; // 각 논문에 대한 실제 링크 URL
-
-//   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
-
-//   if (paperIndex >= 0 && paperIndex < linksArray.length) {
-//     window.location.href = linksArray[paperIndex]; // 클릭 시 해당 URL로 이동
-//   }
-// }
-
 
 function registeredSW() {
   resetButtons()
@@ -1145,14 +1270,12 @@ function registeredSW() {
   let paperList = '';
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a style="color: #1c2021; font-size : 0.9em; text-decoration: none; border: none;"> <span style="font-size:1.5em; color:#999999;"> &#187; </span> ${paperInfo}</a><br><br>`;
+    paperList += `<a class='paperlist'>${paperInfo}</span></a><br><br>`;
   }
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
 }
-
-
 
 
 // 모든 버튼의 스타일 초기화
@@ -1162,8 +1285,6 @@ function resetButtons() {
     button.classList.remove("clicked");
   });
 }
-
-
 
 
 // CSS 스타일을 추가하여 간격을 조절

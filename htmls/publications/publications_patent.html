@@ -2,48 +2,76 @@
 layout: default
 ---
 
-
+<span id="content"></span>
 <article id="main">
     <header class="special container">
-        <span class="icon fa-solid fa-scroll"></span>
+        <!-- <span class="icon fa-solid fa-scroll"></span> -->
         <h2>publications</h2>
-        <p style="font-size: 24px; color:#999999; text-transform: uppercase;">Patent</p>
     </header>
+
+    <section class="wrapper style1 container special nav-container">
+        <div class="row" id="research-row">
+            <section>
+                <ul>
+                    <li><a href="publications_journal.html" class="nav-link"><span class="icon fa-solid fa-book"></span>Journal</a></li>
+                </ul>
+            </section>
+
+           
+            <section>
+                <ul>
+                    <li><a href="publications_conference.html" class="nav-link"><span class="icon fa-solid fa-building-columns"></span>Conference</a></li>
+                </ul>
+            </section>
+            
+            <section>
+                <ul>
+                    <li><a href="publications_patent.html" class="nav-link active"><span class="icon fa-regular fa-copyright"></span>Patent</a></li>
+                </ul>
+            </section>
+        </div>
+    </section>
 
 
 
     <section class="wrapper style4 container">
 
         <div class="row oneandhalf">
-            <div class="3u">
+            <div class="2u">
 
                 <!-- Sidebar -->
                 <div class="sidebar">
                     <section>
                         <div class="sidebar small-sidebar">
-                            <a href="#" onclick='patentAll()' class="small-button" id="patentAllPara">ALL
+                            <a href="#content" onclick='patentAll()' class="small-button" id="patentAllPara">ALL
                             </a>
-                            <a href="#" onclick='patentInter()' class="small-button" id="patentInterPara">Patent
-                                (International)
+
+                            <a href="#content" onclick='patentInter()' class="small-button" id="patentInterPara">International
+
                             </a>
-                            <a href="#" onclick='patentDesignInter()' class="small-button" id="patentDesignInterPara">Design
-                                Patent(International)
+                            <a href="#content" onclick='patentDome()' class="small-button" id="patentDomePara">Domestic
                             </a>
-                            <a href="#" onclick='patentDome()' class="small-button" id="patentDomePara">Patent(Domestic)
+
+                            <a href="#content" onclick='patentDesignInter()' class="small-button"
+                                id="patentDesignInterPara">International Design
+
                             </a>
-                            <a href="#" onclick='patentDesignDome()' class="small-button" id="patentDesignDomePara">Design
-                                Patent(Domestic)
+                            <a href="#content" onclick='patentDesignDome()' class="small-button"
+                                id="patentDesignDomePara">Domestic Design
                             </a>
-                            <a href="#" onclick='registeredSW()' class="small-button" id="registeredSWPara">Registered SW
+                            <a href="#content" onclick='registeredSW()' class="small-button" id="registeredSWPara">Registered
+                                SW
                             </a>
                         </div>
                     </section>
                 </div>
 
             </div>
-            <div class="9u skel-cell-important">
+
+            <div class="10u skel-cell-important">
                 <!-- Content -->
-                <div id='my_div' class="my-div">
+                
+                <div id='my_div' class="my-div" style="text-align: justify;">
                     <span>'논문표시'</span>
                 </div>
             </div>
@@ -56,4 +84,17 @@ layout: default
     window.onload = function () {
         patentAll();
     };
-    </script>
+
+    
+    // JavaScript to toggle the active class on navigation link click
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function () {
+            navLinks.forEach(navLink => {
+                navLink.classList.remove('active');
+            });
+            this.classList.add('active');
+        });
+    });
+</script>

@@ -6,175 +6,438 @@
 
 /* Basic */
 
-	body {
-		min-width: 320px;
-	}
+body {
+	min-width: 320px;
+}
 
-	h2 {
-		font-size: 1.25em;
-		letter-spacing: 0.1em;
-	}
+h2 {
+	font-size: 1.25em;
+	letter-spacing: 0.1em;
+}
 
-	h3 {
-		font-size: 1em;
-		letter-spacing: 0.025em;
-	}
+h3 {
+	font-size: 1em;
+	letter-spacing: 0.025em;
+}
 
-	p {
-		text-align: justify;
-	}
+p {
+	text-align: justify;
+}
 
 /* Section/Article */
 
-	header {
-		text-align: center;
-	}
 
-		header.major {
-			padding-bottom: 0;
-		}
 
-		header.special {
-			margin-bottom: 3em;
-			padding-left: 1.5em;
-			padding-right: 1.5em;
-		}
+header {
+	text-align: center;
+}
 
-			header.special:before, header.special:after {
-				width: 38%;
-			}
+header.major {
+	padding-bottom: 0;
+}
 
-			header.special .icon {
-				font-size: 0.75em;
-				top: 1.5em;
-			}
+header.special {
+	margin-bottom: 3em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+}
 
-		header p {
-			text-align: center;
-		}
+header.special:before,
+header.special:after {
+	width: 38%;
+}
 
-	footer.major {
-		padding-top: 0;
-	}
+header.special .icon {
+	font-size: 0.75em;
+	top: 1.5em;
+}
+
+header p {
+	text-align: center;
+}
+
+#header {
+	display: none;
+}
+
+footer.major {
+	padding-top: 0;
+}
+
+
+
+#InsideTheLab-p {
+	margin-bottom: 8px;
+	margin-right: 0;
+	text-align: justify;
+}
 
 /* Icon */
 
-	.icon.circle {
-		font-size: 1em;
-	}
+.icon.circle {
+	font-size: 1em;
+}
 
 /* Button */
 
-	input[type="button"],
-	input[type="submit"],
-	input[type="reset"],
-	.button {
-		max-width: 20em;
-		width: 100%;
-	}
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+	max-width: 20em;
+	width: 100%;
+}
 
-		input[type="button"].fit,
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		.button.fit {
-			width: auto;
-		}
+input[type="button"].fit,
+input[type="submit"].fit,
+input[type="reset"].fit,
+.button.fit {
+	width: auto;
+}
 
 /* List */
 
-	ul.icons li {
-		padding-left: 0.25em;
-	}
+ul.icons li {
+	padding-left: 0.25em;
+}
 
-	ul.featured-icons li .icon {
-		width: 1.1em;
-	}
+ul.featured-icons li .icon {
+	width: 1.1em;
+}
 
-	ul.buttons {
-		text-align: center;
-	}
+ul.buttons {
+	text-align: center;
+}
 
 /* Wrapper */
 
-	.wrapper {
-		margin-bottom: 2.5em;
-		padding: 2.25em 1.5em;
-	}
+.wrapper {
+	margin-bottom: 2.5em;
+	padding: 2.25em 1.5em;
+}
 
-		.wrapper.special br {
-			display: none;
-		}
+.wrapper.special br {
+	display: none;
+}
 
-		.wrapper.style1 {
-			padding: 0 1.5em;
-		}
+.wrapper.style1 {
+	padding: 0 1.5em;
+}
 
-		.wrapper.style2 {
-			background-size: 10em;
-			padding: 2.25em 1.5em;
-		}
+.wrapper.style2 {
+	background-size: 10em;
+	padding: 2.25em 1.5em;
+}
 
-		.wrapper.style4 {
-			background-size: 10em;
-			padding: 1.5em 1.5em 3em 1.5em;
-		}
+.wrapper.style4 {
+	background-size: 10em;
+	padding: 1.5em 1.5em 3em 1.5em;
+}
 
 /* Banner */
 
-	#banner {
-		background-size: 10em, 10em, auto, cover;
-		padding: 6em 0;
-	}
+#banner {
+	background-size: 10em, 10em, auto, cover;
+	padding: 6em 0;
+}
 
-		#banner .inner {
-			background: none;
-			display: block;
-			padding: 0 1.5em;
-		}
+#banner .inner {
+	background: none;
+	display: block;
+	padding: 0 1.5em;
+}
 
-			#banner .inner header h2 {
-				font-size: 1.5em;
-			}
+#banner .inner header h2 {
+	font-size: 1.5em;
+}
 
-			#banner .inner p {
-				text-align: center;
-			}
+#banner .inner p {
+	text-align: center;
+}
 
-			#banner .inner br {
-				display: none;
-			}
+#banner .inner br {
+	display: none;
+}
+
 
 /* Main */
 
-	#main {
-		background-size: 10em;
-		padding: 3.5em 0 2.5em 0;
-	}
+#main {
+	background-size: 10em;
+	padding: 3.5em 0 2.5em 0;
+}
 
-	body.index #main {
-		padding: 2.5em 0 0 0;
-	}
+body.index #main {
+	padding: 2.5em 0 0 0;
+}
 
-	body.contact #main {
-		padding-bottom: 0;
-	}
+body.contact #main {
+	padding-bottom: 0;
+}
+
+.wrapper .style1 .container .special .row {
+	display: flex;
+}
+
+section:first-child {
+	margin-top: 20px;
+}
+
+/* research */
+
+.text-over-image {
+	padding: 20px;
+	top: 130px;
+}
+
+.image-with-text {
+	position: relative;
+	/* 부모 요소를 상대 위치로 설정 */
+}
+
+
+.image-with-text img {
+	width: 100%;
+	/* 이미지의 가로 너비를 100%로 설정하여 부모 요소에 꽉 채움 */
+	height: 30%;
+	/* 높이를 자동으로 조정하여 이미지의 비율을 유지 */
+}
+
+.image-with-text h3 {
+	font-size: 0.8em;
+	margin-bottom: 0;
+	font-weight: 300;
+	text-align: start;
+}
+
+.image-with-text p {
+	font-size: 0.8em;
+	text-align: start;
+	margin-top: 0;
+	font-weight: 300;
+
+}
+
+.cutstom-row {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/* gap: 20px; */
+	/* Adjust the gap as needed */
+}
+
+
+.image-container,
+.content-container {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+}
+
+.image-container {
+	position: relative;
+	overflow: hidden;
+	background-color: #ffffff;
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+}
+
+.nav-link_re span {
+	line-height: 100%;
+}
+
+.lefty {
+	flex: 1;
+	font-size: 0.6em;
+	padding: 14px;
+
+}
+
+.content-container .lefty h3 {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+.content-container .lefty p {
+	font-weight: 100;
+	font-size: 0.8em;
+	line-height: 1.3em;
+	text-align: left;
+}
+
+/* .research-block {
+	display: block;
+} */
+
+.research-block {
+	display: block;
+	font-size: 1.3em;
+	text-indent: -1.1em;
+	margin-left: 1.3em;
+}
+
+.member-block {
+	display: block;
+	font-size: 1.3em;
+	text-indent: -1.1em;
+	margin-left: 1.3em;
+}
+
+.lefty .row {
+	font-size: 10px;
+	display: flex;
+	align-items: stretch;
+	/* Equal height for rows */
+}
+
+.lefty .row>* {
+	/* Adjust line height as needed */
+	padding: 0;
+
+	/* Add additional styles as needed */
+}
+
+#nav-link-first{
+	margin-top: 15px;
+}
+
+
+
+/* counter */
+
+.nums {
+	font-family: 'TAEBAEKfont';
+	font-size: 35px;
+	color: #343048;
+}
+
+
+/* featureed-icons */
+
+ul.featured-icons {
+	cursor: default;
+	margin: -0.75em 0 0 0;
+	opacity: 0.35;
+	overflow: hidden;
+	position: relative;
+}
+
+ul.featured-icons li {
+	display: block;
+	float: left;
+	text-align: center;
+	width: 50%;
+}
+
+ul.featured-icons li .icon {
+	display: inline-block;
+	font-size: 3.0em;
+	height: 1.25em;
+	line-height: 1.25em;
+	width: 1em;
+}
+
+
+/* CSS for the "Top" button */
+#upButton {
+	font-size: 8px;
+	/* Adjust the font size as needed */
+	padding: 8px 16px;
+	/* Adjust the padding as needed */
+	border: none;
+	border-radius: 8px;
+	/* Adjust the border-radius as needed */
+	cursor: pointer;
+}
+
+#research-row {
+	display: flex;
+	font-size: 6px;
+	/* Adjust the font size as needed */
+	padding: 10px;
+	/* Adjust the padding as needed */
+}
+
+
+/* putblication */
+.nav-link {
+	display: block;
+	display: flex;
+	text-align: center;
+	text-decoration: none;
+	flex-direction: column;
+	padding: 10px;
+	border-radius: 12px;
+	align-items: center;
+	color: #445353;
+	transition: background-color 0.3s, color 0.3s;
+	width: 80px;
+	/* Set a fixed width for all nav-link boxes */
+	margin: 8px;
+	box-sizing: border-box;
+	/* Use border-box to include padding and border in width calculation */
+	border: 1px solid #d4d4d4;
+	padding: 20px;
+	height: 110px;
+
+	font-size: 1.4em;
+	line-height: 1.2em;
+}
+
+
+.nav-link_re {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+	color: #1c2021;
+	padding: 10px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	height: 56px;
+	width: 56px;
+	transition: background-color 0.3s, color 0.3s;
+	font-size: 7px;
+	line-height: 0.9em;
+}
+
+.nav-link_re img {
+	width: 17px;
+	height: 17px;
+}
+
+
+
+/* map */
+
+.contact-map {
+	border: 0;
+	width: 100%;
+	height: 350px;
+}
+
 
 /* CTA */
-
-	#cta {
-		background-size: 10em, 10em, auto, cover;
-		padding: 3em 1.5em;
-	}
+#cta {
+	background-size: 10em, 10em, auto, cover;
+	padding: 3em 1.5em;
+}
 
 /* Footer */
 
-	#footer {
-		padding: 3em 1.5em;
-	}
+#footer {
+	padding: 3em 1.5em;
+}
 
-		#footer .copyright li {
-			display: block;
-			margin: 1em 0 0 0;
-			padding: 0;
-			border: 0;
-		}
+#footer .copyright li {
+	display: block;
+	margin: 1em 0 0 0;
+	padding: 0;
+	border: 0;
+}

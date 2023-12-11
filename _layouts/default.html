@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
-
-  <body class="no-sidebar">
-
-    {% include header.html %}
-    <div class="page-content">
-        {{ content }}
-    </div>
-    {% include footer.html %}
-
-  </body>
 
 
-  <script>
-    // 스크롤 이벤트를 감지하여 헤더 위치 조정
-    window.addEventListener("scroll", function () {
-      const header = document.getElementById("header");
-      const image = header.querySelector("img");
-      if (window.scrollY > 100) {
-        header.classList.add("scroll-down");
-        image.style.maxHeight = "60px"; // 스크롤 시 이미지 크기 줄이기
-      } else {
-        header.classList.remove("scroll-down");
-        image.style.maxHeight = "100px"; // 스크롤을 올릴 때 이미지 크기 복원
-      }
-    });
-  </script>
+{% include head.html %}
+
+
+
+<body class="no-sidebar">
+
+
+
+  {% include header.html %}
+
+
+  {{ content }}
+  
+  <button id="upButton" onclick="scrollToTop()"><span class="icon fa-solid fa-arrow-up"
+      style="font-family: NanumSquareNeo-Variable;"><br>TOP</span></button>
+
+
+  {% include footer.html %}
+
+</body>
+
+
+
+<script>
+  // 스크롤 이벤트를 감지하여 헤더 위치 조정
+  window.addEventListener("scroll", function () {
+    const header = document.getElementById("header");
+    const image = header.querySelector("img");
+    if (window.scrollY > 100) {
+      header.classList.add("scroll-down");
+      image.style.maxHeight = "60px"; // 스크롤 시 이미지 크기 줄이기
+    } else {
+      header.classList.remove("scroll-down");
+      image.style.maxHeight = "100px"; // 스크롤을 올릴 때 이미지 크기 복원
+    }
+  });
+
+
+
+  $(document).ready(function () {
+
+    // Fakes the loading setting a timeout
+    setTimeout(function () {
+      $('body').addClass('loaded');
+    }, 1000);
+
+  });
+</script>
 
 </html>
