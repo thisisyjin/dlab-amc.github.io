@@ -1,5 +1,203 @@
+// function journalALL() {
+//   resetButtons()
+//   const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
+//   Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
+//   Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
+//   Shinae Yu, Kyung-Hwa Shin, Sunghwan Shin, Hyeyoung Lee, Soo Jin Yoo, Kyung Ran Jun, Hangsik Shin, Sollip Kim, "Practical delta check limits for tumour markers in different clinical settings," Clinical Chemistry and Laboratory Medicine (CCLM), 61(10), 1829-1840, 2023
+//   Changwon Wang, Chungkeun Lee and, Hangsik Shin, “Digital therapeutics from bench to bedside,” npj Digital Medicine, 6(38), 2023
+//   Hangsik Shin, “A novel method for non‐invasive blood pressure estimation based on continuous pulse transit time: An observational study,” Psychophysiology, 60(2), e14173, 2023 
+//   Hangsik Shin, “Photoplethysmogram based vascular aging assessment using the deep convolutional neural network,” Scientific Reports, 12, 11377, 2022 
+//   Hangsik Shin, “XGBoost Regression of the Most Significant Photoplethysmogram Features for Assessing Vascular Aging,” IEEE Journal of Biomedical and Health Informatics, 26(7), 3354-3361, 2022
+//   Hangsik Shin, “Deep Convolutional Neural Network based Signal Quality Assessment for Photoplethysmogram,” Computers in Biology and Medicine, 145, 105430, 2022 
+//   Junyung Park, Hangsik Shin, “Vascular Aging Estimation Based on Artificial Neural Network Using Photoplethysmogram Waveform Decomposition: Retrospective Cohort Study,” JMIR Medical Informatics, 10(3), 1-17, 2022 
+//   Oh-Seok Kwon, Jisu Lee, Je-Wook Park, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin and Hui-Nam Pak, “Three-Dimensional Atrial Wall Thickness Measurement Algorithm from a Segmented Atrial Wall using a Partial Differential Equation,” IEEE ACCESS, 10, 32161-32170, 2022 
+//   Hangsik Shin, “Deep Convolutional Neural Network-Based Hemiplegic Gait Detection Using an Inertial Sensor Located Freely in a Pocket,” Sensors, 22(5), 1920, 2022 
+//   Junyung Park, Hyeon Seok Seok, Sang-Su Kim and Hangsik Shin, “Photoplethysmogram Analysis and Applications: An Integrative Review,” Frontiers in Physiology, 12, 1-23, 2022
+//   Hyeon Seok Seok and Hangsik Shin, “Recommendation for Measuring Digital Volume Pulse in Mobile Application: for Healthy Normal Subject,” IEEE ACCESS, 9, 69335-69345, 2021
+//   Danbi Gwon, Hakyung Cho and Hangsik Shin, “Feasibility of a Waistband-type Wireless Wearable Electrocardiogram Monitoring System based on a Textile Electrode,” JMIR mHealth and uHealth, 9(5), e26469, 2021
+//   Jin Woong Kim, Hyeon Seok Seok and Hangsik Shin, “Is Ultra-Short-Term Heart Rate Variability Valid in Non-static Conditions?,” Frontiers in Physiology, 12, 596060, 2021 
+//   Donggeun Roh and Hangsik Shin, “Recurrence Plot and Machine Learning for Signal Quality Assessment of Photoplethysmogram in Mobile Environment,” Sensors, 21(6), 2188, 2021 
+//   Byung-Moon Choi, Hangsik Shin, Joo-Hyun Lee, Ji-Yeon Bang, Eun-Kyung Lee and Gyujeong Noh, “Performance of the Surgical Pleth Index and Analgesia Nociception Index in Healthy Volunteers and Parturients,” Frontiers in Physiology, 12, 554026, 2021 
+//   Byung-Moon Choi, Ji Yeon Yim, Hangsik Shin, Gyujeong Noh, “Novel Analgesic Index for Postoperative Pain Assessment Based on a Photoplethysmographic Spectrogram and Convolutional Neural Network: Observational Study,” Journal of Medical Internet Research, 23(2), e23920, 2021
+//   Hangsik Shin and Ahyoung Choi, “Calculation and Validation of Continuous Pulse Transit Time Based on Normalized Pulse Wave Velocity,” IEEE ACCESS, 8, 221632-221639, 2020 
+//   Junyung Park, Sangki Park, Seongcheol Ahn, Yujang Cho, Jong-Jin Park and Hangsik Shin, “Wearable Strain Sensor Using Conductive Yarn Sewed on Clothing for Human Respiratory Monitoring,” IEEE Sensors Journal, 20(21), 12628-12636, 2020
+//   Seongcheol Ahn, Yujang Cho, Sangki Park, Junseo Kim, Jingzhe Sun, Dahye Ahn, Miyeon Lee, Daeeun Kim, Taeyun Kim, Hangsik Shin and Jong-Jin Park, “Wearable multimode sensors with amplified piezoelectricity due to the multi local strain using 3D textile structure for detecting human body signals,” Nano Energy, 74, 104932, 2020
+//   Ahyoung Choi, Sangwoo Noh and Hangsik Shin, “Internet-Based Unobtrusive Tele-Monitoring System for Sleep and Respiration,” IEEE ACCESS, 8, 76700-76707, 2020 
+//   Chanki Park, Min-Ho Yang, BoHyun Choi, Bokyung Jeon, Yong-Hun Lee, Hangsik Shin, Boreom Lee, Byung-Moon Choi and Gyu-Jeong Noh, “Performance of the nasal photoplethysmographic index as an analgesic index during surgery under general anaesthesia,” Scientific Reports, 10, 7130, 2020 
+//   Donggeun Roh, Sangjin Han, Junyung Park and Hangsik Shin, “Development of a Multi-Array Pressure Sensor Module for Radial Artery Pulse Wave Measurement,” Sensors, 20(1), 33, 2020 
+//   Sangjin Han, Donggeun Roh, Junyung Park and Hangsik Shin, “Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography,” Sensors, 19(24), 5441, 2019
+//   Hyeon Seok Seok, Byung-Moon Choi, Gyu-Jeong Noh and Hangsik Shin, “Postoperative Pain Assessment Model Based on Pulse Contour Characteristics Analysis,” IEEE Journal of Biomedical and Health Informatics, 23(6), 2317-2324, 2019 
+//   Changwon Wang, Young Kim, Hangsik Shin and Se Dong Min, “Preliminary Clinical Application of Textile Insole Sensor for Hemiparetic Gait Pattern Analysis,” Sensors, 19(18), 3950, 2019
+//   Jaepil Kim, Jeong-Whan Lee and Hangsik Shin, “Pre-processing of Photoplethysmographic Waveform for Amplitude Regularization,” Journal of Electrical Engineering & Technology, 14(4), 1741-1748, 2019 
+//   Sooji Park, Hyong-Ho Cho, Hyung Chae Yang, Jin-Sang Yoon and Hangsik Shin, “Force-Sensing-Based Unobtrusive System for Awakening and Respiration Rate Analysis during Sleep,” IEEE Sensors Journal, 19(5), 1917-1924, 2019
+//   Wookjin Lee, Jaiyoung Ryu, Hangsik Shin, Hong Sun Ryou and Seong Wook Cho, “Numerical study to evaluate the effect of a surface-based sensor on arterial tonometry,” Computer Methods in Biomechanics and Biomedical Engineering, 27(6), 556-572, 2018 
+//   Ahyoung Choi and Hangsik Shin, “Longitudinal healthcare data management platform of healthcare IoT device for personalized services,” Journal of Universal Computer Science, 24(9), 1153-1169, 2018
+//   Byung-Moon Choi, Chanki Park, Yong-Hun Lee, Hangsik Shin, Soo-Han Lee, Seongwook Jeong, Gyu-Jeong Noh and Boreom Lee, “Development of a new analgesic index using nasal photoplethysmography,” Anaesthesia, 73(9), 1123-1130, 2018 
+//   Yoon La Yang, Hyeon Seok Seok, Gyu-Jeong Noh, Byung-Moon Choi and Hangsik Shin, “Postoperative pain assessment index based on Photoplethysmography,” Frontiers in Physiology, 9, 1199, 2018 
+//   Ahyoung Choi and Hangsik Shin, “Quantitative analysis of the effect of an ectopic beat on heart rate variability in the resting condition,” Frontiers in physiology, 9, 922, 2018
+//   Jun Seok Lee, Sooji Park and Hangsik Shin, “Detection of hemiplegic walking using a wearable inertia sensing device,” Sensors, 18(6), 1736, 2018 
+//   Ahyoung Choi and Hangsik Shin, “Reply to Comment on “Photoplethysmography sampling frequency: pilot assessment of how low can we go to analyze pulse rate variability with reliability?,” Physiological Measurement, 38(12), 2252-2256, 2017 
+//   Sooji Park and Hangsik Shin, “Feasibility Study for Monitoring Unconstrained Respiration based on Multi-way Approach Using an Acceleration and Force Sensing Module,” IEEE Sensors Journal, 17(11), 3482-3489, 2017
+//   Ahyoung Choi and Hangsik Shin, “Photoplethysmography sampling frequency: pilot assessment of how low can we go to analyze pulse rate variability with reliability?,” Physiological Measurement, 38(3), 586-600, 2017
+//   Hangsik Shin and Sedong Min, “Feasibility study for the non-invasive blood pressure estimation based on ppg morphology: normotensive subject study,” Biomedical Engineering Online, 16, 1-14, 2017
+//   Hangsik Shin, “Ambient temperature effect on pulse rate variability as an alternative to heart rate variability in young adult,” Journal of Clinical Monitoring and Computing, 30(6), 939-948, 2016
+//   Jinkwon Kim and Hangsik Shin, “Simple and Robust Realtime QRS Detection Algorithm Based on Spatiotemporal Characteristic of the QRS Complex,” PLoS ONE, 11(3), e0150144, 2016
+//   Byung Woo Lee and Hangsik Shin, “Feasibility Study of Sitting Posture Monitoring Based on Piezoresistive Conductive Film-Based Flexible Force Sensor,” IEEE Sensors Journal, 16(1), 15-16, 2016
+//   Se Dong Min and Hangsik Shin, “A Localization Method for First and Second Heart Sounds Based on Energy Detection and Interval Regulation,” Journal of Electrical Engineering & Technology, 10(5), 2126-2134, 2015
+//   Se Dong Min, Yonghyeon Yun and Hangsik Shin, “Simplified Structural Textile Respiration Sensor based on Capacitive Pressure Sensing Method,” IEEE Sensors Journal, 14(9), 3245-3251, 2014
+//   Hangsik Shin and Jaegeol Cho, “Unconstrained Snoring Detection Using a Smartphone during Ordinary Sleep,” Biomedical Engineering Online, 13(1), 1-14, 2014
+//   Hangsik Shin, Byunghun Choi, Doyoon Kim and Jaegeol Cho, “Robust Sleep Quality Quantification Method for a Personal Handheld Device,” Telemedicine & e-Health, 20(6), 522-530, 2014
+//   Yonghyeon Yun, Minki Hwang, Jae Hyung Park, Hangsik Shin, Eun Bo Shim and Hui-Nam Pak, “The Relationship among Complex Fractionated Electrograms, Wavebreak, Phase Singularity, and Local Dominant Frequency in Fibrillation Wave-Dynamics: a Modeling Comparison Study,” Journal of Korean Medical Science, 29(3), 370-377, 2014
+//   Chungkeun Lee, Hangsik Shin, Jongchul Park and Myoungho Lee, “The Optimal Attachment Position for a Fingertip Photoplethysmographic Sensor with Low DC,” IEEE Sensor Journal, 12(5), 1253-1254, 2012
+//   Chungkeun Lee, Hangsik Shin and Myoungho Lee, “Relations between AC-DC components and optical path length in photoplethysmography,” Journal of Biomedical Optics, 16(7), 077012-077012-4, 2011
+//   Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Chungkeun Lee and Myoungho Lee, “Noncontact Respiration Rate Measurement System Using an Ultrasonic Proximity Sensor,” IEEE Sensor Journal, 10(11), 1732-1739, 2010
+//   Hangsik Shin, Chungkeun Lee and Myoungho Lee, “Ideal Filtering Approach on DCT Domain for Biomedical Signals: Index Blocked DCT Filtering Method (IB-DCTFM),” Journal of Medical Systems, 34(4), 741-753, 2010
+//   Hangsik Shin, Chungkeun Lee and Myoungho Lee, “Adaptive threshold method for the peak detection of photoplethysmographic waveform,” Computers in Biology and Medicine, 39(12), 1145-1152, 2009
+//   Jinkwon Kim, Hangsik Shin, Kwangsoo Shin, Myoungho Lee, “Robust Algorithm for Arrhythmia Classification in ECG Using Extreme Learning Machine,” Biomedical Engineering Online, 8(31), 1-12, 2009
+//   Myoungho Lee, Se Dong Min, Hangsik Shin, Byung Woo Lee and Jinkwon Kim, “The e-Health Landscape: Current Status and Future Prospects in Korea,” Telemedicine & e-Health, 15(4), 362-369, 2009 
+//   Sung Won Yoon, Hangsik Shin, Se Dong Min and Myoungho Lee, “Adaptive motion artifacts reduction algorithm for ECG signal in textile wearable sensor,” IEICE Electronics Express, 4(10), 312-318, 2007
+//   Junyung Park and Hangsik Shin, “Development of Vascular Aging Assessment Model Based on Photoplethysmogram Incident and Reflected Wave Characteristics,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 70(4), 700-706, 2021
+//   Jin Woong Kim and Hangsik Shin, “Feasibility Study of Ultra-Short-Term Heart Rate Variability in Recovery Condition after Exercise,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 69(1), 114-119, 2020
+//   Ji Yeon Yim and Hangsik Shin, “Comparison of Classifier for Pain Assessment based on Photoplethysmogram and Machine Learning,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 68(12), 1626-1630, 2019 
+//   Jaepil Kim, Sooji Park and Hangsik Shin, “Force Sensor and MSP430-based System for Motion Detection During Sleep,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 68(12), 1612-1617, 2019 
+//   Hyeon Seok Seok and Hangsik Shin, “Postoperative Pain Assessment Features Based on Derivative Photoplethysmogram,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 68(10), 1258-1266, 2019 
+//   Hyeon Seok Seok and Hangsik Shin, “Investigation of the pulse to pulse interval and amplitude variation of photoplethymogram as a pain assessment parameter during anesthseia,” Journal of Korean Institute of Intelligent Systems (KIIS), 28(4), 328-334, 2018
+//   Hyeon Seok Seok and Hangsik Shin, “Postoperative Pain Assessment based on Derivative Waveform of Photoplethysmogram,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 67(7), 962-968, 2018 
+//   Yoon La Yang and Hangsik Shin, “Investigation of the Feasibility of Postoperative Pain Assessment by Analysing Photoplethysmogram Variability Analysis,” Journal of Korean Institute of Intelligent Systems (KIIS), 28(3), 269-274, 2018
+//   Yoon La Yang, Hyeon Seok Seok and Hangsik Shin, “Development of an application for correction and arrangement of pulse features of ECG and PPG,” Journal of Korean Institute of Intelligent Systems (KIIS), 27(6), 566-572, 2017
+//   Jun Seok Lee, Sooji Park and Hangsik Shin, “Evaluation of Hemiplegic Gait Using Accelerometer,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 66(11), 1634-1640, 2017 
+//   Hangsik Shin and Hoon Kim, “Reconstruction of the Undersampled Photoplethysmogram with Various Interpolation Methods,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 65(8), 1418-1423, 2016 
+//   Yoon La Yang and Hangsik Shin, “An Effect of Sampling Rate to the Time and Frequency Domain Analysis of Pulse Rate Variability,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 65(7), 1247-1251, 2016
+//   Se Dong Min and Hangsik Shin, “Evaluation of the Ambient Temperature Effect for the Autonomic Nervous Activity through the Time Domain Analysis of the Heart Rate Variability,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 64(8), 1246-1250, 2015 
+//   Hangsik Shin, “Evaluation of the Ambient Temperature Effect for the Autonomic Nervous Activity of the Young Adult through the Frequency Analysis of the Heart Rate Variability,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 64(8), 1240-1245, 2015 
+//   Chungkeun Lee and Hangsik Shin, “Analysis for the Fluctuation of the Photoplethysmographic Waveform derived by Temperature Stress of Measuring Position,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 64(2), 304-309, 2015 
+//   Do Yoon Kim and Hangsik Shin, “Movement Characteristic Analysis for Unconstrained Sleep Efficiency Analysis Based on the Smartphone,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 63(7), 940-944, 2014 
+//   Hangsik Shin and Chungkeun Lee, “Pulse Rate Variability as a Surrogate Method for Autonomic Nervous System Assessment Comparing with Heart Rate Variability,” Advanced Science Letters, 18(1), 92-98, 2012 
+//   Hangsik Shin and Chungkeun Lee, “Transfer Function Estimates in Derived Respiration Analysis: Retrograde Study of the Respiratory Drive Mechanism,” Advanced Science Letters, 6(1), 80-87, 2012 
+//   Chungkeun Lee, Hang Sik Shin, In-deok Kong and Myoungho Lee, “Analysis of Arterial Stiffness Variation by Photoplethysmographic DC Component,” Journal of Biomedical Engineering Research, 32(2), 109-117, 2011 
+//   Se-Dong Min, Young-Hyun Yun, Chung-Keun Lee, Hang-Sik Shin, Ha-Kyung Cho, Seon-Cheol Hwang and MyoungHo Lee, “Respiration Measurement System using Textile Capacitive Pressure Sensor,” The Transactions of the Korean Institute of Electrical Engineers, 59(1), 58-63, 2010 
+//   Hangsik Shin, Sung Won Yoon, Jae Young Kim and Myoungho Lee, “Down-Scaled 3D Object for Telediagnostic Imaging Support System,” Journal of Biomedical Engineering Research, 26(4), 185-191, 2005 
+//   Hangsik Shin, Se Dong Min, Hee-Joung Kim and Myoungho Lee, “Down-Scaled 3D Medical Image Transfer System Using Instant Messenger,” Journal of Korean Society Medical Information, 11(1), 97-105, 2005
+//   Changwon Wang, Hangsik Shin,"Smart Hospital Advancements and Future Perspectives in South  Korea," The Transactions of the Korean Institute of Electrical Engineers, 72(11), 1441-1448, 2023
+//   Hamin Lim, Hangsik Shin,"Clustering Analysis of Activity of Daily Living based on Accelerometry," The Transactions of the Korean Institute of Electrical Engineers, 72(11), 1427-1433, 2023
+//   Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
+//   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
+//   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
+//   Hangsik Shin, Chungkeun Lee, Boyoung Joung and Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 55D(3), 142-145, 2006 `;
+
+
+//   document.getElementById("journalAllPara").classList.add("clicked");
+//   const paperArray = papers.split('\n');
+//   let paperList = '';
+//   for (let i = 0; i < paperArray.length; i++) {
+//     const paperInfo = paperArray[i];
+//     paperList += `<a href="#" onclick="ALLOpenPaper(${i});" class='paperclick'>${paperInfo}</a><br><br>`;
+//   }
+
+//   const element = document.getElementById('my_div');
+//   element.innerHTML = paperList;
+
+//   element.addEventListener("click", function (event) {
+//     if (event.target.classList.contains("paperclick")) {
+//       event.preventDefault(); // Prevent default behavior of the link
+//     }
+//   });
+// }
+
+// function ALLOpenPaper(paperIndex) {
+//   const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
+//   https://ieeexplore.ieee.org/document/10049215
+//   https://iopscience.iop.org/article/10.1088/1361-6579/acead2
+//   https://pubmed.ncbi.nlm.nih.gov/36994761/
+//   https://www.nature.com/articles/s41746-023-00777-z
+//   https://pubmed.ncbi.nlm.nih.gov/36073769/
+//   https://www.nature.com/articles/s41598-022-15240-4
+//   https://ieeexplore.ieee.org/document/9713685
+//   https://pubmed.ncbi.nlm.nih.gov/35339844/
+//   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8972117/
+//   https://ieeexplore.ieee.org/document/9736959
+//   https://www.mdpi.com/1424-8220/22/5/1920
+//   https://www.frontiersin.org/articles/10.3389/fphys.2021.808451/full
+//   https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9423964
+//   https://pubmed.ncbi.nlm.nih.gov/33973860/
+//   https://pubmed.ncbi.nlm.nih.gov/33859568/
+//   https://www.mdpi.com/1424-8220/21/6/2188
+//   https://pubmed.ncbi.nlm.nih.gov/33762962/
+//   https://pubmed.ncbi.nlm.nih.gov/33533723/
+//   https://ieeexplore.ieee.org/document/9274312
+//   https://ieeexplore.ieee.org/document/9110878
+//   https://www.sciencedirect.com/science/article/pii/S2211285520304894
+//   https://ieeexplore.ieee.org/document/9075220
+//   https://www.nature.com/articles/s41598-020-64033-0
+//   https://www.mdpi.com/1424-8220/20/1/33
+//   https://www.mdpi.com/1424-8220/19/24/5441
+//   https://ieeexplore.ieee.org/document/8599135
+//   https://pubmed.ncbi.nlm.nih.gov/31547437/
+//   https://link.springer.com/article/10.1007/s42835-019-00185-y
+//   https://ieeexplore.ieee.org/document/8556368
+//   https://pubmed.ncbi.nlm.nih.gov/30398064/
+//   https://lib.jucs.org/article/23522/
+//   https://pubmed.ncbi.nlm.nih.gov/29790159/
+//   https://pubmed.ncbi.nlm.nih.gov/30210363/
+//   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6052119/
+//   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6022123/
+//   https://pubmed.ncbi.nlm.nih.gov/28169836/
+//   https://ieeexplore.ieee.org/document/7903646
+//   https://pubmed.ncbi.nlm.nih.gov/28169836/
+//   https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5234121/
+//   https://pubmed.ncbi.nlm.nih.gov/26511754/
+//   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0150144
+//   https://ieeexplore.ieee.org/document/7273819
+//   https://www.researchgate.net/publication/282923577_A_Localization_Method_for_First_and_Second_Heart_Sounds_Based_on_Energy_Detection_and_Interval_Regulation
+//   https://ieeexplore.ieee.org/abstract/document/6837453
+//   https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-116
+//   https://pubmed.ncbi.nlm.nih.gov/24693921/
+//   https://pubmed.ncbi.nlm.nih.gov/24616586/
+//   https://ieeexplore.ieee.org/abstract/document/5985462
+//   https://pubmed.ncbi.nlm.nih.gov/21806292/
+//   https://ieeexplore.ieee.org/abstract/document/5571922
+//   https://pubmed.ncbi.nlm.nih.gov/20703930/
+//   https://www.sciencedirect.com/science/article/pii/S0010482509001826
+//   https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-8-31
+//   https://pubmed.ncbi.nlm.nih.gov/19441955/
+//   https://www.researchgate.net/publication/245405213_Adaptive_motion_artifacts_reduction_algorithm_for_ECG_signal_in_textile_wearable_sensor
+//   https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002704114
+//   https://www.researchgate.net/publication/338952190_Feasibility_Study_of_Ultra-Short-Term_Heart_Rate_Variability_in_Recovery_Condition_after_Exercise
+//   https://www.researchgate.net/publication/338278472_Comparison_of_Classifier_for_Pain_Assessment_based_on_Photoplethysmogram_and_Machine_Learning
+//   https://www.researchgate.net/publication/338278476_Force_Sensor_and_MSP430-based_System_for_Motion_Detection_During_Sleep
+//   https://www.researchgate.net/publication/336948869_Postoperative_Pain_Assessment_Features_Based_on_Derivative_Photoplethysmogram
+//   https://www.researchgate.net/publication/327438305_Investigation_of_the_pulse_to_pulse_interval_and_amplitude_variation_of_photoplethymogram_as_a_pain_assessment_parameter_during_anesthseia
+//   http://journal.auric.kr/kiee/XmlViewer/f379178
+//   https://www.researchgate.net/publication/326153933_Investigation_of_the_Feasibility_of_Postoperative_Pain_Assessment_by_Analysing_Photoplethysmogram_Variability_Analysis
+//   https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE07284296
+//   https://koreascience.kr/article/JAKO201734158605923.page
+//   https://www.researchgate.net/publication/307913747_Reconstruction_of_the_Undersampled_Photoplethysmogram_with_Various_Interpolation_Methods
+//   https://koreascience.kr/article/JAKO201621650895994.page
+//   https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201529362421541
+//   https://www.researchgate.net/publication/283032236_Evaluation_of_the_Ambient_Temperature_Effect_for_the_Autonomic_Nervous_Activity_of_the_Young_Adult_through_the_Frequency_Analysis_of_the_Heart_Rate_Variability
+//   https://www.researchgate.net/publication/273911498_Analysis_for_the_Fluctuation_of_the_Photoplethysmographic_Waveform_derived_by_Temperature_Stress_of_Measuring_Position
+//   https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001894609
+//   https://www.ingentaconnect.com/contentone/asp/asl/2012/00000018/00000001/art00015
+//   https://www.ingentaconnect.com/contentone/asp/asl/2012/00000006/00000001/art00011?crawler=true&mimetype=application/pdf
+//   https://koreascience.kr/article/JAKO201123457285030.page
+//   http://journal.auric.kr/kieep/ArticleDetail/RD_R/361209
+//   https://www.researchgate.net/publication/263401299_Down-Scaled_3D_Object_for_Telediagnostic_Imaging_Support_System
+//   https://synapse.koreamed.org/articles/1103183`; // 각 논문에 대한 실제 링크 URL
+
+//   const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
+
+//   if (paperIndex >= 0 && paperIndex < linksArray.length) {
+//     window.open(linksArray[paperIndex], '_blank');// 클릭 시 해당 URL로 이동
+//   }
+// }
+
+
+
+
+
+
 function journalALL() {
-  resetButtons()
+  resetButtons();
   const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
   Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
   Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
@@ -83,32 +281,8 @@ function journalALL() {
   Se Dong Min, Jin Kwon Kim, Hangsik Shin, Yong Hyeon Yun, Jeong-Whan Lee and Myoungho Lee, “Abdominal Wall Motion-Based Respiration Rate Measurement using an Ultrasonic Proximity Sensor,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(10), 2071-2078, 2009 
   Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009 
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
-  Hangsik Shin, Chungkeun Lee, Boyoung Joung and Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 55D(3), 142-145, 2006 `;
+  Hangsik Shin, Chungkeun Lee, Boyoung Joung and Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 55D(3), 142-145, 2006 `; // 이전과 동일한 논문 목록
 
-
-  document.getElementById("journalAllPara").classList.add("clicked");
-  const paperArray = papers.split('\n');
-  let paperList = '';
-  for (let i = 0; i < paperArray.length; i++) {
-    const paperInfo = paperArray[i];
-    paperList += `<a href="#" onclick="ALLOpenPaper(${i});" class='paperclick'>${paperInfo}</a><br><br>`;
-  }
-
-  const element = document.getElementById('my_div');
-  element.innerHTML = paperList;
-
-  element.addEventListener("click", function (event) {
-    if (event.target.classList.contains("paperclick")) {
-      event.preventDefault(); // Prevent default behavior of the link
-    }
-  });
-}
-
-
-
-
-
-function ALLOpenPaper(paperIndex) {
   const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
   https://ieeexplore.ieee.org/document/10049215
   https://iopscience.iop.org/article/10.1088/1361-6579/acead2
@@ -186,17 +360,58 @@ function ALLOpenPaper(paperIndex) {
   https://koreascience.kr/article/JAKO201123457285030.page
   http://journal.auric.kr/kieep/ArticleDetail/RD_R/361209
   https://www.researchgate.net/publication/263401299_Down-Scaled_3D_Object_for_Telediagnostic_Imaging_Support_System
-  https://synapse.koreamed.org/articles/1103183`; // 각 논문에 대한 실제 링크 URL
+  https://synapse.koreamed.org/articles/1103183`; // 이전과 동일한 논문 링크 목록
 
-  const linksArray = paperLinks.split('\n'); // 띄어쓰기를 기준으로 URL 분할
+  const groupedPapersHTML = groupPapersByYear(papers, paperLinks);
 
-  if (paperIndex >= 0 && paperIndex < linksArray.length) {
-    window.open(linksArray[paperIndex], '_blank');// 클릭 시 해당 URL로 이동
-  }
+  document.getElementById("journalAllPara").classList.add("clicked");
+  const element = document.getElementById('my_div');
+  element.innerHTML = groupedPapersHTML;
+
+
+  element.addEventListener("click", function (event) {
+    if (event.target.classList.contains("paperclick")) {
+      event.preventDefault(); // Prevent default behavior of the link
+    }
+  });
 }
 
+function groupPapersByYear(papers, paperLinks) {
+  const paperArray = papers.split('\n');
+  const linksArray = paperLinks.split('\n');
 
+  // 논문 정보를 연도별로 그룹화
+  const papersByYear = {};
+  for (let i = 0; i < paperArray.length; i++) {
+    const paperInfo = paperArray[i];
+    const lastFourDigitsMatch = paperInfo.match(/(\d{4})\D*$/); // 각 행의 마지막 4자리 숫자를 찾음
+    if (lastFourDigitsMatch) {
+      const year = lastFourDigitsMatch[1];
+      if (!papersByYear[year]) {
+        papersByYear[year] = [];
+      }
+      const trimmedInfo = paperInfo.trim();
+      const trimmedLink = linksArray[i] ? linksArray[i].trim() : ''; // 링크가 없을 경우 빈 문자열로 처리
+      papersByYear[year].push({ info: trimmedInfo, link: trimmedLink });
+    }
+  }
 
+  // 년도를 내림차순으로 정렬
+  const sortedYears = Object.keys(papersByYear).sort((a, b) => parseInt(b) - parseInt(a));
+
+  // 각 연도에 속하는 논문 정보와 링크를 HTML 형식으로 구성
+  let resultHTML = '';
+  for (const year of sortedYears) {
+    // resultHTML += `<h2>${year}</h2>`;
+    const yearPapers = papersByYear[year];
+    for (let i = 0; i < yearPapers.length; i++) {
+      const { info, link } = yearPapers[i];
+      resultHTML += `<p><a href="${link}" target="_blank" class='paperclick'>${info}</a></p>`;
+    }
+  }
+
+  return resultHTML;
+}
 
 
 
@@ -448,6 +663,7 @@ function journalKCI() {
 }
 
 
+
 function confernceAll() {
   resetButtons()
   const papers = `Changwon Wang, Hamin Lim, Sung Woo Joo, Jungsun Lee, Hangsik Shin, "Investigating Abnormal Behavior Patterns in Psychiatric Inpatients," IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI’23), Pittsburgh, USA, 2023
@@ -624,12 +840,35 @@ function confernceAll() {
   Hangsik Shin, Byung Woo Lee, Dae Joong Yoon, Sung Won Yoon, Myoungho Lee, “Down-scaled 3D object for telediagnostic support system,” Proceedings of the 31st Korean Society of Medical and Biological Engineering (KOSOMBE) Conference, Nov 2004 
   Byung Woo Lee, Hangsik Shin, Chan Ouk Park, Se Dong Min, Myoungho Lee, “Pulse wave measurement system for data transfer on Internet,” Proceedings of the 31st Korean Society of Medical and Biological Engineering (KOSOMBE) Conference, Nov 2004 
   Se Dong Min, Segu Kang, Chungkeun Lee, Sungwon Yoon, Chan Ouk Park, Hangsik Shin, Byung Woo Lee, Myoungho Lee, “Far-infrared warming effect evaluation system on cardiovascular system after treadmill exercise,” Proceedings of the 29th Korean Society of Medical and Biological Engineering (KOSOMBE) Conference, Nov 2003 `;
-  document.getElementById("confernceAllPara").classList.add("clicked");
+
   const paperArray = papers.split('\n');
-  let paperList = '';
+  const papersByYear = {};
+
   for (let i = 0; i < paperArray.length; i++) {
     const paperInfo = paperArray[i];
-    paperList += `<a class='paperlist'>${paperInfo}</a><br><br>`;
+    const lastFourDigitsMatch = paperInfo.match(/(\d{4})\D*$/);
+
+    if (lastFourDigitsMatch) {
+      const year = lastFourDigitsMatch[1];
+
+      if (!papersByYear[year]) {
+        papersByYear[year] = [];
+      }
+
+      papersByYear[year].push(paperInfo.trim());
+    }
+  }
+
+  const sortedYears = Object.keys(papersByYear).sort((a, b) => parseInt(b) - parseInt(a));
+
+  let paperList = '';
+  for (const year of sortedYears) {
+    // paperList += `<h2>${year}</h2>`;
+    const yearPapers = papersByYear[year];
+
+    for (let i = 0; i < yearPapers.length; i++) {
+      paperList += `<p>${yearPapers[i]}</p>`;
+    }
   }
 
   const element = document.getElementById('my_div');
@@ -851,7 +1090,7 @@ function confernceDome() {
 
 function patentAll() {
   resetButtons()
-  const papers = `Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: US17342860, Date: 2021/06/09), Published (No: US20210295993, Date: 2021/09/23)
+  let papers = `Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: US17342860, Date: 2021/06/09), Published (No: US20210295993, Date: 2021/09/23)
   A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: PCT/KR2021/002696, Date: 2021/03/04), Published (No: PCT2022169020, Date: 2022/08/11) 
  A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same, Filed (No: PCT/KR2021/002702, Date: 2021/03/04)
  Wearable blood pressure measuring device with multi-array pressure sensors, Filed (No: PCT/KR2021/001864, Date: 2021/02/15) 
@@ -992,6 +1231,20 @@ function patentAll() {
   화상디자인이 표시된 태블릿 피씨(Tablet PC), Filed (No:KR3020120029134, Date: 2012/06/14), Granted (No: KR300663541, Date: 2012/10/10) 
   화상디자인이 표시된 이동통신기기, Filed (No:KR3020120029226, Date: 2012/06/15), Granted (No: KR300665356, Date: 2012/10/23) 
   화상디자인이 표시된 휴대용 단말기, Filed (No:KR3020120024451, Date: 2012/05/17), Granted (No: KR300658893, Date: 2012/09/04)`;
+
+
+  // 각 논문의 정보를 담고 있는 객체 배열로 변환
+  const papersArray = papers.split('\n').map(line => {
+    const match = line.match(/Date: (\d{4})/);
+    const year = match ? parseInt(match[1]) : 0;
+    return { line, year };
+  });
+
+  // 연도를 기준으로 내림차순 정렬
+  papersArray.sort((a, b) => b.year - a.year);
+
+  // 정렬된 논문 정보를 문자열로 변환
+  papers = papersArray.map(item => item.line).join('\n');
 
   document.getElementById("patentAllPara").classList.add("clicked");
   const paperArray = papers.split('\n');
