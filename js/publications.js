@@ -406,7 +406,7 @@ function groupPapersByYear(papers, paperLinks) {
     const yearPapers = papersByYear[year];
     for (let i = 0; i < yearPapers.length; i++) {
       const { info, link } = yearPapers[i];
-      resultHTML += `<p><a href="${link}" target="_blank" class='paperclick'>${info}</a></p>`;
+      resultHTML += `<a href="${link}" target="_blank" class='paperclick'>${info}</a><br><br>`;
     }
   }
 
@@ -860,16 +860,17 @@ function confernceAll() {
   }
 
   const sortedYears = Object.keys(papersByYear).sort((a, b) => parseInt(b) - parseInt(a));
-
+  document.getElementById("confernceAllPara").classList.add("clicked");
   let paperList = '';
   for (const year of sortedYears) {
     // paperList += `<h2>${year}</h2>`;
     const yearPapers = papersByYear[year];
 
     for (let i = 0; i < yearPapers.length; i++) {
-      paperList += `<p>${yearPapers[i]}</p>`;
+      paperList += `<a class='paperlist'">${yearPapers[i]}</a><br><br>`;
     }
   }
+
 
   const element = document.getElementById('my_div');
   element.innerHTML = paperList;
