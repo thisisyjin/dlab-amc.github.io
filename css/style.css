@@ -1589,9 +1589,10 @@ a.small-button.clicked {
 	margin: 5px;
 	box-sizing: border-box;
 	/* Use border-box to include padding and border in width calculation */
-	border: 1px solid #d4d4d4;
+	border: 1px solid rgba(201, 188, 206, 0.15);
 	padding: 20px;
 	height: 100%;
+	box-shadow: 0px 0px 10px 5px rgba(201, 188, 206, 0.15);
 }
 
 
@@ -1603,16 +1604,22 @@ a.small-button.clicked {
 .nav-link.active {
 	background-color: #036166;
 	color: #fff;
+	border: 1px solid  #036166;
+	box-shadow: 0px 0px 10px 5px rgba(201, 188, 206, 0.50);
+
 }
 
 .nav-link span {
 	font-size: 50px;
 	/* text-align: center;
 	padding: 9px 0; */
-}
+} 
+
 
 
 /* 버튼 정렬 */
+
+
 
 .nav-item ul {
 	list-style: none;
@@ -1790,7 +1797,7 @@ a.small-button.clicked {
 	color: #1c2021;
 	padding: 10px;
 	/* 배경색을 원하는 색상으로 설정 */
-	border: 1px solid #ddd;
+	border: 1px solid rgba(201, 188, 206, 0.15);
 	/* 테두리 설정 */
 	border-radius: 10px;
 	/* 둥근 테두리 설정 */
@@ -1798,6 +1805,7 @@ a.small-button.clicked {
 	width: 110px;
 	transition: background-color 0.3s, color 0.3s;
 	font-size: small;
+	box-shadow: 0px 0px 10px 5px #92929222;
 }
 
 .nav-link_re:hover {
@@ -1808,6 +1816,8 @@ a.small-button.clicked {
 .nav-link_re.active {
 	background-color: #036166;
 	color: #fff;
+	border: 1px solid #036166;
+	box-shadow: 0px 0px 10px 5px #92929299;
 }
 
 .nav-link_re.active img {
