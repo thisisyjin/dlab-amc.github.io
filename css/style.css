@@ -819,7 +819,7 @@ a.mail:hover {
 	top: 0;
 	left: 0;
 	right: 0;
-	z-index: 999;
+	z-index: 10;
 	background: white;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 	color: inherit;
@@ -848,7 +848,7 @@ a.mail:hover {
 	right: 1.5em;
 	position: relative;
 	/* 추가: 상대적 위치 설정 */
-	z-index: 999;
+	z-index: 10;
 	/* 추가: 더 높은 z-index 값 설정 */
 }
 
@@ -929,7 +929,7 @@ a.mail:hover {
 #nav .submenu ul {
 	font-weight: 900;
 	position: absolute;
-	z-index: 1000;
+	z-index: 11;
 	/* Make sure it appears above other elements */
 	display: none;
 	/* Hide it by default */
@@ -1012,6 +1012,7 @@ a.mail:hover {
 	padding-left: 30px;
 	padding-top: 5px;
 }
+
 
 /* Banner */
 @-moz-keyframes reveal-banner {
@@ -2635,7 +2636,7 @@ a.small-button.clicked {
 }
 
 .slick-prev.slick-arrow {
-	z-index: 998;
+	z-index: 10;
 	top: 42%;
 	left: -60px;
 	margin-right: 100px;
@@ -2643,7 +2644,7 @@ a.small-button.clicked {
 }
 
 .slick-next.slick-arrow {
-	z-index: 998;
+	z-index: 10;
 	top: 42%;
 	right: -52px;
 }

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "홈페이지 오픈"
+title:  "홈페이지 오픈 [Lab Webpage OPEN]"
 date:   2023-11-21 13:36:23
 featured-img: "/images/posts/2311/231121.png"
 short-content: "서울 아산병원 Digital Medicine Lab 홈페이지 오픈 "
@@ -12,4 +12,9 @@ comments : true
 <span class="image featured"><img src="/images/posts/2311/231121.png" alt=""></span>
 
 ### 서울 아산병원 Digital Medicine Lab, 홈페이지 오픈 소식!
-서울 아산병원 Digital Medicine Lab이 홈페이지를 공개합니다! 
+첫 홈페이지를 공개합니다! 
+
+<span class="image featured"><img src="/images/posts/2311/new_231121.png" alt="" style='height: 200px;'></span>
+
+### 점점 발전중인 홈페이지의 모습입니다.  
+홈페이지의 발전을 위한 피드백 환영합니다.  
