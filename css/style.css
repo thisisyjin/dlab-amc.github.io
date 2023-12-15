@@ -1598,7 +1598,7 @@ a.small-button.clicked {
 
 .nav-link:hover {
 	background-color: rgba(201, 188, 206, 0.15);
-	border: 1px solid #d4d4d4;
+	border: 1px solid #e4e4e4;
 }
 
 .nav-link.active {
@@ -1607,6 +1607,12 @@ a.small-button.clicked {
 	border: 1px solid  #036166;
 	box-shadow: 0px 0px 10px 5px rgba(201, 188, 206, 0.50);
 
+}
+
+.nav-link.active:hover {
+	background-color: #034b5e;
+	border: 1px solid #022627;
+	box-shadow: 0px 0px 10px 5px rgba(201, 188, 206, 0.50);
 }
 
 .nav-link span {
@@ -1810,7 +1816,7 @@ a.small-button.clicked {
 
 .nav-link_re:hover {
 	background-color: rgba(201, 188, 206, 0.15);
-	border: 1px solid #d4d4d4;
+	border: 1px solid #e4e4e4;
 }
 
 .nav-link_re.active {
@@ -1819,6 +1825,13 @@ a.small-button.clicked {
 	border: 1px solid #036166;
 	box-shadow: 0px 0px 10px 5px #92929299;
 }
+
+.nav-link_re.active:hover {
+	background-color: #034b5e;
+	border: 1px solid #022627;
+	box-shadow: 0px 0px 10px 5px #92929299;
+}
+
 
 .nav-link_re.active img {
 	filter: brightness(0) invert(1);
