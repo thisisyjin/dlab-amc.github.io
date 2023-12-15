@@ -14,7 +14,7 @@ comments : true
 ### 서울 아산병원 Digital Medicine Lab, 홈페이지 오픈 소식!
 첫 홈페이지를 공개합니다! 
 
-<span class="image featured"><img src="/images/posts/2311/new_231121.png" alt="" style='height: 400px; object-fit: contain;'></span>
+<span class="image featured"><img src="/images/posts/2311/new_231121.PNG" alt="" style='height: 400px; object-fit: contain;'></span>
 
 ### 점점 발전중인 홈페이지의 모습입니다.  
 홈페이지의 발전을 위한 피드백 환영합니다.  
