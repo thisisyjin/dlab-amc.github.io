@@ -2710,3 +2710,27 @@ a.small-button.clicked {
 	cursor: context-menu;
 }
 /* 잠깐 수정*/
+
+
+.egg_img {
+	margin: 0px auto;
+	position: relative;
+}
+
+.egg_1 {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.5s linear;
+}
+
+.egg_0 {
+	height: 300px;
+	width: 300px;
+}
+.egg_img:hover .egg_1 {
+
+	opacity: 1;
+}
