@@ -2659,7 +2659,7 @@ a.small-button.clicked {
 }
 
 .slick-prev.slick-arrow {
-	z-index: 10;
+	z-index: 5;
 	top: 42%;
 	left: -60px;
 	margin-right: 100px;
@@ -2667,7 +2667,7 @@ a.small-button.clicked {
 }
 
 .slick-next.slick-arrow {
-	z-index: 10;
+	z-index: 5;
 	top: 42%;
 	right: -52px;
 }
