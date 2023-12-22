@@ -2736,10 +2736,12 @@ a.small-button.clicked {
 	opacity: 1;
 }
 
+
 /*Members 직급 기재 서식*/
 .rank {
 	font-size: 30px;
-	text-align: center;
+	text-align: left;
+	padding-left: 30px;
 	margin-bottom: 20px;
 	font-family: 'TAEBAEKfont';
 }
