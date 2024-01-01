@@ -894,7 +894,12 @@ function confernceDome() {
 
 function patentAll() {
   resetButtons()
-  let papers = `Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: US17342860, Date: 2021/06/09), Published (No: US20210295993, Date: 2021/09/23)
+  let papers = `3차원 그래프 데이터 변환 프로그램, Granted (No: C-2023-060554, Date: 2023/12/15)
+  이소성 박동 교정 프로그램, Granted (No: C-2023-060553, Date: 2023/12/15)
+  심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션, Granted (No: C-2023-059443, Date: 2023/12/13)
+  생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램, Granted (No: C-2023-059444, Date: 2023/12/13)
+  사용자 생체정보 및 위치정보 모니터링, 위험 알람을 위한 웹 응용프로그램, Granted (No: C-2023-059445, Date: 2023/12/13)
+  Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: US17342860, Date: 2021/06/09), Published (No: US20210295993, Date: 2021/09/23)
   A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: PCT/KR2021/002696, Date: 2021/03/04), Published (No: PCT2022169020, Date: 2022/08/11) 
  A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same, Filed (No: PCT/KR2021/002702, Date: 2021/03/04)
  Wearable blood pressure measuring device with multi-array pressure sensors, Filed (No: PCT/KR2021/001864, Date: 2021/02/15) 
@@ -1287,7 +1292,12 @@ function patentDesignDome() {
 
 function registeredSW() {
   resetButtons()
-  const papers = `심박수와 가속도 신호 저장 및 전송을 위한 서버 프로그램, Granted (No: KRC-2023-023409, Date: 2023/05/25) 
+  const papers = `3차원 그래프 데이터 변환 프로그램, Granted (No: C-2023-060554, Date: 2023/12/15)
+  이소성 박동 교정 프로그램, Granted (No: C-2023-060553, Date: 2023/12/15)
+  심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션, Granted (No: C-2023-059443, Date: 2023/12/13)
+  생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램, Granted (No: C-2023-059444, Date: 2023/12/13)
+  사용자 생체정보 및 위치정보 모니터링, 위험 알람을 위한 웹 응용프로그램, Granted (No: C-2023-059445, Date: 2023/12/13)
+  심박수와 가속도 신호 저장 및 전송을 위한 서버 프로그램, Granted (No: KRC-2023-023409, Date: 2023/05/25) 
   웨어러블 기기용 심박수, 가속도 신호 측정, 전송 프로그램, Granted (No: KRC-2023-023411, Date: 2023/05/25) 
   웹 기반 생체정보 디스플레이 프로그램, Granted (No: KRC-2023-023410, Date: 2023/05/25) 
   복수 사용자의 심박변이도 동시 계산 매트랩 그래픽유저인터페이스(MATLAB GUI), Granted (No: KRC-2020-042004, Date: 2020/11/16) 
