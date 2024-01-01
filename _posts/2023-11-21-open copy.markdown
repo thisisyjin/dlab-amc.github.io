@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "홈페이지 오픈 [Lab Webpage OPEN]"
+date:   2023-12-28 13:36:23
+featured-img: "/images/posts/2312/송년회_231228.jpeg"
+short-content: "서울 아산병원 Digital Medicine Lab 송년회"
+comments : true
+---
+
+
+
+<span class="image featured"><img src="/images/posts/2312/송년회_231228.jpeg" alt=""></span>
+
+서울 아산병원 Digital Medicine Lab 송년회를 하였습니다.
+건강상의 이유로 불참한 인원이 있어 아쉬웠지만 한해를 마무리하는 자리가 되었습니다!
+모두 새해에도 좋은일만 가득하길 바랍니다!
+
+
+<span class="image featured"><img src="/images/posts/2312/송년회_231228.jpeg" alt="" style='height: 400px; object-fit: contain;'></span>
