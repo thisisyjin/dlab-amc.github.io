@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "송년회"
+title:  "송년회 [Year-end Party]"
 date:   2023-12-28 13:36:23
 featured-img: "/images/posts/2312/송년회_231228.jpeg"
 short-content: "서울 아산병원 Digital Medicine Lab 송년회"
