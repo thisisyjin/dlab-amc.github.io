@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "젊은 연구자 학술대상 [Young Researcher Academic Award]" 
+title:  "우수논문상 [Best Paper]" 
 date:   2023-12-08 10:00:00
 featured-img: "/images/posts/2312/우수논문상_231208.JPG"
 short-content: "대한전기학회 우수논문상 수상" 
