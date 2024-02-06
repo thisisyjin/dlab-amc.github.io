@@ -356,9 +356,6 @@ input[type="email"] {
 }
 
 
-
-
-
 .image.featured {
 	display: block;
 	margin: 0 0 1em 0;
@@ -368,8 +365,6 @@ input[type="email"] {
 	display: block;
 	width: 100%;
 }
-
-
 
 
 /* Icon */
@@ -828,64 +823,61 @@ a.mail:hover {
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 0px;
-}
+	padding: 10px; /* Add padding to create space */
+  }
 
-
-#header img {
-	max-height: 100px;
+  #header img {
+	max-height: 80px;
 	max-width: auto;
 	height: 100%;
-	width: 100%;
+	width: auto; /* Set width to auto to maintain aspect ratio */
 	transition: all 0.3s;
-	margin-bottom: 0px;
-}
+	margin-right: 20px; /* Add right margin to create space */
+  }
 
 #header nav {
-	letter-spacing: 0.2em;
-	text-transform: uppercase;
-	/* display: flex; */
-	align-items: center;
-	right: 1.5em;
-	position: relative;
-	/* 추가: 상대적 위치 설정 */
-	z-index: 10;
-	/* 추가: 더 높은 z-index 값 설정 */
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  align-items: center;
+  z-index: 10;
 }
-
+  
 
 #header nav ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	display: flex;
-	position: relative;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  position: relative;
 }
 
 #header nav ul li {
 	display: inline-block;
-	/* margin-left: 1.5em; */
 	position: relative;
-}
+	font-size: 1em; /* Set initial font size */
+	padding: 0.6em 0.75em; /* Set initial padding */
+	transition: all 0.3s; /* Add transition for smooth resizing */
+	white-space: nowrap; /* Prevent text from wrapping */
+  }
 
 #header nav ul li>ul {
-	display: none;
-
+  display: none;
 }
 
 #header nav ul li:hover>ul {
 	display: block;
 	position: relative;
+  }
 
-}
 
-#header nav ul li a {
+  #header nav ul li a {
 	border: solid 1px transparent;
 	color: inherit;
 	display: inline-block;
 	line-height: 1em;
-	padding: 0.6em 0.75em;
 	text-decoration: none;
-}
+  }
 
 #header nav ul li input[type="button"],
 #header nav ul li input[type="submit"],
@@ -896,18 +888,13 @@ a.mail:hover {
 	width: auto;
 }
 
-
-
 #header nav ul li.submenu>a:before {
 	font-family: FontAwesome;
 	content: '\f107';
 	margin-right: 0.65em;
-
-
 	color: #F57C13;
 	/* 화살표에 색 추가해봄 */
 	position: relative;
-
 	/* 추가: 더 높은 z-index 값 설정 */
 }
 
@@ -919,7 +906,6 @@ a.mail:hover {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 	background: rgba(201, 188, 206, 0.15);
-
 }
 
 #header nav .cc-active {
@@ -938,6 +924,15 @@ a.mail:hover {
 #submenu-ul {
 	font-size: 0.75em;
 }
+
+/* Add a media query to adjust font size and padding for smaller screens */
+@media (max-width: 1280px) {
+	#header nav ul li {
+	  font-size: 0.8em; /* Adjust font size for smaller screens */
+	  padding: 0.4em 0.5em; /* Adjust padding for smaller screens */
+	}
+  }
+
 
 
 
