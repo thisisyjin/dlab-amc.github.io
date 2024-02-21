@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<span id="content"></span>
+<article id="main">
+  <header class="special container">
+    <!-- <span class="icon fa-solid fa-scroll"></span> -->
+    <h2>Software</h2>
+  </header>
+
+  <section class="wrapper style4 container">
+    <div class="row oneandhalf">
+      <div class="2u">
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <section>
+            <div class="sidebar small-sidebar">
+              <!-- Call the loadHTMLFile function when the button is clicked by the user -->
+              <a href="#" onclick="loadHTMLFile()" class="small-button">IRR TO HRV</a>
+            </div>
+          </section>
+        </div>
+      </div>
+  
+      <div class="5u skel-cell-important">
+        <!-- Content -->
+        <div id="internalPageContent" style="text-align: justify;">
+          <div id="internalPage">
+            <div id='my_div' class="my-div"><h2>DLAB Software Demo</h2></div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+        // Path to the HTML file to load
+        const htmlFilePath = '/htmls/demo/IrrToHrv.html';
+
+        // Function to load the HTML file and display it on the page
+        async function loadHTMLFile() {
+          try {
+            // Fetch the HTML file using the fetch function
+            const response = await fetch(htmlFilePath);
+            // Convert the content of the fetched HTML file to text
+            const htmlContent = await response.text();
+            // Display the content of the fetched HTML file on the page
+            document.getElementById('internalPage').innerHTML = htmlContent;
+            // Show the div that displays the internal page
+            document.getElementById('internalPageContent').style.display = 'block';
+          } catch (error) {
+            console.error('Error loading HTML file:', error);
+          }
+        }
+      </script>
+
+  </section>
+</article>
