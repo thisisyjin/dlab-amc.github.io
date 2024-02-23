@@ -174,7 +174,11 @@ function journalALL() {
 
   element.addEventListener("click", function (event) {
     if (event.target.classList.contains("paperclick")) {
-      event.preventDefault(); // Prevent default behavior of the link
+      // 클릭된 요소가 링크인 경우에만 이벤트 처리
+      if (event.target.tagName === 'A') {
+        return; // 링크인 경우 기본 동작 수행
+      }
+      event.preventDefault(); // 링크가 아닌 경우 기본 동작 취소
     }
   });
 }
