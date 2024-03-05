@@ -1,7 +1,8 @@
 
 function journalALL() {
   resetButtons();
-  const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
+  const papers = `Hyeon Seok Seok , Yuna Choi , Shinae Yu, Kyung-Hwa Shin , Sollip Kim and Hangsik Shin, "Machine learning-based delta check method for detecting misidentification errors in tumor marker tests," De Gruyter, 2023 
+  Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
   Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
   Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
   Shinae Yu, Kyung-Hwa Shin, Sunghwan Shin, Hyeyoung Lee, Soo Jin Yoo, Kyung Ran Jun, Hangsik Shin, Sollip Kim, "Practical delta check limits for tumour markers in different clinical settings," Clinical Chemistry and Laboratory Medicine (CCLM), 61(10), 1829-1840, 2023
@@ -86,7 +87,8 @@ function journalALL() {
   Hangsik Shin, Young Bum Lee and Myoungho Lee, “The Analysis of Living Daily Activities by Interpreting BiDirectional Accelerometer Signals with Extreme Learning Machine,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 56(7), 1324-1330, 2007 
   Hangsik Shin, Chungkeun Lee, Boyoung Joung and Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 55D(3), 142-145, 2006 `; // 이전과 동일한 논문 목록
 
-  const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
+  const paperLinks = `https://www.degruyter.com/document/doi/10.1515/cclm-2023-1185/html
+  https://pubmed.ncbi.nlm.nih.gov/37971153/
   https://ieeexplore.ieee.org/document/10049215
   https://iopscience.iop.org/article/10.1088/1361-6579/acead2
   https://pubmed.ncbi.nlm.nih.gov/36994761/
@@ -225,7 +227,8 @@ function groupPapersByYear(papers, paperLinks) {
 
 function journalSCI() {
   resetButtons()
-  const papers = `Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
+  const papers = `Hyeon Seok Seok , Yuna Choi , Shinae Yu, Kyung-Hwa Shin , Sollip Kim and Hangsik Shin, "Machine learning-based delta check method for detecting misidentification errors in tumor marker tests," De Gruyter,  2023  
+  Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
   Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
   Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
   Shinae Yu, Kyung-Hwa Shin, Sunghwan Shin, Hyeyoung Lee, Soo Jin Yoo, Kyung Ran Jun, Hangsik Shin, Sollip Kim, "Practical delta check limits for tumour markers in different clinical settings," Clinical Chemistry and Laboratory Medicine (CCLM), 61(10), 1829-1840, 2023
@@ -302,7 +305,8 @@ function journalSCI() {
 }
 
 function SCIOpenPaper(paperIndex) {
-  const paperLinks = `https://pubmed.ncbi.nlm.nih.gov/37971153/
+  const paperLinks = `https://www.degruyter.com/document/doi/10.1515/cclm-2023-1185/html
+  https://pubmed.ncbi.nlm.nih.gov/37971153/
   https://ieeexplore.ieee.org/document/10049215
   https://iopscience.iop.org/article/10.1088/1361-6579/acead2
   https://pubmed.ncbi.nlm.nih.gov/36994761/
