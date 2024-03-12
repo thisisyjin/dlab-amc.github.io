@@ -1,28 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-
-
 {% include head.html %}
-
-
-
 <body class="no-sidebar">
-
-
-
   {% include header.html %}
-
-
   {{ content }}
-  
   <button id="upButton" onclick="scrollToTop()"><span class="icon fa-solid fa-arrow-up"
       style="font-family: NanumSquareNeo-Variable;"><br>TOP</span></button>
   {% include footer.html %}
-
 </body>
-
-
 
 <script>
   // 스크롤 이벤트를 감지하여 헤더 위치 조정
@@ -37,17 +22,11 @@
       image.style.maxHeight = "100px"; // 스크롤을 올릴 때 이미지 크기 복원
     }
   });
-
-
-
   $(document).ready(function () {
-
     // Fakes the loading setting a timeout
     setTimeout(function () {
       $('body').addClass('loaded');
     }, 1000);
-
   });
 </script>
-
 </html>
