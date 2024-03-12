@@ -1,7 +1,7 @@
 
 function journalALL() {
   resetButtons();
-  const papers = `Hyeon Seok Seok , Yuna Choi , Shinae Yu, Kyung-Hwa Shin , Sollip Kim and Hangsik Shin, "Machine learning-based delta check method for detecting misidentification errors in tumor marker tests," De Gruyter, 2023 
+  const papers = `Hyeon Seok Seok , Yuna Choi , Shinae Yu, Kyung-Hwa Shin , Sollip Kim and Hangsik Shin, "Machine learning-based delta check method for detecting misidentification errors in tumor marker tests," Clinical Chemistry and Laboratory Medicine (CCLM), 2023 
   Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
   Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
   Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
@@ -227,7 +227,7 @@ function groupPapersByYear(papers, paperLinks) {
 
 function journalSCI() {
   resetButtons()
-  const papers = `Hyeon Seok Seok , Yuna Choi , Shinae Yu, Kyung-Hwa Shin , Sollip Kim and Hangsik Shin, "Machine learning-based delta check method for detecting misidentification errors in tumor marker tests," De Gruyter,  2023  
+  const papers = `Hyeon Seok Seok , Yuna Choi , Shinae Yu, Kyung-Hwa Shin , Sollip Kim and Hangsik Shin, "Machine learning-based delta check method for detecting misidentification errors in tumor marker tests," Clinical Chemistry and Laboratory Medicine (CCLM),  2023  
   Jinwoo Cho, Hangsik Shin, Ahyoung Choi, "Calibration-free blood pressure estimation based on a convolutional neural network," PSYCHOPHYSIOLOGY, 2023
   Oh-Seok Kwon, Jisu Lee, Je-Wook Par, So-Hyun Yang, Inseok Hwang, Hee Tae Yu, Hangsik Shin, Hui-Nam Pak, "Corrections to ‘‘Three-Dimensional Atrial Wall Thickness Measurement Algorithm From a Segmented Atrial Wall Using a Partial Differential Equation’’," IEEE Access, 11, 15314-15314, 2023
   Chungkeun Lee, Hangsik Shin, "The 2023 wearable photoplethysmography roadmap," Physiological Measurement, 47-51, 2023
