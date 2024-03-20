@@ -86,13 +86,13 @@ permalink: /publications_c/
                                 {% endif %}
                                 {% else %}
                                 {% if items.size > 1 %}
-                                <div class="paperlist">{%
+                                <a class="paperlist">{%
                                     for item in items offset:2 %}{{ item |
                                     replace:
-                                    ".", "" }}. {% endfor %}</div>
+                                    ".", "" }}. {% endfor %}</a>
                                 {% else %}
-                                <div class="paperlist">{{
-                                    items }}</div>
+                                <a class="paperlist">{{
+                                    items }}</a>
                                 {% endif %}
                                 {% endif %}
                             </div>
