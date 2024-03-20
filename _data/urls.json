@@ -1,6 +1,13 @@
 [
   {
-    "text": "Publications",
-    "url": "/publications/"
-  }
+    "text": "Publications_j",
+    "url": "/publications_j/"},
+    
+    {"text": "Publications_c",
+    "url": "/publications_c/"},
+
+    {"text": "Publications_p",
+    "url": "/publications_p/"}
+  
+  
 ]
