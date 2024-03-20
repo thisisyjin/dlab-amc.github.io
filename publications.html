@@ -32,71 +32,79 @@ permalink: /publications/
             </div>
 
             <div class="10u skel-cell-important">
+                <div id='my_div' class="my-div" style="text-align: justify;">
+                    {% for class in cGroup %}
+                    <div class="class-section" id="{{ class.name | slugify }}">
+                        <!-- <h2>{{ class.name }}</h2> -->
+                        {% assign dGroup = class.items | group_by_exp: "item",
+                        "item.date | date: '%Y' " %}
 
-                {% for class in cGroup %}
-                <div class="class-section" id="{{ class.name | slugify }}">
-                    <h2>{{ class.name }}</h2>
-                    {% assign dGroup = class.items | group_by_exp: "item",
-                    "item.date | date: '%Y' " %}
+                        {% for dates in dGroup %}
 
-                    {% for dates in dGroup %}
-                    <div
+                        <!-- <div
                         style="display:inline; color:rgb(104, 104, 104);background-color: rgba(8, 41, 68, 0); padding: 1px 5px ; font-weight: 400; border-radius:3px; font-size:1.2em;">{{
-                        dates.name }}</div>
-                    <div style="margin-bottom:13px;"></div>
-                    <ul>
-                        {% for pub in dates.items %}
-                        {% assign items = pub.contents | replace: "?", " " |
-                        split: ". " %}
-                        <div style="margin-bottom: 10px;">
-                            {% if pub.link != null %}
-                            {% if items.size > 1 %}
-                            <div
-                                style="font-size:1.1em; font-weight: 400; margin-bottom:5px;">
-                                <inline
-                                    style="background-color: rgba(22, 30, 97, 0.521); border-radius:3px;">&nbsp</inline>
-                                <a href="{{ pub.link }}" target="_blank">{{
-                                    items[1] }}.</a></div>
-                            <div
-                                style="font-size:0.9em; font-weight: 350; margin-left:9px;">{{
-                                items[0] }}.</div>
-                            <div
-                                style="font-size:0.8em; font-style: italic; margin-bottom:20px;margin-left:9px;">{%
-                                for item in items offset:2 %}{{ item | replace:
-                                ".", "" }}. {% endfor %}</div>
-                            {% else %}
-                            <div
-                                style="font-size:1.1em; font-weight: 400; margin-bottom:5px;"><a
-                                    href="{{ pub.link }}" target="_blank">{{
-                                    items }}</a></div>
-                            {% endif %}
-                            {% else %}
-                            {% if items.size > 1 %}
-                            <div
-                                style="font-size:1.1em; font-weight: 400; margin-bottom:5px;">{{
-                                items[1] }}.</div>
-                            <div
-                                style="font-size:0.9em; font-weight: 350; margin-left:9px;">{{
-                                items[0] }}.</div>
-                            <div
-                                style="font-size:0.8em; font-style: italic; margin-bottom:20px;margin-left:9px;">{%
-                                for item in items offset:2 %}{{ item | replace:
-                                ".", "" }}. {% endfor %}</div>
-                            {% else %}
-                            <div
-                                style="font-size:1.1em; font-weight: 400; margin-bottom:5px;">{{
-                                items }}</div>
-                            {% endif %}
-                            {% endif %}
-                        </div>
+                        dates.name }}</div> -->
+
+                        <div style="margin-bottom:13px;"></div>
+                        <ul>
+                            {% for pub in dates.items %}
+                            {% assign items = pub.contents | replace: "?", " " |
+                            split: ". " %}
+                            <div style="margin-bottom: 10px;">
+                                {% if pub.link != null %}
+                                {% if items.size > 1 %}
+                                <div
+                                    style="font-size:1.1em; font-weight: 400; margin-bottom:5px;">
+                                    <inline
+                                        style="background-color: rgba(22, 30, 97, 0.521); border-radius:3px;">&nbsp</inline>
+                                    <a class="paperclick" href="{{ pub.link }}"
+                                        target="_blank">{{
+                                        items[1] }}.</a></div>
+                                <div class="paperclick"
+                                    style="font-size:0.9em; font-weight: 350; margin-left:9px;">{{
+                                    items[0] }}.</div>
+                                <div class="paperclick"
+                                    style="font-size:0.8em; font-style: italic; margin-bottom:20px;margin-left:9px;">{%
+                                    for item in items offset:2 %}{{ item |
+                                    replace:
+                                    ".", "" }}. {% endfor %}</div>
+                                {% else %}
+                                <div
+                                    style="font-size:1.1em; font-weight: 400; margin-bottom:5px;"><a
+                                        class="paperclick" href="{{ pub.link }}"
+                                        target="_blank">{{
+                                        items }}</a></div>
+                                {% endif %}
+                                {% else %}
+                                {% if items.size > 1 %}
+                                <div class="paperlist"
+                                    style="font-size:1.1em; font-weight: 400; margin-bottom:5px;">{{
+                                    items[1] }}.</div>
+                                <div class="paperlist"
+                                    style="font-size:0.9em; font-weight: 350; margin-left:9px;">{{
+                                    items[0] }}.</div>
+                                <div class="paperlist"
+                                    style="font-size:0.8em; font-style: italic; margin-bottom:20px;margin-left:9px;">{%
+                                    for item in items offset:2 %}{{ item |
+                                    replace:
+                                    ".", "" }}. {% endfor %}</div>
+                                {% else %}
+                                <div class="paperlist"
+                                    style="font-size:1.1em; font-weight: 400; margin-bottom:5px;">{{
+                                    items }}</div>
+                                {% endif %}
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        </ul>
                         {% endfor %}
-                    </ul>
+                        {% if class.name == "International Journal" %}<p>*:
+                            Equal
+                            contributors</p>{% endif %}
+                        <br>
+                    </div>
                     {% endfor %}
-                    {% if class.name == "International Journal" %}<p>*: Equal
-                        contributors</p>{% endif %}
-                    <br>
                 </div>
-                {% endfor %}
             </div>
         </div>
     </section>
