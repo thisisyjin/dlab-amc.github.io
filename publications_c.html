@@ -12,20 +12,26 @@ permalink: /publications_c/
     </header>
 
     <section class="wrapper style1 container special nav-container">
-        <div class="row" id ="research-row" >
+        <div class="row" id="research-row">
             <section id="nav-link-first">
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_j" class="nav-link"><span class="icon fa-solid fa-book"></span>Journal</a></li>
+                    <li><a href="{{site.baseurl}}/publications_j"
+                            class="nav-link"><span
+                                class="icon fa-solid fa-book"></span>Journal</a></li>
                 </ul>
             </section>
             <section>
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_c" class="nav-link active"><span class="icon fa-solid fa-building-columns"></span>Conference</a></li>
+                    <li><a href="{{site.baseurl}}/publications_c"
+                            class="nav-link active"><span
+                                class="icon fa-solid fa-building-columns"></span>Conference</a></li>
                 </ul>
             </section>
             <section>
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_p" class="nav-link"><span class="icon fa-regular fa-copyright"></span>Patent</a></li>
+                    <li><a href="{{site.baseurl}}/publications_p"
+                            class="nav-link"><span
+                                class="icon fa-regular fa-copyright"></span>Patent</a></li>
                 </ul>
             </section>
         </div>
@@ -37,11 +43,12 @@ permalink: /publications_c/
                 <div class="sidebar">
                     <section>
                         <div class="sidebar small-sidebar">
-                                {% assign cGroup = site.data.sheets.pub_c | group_by: "class" %}
+                            {% assign cGroup = site.data.sheets.pub_c |
+                            group_by: "class" %}
                             {% for class in cGroup %}
                             <a class="small-button"
-                                href="#{{ class.name | slugify }}">{{ class.name
-                                }}</a>
+                                href="#{{ class.name | slugify }}">
+                                {{ class.name}}</a>
                             {% endfor %}
                         </div>
                     </section>

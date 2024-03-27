@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dlab-amc.github.io/sitemap.xml
