@@ -1,28 +1,30 @@
 
 <!DOCTYPE html>
 <html>
-  
 
-{% include head.html %}
+  {% include head.html %}
+
+  <body class="index">
+
+    {% include header.html %}
+    {% include banner.html %}
+
+    {% include admission_popup.html %}
 
 
 
-<body class="index">
+    <div class="page-content">
+      {{ content }}
+    </div>
+    <button id="upButton" onclick="scrollToTop()"><span
+        class="icon fa-solid fa-arrow-up"
+        style="font-family: NanumSquareNeo-Variable;"><br>TOP</span></button>
 
-  {% include header.html %}
-  {% include banner.html %}
+    {% include footer.html %}
 
-  <div class="page-content">
-    {{ content }}
-  </div>
-  <button id="upButton" onclick="scrollToTop()"><span class="icon fa-solid fa-arrow-up"
-      style="font-family: NanumSquareNeo-Variable;"><br>TOP</span></button>
+  </body>
 
-  {% include footer.html %}
-
-</body>
-
-<script>
+  <script>
   // 스크롤 이벤트를 감지하여 헤더 위치 조정
   window.addEventListener("scroll", function () {
     const header = document.getElementById("header");
@@ -35,6 +37,26 @@
       image.style.maxHeight = "100px"; // 스크롤을 올릴 때 이미지 크기 복원
     }
   });
+
+
+  // 페이지 로드 시 팝업 열기
+window.addEventListener('load', function() {
+    document.getElementById('popup').style.display = 'block';
+});
+
+// 팝업 닫기
+document.getElementById('close').addEventListener('click', function() {
+    document.getElementById('popup').style.display = 'none';
+});
+
+// 팝업 외부 클릭 시 닫기
+window.addEventListener('click', function(event) {
+    if (event.target == document.getElementById('popup')) {
+        document.getElementById('popup').style.display = 'none';
+    }
+});
+
+
 </script>
 
 </html>

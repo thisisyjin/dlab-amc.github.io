@@ -1,0 +1,36 @@
+<!-- 팝업 -->
+<div id="popup" class="popup"
+  style="display: none; position: fixed; top:160px; bottom: 10px; left: 10px; height: 490px; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 10px; padding: 20px; max-width: 550px; overflow-y: hidden; z-index: 9999;">
+  <div class="popup-content">
+    <span class="close" id="close"
+      style="position: absolute; top: 5px; right: 5px; font-size: 16px; cursor: pointer;">&times;</span>
+
+    <img src="images\logo\AMC.png" alt="AMC_logo" class="popup-image"
+      style="display: block; margin: 0 auto;  margin-bottom: 10px;">
+
+
+    <h2 style="font-size: 16px;">서울아산병원 아산생명과학연구원<br>
+      울산의대 융합의학과 AMIST <br>
+      디지털메디신 연구실
+      대학원생 및 연구원 모집</h2>
+    <p class="small-text"
+      style="font-size: 12px; text-align: center; color: #888; margin-top: 5px;">자세한
+      내용은 아래 버튼을 클릭하세요.</p>
+
+      <button onclick="redirectToAdmissionGuide()"
+        style="display: block; margin: 0 auto; padding: 10px 20px; background-color: #007bff; color: #fff; border: none; border-radius: 5px; cursor: pointer;">자세히</button>
+
+  </div>
+</div>
+
+<script>
+  // admission_guide 페이지로 이동하는 함수
+  function redirectToAdmissionGuide() {
+      window.location.href = 'htmls\\admission_guide.html';
+  }
+
+  // 팝업 닫기
+  document.getElementById('close').addEventListener('click', function() {
+      document.getElementById('popup').style.display = 'none';
+  });
+</script>
