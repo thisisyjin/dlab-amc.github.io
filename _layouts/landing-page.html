@@ -9,7 +9,7 @@
     {% include header.html %}
     {% include banner.html %}
 
-    {% include admission_popup.html %}
+    <!-- {% include admission_popup.html %} -->
 
 
     <div class="page-content">
@@ -38,22 +38,22 @@
   });
 
 
-  // 페이지 로드 시 팝업 열기
-window.addEventListener('load', function() {
-    document.getElementById('popup').style.display = 'block';
-});
+//   // 페이지 로드 시 팝업 열기
+// window.addEventListener('load', function() {
+//     document.getElementById('popup').style.display = 'block';
+// });
 
-// 팝업 닫기
-document.getElementById('close').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'none';
-});
+// // 팝업 닫기
+// document.getElementById('close').addEventListener('click', function() {
+//     document.getElementById('popup').style.display = 'none';
+// });
 
-// 팝업 외부 클릭 시 닫기
-window.addEventListener('click', function(event) {
-    if (event.target == document.getElementById('popup')) {
-        document.getElementById('popup').style.display = 'none';
-    }
-});
+// // 팝업 외부 클릭 시 닫기
+// window.addEventListener('click', function(event) {
+//     if (event.target == document.getElementById('popup')) {
+//         document.getElementById('popup').style.display = 'none';
+//     }
+// });
 
 
 </script>
