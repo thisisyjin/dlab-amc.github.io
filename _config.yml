@@ -3,7 +3,7 @@ title: D.Lab dlab amc
 subtitle: Digital Medicine Laboratory @ Asan Medical Center 
 description: "안녕하세요! 서울아산병원 디지털메디슨 연구실에 오신 여러분을 환영합니다."
 url: "https://dlab-amc.github.io/"
-baseurl: "https://dlab-amc.github.io/"
+# baseurl: "https://dlab-amc.github.io/"
 teaser: "/images/logo/new_logo.jpg"
 logo: "/images/logo/new_logo.jpg"
 lang: "ko_KR"
