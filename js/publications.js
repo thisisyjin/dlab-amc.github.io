@@ -477,7 +477,8 @@ function journalKCI() {
 
 function confernceAll() {
   resetButtons()
-  const papers = `Hyeon Seok Seok, Yuna Choi, Sollip Kim, Hangsik Shin, "Deep Learning-Based Sample Mix-Up Error Detection in Clinical Chemistry Test," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
+  const papers = `Hyeon Seok Seok, Shinae Yu, Kyung-Hwa Shin, Woochang Lee, Sollip Kim, Hangsik Shin, "AI-based Approach for Detecting Sample Misidentification Errors in Alpha-fetoprotein with Multi-Center Validation," Cherry Blossom Symposium 2024 (CBS 2024) The 13th International Conference of Clinical Laboratory Automation, The-K Hotel, South Korea, 21 Mar 2024   
+  Hyeon Seok Seok, Yuna Choi, Sollip Kim, Hangsik Shin, "Deep Learning-Based Sample Mix-Up Error Detection in Clinical Chemistry Test," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
   Jaehyung Lee, Oh-Seok Kwon, Ye Eun Choi, Hangsik Shin, Hui-Nam Pak, "Atrial Fibrillation Diagnosis Using Machine Learning: Leveraging Minimal Health Data from UK Biobank," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
   Ga Yeon Ryu, Hyeon Seok Seok, Hangsik Shin, Byung-Moon Choi and Jae Moon Choi, "Ectopic Beat Correction Strategies for Accurate Heart Rate Variability Analysis," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
   Changwon Wang, Hamin Lim, Sung Woo Joo, Jungsun Lee, Hangsik Shin, "Investigating Abnormal Behavior Patterns in Psychiatric Inpatients," IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI’23), Pittsburgh, USA, 10-18 Sep 2023
@@ -693,7 +694,8 @@ function confernceAll() {
 
 function confernceInter() {
   resetButtons()
-  const papers = `  Hyeon Seok Seok, Yuna Choi, Sollip Kim, Hangsik Shin, "Deep Learning-Based Sample Mix-Up Error Detection in Clinical Chemistry Test," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
+  const papers = `Hyeon Seok Seok, Shinae Yu, Kyung-Hwa Shin, Woochang Lee, Sollip Kim, Hangsik Shin, "AI-based Approach for Detecting Sample Misidentification Errors in Alpha-fetoprotein with Multi-Center Validation," Cherry Blossom Symposium 2024 (CBS 2024) The 13th International Conference of Clinical Laboratory Automation, The-K Hotel, South Korea, 21 Mar 2024
+  Hyeon Seok Seok, Yuna Choi, Sollip Kim, Hangsik Shin, "Deep Learning-Based Sample Mix-Up Error Detection in Clinical Chemistry Test," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
   Jaehyung Lee, Oh-Seok Kwon, Ye Eun Choi, Hangsik Shin, Hui-Nam Pak, "Atrial Fibrillation Diagnosis Using Machine Learning: Leveraging Minimal Health Data from UK Biobank," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
   Ga Yeon Ryu, Hyeon Seok Seok, Hangsik Shin, Byung-Moon Choi and Jae Moon Choi, "Ectopic Beat Correction Strategies for Accurate Heart Rate Variability Analysis," IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023
   Changwon Wang, Hamin Lim, Sung Woo Joo, Jungsun Lee, Hangsik Shin, "Investigating Abnormal Behavior Patterns in Psychiatric Inpatients," IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI’23), Pittsburgh, USA, 10-18 Sep 2023
