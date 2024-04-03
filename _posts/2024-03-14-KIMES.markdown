@@ -3,7 +3,7 @@ layout: post
 title:  "국제의료기기병원설비 전시회(KIMES 2024)"
 date:   2024-03-14 13:36:23
 featured-img: "/images/posts/2403/240314_KIMES.JPG"
-short-content: "KIMES 2024 참석 및 킥오프 회식"
+short-content: "KIMES 2024 참석 및 회식"
 comments : true
 ---
 
@@ -14,7 +14,7 @@ comments : true
 
 <span class="image featured"><img src="/images/posts/2403/240314_KIMES.JPG" alt="" style='height: 400px; object-fit: contain;'></span>
 
-전시회 구경 후, '무탄'에서 DLAB의 킥오프 회식을 즐기고 왕창원 박사님의 생일을 축하하는 시간을 가졌습니다.
+전시회 구경 후, '무탄'에서 DLAB의 회식을 즐기고 왕창원 박사님의 생일을 축하하는 시간을 가졌습니다.
 
 <span class="image featured"><img src="/images/posts/2403/240314_WangBirthday.JPG" alt="" style='height: 400px; object-fit: contain;'></span>
 
