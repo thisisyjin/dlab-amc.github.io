@@ -8,9 +8,9 @@ comments : true
 ---
 
 
-서울 아산병원 Digital Medicine Lab 송년회를 하였습니다.
-건강상의 이유로 불참한 인원이 있어 아쉬웠지만 한해를 마무리하는 자리가 되었습니다!
-모두 새해에도 좋은일만 가득하길 바랍니다!
+서울 아산병원 DLab은 한 해를 마무리하는 송년회를 진행하였습니다.
+
+지난 한 해 동안의 성과를 돌아보고 새로운 해에 대한 소망과 계획을 함께 공유하는 소중한 시간이었습니다.
 
 
 <span class="image featured"><img src="/images/posts/2312/송년회_231228.jpeg" alt="" style='height: 400px; object-fit: contain;'></span>
