@@ -6,6 +6,7 @@ permalink: /publications_p/
 
 <span id="content"></span>
 
+<span id="top"></span>
 <article id="main">
     <header class="special container">
         <!-- <span class="icon fa-solid fa-scroll"></span> -->
@@ -13,23 +14,28 @@ permalink: /publications_p/
     </header>
 
     <section class="wrapper style1 container special nav-container">
-        <div class="row" id ="research-row" >
+        <div class="row" id="research-row">
             <section id="nav-link-first">
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_j" class="nav-link"><span class="icon fa-solid fa-book"></span>Journal</a></li>
+                    <li><a href="{{site.baseurl}}/publications_j"
+                            class="nav-link"><span
+                                class="icon fa-solid fa-book"></span>Journal</a></li>
                 </ul>
             </section>
 
-           
             <section>
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_c" class="nav-link"><span class="icon fa-solid fa-building-columns"></span>Conference</a></li>
+                    <li><a href="{{site.baseurl}}/publications_c"
+                            class="nav-link"><span
+                                class="icon fa-solid fa-building-columns"></span>Conference</a></li>
                 </ul>
             </section>
-        
+
             <section>
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_p" class="nav-link active"><span class="icon fa-regular fa-copyright"></span>Patent</a></li>
+                    <li><a href="{{site.baseurl}}/publications_p"
+                            class="nav-link active"><span
+                                class="icon fa-regular fa-copyright"></span>Patent</a></li>
                 </ul>
             </section>
         </div>
@@ -37,11 +43,13 @@ permalink: /publications_p/
 
     <section class="wrapper style4 container">
         <div class="row oneandhalf">
+
             <div class="2u">
                 <div class="sidebar">
                     <section>
                         <div class="sidebar small-sidebar">
-                                {% assign cGroup = site.data.sheets.pub_p | group_by: "class" %}
+                            {% assign cGroup = site.data.sheets.pub_p |
+                            group_by: "class" %}
                             {% for class in cGroup %}
                             <a class="small-button"
                                 href="#{{ class.name | slugify }}">{{ class.name
@@ -112,7 +120,7 @@ permalink: /publications_p/
 </article>
 
 <script>
-    // JavaScript to toggle active class on sidebar link click
+    // JavaScript to handle scrolling to the top when clicking on the specified section
     const sidebarLinks = document.querySelectorAll('.sidebar a');
     const classSections = document.querySelectorAll('.class-section');
 
@@ -130,6 +138,30 @@ permalink: /publications_p/
                 sidebarLink.classList.remove('active');
             });
             this.classList.add('active');
+
+            // Scroll to the top of the page
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         });
     });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const sidebarButtons = document.querySelectorAll('.sidebar .small-button');
+
+        sidebarButtons.forEach(button => {
+            button.addEventListener('click', function (event) {
+                event.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+
+
+
 </script>

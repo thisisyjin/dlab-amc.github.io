@@ -1473,6 +1473,13 @@ a.small-button.clicked {
   background: #036166;
 }
 
+.sidebar .small-button.active {
+  background: #036166; /* Change to your desired color */
+  color: #ffffff; /* Change to your desired color */
+}
+
+
+
 #my_div {
   margin-left: 5px;
   /* padding: 20px; */
