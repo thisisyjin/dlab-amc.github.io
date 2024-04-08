@@ -1478,8 +1478,6 @@ a.small-button.clicked {
   color: #ffffff; /* Change to your desired color */
 }
 
-
-
 #my_div {
   margin-left: 5px;
   /* padding: 20px; */
@@ -2675,27 +2673,34 @@ hr {
   background-color: #9b9b9b44;
 }
 
-
-
 /* 팝업 스타일 */
 .popup {
   display: none;
   position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
   width: 100%;
-  height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5); /* 배경을 반투명하게 설정 */
+  position: fixed;
+  top: 160px;
+  /* bottom: 10px; */
+  left: 10px;
+  /* height: 460px; */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0;
+  max-width: 640px;
+  overflow-y: hidden;
+  z-index: 9999;
 }
 
 .popup-content {
   background-color: #fefefe; /* 팝업 내용의 배경색 */
-  margin: 15% auto; /* 화면 중앙에서의 위치 조정 */
-  padding: 20px;
+  margin: 4% auto; /* 화면 중앙에서의 위치 조정 */
+  padding: 20px; /* 패딩을 위아래 20px, 양 옆 20px로 설정합니다. */
   border: 1px solid #888;
-  width: 80%; /* 팝업 창의 너비 */
+  width: 94%; /* 팝업 창의 너비 */
+  height: 50%;
 }
 
 .close {
@@ -2703,6 +2708,10 @@ hr {
   float: right;
   font-size: 28px;
   font-weight: bold;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  cursor: pointer;
 }
 
 .close:hover,

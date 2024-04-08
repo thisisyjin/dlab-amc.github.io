@@ -1,9 +1,8 @@
 <!-- 팝업 -->
-<div id="popup" class="popup"
-  style="display: none; position: fixed; top:160px; bottom: 10px; left: 10px; height: 490px; background-color: #f9f9f9; border: 1px solid #ddd; border-radius: 10px; padding: 20px; max-width: 550px; overflow-y: hidden; z-index: 9999;">
+<div id="popup" class="popup">
+
   <div class="popup-content">
-    <span class="close" id="close"
-      style="position: absolute; top: 5px; right: 5px; font-size: 16px; cursor: pointer;">&times;</span>
+    <span class="close" id="close">&times;</span>
 
     <img src="images\logo\AMC.png" alt="AMC_logo" class="popup-image"
       style="display: block; margin: 0 auto;  margin-bottom: 10px;">
@@ -33,4 +32,6 @@
   document.getElementById('close').addEventListener('click', function() {
       document.getElementById('popup').style.display = 'none';
   });
+
+
 </script>
