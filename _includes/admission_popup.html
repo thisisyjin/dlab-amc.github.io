@@ -1,24 +1,21 @@
 <!-- 팝업 -->
 <div id="popup" class="popup">
-
   <div class="popup-content">
     <span class="close" id="close">&times;</span>
 
-    <img src="images\logo\AMC.png" alt="AMC_logo" class="popup-image"
-      style="display: block; margin: 0 auto;  margin-bottom: 10px;">
+    <div class="popup-image-container" style="margin-bottom: 15px; margin-top: 15px;">
+      <img src="images\logo\UOU.png" alt="UOU_logo" class="popup-image" style="display: inline-block; width: 45%; margin-right: 5%; height: 43.32px;">
+      <img src="images\logo\AMC.png" alt="AMC_logo" class="popup-image" style="display: inline-block; width: 45%; height: auto;">
+    </div>
 
-
-    <h2 style="font-size: 16px;">서울아산병원 아산생명과학연구원<br>
-      울산의대 융합의학과 AMIST <br>
-      디지털메디신 연구실
-      대학원생 및 연구원 모집</h2>
-    <p class="small-text"
-      style="font-size: 12px; text-align: center; color: #888; margin-top: 5px;">자세한
+    <h2 style="font-size: 16px; margin-bottom: 10px; text-align: center;">울산대학교 의과대학 서울아산병원<br>
+      디지털메디신 연구실 대학원생 및 연구원 모집<br>
+    </h2>
+    <p class="small-text" style="font-size: 12px; text-align: center; color: #888; margin-top: 5px; margin-bottom: 15px;">자세한
       내용은 아래 버튼을 클릭하세요.</p>
 
-      <button onclick="redirectToAdmissionGuide()"
-        style="display: block; margin: 0 auto; padding: 10px 20px; background-color: #036166; color: #fff; border: none; border-radius: 5px; cursor: pointer;">자세히</button>
-
+    <button onclick="redirectToAdmissionGuide()"
+      style="display: block; margin: 0 auto; padding: 10px 20px; background-color: #036166; color: #fff; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 5px;">자세히</button>
   </div>
 </div>
 
@@ -32,6 +29,4 @@
   document.getElementById('close').addEventListener('click', function() {
       document.getElementById('popup').style.display = 'none';
   });
-
-
 </script>
