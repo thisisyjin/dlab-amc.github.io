@@ -2686,7 +2686,7 @@ hr {
   border: 1px solid #ddd;
   border-radius: 3px;
   padding: 0;
-  max-width: 640px;
+  max-width: 420px;
   overflow-y: hidden;
   z-index: 9999;
 }
@@ -2706,8 +2706,8 @@ hr {
   font-size: 28px;
   font-weight: bold;
   position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 24px;
+  right: 28px;
   cursor: pointer;
 }
 
