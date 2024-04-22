@@ -9,7 +9,6 @@
     {% include header.html %}
     {% include banner.html %}
 
-
     <div class="page-content">
       {{ content }}
     </div>
@@ -18,6 +17,8 @@
         style="font-family: NanumSquareNeo-Variable;"><br>TOP</span></button>
 
     {% include footer.html %}
+
+    {% include admission_popup.html %}
 
   </body>
 
@@ -35,11 +36,21 @@
     }
   });
 
+  // 페이지 로드 시 실행되는 함수
+  window.addEventListener('load', function() {
+    // 팝업 닫기 이벤트
+    document.getElementById('close').addEventListener('click', function() {
+      document.getElementById('popup').style.display = 'none';
+    });
 
-// 페이지 로드 시 팝업 열기
-window.addEventListener('load', function() {
+    // 페이지 로드 시 팝업 열기
     document.getElementById('popup').style.display = 'block';
-});
+  });
+
+  // admission_guide 페이지로 이동하는 함수
+  function redirectToAdmissionGuide() {
+    window.location.href = 'htmls\\admission_guide.html';
+  }
 </script>
 
 </html>
