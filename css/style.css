@@ -3,24 +3,24 @@
 
 @font-face {
   font-family: "NanumSquareNeo-Variable";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
-    format("woff2");
+  src: url("\\fonts\\NanumSquareR.ttf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "TAEBAEKfont";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2")
-    format("woff2");
+  src: url("\\fonts\\TAEBAEK font.ttf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "TAEBAEKmilkyway";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2")
-    format("woff2");
+  src: url("\\fonts\\TAEBAEK milkyway.ttf")
+    format("truetype");
   font-weight: normal;
   font-style: normal;
 }
