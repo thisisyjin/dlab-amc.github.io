@@ -2618,16 +2618,13 @@ a.small-button.clicked {
 }
 
 #tags {
-  border-radius: 10px;
-  padding: 7px;
-  /* padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 10px;
-	padding-left : 10px; */
   text-align: center;
-  /* background-color: #00000011; */
   color: #949090;
-  font-size: 21px;
+  font-size: 18px;
+}
+
+#tags:last-child {
+  margin-right: 0; /* 마지막 요소의 마진을 0으로 설정하여 오른쪽 여백 제거 */
 }
 
 #tags:hover {
