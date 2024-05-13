@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "우수 논문상 수상 [Best Paper]" 
+title:  "우수 논문상 [Best Paper]" 
 date:   2023-11-28 10:00:00
 featured-img: "/images/posts/2311/우수논문상_임하민.png"
 short-content: "전기학회 논문지 2023년 11월호 우수 논문상" 

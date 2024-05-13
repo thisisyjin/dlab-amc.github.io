@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "우수편집인상 수상 [Best Editor Award]" 
+title:  "우수 편집인상 [Best Editor Award]" 
 date:   2022-12-09 10:00:00
 featured-img: "/images/posts/2212/우수편집인상_221209.png"
 short-content: "대한전기학회 우수편집인상 수상" 

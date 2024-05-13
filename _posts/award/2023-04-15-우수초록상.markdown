@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "우수초록상 수상 [Best Abstract Award]" 
+title:  "우수 초록상 [Best Abstract Award]" 
 date:   2023-04-15 10:00:00
 featured-img: "/images/posts/2304/우수초록상-230415.png"
-short-content: "대한마취약리학회 우수초록상 수상" 
+short-content: "대한마취약리학회 우수 초록상 수상" 
 comments: true
 ---
 

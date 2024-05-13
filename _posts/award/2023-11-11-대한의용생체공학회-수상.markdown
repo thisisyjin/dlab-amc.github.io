@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "우수 포스터 논문상 수상 [Best Poster Paper]" 
+title:  "우수 포스터 논문상 [Best Poster Paper]" 
 date:   2023-11-11 10:00:00
 featured-img: "/images/posts/2311/대한의용생체공학회_참가사진.jpeg"
 short-content: "대한의용생체공학회 2023년 추계학술대회 우수 포스터 논문상 수상" 

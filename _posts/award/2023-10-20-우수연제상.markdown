@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "우수연제상 수상 [Best Oral Presentation]" 
+title:  "우수연제상 [Best Oral Presentation]" 
 date:   2023-10-20 10:00:00
 featured-img: "/images/posts/2310/우수연제상-231020.png"
-short-content: "대한진단검사의학회 우수연제상" 
+short-content: "대한진단검사의학회 우수 연제상" 
 comments: true
 ---
 

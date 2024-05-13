@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "국제의료기기병원설비 전시회(KIMES 2024)"
+title:  "국제의료기기병원설비 전시회 [KIMES 2024]"
 date:   2024-03-14 13:36:23
 featured-img: "/images/posts/2403/240314_KIMES.JPG"
 short-content: "KIMES 2024 참석 및 회식"
