@@ -7,8 +7,8 @@ short-content: "2024 대한의용생체공학회 춘계학술대회 참석"
 comments : true
 ---
 
-5월 9일부터 11일까지 연세대학교 미래캠퍼스에서 열린 대한의용생체공학회 춘계학술대회 참석하였습니다.
-
+5월 9일부터 11일까지 연세대학교 미래캠퍼스에서 열린 대한의용생체공학회 춘계학술대회 참석하였습니다. 
+ 
 포스터 발표(왕창원, 류가연, 임하민)와 의공학 강연을 들으며 배우고 성장하는 시간을 가졌습니다🤓📝
 
 <span class="image featured"><img src="/images/posts/2405/240511_kosombe (1).JPG" alt="" style='height: 400px; object-fit: contain;'></span>
