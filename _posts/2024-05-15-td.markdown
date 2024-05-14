@@ -11,4 +11,8 @@ comments : true
 
 교수님, 항상 감사드립니다😊
 
-<span class="image featured"><img src="/images/posts/2405/td2.png" alt="" style='height: 400px; object-fit: contain;'></span>
+
+<div style="display: flex; justify-content: center;">
+    <span class="image featured" style="margin-right: 10px;"><img src="/images/posts/2405/240515_td (1).jpeg" alt="" style='height: 400px; object-fit: contain;'></span>
+    <span class="image featured"><img src="/images/posts/2405/240515_td (2).jpeg" alt="" style='height: 400px; object-fit: contain;'></span>
+</div>
