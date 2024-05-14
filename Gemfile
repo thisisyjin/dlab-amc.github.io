@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem 'jekyll-watch'
   gem 'kramdown'
   gem 'rouge'
+  gem 'jekyll-sitemap'
 end
 
 gem 'github-pages', group: :jekyll_plugins  # Use 'github-pages' gem for GitHub Pages compatibility

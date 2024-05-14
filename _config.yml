@@ -14,3 +14,7 @@ search_full_content: true
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
