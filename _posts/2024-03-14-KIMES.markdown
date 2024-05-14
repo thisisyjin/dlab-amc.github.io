@@ -12,9 +12,12 @@ comments : true
 
 'KIMES'에서는 4차 산업혁명시대의 의료 산업에서 선보이는 신기술과 신제품들을 경험할 수 있었습니다:)
 
-<span class="image featured"><img src="/images/posts/2403/240314_KIMES.JPG" alt="" style='height: 400px; object-fit: contain;'></span>
-
 전시회 구경 후, '무탄'에서 회식의 시간을 가졌습니다🤩.
 
-<span class="image featured"><img src="/images/posts/2403/240314_WangBirthday.JPG" alt="" style='height: 400px; object-fit: contain;'></span>
+<br>
 
+<div style="display: flex; justify-content: center;">
+    <span class="image featured" style="margin-right: 10px;"><img src="/images/posts/2403/240314_WangBirthday.JPG" alt="" style='height: 400px; object-fit: contain;'></span>
+    <span class="image featured" style="margin-right: 10px;"><img src="/images/posts/2403/240314_KIMES.JPG" alt="" style='height: 400px; object-fit: contain;'></span>
+    <span class="image featured"><img src="/images/posts/2403/240314_kimes2.jpeg" alt="" style='height: 400px; object-fit: contain;'></span>
+</div>
