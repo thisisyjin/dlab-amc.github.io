@@ -16,8 +16,3 @@ comments : true
 
 
 
-<div style="display: flex;">
-    <span class="image featured" style="margin-right: 10px;"><img src="/images/posts/2405/240511_kosombe (1).JPG" alt="" style='height: 400px; object-fit: contain;'></span>
-     <span class="image featured" style="margin-right: 10px;"><img src="/images/posts/2405/240511_kosombe (1).JPG" alt="" style='height: 400px; object-fit: contain;'></span>
-    <span class="image featured"><img src="/images/posts/2405/240511_kosombe (2).JPG" alt="" style='height: 400px; object-fit: contain;'></span>
-</div>
