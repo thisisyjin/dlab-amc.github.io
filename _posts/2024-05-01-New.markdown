@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "신규 연구원 [New Researcher]"
+title:  "신규 연구원 [New Researchers]"
 date:   2024-05-01 13:36:23
 featured-img: "/images/posts/2405/new_researcher0.png"
 short-content: "유지원, 한유진, 전경인 연구원 합류"
