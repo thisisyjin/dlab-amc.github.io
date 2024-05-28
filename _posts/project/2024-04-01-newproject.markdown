@@ -2,11 +2,15 @@
 layout: post 
 title:  "과제 선정 [New Project]"
 date:   2024-04-01 13:36:23
-featured-img: "/images/posts/2405/newproject.jpg"
+featured-img: "/images/posts/2405/np.jpg"
 short-content: "한국산업기술기획평가원 과제 선정"
 comments : true
 ---
 
-2024년 4월부터 2026년 12월까지 진행되는 한국산업기술기획평가원의 '다중 생체신호계측 및 대면 진료 수준 실감 상호작용 신체 검진 가능한 로봇 원격진료실 개발' 과제에 선정되었습니다🎊
+2024년 4월부터 2026년 12월까지 진행되는 한국산업기술기획평가원의 '로봇산업기술개발(R&D) 사업'에 최종 선정되었습니다🎊
 
-<span class="image featured"><img src="/images/posts/2405/np.jpg" alt="" style='height: 400px; object-fit: contain;'></span>
+DLab은 해당 기간동안 '다중 생체신호계측 및 대면 진료 수준 실감 상호작용 신체 검진 가능한 로봇 원격진료실 개발' 연구를 진행할 예정입니다😊
+
+<br>
+
+<span class="image featured"><img src="/images/posts/2405/np1.jpg" alt="" style='height: 200px; object-fit: contain;'></span>

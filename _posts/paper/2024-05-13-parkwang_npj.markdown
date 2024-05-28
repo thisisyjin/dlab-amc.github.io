@@ -15,6 +15,7 @@ npj Digital Medicine의 IF(Impact Factor)는 15.3으로 디지털 의학 분야�
 
 논문 게재를 축하드립니다🥳🎉
 
+<br>
 
 <span class="image featured"><img src="/images/posts/2405/npj.png" alt="" style='height: 300px; object-fit: contain;'></span>
 
