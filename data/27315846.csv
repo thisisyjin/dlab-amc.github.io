@@ -1,0 +1,192 @@
+﻿Age,44,,
+Gender,Male,,
+Height,"5' 8.1""",,
+Weight,172,,
+BMI,26.1,,
+SleepSummary,TotalRecordingTime,457.8,
+SleepSummary,SleepPeriod,447,
+SleepSummary,WakeAfterSleepOnset,94.8,
+SleepSummary,TotalSleepTime,355,
+SleepSummary,SleepOnset,8,
+SleepSummary,SleepEfficiency,77.6,
+SleepSummary,NumberofAwakenings,71,
+SleepSummary,SleepLatencytoN1,8,
+SleepSummary,SleepLatencytoN2,24,
+SleepSummary,SleepLatencytoN3(SWS),0,
+SleepSummary,StageRLatencyfromSleepOnset,187,
+SleepSummary,Apnea+Hypopnea(A+H),ObstructiveApnea,276
+SleepSummary,Apnea+Hypopnea(A+H),CentralApnea,0
+SleepSummary,Apnea+Hypopnea(A+H),MixedApnea,0
+SleepSummary,Hypopnea(All),ObstructiveHypopnea,-
+SleepSummary,Hypopnea(All),CentralHypopnea,-
+SleepSummary,Hypopnea(All),MixedHypopnea,-
+SleepSummary,RDI,0,
+SleepSummary,OxygenDesaturationEvents(OD),253,
+SleepSummary,SnoreTime,104.7,
+SleepSummary,LimbMovement,32,
+SleepSummary,PLMS,0,
+Sleep Information,N1 Minutes,149.5,
+Sleep Information,N2 Minutes,173,
+Sleep Information,N3 Minutes,0,
+Sleep Information,R Minutes,32.5,
+Sleep Information,Wake Minutes,102.8,
+Sleep Information,N1 % of TST,42.1,
+Sleep Information,N2 % of TST,48.7,
+Sleep Information,N3 % of TST,-,
+Sleep Information,R % of TST,9.2,
+Sleep Information,Wake % of TST,-,
+Sleep Information,N1 % of Sleep Period,33.4,
+Sleep Information,N2 % of Sleep Period,38.7,
+Sleep Information,N3 % of Sleep Period,-,
+Sleep Information,R % of Sleep Period,7.3,
+Sleep Information,Wake % of Sleep Period,21.2,
+Arousal Statistics, Arousals,Number,18
+Arousal Statistics, Arousals,Index,3
+Arousal Statistics, Apnea Arousals,Number,0
+Arousal Statistics, Apnea Arousals,Index,0
+Arousal Statistics, LM Arousals,Number,0
+Arousal Statistics, LM Arousals,Index,0
+Arousal Statistics, Desaturation Arousals,Number,0
+Arousal Statistics, Desaturation Arousals,Index,0
+Arousal Statistics, Respiratory Arousals,Number,260
+Arousal Statistics, Respiratory Arousals,Index,43.9
+Arousal Statistics, User Defined Arousals,Number,0
+Arousal Statistics, User Defined Arousals,Index,0
+Arousal Statistics, Spontaneous Arousals,Number,0
+Arousal Statistics, Spontaneous Arousals,Index,0
+Arousal Statistics, Hypopnea Arousals,Number,0
+Arousal Statistics, Hypopnea Arousals,Index,0
+Arousal Statistics, PLM Arousals,Number,0
+Arousal Statistics, PLM Arousals,Index,0
+Arousal Statistics, Snore Arousals,Number,0
+Arousal Statistics, Snore Arousals,Index,0
+Arousal Statistics, RERA,Number,0
+Arousal Statistics, RERA,Index,0
+Arousal Statistics, Total Arousals,Number,278
+Arousal Statistics, Total Arousals,Index,47
+Snoring Statistics, Snoring Time,104.7,
+Snoring Statistics, Relative Snoring Time,29.5,
+Snoring Statistics, Number of Snoring Episodes,220,
+Snoring Statistics, Average Snoring Episode Duration,0.5,
+Snoring Statistics, Longest Snoring Episode,2.7,
+Flattening Statistics, Number of breaths detected,3137,
+Flattening Statistics, Breaths below threshold,167,
+SpO2 Statistics, Mean Oxygen Saturation,95,
+SpO2 Statistics, Lowest Oxygen Saturation,66,
+SpO2 Statistics, Average Desaturation,9.9,
+SpO2 Statistics, Saturation < 90%,36.5,
+SpO2 Statistics, Saturation < 80%,1,
+SpO2 Statistics, Saturation < 70%,0.2,
+SpO2 Statistics, Average Oxygen Saturation during wake,96,
+SpO2 Statistics, Average Oxygen Saturation during REM,93.1,
+SpO2 Statistics, Average Oxygen Saturation during NREM,95.2,
+Heart Rate Statistics, Total, Mean,70
+Heart Rate Statistics, Total, STD,9
+Heart Rate Statistics, Total, Min,32.2
+Heart Rate Statistics, Total, Max,122
+Heart Rate Statistics, Supine, Mean,70
+Heart Rate Statistics, Supine, STD,9
+Heart Rate Statistics, Supine, Min,32.2
+Heart Rate Statistics, Supine, Max,122
+Heart Rate Statistics, Non-Supine, Mean,81.2
+Heart Rate Statistics, Non-Supine, STD,4.9
+Heart Rate Statistics, Non-Supine, Min,71.3
+Heart Rate Statistics, Non-Supine, Max,90.9
+Heart Rate Statistics, REM, Mean,68.3
+Heart Rate Statistics, REM, STD,8.5
+Heart Rate Statistics, REM, Min,50.7
+Heart Rate Statistics, REM, Max,106.8
+Heart Rate Statistics, NREM, Mean,68.6
+Heart Rate Statistics, NREM, STD,8.1
+Heart Rate Statistics, NREM, Min,38.1
+Heart Rate Statistics, NREM, Max,96.8
+Cardiac Events, Average Heart Rate during Sleep,68.57,
+Cardiac Events, Highest Heart Rate during Sleep,106.81,
+Cardiac Events, Highest Heart Rate during Recording,122.01,
+Cardiac Events, Lowest Heart Rate during Sleep,38.15,
+Cardiac Events, Lowest Heart Rate during Recording,32.23,
+Cardiac Events, Asystole,0,
+Cardiac Events, Sinus Tachycardia,0,
+Cardiac Events, Narrow Complex Tachycardia,0,
+Cardiac Events, Wide Complex Tachycardia,0,
+Cardiac Events, Bradycardia,0,
+Cardiac Events, Atrial Fibrillation,0,
+Cardiac Events, Other Arrhythmia,0,
+PLM Statistics,LM/RRLM, Number,32
+PLM Statistics,LM/RRLM, Index,5.4
+PLM Statistics,LM/RRLM,During PLM_Number,0
+PLM Statistics,LM/RRLM,During PLM_Index,0
+PLM Statistics,LM with Arousals, Number,0
+PLM Statistics,LM with Arousals, Index,0
+PLM Statistics,LM with Arousals,During PLM_Number,0
+PLM Statistics,LM with Arousals,During PLM_Index,0
+PLM Statistics,RRLM, Number,0
+PLM Statistics,RRLM, Index,0
+PLM Statistics,RRLM,During PLM_Number,0
+PLM Statistics,RRLM,During PLM_Index,0
+PLM Statistics,LM with no association, Number,32
+PLM Statistics,LM with no association, Index,5.4
+PLM Statistics,LM with no association,During PLM_Number,0
+PLM Statistics,LM with no association,During PLM_Index,0
+PLM Statistics,LM/RRLM during N1, Number,15
+PLM Statistics,LM/RRLM during N1, Index,6
+PLM Statistics,LM/RRLM during N1,During PLM_Number,0
+PLM Statistics,LM/RRLM during N1,During PLM_Index,0
+PLM Statistics,LM/RRLM during N2, Number,13
+PLM Statistics,LM/RRLM during N2, Index,4.5
+PLM Statistics,LM/RRLM during N2,During PLM_Number,0
+PLM Statistics,LM/RRLM during N2,During PLM_Index,0
+PLM Statistics,LM/RRLM during N3, Number,0
+PLM Statistics,LM/RRLM during N3, Index,0
+PLM Statistics,LM/RRLM during N3,During PLM_Number,0
+PLM Statistics,LM/RRLM during N3,During PLM_Index,0
+PLM Statistics,LM/RRLM during R, Number,4
+PLM Statistics,LM/RRLM during R, Index,7.4
+PLM Statistics,LM/RRLM during R,During PLM_Number,0
+PLM Statistics,LM/RRLM during R,During PLM_Index,0
+PLM Statistics,LM/RRLM,Total Number,32
+PLM Statistics,LM/RRLM,Index,5.4
+PLM Statistics,LM/RRLM,Mean Duration,3.6
+PLM Statistics,LM/RRLM,Minimum Duration,1.5
+PLM Statistics,LM/RRLM,Maximum Duration,5.8
+PLM Statistics,LM/RRLM in PLM,Total Number,0
+PLM Statistics,LM/RRLM in PLM,Index,0
+PLM Statistics,LM/RRLM in PLM,Mean Duration,0
+PLM Statistics,LM/RRLM in PLM,Minimum Duration,0
+PLM Statistics,LM/RRLM in PLM,Maximum Duration,0
+PLM Statistics,PLM-sequences,Total Number,0
+PLM Statistics,PLM-sequences,Index,0
+PLM Statistics,PLM-sequences,Mean Duration,0
+PLM Statistics,PLM-sequences,Minimum Duration,0
+PLM Statistics,PLM-sequences,Maximum Duration,0
+Position Statistics, Supine, Index time,355
+Position Statistics, Supine, Relative,100
+Position Statistics, Supine, Transitions,-
+Position Statistics, Supine, A+H/h,50.7
+Position Statistics, Left, Index time,0
+Position Statistics, Left, Relative,0
+Position Statistics, Left, Transitions,-
+Position Statistics, Left, A+H/h,-
+Position Statistics, Prone, Index time,0
+Position Statistics, Prone, Relative,0
+Position Statistics, Prone, Transitions,-
+Position Statistics, Prone, A+H/h,-
+Position Statistics, Right, Index time,0
+Position Statistics, Right, Relative,0
+Position Statistics, Right, Transitions,-
+Position Statistics, Right, A+H/h,-
+Position Statistics, Upright, Index time,0
+Position Statistics, Upright, Relative,0
+Position Statistics, Upright, Transitions,-
+Position Statistics, Upright, A+H/h,-
+Position Statistics, Unknown, Index time,0
+Position Statistics, Unknown, Relative,0
+Position Statistics, Unknown, Transitions,-
+Position Statistics, Unknown, A+H/h,-
+Position Statistics, Total, Index time,355
+Position Statistics, Total, Relative,100
+Position Statistics, Total, Transitions,6
+Position Statistics, Total, A+H/h,-
+Respiratory Data Integrity, Flow,100,
+Respiratory Data Integrity, SpO2,99.6,
+Respiratory Data Integrity, Pulse,100,
