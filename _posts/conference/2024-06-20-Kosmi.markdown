@@ -14,5 +14,7 @@ comments : true
 <br>
 
 <div style="display: flex; justify-content: center;">
+    <span class="image featured" style="margin-right: 10px;"><img src="/images/posts/2406/kosmi3.jpeg" alt="" style='height: 400px; object-fit: contain;'></span>      
     <span class="image featured" style="margin-right: 10px;"><img src="/images/posts/2406/kosmi0.jpeg" alt="" style='height: 400px; object-fit: contain;'></span>
+    <span class="image featured"><img src="/images/posts/2406/kosmi5.jpeg" alt="" style='height: 400px; object-fit: contain;'></span>
 </div>
