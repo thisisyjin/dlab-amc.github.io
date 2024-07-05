@@ -51,33 +51,37 @@ permalink: /publications_p/
             <div class="10u skel-cell-important">
                 <div id='my_div' class="my-div" style="text-align: justify;">
                     <div id="all-publications">
-                        {% assign all_publications = site.data.sheets.pub_p | sort: "date" | reverse %}
                         <ul>
-                            {% for pub in all_publications %}
-                            {% assign items = pub.contents | replace: "?", " " | split: ". " %}
-                            <div style="margin-bottom: 20px;">
-                                {% if pub.link %}
-                                {% if items.size > 1 %}
-                                <div>
-                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
-                                </div>
-                                <div class="paperclick">{{ items[0] }}</div>
-                                <div class="paperclick">
-                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                </div>
-                                {% else %}
-                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
-                                {% endif %}
-                                {% else %}
-                                {% if items.size > 1 %}
-                                <a class="paperlist">
-                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                </a>
-                                {% else %}
-                                <a class="paperlist">{{ items }}</a>
-                                {% endif %}
-                                {% endif %}
-                            </div>
+                            {% assign all_publications = site.data.sheets.pub_p | sort: "date" | reverse %}
+                            {% assign grouped_by_year = all_publications | group_by_exp: "item", "item.date | date: '%Y'" %}
+                            {% for year in grouped_by_year reversed %}
+                                {% assign sorted_year_items = year.items | sort: "date" %}
+                                {% for pub in sorted_year_items %}
+                                    {% assign items = pub.contents | replace: "?", " " | split: ". " %}
+                                    <div style="margin-bottom: 20px;">
+                                        {% if pub.link %}
+                                            {% if items.size > 1 %}
+                                                <div>
+                                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
+                                                </div>
+                                                <div class="paperclick">{{ items[0] }}</div>
+                                                <div class="paperclick">
+                                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
+                                                </div>
+                                            {% else %}
+                                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
+                                            {% endif %}
+                                        {% else %}
+                                            {% if items.size > 1 %}
+                                                <a class="paperlist">
+                                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
+                                                </a>
+                                            {% else %}
+                                                <a class="paperlist">{{ items }}</a>
+                                            {% endif %}
+                                        {% endif %}
+                                    </div>
+                                {% endfor %}
                             {% endfor %}
                         </ul>
                     </div>
@@ -88,7 +92,8 @@ permalink: /publications_p/
                         {% for dates in dGroup %}
                         <div style="margin-bottom:13px;"></div>
                         <ul>
-                            {% for pub in dates.items %}
+                            {% assign sorted_dates_items = dates.items %}
+                            {% for pub in sorted_dates_items %}
                             {% assign items = pub.contents | replace: "?", " " | split: ". " %}
                             <div style="margin-bottom: 20px;">
                                 {% if pub.link %}

@@ -87,7 +87,8 @@ permalink: /publications_c/
                         {% for dates in dGroup %}
                         <div style="margin-bottom:13px;"></div>
                         <ul>
-                            {% for pub in dates.items %}
+                            {% assign sorted_dates_items = dates.items | sort: "date" | reverse %}
+                            {% for pub in sorted_dates_items %}
                             {% assign items = pub.contents | replace: "?", " " | split: ". " %}
                             <div style="margin-bottom: 20px;">
                                 {% if pub.link %}
