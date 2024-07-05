@@ -12,9 +12,6 @@ comments : true
 
 (좌측부터) 최근호, 이지은 연구원입니다.
 
-<!--유지원 연구원은 2월부터 진단 검사 과제를, 한유진 연구원은 4월부터 M3DT 과제를 함께하게 되었습니다.
-전경인 선생님께서는 5월부터 행정 업무를 맡게 되었습니다.-->
-
 새로운 연구원분들의 합류를 환영합니다🥳🎉
 
 <span class="image featured"><img src="/images/posts/2407/nr1.png" alt="" style='height: 400px; object-fit: contain;'></span>
