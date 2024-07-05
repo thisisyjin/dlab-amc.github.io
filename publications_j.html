@@ -16,25 +16,19 @@ permalink: /publications_j/
         <div class="row" id="research-row">
             <section id="nav-link-first">
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_j"
-                            class="nav-link active"><span
-                                class="icon fa-solid fa-book"></span>Journal</a></li>
+                    <li><a href="{{ site.baseurl }}/publications_j" class="nav-link active"><span class="icon fa-solid fa-book"></span>Journal</a></li>
                 </ul>
             </section>
 
             <section>
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_c"
-                            class="nav-link"><span
-                                class="icon fa-solid fa-building-columns"></span>Conference</a></li>
+                    <li><a href="{{ site.baseurl }}/publications_c" class="nav-link"><span class="icon fa-solid fa-building-columns"></span>Conference</a></li>
                 </ul>
             </section>
 
             <section>
                 <ul>
-                    <li><a href="{{site.baseurl}}/publications_p"
-                            class="nav-link"><span
-                                class="icon fa-regular fa-copyright"></span>Patent</a></li>
+                    <li><a href="{{ site.baseurl }}/publications_p" class="nav-link"><span class="icon fa-regular fa-copyright"></span>Patent</a></li>
                 </ul>
             </section>
         </div>
@@ -46,12 +40,10 @@ permalink: /publications_j/
                 <div class="sidebar">
                     <section>
                         <div class="sidebar small-sidebar">
-                            {% assign cGroup = site.data.sheets.pub_j |
-                            group_by: "class" %}
+                            <a class="small-button active" href="#all">ALL</a>
+                            {% assign cGroup = site.data.sheets.pub_j | group_by: "class" %}
                             {% for class in cGroup %}
-                            <a class="small-button"
-                                href="#{{ class.name | slugify }}">{{ class.name
-                                }}</a>
+                            <a class="small-button" href="#{{ class.name | slugify }}">{{ class.name }}</a>
                             {% endfor %}
                         </div>
                     </section>
@@ -59,55 +51,74 @@ permalink: /publications_j/
             </div>
 
             <div class="10u skel-cell-important">
-                <div id='my_div' class="my-div" style="text-align: justify;">
-                    {% for class in cGroup %}
-                    <div class="class-section" id="{{ class.name | slugify }}">
-                        {% assign dGroup = class.items | group_by_exp: "item",
-                        "item.date | date: '%Y' " %}
+                <div id="my_div" class="my-div" style="text-align: justify;">
+                    <div id="all-publications">
+                        {% assign all_publications = site.data.sheets.pub_j | sort: "date" | reverse %}
+                        <ul>
+                            {% for pub in all_publications %}
+                            {% assign items = pub.contents | replace: "?", " " | split: ". " %}
+                            <div style="margin-bottom: 20px;">
+                                {% if pub.link %}
+                                {% if items.size > 1 %}
+                                <div>
+                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
+                                </div>
+                                <div class="paperclick">{{ items[0] }}</div>
+                                <div class="paperclick">
+                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
+                                </div>
+                                {% else %}
+                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
+                                {% endif %}
+                                {% else %}
+                                {% if items.size > 1 %}
+                                <a class="paperlist">
+                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
+                                </a>
+                                {% else %}
+                                <a class="paperlist">{{ items }}</a>
+                                {% endif %}
+                                {% endif %}
+                            </div>
+                            {% endfor %}
+                        </ul>
+                    </div>
 
+                    {% for class in cGroup %}
+                    <div class="class-section" id="{{ class.name | slugify }}" style="display:none;">
+                        {% assign dGroup = class.items | group_by_exp: "item", "item.date | date: '%Y' " %}
                         {% for dates in dGroup %}
                         <div style="margin-bottom:13px;"></div>
                         <ul>
                             {% for pub in dates.items %}
-                            {% assign items = pub.contents | replace: "?", " " |
-                            split: ". " %}
+                            {% assign items = pub.contents | replace: "?", " " | split: ". " %}
                             <div style="margin-bottom: 20px;">
-                                {% if pub.link != null %}
+                                {% if pub.link %}
                                 {% if items.size > 1 %}
                                 <div>
-                                    <a class="paperclick" href="{{ pub.link }}"
-                                        target="_blank">{{
-                                        items[1] }}</a></div>
-                                <div class="paperclick">{{
-                                    items[0] }}</div>
-                                <div class="paperclick">{%
-                                    for item in items offset:2 %}{{ item |
-                                    replace:
-                                    ".", "" }}. {% endfor %}</div>
+                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
+                                </div>
+                                <div class="paperclick">{{ items[0] }}</div>
+                                <div class="paperclick">
+                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
+                                </div>
                                 {% else %}
-                                <div><a
-                                        class="paperclick" href="{{ pub.link }}"
-                                        target="_blank">{{
-                                        items }}</a></div>
+                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
                                 {% endif %}
                                 {% else %}
                                 {% if items.size > 1 %}
-                                <a class="paperlist">{%
-                                    for item in items offset:2 %}{{ item |
-                                    replace:
-                                    ".", "" }}. {% endfor %}</a>
+                                <a class="paperlist">
+                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
+                                </a>
                                 {% else %}
-                                <a class="paperlist">{{
-                                    items }}</a>
+                                <a class="paperlist">{{ items }}</a>
                                 {% endif %}
                                 {% endif %}
                             </div>
                             {% endfor %}
                         </ul>
                         {% endfor %}
-                        {% if class.name == "International Journal" %}<p>*:
-                            Equal
-                            contributors</p>{% endif %}
+                        {% if class.name == "International Journal" %}<p>*: Equal contributors</p>{% endif %}
                         <br>
                     </div>
                     {% endfor %}
@@ -118,40 +129,24 @@ permalink: /publications_j/
 </article>
 
 <script>
-    // JavaScript to toggle active class on sidebar link click
-    const sidebarLinks = document.querySelectorAll('.sidebar a');
-    const classSections = document.querySelectorAll('.class-section');
-
-    sidebarLinks.forEach(link => {
-        link.addEventListener('click', function () {
-            const targetClass = this.getAttribute('href').substring(1);
-            classSections.forEach(section => {
-                if (section.id === targetClass) {
-                    section.style.display = 'block';
-                } else {
-                    section.style.display = 'none';
-                }
-            });
-            sidebarLinks.forEach(sidebarLink => {
-                sidebarLink.classList.remove('active');
-            });
-            this.classList.add('active');
-
-            // Scroll to the top of the page
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-    });
-
-
     document.addEventListener('DOMContentLoaded', function () {
-        const sidebarButtons = document.querySelectorAll('.sidebar .small-button');
+        const sidebarLinks = document.querySelectorAll('.sidebar a');
+        const classSections = document.querySelectorAll('.class-section');
+        const allPublications = document.getElementById('all-publications');
 
-        sidebarButtons.forEach(button => {
-            button.addEventListener('click', function (event) {
+        sidebarLinks.forEach(link => {
+            link.addEventListener('click', function (event) {
                 event.preventDefault();
+                const targetClass = this.getAttribute('href').substring(1);
+                classSections.forEach(section => {
+                    section.style.display = section.id === targetClass ? 'block' : 'none';
+                });
+                allPublications.style.display = targetClass === 'all' ? 'block' : 'none';
+                sidebarLinks.forEach(sidebarLink => {
+                    sidebarLink.classList.remove('active');
+                });
+                this.classList.add('active');
+                // Scroll to the top of the page
                 window.scrollTo({
                     top: 0,
                     behavior: 'smooth'
@@ -159,5 +154,4 @@ permalink: /publications_j/
             });
         });
     });
-
 </script>
