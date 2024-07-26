@@ -3,7 +3,7 @@
 
 <head>
     <!-- 메타 데이터 및 외부 스타일 시트 로드 -->
-    <title>Improving Factuality and Reasoning in Language Models with Multiagent Debate</title>
+    <title id="page-title">Improving Factuality and Reasoning in Language Models with Multiagent Debate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:description" content="Improving Factuality and Reasoning in Language Models with Multiagent Debate"/>
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="affil-row">
-                <div class="venue text-center"><b>ICML 2024</b></div>
+                <div class="venue text-center" id="venue"><b>ICML 2024</b></div>
             </div>
         </center>
 
@@ -59,8 +59,8 @@
     <section id="teaser-image">
         <center>
             <figure>
-                <video class="centered" width="50%" controls autoplay loop muted playsinline class="video-background">
-                    <source src="img/debate.m4v" type="video/mp4">
+                <video class="centered" id="teaser-video" width="50%" controls autoplay loop muted playsinline class="video-background">
+                    <source id="teaser-video-source" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </figure>
@@ -86,8 +86,8 @@
             <!-- 결과 내용 변경 -->
         </p>
         <figure>
-            <a>
-                <img class="centered" width="100%" src="img/accuracy_small.png"> 
+            <a id="results-image-link">
+                <img class="centered" id="results-image" width="100%">
             </a>
             <p class="caption-up" id="results-caption">
                 <!-- 결과 캡션 변경 -->
@@ -103,8 +103,8 @@
             <!-- 성능 향상 내용 변경 -->
         </p>
         <figure>
-            <a>
-                <img class="centered" width="95%" src="img/agent_round.png"> 
+            <a id="performance-image-link">
+                <img class="centered" id="performance-image" width="95%">
             </a>
             <p class="caption-right" id="performance-caption">
                 <!-- 성능 향상 캡션 변경 -->
@@ -121,9 +121,9 @@
         </p>
     </div>
     <figure>
-        <a>
+        <a id="debate-image-link">
             <center>
-            <img class="centered" width="90%" src="img/gpt_bard.png"> 
+            <img class="centered" id="debate-image" width="90%">
             </center>
         </a>
         <p class="caption" id="debate-caption">
@@ -140,9 +140,8 @@
         </p>
         <div>
             <div class="list-group">
-                <a href=""
-                   class="list-group-item">
-                    <img src="img/paper_thumbnail.png" style="width:100%; margin-right:-20px; margin-top:-10px;">
+                <a href="" class="list-group-item" id="paper-thumbnail-link">
+                    <img id="paper-thumbnail" src="" style="width:100%; margin-right:-20px; margin-top:-10px;">
                 </a>
             </div>
         </div>
@@ -158,12 +157,12 @@
 
         <div class='row vspace-top'>
             <div class="col-sm-3">
-                <img src='img/compose_pretrain.gif' class='img-fluid'>
+                <img id="project1-image" class='img-fluid'>
             </div>
 
             <div class="col">
                 <div class='paper-title'>
-                    <a href="https://energy-based-model.github.io/composing-pretrained-models/" id="project1-link">Composing Pretrained Models through Iterative Consensus</a>
+                    <a href="#" id="project1-link">Composing Pretrained Models through Iterative Consensus</a>
                 </div>
                 <div id="project1-desc">
                     <!-- 프로젝트 설명 변경 -->
@@ -175,13 +174,13 @@
             <div class="col-sm-3">
                 <div class="move-down">
                     <video width="100%" playsinline="" autoplay="" preload="" muted="">
-                        <source src="img/recyle.m4v" type="video/mp4">
+                        <source id="project2-video" type="video/mp4">
                     </video>
                 </div>
             </div>
             <div class="col-sm-9">
                 <div class="paper-title">
-                    <a href="https://energy-based-model.github.io/reduce-reuse-recycle/" id="project2-link">Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC</a>
+                    <a href="#" id="project2-link">Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC</a>
                 </div>
                 <div id="project2-desc">
                     <!-- 프로젝트 설명 변경 -->
@@ -192,12 +191,12 @@
         <div class="row vspace-top">
             <div class="col-sm-3">
                 <video width="100%" playsinline="" autoplay="" preload="" muted="">
-                    <source src="img/teaser_glide.mp4" type="video/mp4">
+                    <source id="project3-video" type="video/mp4">
                 </video>
             </div>
             <div class="col-sm-9">
                 <div class="paper-title">
-                    <a href="https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/" id="project3-link">Compositional Visual Generation with Composable Diffusion Models</a>
+                    <a href="#" id="project3-link">Compositional Visual Generation with Composable Diffusion Models</a>
                 </div>
                 <div id="project3-desc">
                     <!-- 프로젝트 설명 변경 -->
@@ -208,12 +207,12 @@
         <div class="row vspace-top">
             <div class="col-sm-3">
                 <div class="move-down">
-                    <img src="img/comp_cartoon.png" class="img-fluid" alt="comp_carton" style="width:100%">
+                    <img id="project4-image" class="img-fluid" alt="comp_carton" style="width:100%">
                 </div>
             </div>
             <div class="col-sm-9">
                 <div class="paper-title">
-                    <a href="https://energy-based-model.github.io/compositional-generation-inference/" id="project4-link">Compositional Visual Generation with Energy Based Models</a>
+                    <a href="#" id="project4-link">Compositional Visual Generation with Energy Based Models</a>
                 </div>
                 <div id="project4-desc">
                     <!-- 프로젝트 설명 변경 -->
@@ -247,33 +246,45 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('content.json')
         .then(response => response.json())
         .then(data => {
+            document.getElementById('page-title').innerText = data.title;
             document.getElementById('title').innerText = data.title;
             document.getElementById('author-list').innerHTML = data.authors.map(author => 
                 `<a href="${author.link}">${author.name}<sup>${author.affiliation}</sup></a>`).join(', ');
             document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
-                `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
+                `<span><sup>${affil.id}</span>`).join(' ');
             document.getElementById('paper-link').href = data.links.paper;
             document.getElementById('code-link').href = data.links.code;
             document.getElementById('abstract-text').innerText = data.abstract;
             document.getElementById('results-text').innerText = data.results.text;
             document.getElementById('results-caption').innerText = data.results.caption;
+            document.getElementById('results-image').src = data.results.image;
+            document.getElementById('results-image-link').href = data.results.imageLink;
             document.getElementById('performance-text').innerText = data.performance.text;
             document.getElementById('performance-caption').innerText = data.performance.caption;
+            document.getElementById('performance-image').src = data.performance.image;
+            document.getElementById('performance-image-link').href = data.performance.imageLink;
             document.getElementById('debate-text').innerText = data.debate.text;
             document.getElementById('debate-caption').innerText = data.debate.caption;
+            document.getElementById('debate-image').src = data.debate.image;
+            document.getElementById('debate-image-link').href = data.debate.imageLink;
+            document.getElementById('teaser-video-source').src = data.teaserVideo;
             document.getElementById('related-projects-text').innerText = data.relatedProjects.text;
             document.getElementById('project1-link').innerText = data.relatedProjects.projects[0].title;
             document.getElementById('project1-link').href = data.relatedProjects.projects[0].link;
             document.getElementById('project1-desc').innerText = data.relatedProjects.projects[0].description;
+            document.getElementById('project1-image').src = data.relatedProjects.projects[0].image;
             document.getElementById('project2-link').innerText = data.relatedProjects.projects[1].title;
             document.getElementById('project2-link').href = data.relatedProjects.projects[1].link;
             document.getElementById('project2-desc').innerText = data.relatedProjects.projects[1].description;
+            document.getElementById('project2-video').src = data.relatedProjects.projects[1].video;
             document.getElementById('project3-link').innerText = data.relatedProjects.projects[2].title;
             document.getElementById('project3-link').href = data.relatedProjects.projects[2].link;
             document.getElementById('project3-desc').innerText = data.relatedProjects.projects[2].description;
+            document.getElementById('project3-video').src = data.relatedProjects.projects[2].video;
             document.getElementById('project4-link').innerText = data.relatedProjects.projects[3].title;
             document.getElementById('project4-link').href = data.relatedProjects.projects[3].link;
             document.getElementById('project4-desc').innerText = data.relatedProjects.projects[3].description;
+            document.getElementById('project4-image').src = data.relatedProjects.projects[3].image;
             document.getElementById('bibtex-entry').innerText = data.bibtex;
         });
 });
