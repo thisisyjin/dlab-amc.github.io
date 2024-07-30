@@ -154,3 +154,12 @@ a:hover {
     border-radius: 5px;
     margin-top: 20px;
 }
+
+#title {
+    text-transform: none; /* 대소문자 유지 */
+}
+
+/* 기존 스타일이 있다면 덮어쓰기 */
+h2, .gray-background h2 {
+    text-transform: none !important; /* 모든 h2 태그의 대소문자 유지 */
+}
