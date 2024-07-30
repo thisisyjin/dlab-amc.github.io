@@ -3,13 +3,14 @@ layout: default
 ---
 
 <link rel="stylesheet" href="/presentation/style.css">
-<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 <article id="main">
     <header class="special container">
         <div class="gray-background">
-            <h2 id="title"><strong>Improving Factuality and Reasoning in
-                    Language Models through Multiagent Debate</strong></h2>
+            <h2 id="title">Improving Factuality and Reasoning in
+                    Language Models through Multiagent Debate</h2>
             <div class="author-row-new" id="author-list">
                 <!-- 저자 정보 -->
             </div>
@@ -36,11 +37,11 @@ layout: default
             <div style="clear: both">
                 <div class="paper-btn-parent">
                     <a class="paper-btn green-box" id="paper-link" href="#">
-                        <!-- <span class="material-icons">description</span> -->
+                        <span class="material-icons">description</span>
                         Paper
                     </a>
                     <a class="paper-btn green-box" id="code-link" href="#">
-                        <!-- <span class="material-icons">code</span> -->
+                        <span class="material-icons">code</span>
                         Code
                     </a>
                 </div>
@@ -123,15 +124,25 @@ layout: default
         <div class="section">
             <h2>Paper</h2>
             <hr>
-            <p>
-                <!-- 논문 링크 또는 설명 -->
-            </p>
-            <div>
-                <div class="list-group">
-                    <a href class="list-group-item" id="paper-thumbnail-link">
-                        <img id="paper-thumbnail" src
-                            style="width:100%; margin-right:-20px; margin-top:-10px;">
-                    </a>
+            <div class="flex-row">
+                <div class="download-thumb">
+                    <div
+                        style="box-sizing: border-box; padding: 16px; margin: auto;">
+                        <a id="paper-thumbnail-link" href="#"><img
+                                class="screenshot" id="paper-thumbnail" src></a>
+                    </div>
+                </div>
+                <div class="paper-stuff">
+                    <p id="paper-title"><b></b></p>
+                    <p id="paper-authors"></p>
+                    <p id="paper-venue"><i></i></p>
+                    <div><span class="material-icons">description</span><a
+                            id="paper-arxiv" href="#"> arXiv version</a></div>
+                    <div><span class="material-icons">insert_comment</span><a
+                            id="paper-bibtex" href="#"> BibTeX</a></div>
+                    <div><span
+                            class="material-icons">integration_instructions</span><a
+                            id="paper-code" href="#"> Code</a></div>
                 </div>
             </div>
         </div>
@@ -209,9 +220,11 @@ layout: default
                 </div>
             </div>
         </div>
+
         <section class="section-left" id="BibTeX">
+            <h2 class="title">BibTeX</h2>
             <div class="container is-max-desktop content column is-full-width">
-                <h2 class="title">BibTeX</h2>
+
                 <pre><code id="bibtex-entry">
             <!-- BibTeX 내용 -->
         </code></pre>
@@ -271,6 +284,16 @@ layout: default
                 document.getElementById('project4-desc').innerText = data.relatedProjects.projects[3].description;
                 document.getElementById('project4-image').src = data.relatedProjects.projects[3].image;
                 document.getElementById('bibtex-entry').innerText = data.bibtex;
+                
+                // Adding paper section
+                document.getElementById('paper-thumbnail-link').href = data.paper.links.arxiv;
+                document.getElementById('paper-thumbnail').src = data.paper.thumbnail;
+                document.getElementById('paper-title').innerHTML = `<b>${data.paper.title}</b>`;
+                document.getElementById('paper-authors').innerText = data.paper.authors;
+                document.getElementById('paper-venue').innerHTML = `<i>${data.paper.venue}</i>`;
+                document.getElementById('paper-arxiv').href = data.paper.links.arxiv;
+                document.getElementById('paper-bibtex').href = data.paper.links.bibtex;
+                document.getElementById('paper-code').href = data.paper.links.code;
             })
             .catch(error => {
                 console.error('Error fetching JSON data:', error);

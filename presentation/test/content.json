@@ -42,7 +42,7 @@
                 "title": "Composing Pretrained Models through Iterative Consensus",
                 "link": "https://energy-based-model.github.io/composing-pretrained-models/",
                 "description": "We present a method to combine different large pretrained models together by having individual models communicate with each other through iterative consensus. We illustrate how this combination of models can do zero-shot VQA, image generation, reasoning, and image generation.",
-                "image": "img/compose_pretrain.gif"
+                "image": ""
             },
             {
                 "title": "Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC",
@@ -63,6 +63,17 @@
                 "image": "img/comp_cartoon.png"
             }
         ]
+    },
+    "paper": {
+        "title": "LION: Latent Point Diffusion Models for 3D Shape Generation",
+        "authors": "Xiaohui Zeng, Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2022",
+        "links": {
+            "arxiv": "https://arxiv.org/abs/2210.06978",
+            "bibtex": "assets/zeng2022lion.bib",
+            "code": "https://github.com/nv-tlabs/LION"
+        },
+        "thumbnail": "img/cld_paper_preview.png"
     },
     "bibtex": "@article{du2023improving,\ntitle={Improving factuality and reasoning in language models through multiagent debate},\nauthor={Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor},\njournal={arXiv preprint arXiv:2305.14325},\nyear={2023}\n}"
 }

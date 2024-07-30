@@ -1,65 +1,156 @@
-.paper-title {
-    padding: 1px 0px 1px 0px;
-}
-
-.author-row-new {
-    text-align: center;
+.green-box {
+  background-color: #036166;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
 }
 
 .author-row-new a {
-    display: inline-block;
-    font-size: 20px;
-    padding: 4px;
-    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
-    outline: none; /* 하이퍼링크 점선 제거 */
-    border: none; /* 하이퍼링크 점선 제거 */
+  display: inline-block;
+  font-size: 20px;
+  padding: 4px;
+  text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+  outline: none; /* 하이퍼링크 점선 제거 */
+  border: none; /* 하이퍼링크 점선 제거 */
 }
 
 .author-row-new a:focus {
-    outline: none; /* 하이퍼링크 점선 제거 */
-    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
-    border: none; /* 하이퍼링크 점선 제거 */
+  outline: none; /* 하이퍼링크 점선 제거 */
+  text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+  border: none; /* 하이퍼링크 점선 제거 */
 }
 
 .author-row-new a:hover {
-    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
-    border: none; /* 하이퍼링크 점선 제거 */
+  text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+  border: none; /* 하이퍼링크 점선 제거 */
 }
 
 .author-row-new sup {
-    color: #313436;
-    font-size: 12px;
-}
-
-.green-box {
-    background-color: #036166; 
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white; 
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 5px;
-}
-
-a {
-    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
-    outline: none; /* 하이퍼링크 점선 제거 */
-}
-
-a:focus, a:hover {
-    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
-    outline: none; /* 하이퍼링크 점선 제거 */
-}
-
-.paper-btn-parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  color: #313436;
+  font-size: 12px;
 }
 
 .material-icons {
-    margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 */
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.paper-btn-parent {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.download-thumb img,
+.download-thumb video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.paper-stuff p,
+.paper-stuff div {
+  margin: 8px 0;
+}
+
+.section .screenshot {
+  max-width: 200px;
+  height: auto;
+}
+
+.section .video-background {
+  max-width: 300px;
+  height: auto;
+}
+
+.project1-image img,
+.project1-image video {
+    max-width: 100%;
+    height: auto;
+}
+
+.related-project img,
+.related-project video {
+  max-width: 100%;
+  height: auto;
+}
+
+.related-project {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-top: 40px;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.section-left {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.section-left .container {
+  max-width: 800px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+  outline: none; /* 하이퍼링크 점선 제거 */
+  border: none; /* 하이퍼링크 점선 제거 */
+}
+
+a:focus,
+a:hover {
+  text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+  outline: none; /* 하이퍼링크 점선 제거 */
+  border: none; /* 하이퍼링크 점선 제거 */
+}
+
+.paper-btn-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-icons {
+  margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 */
+}
+
+
+.screenshot {
+    width: 100%;
+    max-width: 700px; /* 원하는 최대 너비로 설정 */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.video-background {
+    width: 100%;
+    max-width: 700px; /* 원하는 최대 너비로 설정 */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.related-project .img-fluid,
+.related-project video {
+    width: 100%; /* 너비를 100%로 설정 */
+    max-width: 300px; /* 최대 너비를 300px로 설정 */
+    height: auto; /* 높이를 자동으로 조정 */
+}
+
+#BibTeX {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
 }
