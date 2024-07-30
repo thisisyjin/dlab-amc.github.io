@@ -1,23 +1,65 @@
-/* CSS 추가 사항 */
-
-
-  
-  .paper-title {
+.paper-title {
     padding: 1px 0px 1px 0px;
-  }
-  
-  .author-row-new {
+}
+
+.author-row-new {
     text-align: center;
-  }
-  
-  .author-row-new a {
+}
+
+.author-row-new a {
     display: inline-block;
     font-size: 20px;
     padding: 4px;
-  }
-  
-  .author-row-new sup {
+    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+    outline: none; /* 하이퍼링크 점선 제거 */
+    border: none; /* 하이퍼링크 점선 제거 */
+}
+
+.author-row-new a:focus {
+    outline: none; /* 하이퍼링크 점선 제거 */
+    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+    border: none; /* 하이퍼링크 점선 제거 */
+}
+
+.author-row-new a:hover {
+    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+    border: none; /* 하이퍼링크 점선 제거 */
+}
+
+.author-row-new sup {
     color: #313436;
     font-size: 12px;
-  }
-  
+}
+
+.green-box {
+    background-color: #036166; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white; 
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+    outline: none; /* 하이퍼링크 점선 제거 */
+}
+
+a:focus, a:hover {
+    text-decoration: none; /* 하이퍼링크 밑줄 제거 */
+    outline: none; /* 하이퍼링크 점선 제거 */
+}
+
+.paper-btn-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material-icons {
+    margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 */
+}
