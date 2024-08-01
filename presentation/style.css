@@ -113,10 +113,21 @@
 }
 
 .section-left .container {
-  max-width: 800px;
-  margin: auto;
+  max-width: 100%; /* Ensure the container uses the full width */
+  margin: 0; /* Remove any automatic margins */
 }
 
+.section-left code {
+  display: block;
+  width: 100%; /* Make the code tag use the full width */
+}
+
+.section-left pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  width: 100%; /* Make the pre tag use the full width */
+  overflow-x: auto; /* Add horizontal scrolling if needed */
+}
 a {
   text-decoration: none; /* 하이퍼링크 밑줄 제거 */
   outline: none; /* 하이퍼링크 점선 제거 */
@@ -198,4 +209,8 @@ pre code {
 
 .section-left {
   text-align: left;
+}
+
+.container.is-max-desktop.content.column.is-full-width {
+  margin-left: 20px; /* 원하는 고정된 왼쪽 마진 크기 */
 }
