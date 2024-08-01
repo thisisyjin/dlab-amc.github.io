@@ -6,6 +6,12 @@
   font-weight: bold;
 }
 
+.gray-background {
+    background-color: #f7f7f7;
+    padding: 10px 20px 10px 10px; /* Adjust the left padding */
+    border-radius: 5px;
+}
+
 .author-row-new a {
   display: inline-block;
   font-size: 20px;
@@ -105,6 +111,7 @@ a {
   text-decoration: none; /* 하이퍼링크 밑줄 제거 */
   outline: none; /* 하이퍼링크 점선 제거 */
   border: none; /* 하이퍼링크 점선 제거 */
+  color: #036166;
 }
 
 a:focus,
@@ -155,6 +162,11 @@ a:hover {
     margin-top: 20px;
 }
 
+#bibtex-entry {
+    white-space: pre-wrap; /* Ensure the text wraps correctly */
+    word-wrap: break-word;
+}
+
 #title {
     text-transform: none; /* 대소문자 유지 */
 }
@@ -163,3 +175,19 @@ a:hover {
 h2, .gray-background h2 {
     text-transform: none !important; /* 모든 h2 태그의 대소문자 유지 */
 }
+
+
+.container.is-max-desktop {
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+pre code {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.section-left {
+    text-align: left;
+}
+
