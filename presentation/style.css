@@ -7,12 +7,13 @@
 }
 
 .gray-background {
-    background-color: #f7f7f7;
-    padding: 10px 20px 10px 10px; /* Adjust the left padding */
-    border-radius: 5px;
+  background-color: #f7f7f7;
+  padding: 10px 20px 10px 10px; /* Adjust the left padding */
+  border-radius: 5px;
 }
 
 .author-row-new a {
+  color: #f57c13;
   display: inline-block;
   font-size: 20px;
   padding: 4px;
@@ -62,12 +63,12 @@
 }
 
 .paper-stuff div a {
-    color: black; /* Default text color */
-    text-decoration: none; /* Remove underline */
+  color: black; /* Default text color */
+  text-decoration: none; /* Remove underline */
 }
 
 .paper-stuff div a:hover {
-    color: #f57c13; /* Hover text color */
+  color: #f57c13; /* Hover text color */
 }
 
 .section .screenshot {
@@ -82,8 +83,8 @@
 
 .project1-image img,
 .project1-image video {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .related-project img,
@@ -120,7 +121,7 @@ a {
   text-decoration: none; /* 하이퍼링크 밑줄 제거 */
   outline: none; /* 하이퍼링크 점선 제거 */
   border: none; /* 하이퍼링크 점선 제거 */
-  color: #036166;
+  color: #f57c13;
 }
 
 a:focus,
@@ -140,63 +141,61 @@ a:hover {
   margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 */
 }
 
-
 .screenshot {
-    width: 100%;
-    max-width: 700px; /* 원하는 최대 너비로 설정 */
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 700px; /* 원하는 최대 너비로 설정 */
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .video-background {
-    width: 100%;
-    max-width: 700px; /* 원하는 최대 너비로 설정 */
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 700px; /* 원하는 최대 너비로 설정 */
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .related-project .img-fluid,
 .related-project video {
-    width: 100%; /* 너비를 100%로 설정 */
-    max-width: 300px; /* 최대 너비를 300px로 설정 */
-    height: auto; /* 높이를 자동으로 조정 */
+  width: 100%; /* 너비를 100%로 설정 */
+  max-width: 300px; /* 최대 너비를 300px로 설정 */
+  height: auto; /* 높이를 자동으로 조정 */
 }
 
 #BibTeX {
-    background-color: #f8f8f8;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 #bibtex-entry {
-    white-space: pre-wrap; /* Ensure the text wraps correctly */
-    word-wrap: break-word;
+  white-space: pre-wrap; /* Ensure the text wraps correctly */
+  word-wrap: break-word;
 }
 
 #title {
-    text-transform: none; /* 대소문자 유지 */
+  text-transform: none; /* 대소문자 유지 */
 }
 
 /* 기존 스타일이 있다면 덮어쓰기 */
-h2, .gray-background h2 {
-    text-transform: none !important; /* 모든 h2 태그의 대소문자 유지 */
+h2,
+.gray-background h2 {
+  text-transform: none !important; /* 모든 h2 태그의 대소문자 유지 */
 }
 
-
 .container.is-max-desktop {
-    overflow: hidden;
-    word-wrap: break-word;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 pre code {
-    white-space: pre-wrap;
-    word-break: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .section-left {
-    text-align: left;
+  text-align: left;
 }
-
