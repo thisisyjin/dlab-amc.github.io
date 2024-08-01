@@ -6,191 +6,240 @@ layout: default
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-    <article id="main">
-        <header class="special container">
-            <div class="gray-background">
-                <h2 id="title"><strong></strong></h2>
-                <div class="author-row-new" id="author-list">
-                    <!-- 저자 정보 -->
-                </div>
-                <center>
-                    <div class="affiliations" id="affiliations" style="font-size: small;">
-                        <!-- 소속 정보 -->
-                    </div>
-                    <div class="affil-row">
-                        <div class="venue text-center" id="venue"><b></b></div>
-                    </div>
-                </center>
+<article id="main">
+    <header class="special container">
+        <div class="gray-background">
+            <h2 id="title"><strong></strong></h2>
+            <div class="author-row-new" id="author-list">
+                <!-- 저자 정보 -->
             </div>
-        </header>
-    </article>
-    
-    <article class="sections-container">
-        <section class="wrapper style4 container">
-            <div class="paper-title"></div>
-            <div id="authors">
-                <div style="clear: both">
-                    <div class="paper-btn-parent">
-                        <a class="paper-btn green-box" id="paper-link" href="#">
-                            <span class="material-icons">description</span>
-                            Paper
-                        </a>
-                        <a class="paper-btn green-box" id="code-link" href="#">
-                            <span class="material-icons">code</span>
-                            Code
-                        </a>
-                    </div>
+            <center>
+                <div class="affiliations" id="affiliations"
+                    style="font-size: small;">
+                    <!-- 소속 정보 -->
                 </div>
-            </div>
-            <br>
-    
-            <section id="abstract">
-                <h2>Abstract</h2>
-                <hr>
-                <div class="flex-row">
-                    <p id="abstract-text"></p>
+                <div class="affil-row">
+                    <div class="venue text-center" id="venue"><b></b></div>
                 </div>
-            </section>
-    
-            <div class="section">
-                <h2>Results</h2>
-                <hr>
-                <p id="results-text"></p>
-                <figure>
-                    <a id="results-image-link">
-                        <img class="centered" id="results-image" width="100%">
+            </center>
+        </div>
+    </header>
+</article>
+
+<article class="sections-container">
+    <section class="wrapper style4 container">
+        <div class="paper-title"></div>
+        <div id="authors">
+            <!-- 논문 및 코드 링크 -->
+            <div style="clear: both">
+                <div class="paper-btn-parent">
+                    <a class="paper-btn green-box" id="paper-link" href="#">
+                        <span class="material-icons">description</span>
+                        Paper
                     </a>
-                    <p class="caption-up" id="results-caption"></p>
-                </figure>
-            </div>
-    
-            <div class="section">
-                <h2 id="performance-title"></h2>
-                <hr>
-                <p id="performance-text"></p>
-                <figure>
-                    <a id="performance-image-link">
-                        <img class="centered" id="performance-image" width="95%">
+                    <a class="paper-btn green-box" id="code-link" href="#">
+                        <span class="material-icons">code</span>
+                        Code
                     </a>
-                    <p class="caption-right" id="performance-caption"></p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <section id="teaser-image">
+            <center>
+                <figure>
+                    <video class="centered" id="teaser-video" width="50%"
+                        controls autoplay loop muted playsinline
+                        class="video-background">
+                        <source id="teaser-video-source" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </figure>
+            </center>
+        </section>
+        
+        <!-- 초록 섹션 -->
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <hr>
+            <div class="flex-row">
+                <p id="abstract-text">
+                    <!-- 초록 내용 -->
+                </p>
             </div>
-            
-            <div class="section">
-                <h2 id="debate-title"></h2>
-                <hr>
-                <p id="debate-text"></p>
-            </div>
+        </section>
+        <!-- 결과 섹션 -->
+        <div class="section">
+            <h2>Results</h2>
+            <hr>
+            <p id="results-text">
+                <!-- 결과 내용 -->
+            </p>
             <figure>
-                <a id="debate-image-link">
-                    <center>
-                        <img class="centered" id="debate-image" width="90%">
-                    </center>
+                <a id="results-image-link">
+                    <img class="centered" id="results-image" width="100%">
                 </a>
-                <p class="caption" id="debate-caption"></p>
+                <p class="caption-up" id="results-caption">
+                    <!-- 결과 캡션 -->
+                </p>
             </figure>
-    
-            <div class="section">
-                <h2>Paper</h2>
-                <hr>
-                <div class="flex-row">
-                    <div class="download-thumb">
-                        <div style="box-sizing: border-box; padding: 16px; margin: auto;">
-                            <a id="paper-thumbnail-link" href="#"><img class="screenshot" id="paper-thumbnail" src></a>
-                        </div>
+        </div>
+        <!-- 성능 향상 섹션 -->
+        <div class="section">
+            <h2 id="performance-title">Performance</h2>
+            <hr>
+            <p id="performance-text">
+                <!-- 성능 향상 내용 -->
+            </p>
+            <figure>
+                <a id="performance-image-link">
+                    <img class="centered" id="performance-image" width="95%">
+                </a>
+                <p class="caption-right" id="performance-caption">
+                    <!-- 성능 향상 캡션 -->
+                </p>
+            </figure>
+        </div>
+        <!-- ChatGPT와 Bard의 토론 섹션 -->
+        <div class="section">
+            <h2 id="debate-title">Debate</h2>
+            <hr>
+            <p id="debate-text">
+                <!-- 토론 내용 -->
+            </p>
+        </div>
+        <figure>
+            <a id="debate-image-link">
+                <center>
+                    <img class="centered" id="debate-image" width="90%">
+                </center>
+            </a>
+            <p class="caption" id="debate-caption">
+                <!-- 토론 캡션 -->
+            </p>
+        </figure>
+        <!-- 논문 섹션 -->
+        <div class="section">
+            <h2>Paper</h2>
+            <hr>
+            <div class="flex-row">
+                <div class="download-thumb">
+                    <div
+                        style="box-sizing: border-box; padding: 16px; margin: auto;">
+                        <a id="paper-thumbnail-link" href="#"><img
+                                class="screenshot" id="paper-thumbnail" src></a>
                     </div>
-                    <div class="paper-stuff">
-                        <p id="paper-title"><b></b></p>
-                        <p id="paper-authors"></p>
-                        <p id="paper-venue"><i></i></p>
-                        <div><span class="material-icons">description</span><a id="paper-arxiv" href="#"> arXiv version</a></div>
-                        <div><span class="material-icons">insert_comment</span><a id="paper-bibtex" href="#"> BibTeX</a></div>
-                        <div><span class="material-icons">integration_instructions</span><a id="paper-code" href="#"> Code</a></div>
+                </div>
+                <div class="paper-stuff">
+                    <p id="paper-title"><b></b></p>
+                    <p id="paper-authors"></p>
+                    <p id="paper-venue"><i></i></p>
+                    <div><span class="material-icons">description</span><a
+                            id="paper-arxiv" href="#"> arXiv version</a></div>
+                    <div><span class="material-icons">insert_comment</span><a
+                            id="paper-bibtex" href="#"> BibTeX</a></div>
+                    <div><span
+                            class="material-icons">integration_instructions</span><a
+                            id="paper-code" href="#"> Code</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2><strong>Our Related Projects</strong></h2>
+            <hr>
+            <p id="related-projects-text">
+                <!-- 관련 프로젝트 설명 -->
+            </p>
+            <div class='row vspace-top'>
+                <div class="col-sm-3">
+                    <img id="project1-image" class='img-fluid'>
+                </div>
+                <div class="col">
+                    <div class='paper-title'>
+                        <a href="#" id="project1-link"><strong></strong></a>
+                    </div>
+                    <div id="project1-desc">
+                        <strong>프로젝트 설명</strong>
                     </div>
                 </div>
             </div>
-    
-            <div class="section">
-                <h2><strong>Our Related Projects</strong></h2>
-                <hr>
-                <p id="related-projects-text"></p>
-                <div class='row vspace-top'>
-                    <div class="col-sm-3">
-                        <img id="project1-image" class='img-fluid'>
-                    </div>
-                    <div class="col">
-                        <div class='paper-title'>
-                            <a href="#" id="project1-link"><strong></strong></a>
-                        </div>
-                        <div id="project1-desc"><strong>프로젝트 설명</strong></div>
-                    </div>
-                </div>
-                <div class="row vspace-top">
-                    <div class="col-sm-3">
-                        <div class="move-down">
-                            <video width="100%" playsinline autoplay preload muted>
-                                <source id="project2-video" type="video/mp4">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="col-sm-9">
-                        <div class="paper-title">
-                            <a href="#" id="project2-link"><strong></strong></a>
-                        </div>
-                        <div id="project2-desc"><strong>프로젝트 설명</strong></div>
-                    </div>
-                </div>
-                <div class="row vspace-top">
-                    <div class="col-sm-3">
+            <div class="row vspace-top">
+                <div class="col-sm-3">
+                    <div class="move-down">
                         <video width="100%" playsinline autoplay preload muted>
-                            <source id="project3-video" type="video/mp4">
+                            <source id="project2-video" type="video/mp4">
                         </video>
                     </div>
-                    <div class="col-sm-9">
-                        <div class="paper-title">
-                            <a href="#" id="project3-link"></a>
-                        </div>
-                        <div id="project3-desc">프로젝트 설명</div>
-                    </div>
                 </div>
-                <div class="row vspace-top">
-                    <div class="col-sm-3">
-                        <div class="move-down">
-                            <img id="project4-image" class="img-fluid" alt="comp_carton" style="width:100%">
-                        </div>
+                <div class="col-sm-9">
+                    <div class="paper-title">
+                        <a href="#" id="project2-link"><strong></strong></a>
                     </div>
-                    <div class="col-sm-9">
-                        <div class="paper-title">
-                            <a href="#" id="project4-link"><strong></strong></a>
-                        </div>
-                        <div id="project4-desc"><strong>프로젝트 설명</strong></div>
+                    <div id="project2-desc">
+                        <strong>프로젝트 설명</strong>
                     </div>
                 </div>
             </div>
-    
-            <section class="section-left gray-background" id="BibTeX">
-                <h2 class="title">BibTeX</h2>
-                <div class="container is-max-desktop content column is-full-width">
-                    <pre><code id="bibtex-entry"></code></pre>
+            <div class="row vspace-top">
+                <div class="col-sm-3">
+                    <video width="100%" playsinline autoplay preload muted>
+                        <source id="project3-video" type="video/mp4">
+                    </video>
                 </div>
-            </section>
+                <div class="col-sm-9">
+                    <div class="paper-title">
+                        <a href="#" id="project3-link"><strong></strong></a>
+                    </div>
+                    <div id="project3-desc">
+                        <strong>프로젝트 설명</strong>
+                    </div>
+                </div>
+            </div>
+            <div class="row vspace-top">
+                <div class="col-sm-3">
+                    <div class="move-down">
+                        <img id="project4-image" class="img-fluid"
+                            alt="comp_carton" style="width:100%">
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="paper-title">
+                        <a href="#" id="project4-link"><strong></strong></a>
+                    </div>
+                    <div id="project4-desc">
+                        <strong>프로젝트 설명</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section-left gray-background" id="BibTeX">
+            <h2 class="title">BibTeX</h2>
+            <div class="container is-max-desktop content column is-full-width">
+                <pre><code id="bibtex-entry"></code></pre>
+            </div>
         </section>
-    </article>
-    
-    <script>
+    </section>
+</article>
+
+<script>
         // JavaScript를 사용하여 JSON 파일로부터 데이터 불러오기
         document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM fully loaded and parsed');
             fetch('content.json')
                 .then(response => {
+                    console.log('Fetching JSON');
                     if (!response.ok) {
                         throw new Error('Network response was not ok ' + response.statusText);
                     }
                     return response.json();
                 })
                 .then(data => {
+                    console.log('JSON Data:', data);
                     document.getElementById('title').innerText = data.title;
                     document.getElementById('author-list').innerHTML = data.authors.map(author => 
-                        `<a href="${author.link}">${author.name}<sup>${author.affiliation}</sup></a>`).join(', ');
+                        `<a href="${author.link}" style="color: orange;">${author.name}<sup>${author.affiliation}</sup></a>`).join(', ');
                     document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
                         `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
                     document.getElementById('paper-link').href = data.links.paper;
@@ -200,12 +249,12 @@ layout: default
                     document.getElementById('results-caption').innerText = data.results.caption;
                     document.getElementById('results-image').src = data.results.image;
                     document.getElementById('results-image-link').href = data.results.imageLink;
-                    document.getElementById('performance-title').innerText = data.performance.title;
+                    document.getElementById('performance-title').innerText = "Performance";
                     document.getElementById('performance-text').innerText = data.performance.text;
                     document.getElementById('performance-caption').innerText = data.performance.caption;
                     document.getElementById('performance-image').src = data.performance.image;
                     document.getElementById('performance-image-link').href = data.performance.imageLink;
-                    document.getElementById('debate-title').innerText = data.debate.title;
+                    document.getElementById('debate-title').innerText = "Debate";
                     document.getElementById('debate-text').innerText = data.debate.text;
                     document.getElementById('debate-caption').innerText = data.debate.caption;
                     document.getElementById('debate-image').src = data.debate.image;
@@ -229,7 +278,7 @@ layout: default
                     document.getElementById('project4-desc').innerText = data.relatedProjects.projects[3].description;
                     document.getElementById('project4-image').src = data.relatedProjects.projects[3].image;
                     document.getElementById('bibtex-entry').innerText = data.bibtex;
-                    
+
                     // Adding paper section
                     document.getElementById('paper-thumbnail-link').href = data.paper.links.arxiv;
                     document.getElementById('paper-thumbnail').src = data.paper.thumbnail;
