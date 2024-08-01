@@ -61,6 +61,15 @@
   margin: 8px 0;
 }
 
+.paper-stuff div a {
+    color: black; /* Default text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.paper-stuff div a:hover {
+    color: #f57c13; /* Hover text color */
+}
+
 .section .screenshot {
   max-width: 200px;
   height: auto;
