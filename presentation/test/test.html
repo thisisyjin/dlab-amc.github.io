@@ -9,8 +9,26 @@ layout: default
 <article id="main">
     <header class="special container">
         <div class="gray-background" style="margin-top: 50px;">
-            <h2 id="title"><strong>Improving Factuality and Reasoning in
-                    Language Models through Multiagent Debate</strong></h2>
+            <h2 id="title"><strong></strong></h2>
+            <div class="author-row-new" id="author-list">
+                <!-- 저자 정보 -->
+            </div>
+            <center>
+                <div class="affiliations" id="affiliations" style="font-size: small;" >
+                    <!-- 소속 정보 -->
+                </div>
+                <div class="affil-row">
+                    <div class="venue text-center" id="venue"><b></b></div>
+                </div>
+            </center>
+        </div>
+    </header>
+</article>
+
+<article id="main">
+    <header class="special container">
+        <div class="gray-background" style="margin-top: 50px;">
+            <h2 id="title"><strong></strong></h2>
             <div class="author-row-new" id="author-list">
                 <!-- 저자 정보 -->
             </div>
@@ -90,7 +108,7 @@ layout: default
         </div>
         <!-- 성능 향상 섹션 -->
         <div class="section">
-            <h2>Performance with More Agents and Rounds of Debate</h2>
+            <h2 id="performance-title"></h2>
             <hr>
             <p id="performance-text">
                 <!-- 성능 향상 내용 -->
@@ -106,7 +124,7 @@ layout: default
         </div>
         <!-- ChatGPT와 Bard의 토론 섹션 -->
         <div class="section">
-            <h2>Debate Between chatGPT and Bard</h2>
+            <h2 id="debate-title"></h2>
             <hr>
             <p id="debate-text">
                 <!-- 토론 내용 -->
@@ -161,11 +179,10 @@ layout: default
                 </div>
                 <div class="col">
                     <div class='paper-title'>
-                        <a href="#" id="project1-link">Composing Pretrained
-                            Models through Iterative Consensus</a>
+                        <a href="#" id="project1-link"></a>
                     </div>
                     <div id="project1-desc">
-                        <!-- 프로젝트 설명 -->
+                         프로젝트 설명 
                     </div>
                 </div>
             </div>
@@ -179,12 +196,10 @@ layout: default
                 </div>
                 <div class="col-sm-9">
                     <div class="paper-title">
-                        <a href="#" id="project2-link">Reduce, Reuse, Recycle:
-                            Compositional Generation with Energy-Based Diffusion
-                            Models and MCMC</a>
+                        <a href="#" id="project2-link"></a>
                     </div>
                     <div id="project2-desc">
-                        <!-- 프로젝트 설명 -->
+                         프로젝트 설명 
                     </div>
                 </div>
             </div>
@@ -196,11 +211,10 @@ layout: default
                 </div>
                 <div class="col-sm-9">
                     <div class="paper-title">
-                        <a href="#" id="project3-link">Compositional Visual
-                            Generation with Composable Diffusion Models</a>
+                        <a href="#" id="project3-link"></a>
                     </div>
                     <div id="project3-desc">
-                        <!-- 프로젝트 설명 -->
+                        프로젝트 설명 
                     </div>
                 </div>
             </div>
@@ -213,27 +227,22 @@ layout: default
                 </div>
                 <div class="col-sm-9">
                     <div class="paper-title">
-                        <a href="#" id="project4-link">Compositional Visual
-                            Generation with Energy Based Models</a>
+                        <a href="#" id="project4-link"></a>
                     </div>
                     <div id="project4-desc">
-                        <!-- 프로젝트 설명 -->
+                        프로젝트 설명
                     </div>
                 </div>
             </div>
         </div>
 
-        <section class="section-left" id="BibTeX">
+        <section class="section-left gray-background" id="BibTeX">
             <h2 class="title">BibTeX</h2>
             <div class="container is-max-desktop content column is-full-width">
-
-                <pre><code id="bibtex-entry">
-            <!-- BibTeX 내용 -->
-        </code></pre>
+                <pre><code id="bibtex-entry"></code></pre>
             </div>
         </section>
     </section>
-
 </article>
 
 <script>
@@ -259,10 +268,12 @@ layout: default
                 document.getElementById('results-caption').innerText = data.results.caption;
                 document.getElementById('results-image').src = data.results.image;
                 document.getElementById('results-image-link').href = data.results.imageLink;
+                document.getElementById('performance-title').innerText = data.performance.title;
                 document.getElementById('performance-text').innerText = data.performance.text;
                 document.getElementById('performance-caption').innerText = data.performance.caption;
                 document.getElementById('performance-image').src = data.performance.image;
                 document.getElementById('performance-image-link').href = data.performance.imageLink;
+                document.getElementById('debate-title').innerText = data.debate.title;
                 document.getElementById('debate-text').innerText = data.debate.text;
                 document.getElementById('debate-caption').innerText = data.debate.caption;
                 document.getElementById('debate-image').src = data.debate.image;
