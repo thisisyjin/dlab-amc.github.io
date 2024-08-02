@@ -195,13 +195,13 @@ a:hover {
 /* 기존 스타일이 있다면 덮어쓰기 */
 h2,
 .gray-background h2 {
-  text-transform: none !important; /* 모든 h2 태그의 대소문자 유지 */
-}
-
-.related-projects-title {
     font-weight: 900; /* 굵게 설정 */
     color: #515455; /* 텍스트 색상 설정 */
     text-shadow: 1px 1px 0 #515455, -1px -1px 0 #515455, 1px -1px 0 #515455, -1px 1px 0 #515455, 0 1px 0 #515455, 0 -1px 0 #515455, -1px 0 0 #515455, 1px 0 0 #515455;
+}
+
+h3{
+    font-size: 1.00em;
 }
 
 .container.is-max-desktop {
