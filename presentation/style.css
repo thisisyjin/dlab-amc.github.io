@@ -195,7 +195,7 @@ a:hover {
 /* 기존 스타일이 있다면 덮어쓰기 */
 h2,
 .gray-background h2 {
-    font-weight: 900; /* 굵게 설정 */
+    font-weight: 550; /* 굵게 설정 */
     color: #515455; /* 텍스트 색상 설정 */
     text-shadow: 1px 1px 0 #515455, -1px -1px 0 #515455, 1px -1px 0 #515455, -1px 1px 0 #515455, 0 1px 0 #515455, 0 -1px 0 #515455, -1px 0 0 #515455, 1px 0 0 #515455;
 }
@@ -224,7 +224,7 @@ pre code {
 
 
 .paper-title a {
-  font-weight: 900; /* 링크를 굵게 설정 */
+  font-weight: 300; /* 링크를 굵게 설정 */
   color-scheme: #515455;
 }
 
@@ -237,7 +237,7 @@ a#project2-link,
 a#project3-link,
 a#project4-link {
   color: #515455; /* 기본 색상 */
-  font-weight: 900; /* 굵게 설정 */
+  font-weight: 300; /* 굵게 설정 */
 }
 
 a#project1-link:hover,
