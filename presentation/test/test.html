@@ -71,51 +71,51 @@ layout: default
         </section>
         <!-- 결과 섹션 -->
         <div class="section">
-            <h2>Results</h2>
+            <h2>Method</h2>
             <hr>
-            <p id="results-text">
+            <p id="method-text">
                 <!-- 결과 내용 -->
             </p>
             <figure>
-                <a id="results-image-link">
-                    <img class="centered" id="results-image" width="100%">
+                <a id="method-image-link">
+                    <img class="centered" id="method-image" width="100%">
                 </a>
-                <p class="caption-up" id="results-caption">
+                <p class="caption-up" id="method-caption">
                     <!-- 결과 캡션 -->
                 </p>
             </figure>
         </div>
         <!-- 성능 향상 섹션 -->
         <div class="section">
-            <h2 id="performance-title">Performance</h2>
+            <h2 id="results-title">Results</h2>
             <hr>
-            <p id="performance-text">
+            <p id="results-text">
                 <!-- 성능 향상 내용 -->
             </p>
             <figure>
-                <a id="performance-image-link">
-                    <img class="centered" id="performance-image" width="95%">
+                <a id="results-image-link">
+                    <img class="centered" id="results-image" width="95%">
                 </a>
-                <p class="caption-right" id="performance-caption">
+                <p class="caption-right" id="results-caption">
                     <!-- 성능 향상 캡션 -->
                 </p>
             </figure>
         </div>
         <!-- ChatGPT와 Bard의 토론 섹션 -->
         <div class="section">
-            <h2 id="debate-title">Debate</h2>
+            <h2 id="discussion-title">Discussion</h2>
             <hr>
-            <p id="debate-text">
+            <p id="discussion-text">
                 <!-- 토론 내용 -->
             </p>
         </div>
         <figure>
-            <a id="debate-image-link">
+            <a id="discussion-image-link">
                 <center>
-                    <img class="centered" id="debate-image" width="90%">
+                    <img class="centered" id="discussion-image" width="90%">
                 </center>
             </a>
-            <p class="caption" id="debate-caption">
+            <p class="caption" id="discussion-caption">
                 <!-- 토론 캡션 -->
             </p>
         </figure>
@@ -146,7 +146,7 @@ layout: default
             </div>
         </div>
         <div class="section">
-            <h2><strong>Our Related Projects</strong></h2>
+            <h2 class="related-projects-title">Our Related Projects</h2>
             <hr>
             <p id="related-projects-text">
                 <!-- 관련 프로젝트 설명 -->
@@ -156,8 +156,8 @@ layout: default
                     <img id="project1-image" class='img-fluid'>
                 </div>
                 <div class="col">
-                    <div class='paper-title'>
-                        <a href="#" id="project1-link"><strong></strong></a>
+                   <div class='paper-title'>
+                    <h3><a href="#" id="project1-link"></a></h3>
                     </div>
                     <div id="project1-desc">
                         <strong>프로젝트 설명</strong>
@@ -174,7 +174,7 @@ layout: default
                 </div>
                 <div class="col-sm-9">
                     <div class="paper-title">
-                        <a href="#" id="project2-link"><strong></strong></a>
+                        <h3><a href="#" id="project2-link"></a></h3>
                     </div>
                     <div id="project2-desc">
                         <strong>프로젝트 설명</strong>
@@ -189,7 +189,7 @@ layout: default
                 </div>
                 <div class="col-sm-9">
                     <div class="paper-title">
-                        <a href="#" id="project3-link"><strong></strong></a>
+                        <h3><a href="#" id="project3-link"></a></h3>
                     </div>
                     <div id="project3-desc">
                         <strong>프로젝트 설명</strong>
@@ -205,7 +205,7 @@ layout: default
                 </div>
                 <div class="col-sm-9">
                     <div class="paper-title">
-                        <a href="#" id="project4-link"><strong></strong></a>
+                        <h3><a href="#" id="project4-link"></a></h3>
                     </div>
                     <div id="project4-desc">
                         <strong>프로젝트 설명</strong>
@@ -216,7 +216,7 @@ layout: default
 
         <section class="section-left gray-background" id="BibTeX">
             <h2 class="title">BibTeX</h2>
-            <div class="container is-max-desktop content column is-full-width">
+            <div class="container fixed-width content column is-full-width">
                 <pre><code id="bibtex-entry"></code></pre>
             </div>
         </section>
@@ -245,20 +245,20 @@ layout: default
                     document.getElementById('paper-link').href = data.links.paper;
                     document.getElementById('code-link').href = data.links.code;
                     document.getElementById('abstract-text').innerText = data.abstract;
+                    document.getElementById('method-text').innerText = data.method.text;
+                    document.getElementById('method-caption').innerText = data.method.caption;
+                    document.getElementById('method-image').src = data.method.image;
+                    document.getElementById('method-image-link').href = data.method.imageLink;
+                    document.getElementById('results-title').innerText = "Results";
                     document.getElementById('results-text').innerText = data.results.text;
                     document.getElementById('results-caption').innerText = data.results.caption;
                     document.getElementById('results-image').src = data.results.image;
                     document.getElementById('results-image-link').href = data.results.imageLink;
-                    document.getElementById('performance-title').innerText = "Performance";
-                    document.getElementById('performance-text').innerText = data.performance.text;
-                    document.getElementById('performance-caption').innerText = data.performance.caption;
-                    document.getElementById('performance-image').src = data.performance.image;
-                    document.getElementById('performance-image-link').href = data.performance.imageLink;
-                    document.getElementById('debate-title').innerText = "Debate";
-                    document.getElementById('debate-text').innerText = data.debate.text;
-                    document.getElementById('debate-caption').innerText = data.debate.caption;
-                    document.getElementById('debate-image').src = data.debate.image;
-                    document.getElementById('debate-image-link').href = data.debate.imageLink;
+                    document.getElementById('discussion-title').innerText = "Discussion";
+                    document.getElementById('discussion-text').innerText = data.discussion.text;
+                    document.getElementById('discussion-caption').innerText = data.discussion.caption;
+                    document.getElementById('discussion-image').src = data.discussion.image;
+                    document.getElementById('discussion-image-link').href = data.discussion.imageLink;
                     document.getElementById('teaser-video-source').src = data.teaserVideo;
                     document.getElementById('related-projects-text').innerText = data.relatedProjects.text;
                     document.getElementById('project1-link').innerText = data.relatedProjects.projects[0].title;

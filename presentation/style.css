@@ -128,6 +128,7 @@
   width: 100%; /* Make the pre tag use the full width */
   overflow-x: auto; /* Add horizontal scrolling if needed */
 }
+
 a {
   text-decoration: none; /* 하이퍼링크 밑줄 제거 */
   outline: none; /* 하이퍼링크 점선 제거 */
@@ -197,6 +198,12 @@ h2,
   text-transform: none !important; /* 모든 h2 태그의 대소문자 유지 */
 }
 
+.related-projects-title {
+    font-weight: 900; /* 굵게 설정 */
+    color: #515455; /* 텍스트 색상 설정 */
+    text-shadow: 1px 1px 0 #515455, -1px -1px 0 #515455, 1px -1px 0 #515455, -1px 1px 0 #515455, 0 1px 0 #515455, 0 -1px 0 #515455, -1px 0 0 #515455, 1px 0 0 #515455;
+}
+
 .container.is-max-desktop {
   overflow: hidden;
   word-wrap: break-word;
@@ -213,4 +220,29 @@ pre code {
 
 .container.is-max-desktop.content.column.is-full-width {
   margin-left: 20px; /* 원하는 고정된 왼쪽 마진 크기 */
+}
+
+
+.paper-title a {
+  font-weight: 900; /* 링크를 굵게 설정 */
+  color-scheme: #515455;
+}
+
+.paper-title a:hover {
+    color: orange; /* 호버 시 링크 색상 */
+  }
+
+a#project1-link,
+a#project2-link,
+a#project3-link,
+a#project4-link {
+  color: #515455; /* 기본 색상 */
+  font-weight: 900; /* 굵게 설정 */
+}
+
+a#project1-link:hover,
+a#project2-link:hover,
+a#project3-link:hover,
+a#project4-link:hover {
+  color: orange; /* 호버 색상 */
 }
