@@ -2,7 +2,7 @@
 layout: post 
 title:  "Computers in Biology and Medicine 논문 게재 [New paper published]"
 date:   2024-07-26 13:36:23
-featured-img: "/images/posts/2407/paper1.png"
+featured-img: "/images/posts/2407/paper2.png"
 short-content: "신항식 교수님 논문 게재"
 comments : true
 ---
