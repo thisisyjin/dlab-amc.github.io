@@ -45,7 +45,7 @@
 
 .material-icons {
   vertical-align: middle;
-  margin-right: 8px;
+  margin-right1px;
 }
 
 .paper-btn-parent {
@@ -64,7 +64,7 @@
 
 .paper-stuff p,
 .paper-stuff div {
-  margin: 8px 0;
+  margin1px 0;
 }
 
 .paper-stuff div a {
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .material-icons {
-  margin-right: 8px; /* 아이콘과 텍스트 사이의 간격 */
+  margin-right1px; /* 아이콘과 텍스트 사이의 간격 */
 }
 
 .screenshot {
@@ -202,14 +202,15 @@ h2,
 .gray-background h2 {
   font-weight: 550; /* 굵게 설정 */
   color: #515455; /* 텍스트 색상 설정 */
-  text-shadow: 0.8px 0.8px 0 #515455, -0.8px -0.8px 0 #515455, 0.8px -0.8px 0 #515455,
-    -0.8px 0.8px 0 #515455, 0 0.8px 0 #515455, 0 -0.8px 0 #515455, -0.8px 0 0 #515455,
-    0.8px 0 0 #515455;
+  text-shadow: 1px 1px 0 #515455, -1px -1px 0 #515455, 1px -1px 0 #515455,
+    -1px 1px 0 #515455, 0 1px 0 #515455, 0 -1px 0 #515455, -1px 0 0 #515455,
+    1px 0 0 #515455;
 }
 
-/* h3{
-    font-size: 1.00em;
-} */
+h3{
+    font-family: "TAEBAEKmilkyway";
+    font-weight: 900;
+}
 
 .container.is-max-desktop {
   overflow: hidden;
@@ -243,12 +244,11 @@ a#project1-link,
 a#project2-link,
 a#project3-link,
 a#project4-link {
-  color: #515455; /* 기본 색상 */
-  font-weight: 400; /* 굵게 설정 */
-  text-shadow: 0.8px 0.8px 0 #515455, -0.8px -0.8px 0 #515455, 0.8px -0.8px 0 #515455,
-    -0.8px 0.8px 0 #515455, 0 0.8px 0 #515455, 0 -0.8px 0 #515455, -0.8px 0 0 #515455,
-    0.8px 0 0 #515455;
-  font-size: 1.2em; /* Increase font size for better visibility */
+  font-weight: 600;
+  text-shadow: 0.4px 0.4px 0 #515455, -0.4px -0.4px 0 #515455, 0.4px -0.4px 0 #515455,
+    -0.4px 0.4px 0 #515455, 0 0.4px 0 #515455, 0 -0.4px 0 #515455, -0.4px 0 0 #515455,
+    0.4px 0 0 #515455;
+
 }
 
 a#project1-link:hover,
