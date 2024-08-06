@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "TAEBAEKmilkyway";
+  src: url("\\fonts\\TAEBAEK milkyway.ttf") format("truetype");
+}
+
 .green-box {
   background-color: #036166;
   padding: 10px;
@@ -195,14 +200,16 @@ a:hover {
 /* 기존 스타일이 있다면 덮어쓰기 */
 h2,
 .gray-background h2 {
-    font-weight: 550; /* 굵게 설정 */
-    color: #515455; /* 텍스트 색상 설정 */
-    text-shadow: 1px 1px 0 #515455, -1px -1px 0 #515455, 1px -1px 0 #515455, -1px 1px 0 #515455, 0 1px 0 #515455, 0 -1px 0 #515455, -1px 0 0 #515455, 1px 0 0 #515455;
+  font-weight: 550; /* 굵게 설정 */
+  color: #515455; /* 텍스트 색상 설정 */
+  text-shadow: 0.8px 0.8px 0 #515455, -0.8px -0.8px 0 #515455, 0.8px -0.8px 0 #515455,
+    -0.8px 0.8px 0 #515455, 0 0.8px 0 #515455, 0 -0.8px 0 #515455, -0.8px 0 0 #515455,
+    0.8px 0 0 #515455;
 }
 
-h3{
+/* h3{
     font-size: 1.00em;
-}
+} */
 
 .container.is-max-desktop {
   overflow: hidden;
@@ -222,22 +229,26 @@ pre code {
   margin-left: 20px; /* 원하는 고정된 왼쪽 마진 크기 */
 }
 
-
 .paper-title a {
-  font-weight: 300; /* 링크를 굵게 설정 */
+  font-weight: 600; /* 링크를 굵게 설정 */
   color-scheme: #515455;
+  font-family: "TAEBAEKmilkyway";
 }
 
 .paper-title a:hover {
-    color: orange; /* 호버 시 링크 색상 */
-  }
+  color: orange; /* 호버 시 링크 색상 */
+}
 
 a#project1-link,
 a#project2-link,
 a#project3-link,
 a#project4-link {
   color: #515455; /* 기본 색상 */
-  font-weight: 300; /* 굵게 설정 */
+  font-weight: 400; /* 굵게 설정 */
+  text-shadow: 0.8px 0.8px 0 #515455, -0.8px -0.8px 0 #515455, 0.8px -0.8px 0 #515455,
+    -0.8px 0.8px 0 #515455, 0 0.8px 0 #515455, 0 -0.8px 0 #515455, -0.8px 0 0 #515455,
+    0.8px 0 0 #515455;
+  font-size: 1.2em; /* Increase font size for better visibility */
 }
 
 a#project1-link:hover,
