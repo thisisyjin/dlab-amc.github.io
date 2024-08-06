@@ -3,6 +3,14 @@
   src: url("\\fonts\\TAEBAEK milkyway.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "TAEBAEKfont";
+    src: url("\\fonts\\TAEBAEK font.ttf")
+      format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .green-box {
   background-color: #036166;
   padding: 10px;
@@ -45,7 +53,7 @@
 
 .material-icons {
   vertical-align: middle;
-  margin-right1px;
+  margin-right: 1px;
 }
 
 .paper-btn-parent {
@@ -64,7 +72,7 @@
 
 .paper-stuff p,
 .paper-stuff div {
-  margin1px 0;
+  margin: 1px 0;
 }
 
 .paper-stuff div a {
@@ -155,7 +163,7 @@ a:hover {
 }
 
 .material-icons {
-  margin-right1px; /* 아이콘과 텍스트 사이의 간격 */
+  margin-right: 1px; /* 아이콘과 텍스트 사이의 간격 */
 }
 
 .screenshot {
@@ -202,14 +210,23 @@ h2,
 .gray-background h2 {
   font-weight: 550; /* 굵게 설정 */
   color: #515455; /* 텍스트 색상 설정 */
+  letter-spacing: 0em;
   text-shadow: 1px 1px 0 #515455, -1px -1px 0 #515455, 1px -1px 0 #515455,
     -1px 1px 0 #515455, 0 1px 0 #515455, 0 -1px 0 #515455, -1px 0 0 #515455,
     1px 0 0 #515455;
 }
 
+
+.main-title{
+    font-weight: 550; /* 굵게 설정 */
+    color: #515455; /* 텍스트 색상 설정 */
+    font-family: "TAEBAEKfont";
+    text-shadow: none !important;
+  }
+
+
 h3{
-    font-family: "TAEBAEKmilkyway";
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .container.is-max-desktop {
@@ -233,7 +250,6 @@ pre code {
 .paper-title a {
   font-weight: 600; /* 링크를 굵게 설정 */
   color-scheme: #515455;
-  font-family: "TAEBAEKmilkyway";
 }
 
 .paper-title a:hover {
@@ -245,10 +261,6 @@ a#project2-link,
 a#project3-link,
 a#project4-link {
   font-weight: 600;
-  text-shadow: 0.4px 0.4px 0 #515455, -0.4px -0.4px 0 #515455, 0.4px -0.4px 0 #515455,
-    -0.4px 0.4px 0 #515455, 0 0.4px 0 #515455, 0 -0.4px 0 #515455, -0.4px 0 0 #515455,
-    0.4px 0 0 #515455;
-
 }
 
 a#project1-link:hover,
