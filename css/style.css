@@ -78,7 +78,7 @@ a {
   color: #f57c13;
   text-decoration: none;
   border-bottom: dotted 1px;
-  
+  text-decoration: none; /* 하이퍼링크 밑줄 제거 */
   outline: none; /* 하이퍼링크 점선 제거 */
 }
 
@@ -135,12 +135,8 @@ h1 {
   margin-top: 0.5em;
   letter-spacing: 0.025em;
   font-size: 4em;
-  /* font-family: "TAEBAEKfont"; */
-  margin-bottom: 0px;
-}
-
-.main-title{
   font-family: "TAEBAEKfont";
+  margin-bottom: 0px;
 }
 
 h2 {
