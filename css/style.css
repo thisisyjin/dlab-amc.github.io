@@ -10,6 +10,22 @@
 }
 
 @font-face {
+  font-family: "NanumSquare_acEB";
+  src: url("\\fonts\\NanumSquare_acEB.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquare_acL";
+  src: url("\\fonts\\NanumSquare_acL.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
   font-family: "TAEBAEKfont";
   src: url("\\fonts\\TAEBAEK font.ttf")
     format("truetype");
@@ -79,7 +95,7 @@ input,
 select,
 textarea {
   color: #515455;
-  font-family: "TAEBAEKmilkyway";
+  font-family: "NanumSquare_acL";
   font-size: 15pt;
   font-weight: 900;
   letter-spacing: 0.025em;
@@ -157,7 +173,7 @@ h1 {
   margin-top: 0.5em;
   letter-spacing: 0.025em;
   font-size: 4em;
-  font-family: "TAEBAEKfont";
+  font-family: "NanumSquare_acEB";
   margin-bottom: 0px;
 }
 
@@ -169,13 +185,13 @@ h2 {
 }
 
 h3 {
-  font-family: "TAEBAEKfont";
+  font-family: "NanumSquare_acEB";
   font-size: 1.15em;
   /* letter-spacing: 0.025em; */
 }
 
 h4 {
-  font-family: "TAEBAEKmilkyway";
+  font-family: "NanumSquare_acL";
   font-weight: 800;
   font-size: 1.8em;
   letter-spacing: 0.1em;
@@ -1434,7 +1450,7 @@ body.index #main {
 }
 
 .nums {
-  font-family: "TAEBAEKmilkyway";
+  font-family: "NanumSquare_acEB";
   font-size: 80px;
   color: #343048;
 }
@@ -2685,7 +2701,7 @@ a.small-button.clicked {
   font-size: 30px;
   text-align: center;
   margin-bottom: 20px;
-  font-family: "TAEBAEKmilkyway";
+  font-family: "NanumSquare_acEB";
 }
 
 hr {

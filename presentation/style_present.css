@@ -4,12 +4,27 @@
 }
 
 @font-face {
-    font-family: "TAEBAEKfont";
-    src: url("\\fonts\\TAEBAEK font.ttf")
-      format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "TAEBAEKfont";
+  src: url("\\fonts\\TAEBAEK font.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquare_acEB";
+  src: url("\\fonts\\NanumSquare_acEB.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquare_acL";
+  src: url("\\fonts\\NanumSquare_acL.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .green-box {
   background-color: #036166;
@@ -220,7 +235,7 @@ h2,
 .main-title{
     font-weight: 550; /* 굵게 설정 */
     color: #515455; /* 텍스트 색상 설정 */
-    font-family: "TAEBAEKmilkyway";
+    font-family: "NanumSquare_acL";
     /* text-shadow: none !important; */
     text-shadow: 1px 1px 0 #515455, -1px -1px 0 #515455, 1px -1px 0 #515455,
     -1px 1px 0 #515455, 0 1px 0 #515455, 0 -1px 0 #515455, -1px 0 0 #515455,
