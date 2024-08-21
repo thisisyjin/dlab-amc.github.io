@@ -146,7 +146,7 @@ h2 {
 h3 {
   font-family: "NanumSquare_acEB";
   font-size: 1.15em;
-  /* letter-spacing: 0.025em; */
+  letter-spacing: -0.025em;
 }
 
 h4 {
