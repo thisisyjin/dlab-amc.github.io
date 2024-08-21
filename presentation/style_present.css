@@ -198,7 +198,7 @@ h2,
   font-weight: bolder; /* 굵게 설정 */
   color: #515455; /* 텍스트 색상 설정 */
   font-family: "NanumSquare_acEB";
-  letter-spacing: -0.03em;
+  /* letter-spacing: -0.03em; */
 }
 
 
