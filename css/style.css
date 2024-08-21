@@ -15,6 +15,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "NanumSquare_acR";
+  src: url("\\fonts\\NanumSquare_acR.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*
 	Twenty by HTML5 UP
 	html5up.net | @n33co
@@ -1868,10 +1875,10 @@ a.small-button.clicked {
 }
 
 .content-container .lefty p {
-  font-family: "NanumSquareNeo-Variable";
   font-weight: 100;
   font-size: 0.8em;
   margin-left: 1.5em;
+  font-family: 'NanumSquare_acR';
 }
 
 .paper,
