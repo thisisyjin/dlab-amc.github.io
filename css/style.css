@@ -1695,7 +1695,7 @@ a.small-button.clicked {
 
 #upButton span {
   display: block;
-  font-family: inherit; /* Ensures the span inherits the font family */
+  font-family: 'NanumSquare_acR'; /* Ensures the span inherits the font family */
   font-size: inherit; /* Inherit the size from the button */
 }
 
