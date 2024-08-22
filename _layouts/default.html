@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
-<body class="no-sidebar">
-  {% include header.html %}
-  {{ content }}
-  <button id="upButton" onclick="scrollToTop()"><span class="icon fa-solid fa-arrow-up"
-      style="font-family: NanumSquareNeo-Variable;"><br>TOP</span></button>
-  {% include footer.html %}
-</body>
+  {% include head.html %}
+  <body class="no-sidebar">
+    {% include header.html %}
+    {{ content }}
+    <button id="upButton" onclick="scrollToTop()"><span
+        class="icon fa-solid fa-arrow-up"><br>TOP</span></button>
+    {% include footer.html %}
+  </body>
 
-<script>
+  <script>
   // 스크롤 이벤트를 감지하여 헤더 위치 조정
   window.addEventListener("scroll", function () {
     const header = document.getElementById("header");
