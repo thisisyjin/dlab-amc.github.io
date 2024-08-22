@@ -1617,6 +1617,7 @@ a.small-button.clicked {
 
 /* CSS for the "Top" button */
 #upButton {
+  font-family: "NanumSquare_acEB";
   display: none;
   position: fixed;
   right: 40px;
@@ -1628,7 +1629,6 @@ a.small-button.clicked {
   color: #fff;
   /* Button text color */
   font-size: 16px;
-
   /* Button font size */
   padding: 10px 20px;
   /* Button padding */
@@ -1657,7 +1657,6 @@ a.small-button.clicked {
 #upButton .toggle:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -1687,6 +1686,14 @@ a.small-button.clicked {
   top: 0;
   width: 80px;
 }
+
+#upButton span {
+  display: block;
+  font-family: inherit; /* Ensures the span inherits the font family */
+  font-size: inherit; /* Inherit the size from the button */
+}
+
+
 
 /* index 아래 지도 부분 */
 * {
