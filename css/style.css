@@ -1635,7 +1635,7 @@ a.small-button.clicked {
   color: #fff;
   /* Button text color */
   font-size: 16px;
-
+  font-family: "NanumSquare_acEB";
   /* Button font size */
   padding: 10px 20px;
   /* Button padding */
@@ -1648,7 +1648,6 @@ a.small-button.clicked {
 
 #upButton:hover {
   background-color: #034b5e;
-
   /* Button background color on hover */
 }
 
@@ -1664,7 +1663,6 @@ a.small-button.clicked {
 #upButton .toggle:before {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
   text-transform: none !important;
@@ -1693,6 +1691,12 @@ a.small-button.clicked {
   position: absolute;
   top: 0;
   width: 80px;
+}
+
+#upButton span {
+  display: block;
+  font-family: inherit; /* Ensures the span inherits the font family */
+  font-size: inherit; /* Inherit the size from the button */
 }
 
 /* index 아래 지도 부분 */
