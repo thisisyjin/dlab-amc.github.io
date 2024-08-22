@@ -1817,8 +1817,8 @@ a.small-button.clicked {
 
 #span-one-line {
   text-align: center;
-  padding: 5px 0;
-  font-size: 1.8em;
+  padding: 10px 0 5px 0;
+  font-size: 1.2em;
 }
 
 .nav-link-research {
