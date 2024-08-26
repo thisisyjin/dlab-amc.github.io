@@ -836,7 +836,7 @@ a.mail:hover {
 }
 
 #header img {
-  max-height: 80px;
+  max-height: 60px;
   max-width: auto;
   height: 100%;
   width: auto; /* Set width to auto to maintain aspect ratio */
