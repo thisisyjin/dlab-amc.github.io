@@ -578,6 +578,11 @@
   color: var(--color-prettylights-syntax-markup-italic);
 }
 
+.markdown-body em,
+.markdown-body i {
+  font-style: italic;
+}
+
 .markdown-body .pl-mb {
   font-weight: bold;
   color: var(--color-prettylights-syntax-markup-bold);
