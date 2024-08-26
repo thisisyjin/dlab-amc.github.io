@@ -1,0 +1,23 @@
+---
+layout: post 
+title:  "Clinical Chemistry 논문 게재 [New paper published]"
+date:   2024-08-22 13:36:23
+featured-img: "/images/posts/2408/paper1.png"
+short-content: "석현석 학생(박사과정) 논문 게재"
+comments : true
+---
+
+
+석현석 학생(박사과정)의 'Machine Learning-Based Sample Misidentification Error Detection in Clinical Laboratory Tests: A Retrospective Multicenter Study' 논문이 *Clinical Chemistry*에 게재되었습니다!🎊
+
+*Clinical Chemistry*의 IF(Impact Factor)는 **7.1**입니다.
+
+
+논문 게재를 축하드립니다🥳🎉
+
+<br>
+
+<span class="image featured"><img src="/images/posts/2408/paper2.png" alt="" style='height: 300px; object-fit: contain;'></span>
+
+
+
