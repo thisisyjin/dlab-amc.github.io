@@ -8,9 +8,9 @@ comments : true
 ---
 
 
-박지현 연구원과 왕창원 박사님의 'FDA-cleared home sleep apnea testing devices' 논문이 *npj Digital Medicine*에 게재되었습니다!🎊
+박지현 연구원과 왕창원 박사님의 **'FDA-cleared home sleep apnea testing devices'** 논문이 *npj Digital Medicine* 에 게재되었습니다!🎊
 
-*npj Digital Medicine*의 IF(Impact Factor)는 **15.3**으로 디지털 의학 분야의 저명한 저널입니다.
+*npj Digital Medicine* 의 IF(Impact Factor)는 **15.3**으로 디지털 의학 분야의 저명한 저널입니다.
 
 
 논문 게재를 축하드립니다🥳🎉

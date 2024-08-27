@@ -8,9 +8,9 @@ comments : true
 ---
 
 
-신항식 교수님의 'Signal Completion using Generative Adversarial Networks for Enhanced Photoplethysmography Measurement Accuracy' 논문이 *Computers in Biology and Medicine*에 게재되었습니다!🎊
+신항식 교수님의 **'Signal Completion using Generative Adversarial Networks for Enhanced Photoplethysmography Measurement Accuracy'** 논문이 *Computers in Biology and Medicine* 에 게재되었습니다!🎊
 
-*Computers in Biology and Medicine*의 IF(Impact Factor)는 **7.0**입니다.
+*Computers in Biology and Medicine* 의 IF(Impact Factor)는 **7.0**입니다.
 
 
 논문 게재를 축하드립니다🥳🎉
