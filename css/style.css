@@ -1009,7 +1009,6 @@ a.mail:hover {
   border-bottom: none;
   padding-left: 30px;
   padding-top: 5px;
-
 }
 
 /* Banner */
@@ -1696,7 +1695,7 @@ a.small-button.clicked {
 
 #upButton span {
   display: block;
-  font-family: 'NanumSquare_acR'; /* Ensures the span inherits the font family */
+  font-family: "NanumSquare_acR"; /* Ensures the span inherits the font family */
   font-size: inherit; /* Inherit the size from the button */
 }
 
@@ -1847,11 +1846,21 @@ a.small-button.clicked {
   /* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
 }
 
-.cutstom-row {
+
+/* .cutstom-row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); */
   /* gap: 20px; */
   /* Adjust the gap as needed */
+/* } */
+
+
+.cutstom-row {
+  display: flex;
+  flex-direction: row; /* 모든 섹션을 같은 방향으로 정렬 */
+  justify-content: space-between;
+  gap: 20px; /* 섹션 간의 간격을 20px로 설정 */
+  margin-bottom: 40px; /* 각 섹션 간의 아래쪽 간격 */
 }
 
 .image-container,
@@ -1863,35 +1872,75 @@ a.small-button.clicked {
   flex-direction: column;
 }
 
-.image-container {
+.content-container {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: none;
+  border-radius: 10px;
+  align-items: flex-start; /* Ensure content within is aligned to the left */
+
+  margin-left: 80px;
+}
+
+/* .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the container */
+  /* transition: box-shadow 0.3s ease-in-out; Smooth transition for hover effect */
+/* } */ 
+
+.image-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-bottom: 1.5em;
 }
+
+
 
 .image-container img {
-  width: 100%;
-  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* 이미지가 container에 맞게 조정되도록 설정 */
 }
 
+
 .lefty {
-  padding-top: 5em;
-  padding-left: 2em;
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align all content to the left */
   text-align: left;
+  margin: 0; /* Remove any auto margins to ensure left alignment */
+  padding-left: 0; /* Remove padding to align content properly */
 }
 
 .content-container .lefty h3 {
   font-size: 1.3em;
-  line-height: 30px;
+  line-height: 1.5em;
   text-align: left;
+  margin-left: 0; /* Ensure there's no left margin */
+  padding-left: 0; /* Ensure there's no left padding */
 }
+
 
 .content-container .lefty p {
   font-weight: 100;
-  font-size: 0.8em;
-  margin-left: 1.5em;
-  font-family: 'NanumSquare_acR';
+  font-size: 0.9em;
+  margin-left: 0; /* Remove left margin for proper alignment */
+  font-family: "NanumSquare_acR";
+  margin-bottom: 1em;
 }
 
 .paper,
@@ -1902,13 +1951,13 @@ a.small-button.clicked {
 
 .paper p,
 .patent p {
-  text-align: start;
+  text-align: left;
 }
-
 .research-block {
   font-size: 1.3em;
   text-indent: 1.3em;
-  margin-left: -0.8em;
+  margin-left: 0; /* Align with the h3 in .lefty */
+  padding-left: 0; /* Ensure no extra padding */
 }
 
 .paper .research-block {
@@ -1918,6 +1967,8 @@ a.small-button.clicked {
 .paper .research-block,
 .patent .research-block {
   font-size: 1.1em;
+  margin-left: 0; /* Align with the h3 in .lefty */
+  padding-left: 0; /* Ensure no extra padding */
 }
 
 .paper a.paperclick {
@@ -1938,12 +1989,9 @@ a.small-button.clicked {
   display: none;
   width: 100%;
   line-height: 1.4em;
-
-  /* Adjust the width as needed */
   box-sizing: border-box;
   font-size: 1em;
-  line-height: 30px;
-  text-align: justify;
+  text-align: left; /* Ensure text aligns to the left */
 }
 
 /* research 상단 이미지에 텍스트 */
@@ -1963,13 +2011,14 @@ a.small-button.clicked {
   font-size: 2.8em;
   margin-bottom: 0;
   font-weight: 300;
+  text-align: right;
 }
 
 .image-with-text p {
   font-size: 1.49em;
-  text-align: "justify";
   margin-top: 0;
   font-weight: 300;
+  text-align: right; /* Ensure text aligns to the left */
 }
 
 .text-over-image {
