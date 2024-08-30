@@ -2015,7 +2015,7 @@ a.small-button.clicked {
 }
 
 .image-with-text p {
-  font-size: 1.49em;
+  font-size: 1.25em;
   margin-top: 0;
   font-weight: 300;
   text-align: right; /* Ensure text aligns to the left */
@@ -2023,15 +2023,24 @@ a.small-button.clicked {
 
 .text-over-image {
   position: absolute;
-  /* 텍스트를 절대 위치로 설정 */
   top: 210px;
-  /* 위쪽 여백 설정 (원하는 위치로 조정) */
   left: 0;
-  /* 왼쪽 여백 설정 (원하는 위치로 조정) */
   padding: 100px;
-
-  /* 텍스트 주변 여백 설정 (선택사항) */
+  text-align: left; /* Aligns all text to the left */
   color: #ffffff;
+}
+
+.text-over-image h3 {
+  font-size: 2.8em;
+  margin-bottom: 0;
+  font-weight: 300;
+  text-align: left; /* Ensure the heading is aligned to the left */
+}
+
+.text-over-image p {
+  font-size: 1.25em;
+  margin-top: 0;
+  text-align: left; /* Ensure the paragraph is aligned to the left */
 }
 
 .hidden-header {
