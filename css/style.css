@@ -2016,7 +2016,6 @@ a.small-button.clicked {
 
 .image-with-text p {
   font-size: 1.25em;
-
   margin-top: 0;
   font-weight: 300;
   text-align: right; /* Ensure text aligns to the left */
