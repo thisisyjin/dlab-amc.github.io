@@ -2,7 +2,15 @@
 layout: default
 ---
 
+<head>
+	<meta charset="UTF-8">
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</head>
+
 <body>
+	<div class="overlay" id="overlay" onclick="closeAllPopups()"></div>
+
 	<article id="main">
 		<header class="special container" id="re_header">
 			<h2><strong>Research Topics</strong></h2>
@@ -12,64 +20,77 @@ layout: default
 			<div class="row" id="research-row">
 				<section id="nav-link-first">
 					<ul>
-						<li><a href="PPG_analysis.html" class="nav-link_re"><img src="/images/icons/PPGAnaylsis.png" alt="">
+						<li><a href="PPG_analysis.html" class="nav-link_re"><img
+									src="/images/icons/PPGAnaylsis.png" alt>
 								<span id="span-one-line">PPG Analysis</a></span></li>
 					</ul>
 				</section>
 
 				<section class="nav-item">
 					<ul>
-						<li><a href="disease_prediction.html" class="nav-link_re"><img src="/images/icons/DiseasePrediction.png" alt="">
+						<li><a href="disease_prediction.html" class="nav-link_re"><img
+									src="/images/icons/DiseasePrediction.png" alt>
 								<span id="span-one-line">Disease Prediction</a></span></li>
 					</ul>
 				</section>
 
 				<section>
 					<ul>
-						<li><a href="heart_rhythm.html" class="nav-link_re"><img src="/images/icons/heart-rate.png" alt="">
+						<li><a href="heart_rhythm.html" class="nav-link_re"><img
+									src="/images/icons/heart-rate.png" alt>
 								<span id="span-one-line">Heart Rhythm</a></span></li>
 					</ul>
 				</section>
 
 				<section>
 					<ul>
-						<li><a href="pain.html" class="nav-link_re"><img src="/images/icons/headache.png" alt="">
-								<span id="span-one-line" style="line-height: 70%;"><br>Pain</a></span></li>
+						<li><a href="pain.html" class="nav-link_re"><img
+									src="/images/icons/headache.png" alt>
+								<span id="span-one-line"
+									style="line-height: 70%;"><br>Pain</a></span></li>
 					</ul>
 				</section>
 
 				<section>
 					<ul>
-						<li><a href="sleep.html" class="nav-link_re active"><img src="/images/icons/smartwatch.png" alt="">
-								<span id="span-one-line" style="line-height: 70%;"><br>Sleep</a></span></li>
+						<li><a href="sleep.html" class="nav-link_re active"><img
+									src="/images/icons/smartwatch.png" alt>
+								<span id="span-one-line"
+									style="line-height: 70%;"><br>Sleep</a></span></li>
 					</ul>
 				</section>
 
 				<section>
 					<ul>
-						<li><a href="wearable_IoT_platform.html" class="nav-link_re"><img src="/images/icons/WearableIOT.png" alt="">
+						<li><a href="wearable_IoT_platform.html" class="nav-link_re"><img
+									src="/images/icons/WearableIOT.png" alt>
 								<span id="span-one-line">Wearable IoT&Platform</a></span></li>
 					</ul>
 				</section>
 
 				<section>
 					<ul>
-						<li><a href="biosignal_processing.html" class="nav-link_re"><img src="/images/icons/monitoring.png" alt="">
+						<li><a href="biosignal_processing.html" class="nav-link_re"><img
+									src="/images/icons/monitoring.png" alt>
 								<span id="span-one-line">Biosignal Processing</a></span></li>
 					</ul>
 				</section>
-				
+
 				<section>
 					<ul>
-						<li><a href="therapeutics.html" class="nav-link_re"><img src="/images/icons/Therapeutics.png" alt="">
-								<span id="span-one-line" style="line-height: 70%;"><br>Therapeutics</a></span></li>
+						<li><a href="therapeutics.html" class="nav-link_re"><img
+									src="/images/icons/Therapeutics.png" alt>
+								<span id="span-one-line"
+									style="line-height: 70%;"><br>Therapeutics</a></span></li>
 					</ul>
 				</section>
 
 				<section class="nav-item">
 					<ul>
-						<li><a href="lab_test.html" class="nav-link_re"><img src="/images/icons/LabTest.png" alt="">
-								<span id="span-one-line" style="line-height: 70%;"><br>Lab Tests</a></span></li>
+						<li><a href="lab_test.html" class="nav-link_re"><img
+									src="/images/icons/LabTest.png" alt>
+								<span id="span-one-line" style="line-height: 70%;"><br>Lab
+									Tests</a></span></li>
 					</ul>
 				</section>
 			</div>
@@ -77,171 +98,173 @@ layout: default
 
 		<!-- Main -->
 		<span id="sleep"></span>
-		<section class="wrapper style1 container"  style="margin-bottom: 2em;">
+		<section class="wrapper style1 container" style="margin-bottom: 2em;">
 			<!-- Content -->
 			<div class="content">
 				<section class="image-with-text" id="animated-section">
-					<img src="/images/research/dark/Sleep_dark.png" alt="" height="100%">
+					<img src="/images/research/dark/Sleep_dark.png" alt height="100%">
 					<div class="text-over-image hidden-header">
 						<header>
 							<h3>Sleep Monitoring</h3>
 						</header>
 						<p align="justify">
-							Sleep analysis identifies health issues, highlighting the crucial role of quality sleep for well-being.
+							Sleep analysis identifies health issues, highlighting the crucial role of
+							quality sleep for well-being.
 						</p>
 					</div>
 				</section>
 			</div>
 		</section>
 
-		<!-- Two -->
+		<!-- Image Slider Section -->
 		<section class="wrapper style2 container special">
-
-			<!-- Unconstrained Sleep Monitoring -->
-			<div class="cutstom-row">
-				<div class="image-container">
-					<a class="image featured"><img src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/sleep.png" alt="" height="100%"></a>
+			<div class="img-slider">
+				<div class="image-container-research">
+					<a href="#"><img
+							src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/ubiquitousSleepMonitoring.png"
+							alt="Image 1"></a>
 				</div>
-				<div class="content-container">
-					<div class="lefty">
-						<header>
-							<h3>Unconstrained Sleep Monitoring</h3>
-						</header>
-						<p><span class="research-block">&#8226; Ultra-thin sensor (< 100 um)</span><br>
-									<span class="research-block">&#8226; Unconstrained, unconscious monitoring</span><br>
-									<span class="research-block">&#8226; Respiration, heart rate, awakening monitoring</span><br><br></p>
-						<div class="row">
-							<ul>
-								<li>
-									<a class="nav-link-research" href=""
-										onclick="toggleParagraph('unconstrainedSleepMonitoring', 'paper')"><span class="icon fa-solid fa-book"></span> Papers</a>
-								</li>
-							</ul>
-							<Ul>
-								<li><a class="nav-link-research" onclick="toggleParagraph('unconstrainedSleepMonitoring', 'patent')" href="#">
-									<span class="icon fa-regular fa-copyright"></span> Patent</a>
-								</li>
-							</Ul>
-						</div>
-						<div class="paper" id="unconstrainedSleepMonitoring-paper" align="justify">
-							<p>
-								<a target="_blank" class='paperclick' href="https://ieeexplore.ieee.org/document/8556368">
-									<span class="research-block">&#8226; Sooji Park, Hyong-Ho Cho, Hyung Chae Yang, Jin-Sang Yoon and Hangsik Shin, “Force-Sensing-Based Unobtrusive System for Awakening and Respiration Rate Analysis during Sleep,” IEEE Sensors Journal, 19(5), 1917-1924, 2019</span><br><br></a>
-								<a target="_blank" class='paperclick' href="https://www.mdpi.com/1424-8220/19/24/5441">
-									<span class="research-block">&#8226; Sangjin Han, Donggeun Roh, Junyung Park and Hangsik Shin, “Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography" IEEE Sensors Journal, 19(24), 5441, 2019</span></a><br><br>
-								<a target="_blank" class='paperclick' href="https://ieeexplore.ieee.org/document/7903646">
-									<span class="research-block">&#8226; Sooji Park and Hangsik Shin, “Feasibility Study for Monitoring Unconstrained Respiration based on Multi-way Approach Using an Acceleration and Force Sensing Module,” IEEE Sensors Journal, 17(11), 3482-3489, 2017</span></a>
-							</p>
-						</div>
-						<div class="patent" id="unconstrainedSleepMonitoring-patent" align="justify">
-							<p>
-								<span class="research-block">&#8226; 힘 센서에 기반하여 각성 및 호흡률을 검출하기 위한 방법 및 장치, Granted (No: KR102221370, Date: 2021/02/23)</span><br><br>
-								<span class="research-block">&#8226; 무구속적 생체신호 측정센서 및 이를 포함하는 생체신호 측정시스템, Granted (No: KR101974905, Date: 2019/04/26)</span><br><br>
-								<span class="research-block">&#8226; 다채널 센서를 이용한 생체 신호 모니터링 시스템, Granted (No: KR101809468, Date: 2017/12/11)</span>
-							</p>
-						</div>
-					</div>
+				<div class="image-container-research">
+					<a href="#"><img
+							src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/ubiquitousSleepMonitoring.png"
+							alt="Image 2"></a>
 				</div>
-			</div>
-
-			<!-- Ubiquitous Sleep Monitoring -->
-			<div class="cutstom-row">
-				<div class="image-container">
-					<a class="image featured"><img src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/ubiquitousSleepMonitoring.png" alt="" height="100%"></a>
+				<div class="image-container-research">
+					<a href="#"><img
+							src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/snoringDetection.png"
+							alt="Image 3"></a>
 				</div>
-				<div class="content-container">
-					<div class="lefty">
-						<header>
-							<h3>Ubiquitous Sleep Monitoring</h3>
-						</header>
-						<p><span class="research-block">&#8226; Multiple-user interface</span><br>
-							<span class="research-block">&#8226; Tele-sleep monitoring</span><br>
-							<span class="research-block">&#8226; Emergency detection and alarm</span></p>
-						<div class="row">
-							<ul>
-								<li><a class="nav-link-research" onclick="toggleParagraph('ubiquitousSleepMonitoring','paper')" href="#"><span class="icon fa-solid fa-book"></span> Papers</a></li>
-							</ul>
-						</div>
-						<div class="paper" id="ubiquitousSleepMonitoring-paper" align="justify">
-							<p><a target="_blank" class='paperclick' href="https://ieeexplore.ieee.org/document/9075220">
-								<span class="research-block">&#8226; Ahyoung Choi, Sangwoo Noh and Hangsik Shin, “Internet-Based Unobtrusive Tele-Monitoring System for Sleep and Respirtion,” IEEE ACCESS, 8, 76700-76707, 2020</span></a></p>
-						</div>
-					</div>
+				<div class="image-container-research">
+					<a href="#"><img
+							src="/images/research/DIGITAL MEDICINE/sleepMonitoringDeviceEvaluation.png"
+							alt="Image 4"></a>
 				</div>
-			</div>
-
-			<!-- Snoring Detection -->
-			<div class="cutstom-row">
-				<div class="image-container">
-					<a class="image featured"><img src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/snoringDetection.png" alt="" height="100%"></a>
-				</div>
-				<div class="content-container">
-					<div class="lefty">
-						<header>
-							<h3>Snoring Detection</h3>
-						</header>
-						<p><span class="research-block">&#8226; Smartphone based snoring detection</span><br>
-							<span class="research-block">&#8226; Easy to use, accurate detection</span><br></p>
-						<div class="row">
-							<ul>
-								<li><a class="nav-link-research" onclick="toggleParagraph('snoringDetection','paper')" href="#"><span class="icon fa-solid fa-book"></span> Papers</a></li>
-							</ul>
-						</div>
-						<div class="paper" id="snoringDetection-paper" align="justify">
-							<p><a target="_blank" class='paperclick' href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-116">
-								<span class="research-block">&#8226; Hangsik Shin and Jaegeol Cho, "Unconstrained Snoring Detection Using a Smartphone during Ordinary Sleep,” Biomedical Engineering Online, 13:116 doi:10.1186/1475-925X-13-116, 2014</span></a><br></p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Actigraphy on Sleep -->
-			<div class="cutstom-row">
-				<div class="image-container">
-					<a class="image featured"><img src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/actigraphyOnSleep2.png" alt="" height="100%"></a>
-				</div>
-				<div class="content-container">
-					<div class="lefty">
-						<header>
-							<h3>Actigraphy on Sleep</h3>
-						</header>
-						<p><span class="research-block">&#8226; Sleep and wake detection</span><br>
-							<span class="research-block">&#8226; Sleep efficiency calculation</span><br></p>
-						<div class="row">
-							<ul>
-								<li><a class="nav-link-research" onclick="toggleParagraph('actigraphyOnSleep','paper')" href="#"><span class="icon fa-solid fa-book"></span> Papers</a></li>
-							</ul>
-							<Ul>
-								<li><a class="nav-link-research" onclick="toggleParagraph('actigraphyOnSleep','patent')" href="#"><span class="icon fa-regular fa-copyright"></span> Patent</a></li>
-							</Ul>
-						</div>
-						<div class="paper" id="actigraphyOnSleep-paper" align="justify">
-							<p><a target="_blank" class='paperclick' href="https://pubmed.ncbi.nlm.nih.gov/24693921/">
-								<span class="research-block">&#8226; Hangsik Shin, Byunghun Choi, Doyoon Kim and Jaegeol Cho, “Robust Sleep Quality Quantification Method for a Personal Handheld Device,” Telemedicine & e-Health, 20(6), 522-530, doi:10.1089/tmj.2013.0216, 2014</span></a></p>
-						</div>
-						<div class="patent" id="actigraphyOnSleep-patent" align="justify">
-							<p><span class="research-block">&#8226; 휴대 단말 장치를 이용한 수면 품질 측정 방법 및 장치, Granted (No: KR102143499, Date: 2020/08/05)</span></p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<!-- Sleep monitoring device evaluation -->
-			<div class="cutstom-row">
-				<div class="image-container">
-					<a class="image featured"><img src="/images/research/DIGITAL MEDICINE/sleepMonitoringDeviceEvaluation.png" alt="" height="100%"></a>
-				</div>
-				<div class="content-container">
-					<div class="lefty">
-						<header>
-							<h3>Sleep monitoring device evaluation</h3>
-						</header>
-						<p><span class="research-block">&#8226; Digital evaluation platform</span><br>
-							<span class="research-block">&#8226; Sleep event and signal generator</span><br>
-							<span class="research-block">&#8226; Standard PSG dataset</span></p>
-					</div>
+				<div class="image-container-research">
+					<a href="#"><img
+							src="/images/research/BIOMEDICAL SIGNAL MONITORING/3/actigraphyOnSleep2.png"
+							alt="Image 5"></a>
 				</div>
 			</div>
 		</section>
+
+		<!-- Two -->
+
+		<!-- Unconstrained Sleep Monitoring -->
+		<section class="wrapper style2 container special">
+			<div class="custom-row">
+				<div class="content-container">
+					<header>
+						<h3>Unconstrained Sleep Monitoring</h3>
+					</header>
+					<p>
+						<span class="research-block">&#8226; Ultra-thin sensor (&lt; 100 um)</span><br>
+						<span class="research-block">&#8226; Unconstrained, unconscious monitoring</span><br>
+						<span class="research-block">&#8226; Respiration, heart rate, awakening monitoring</span><br><br>
+					</p>
+				</div>
+				<div class="horizontal-buttons">
+					<ul>
+						<li><a class="nav-link-research" onclick="openPopup('unconstrainedSleepMonitoring-paper')"><span class="icon fa-solid fa-book"></span> Papers</a></li>
+						<li><a class="nav-link-research" onclick="openPopup('unconstrainedSleepMonitoring-patent')"><span class="icon fa-regular fa-copyright"></span> Patent</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- 팝업 요소: Unconstrained Sleep Monitoring -->
+		<div class="custom-popup" id="unconstrainedSleepMonitoring-paper">
+			<h3>Papers</h3>
+			<ul class="paper-list" id="my_div">
+				<li><a class="paperclick" href="https://ieeexplore.ieee.org/document/8556368" target="_blank">Sooji Park, et al., “Force-Sensing-Based Unobtrusive System for Awakening and Respiration Rate Analysis during Sleep,” IEEE Sensors Journal, 19(5), 1917-1924, 2019</a></li>
+				<li><a class="paperclick" href="https://www.mdpi.com/1424-8220/19/24/5441" target="_blank">Sangjin Han, et al., “Design of Multi-Wavelength Optical Sensor Module for Depth-Dependent Photoplethysmography,” IEEE Sensors Journal, 19(24), 5441, 2019</a></li>
+				<li><a class="paperclick" href="https://ieeexplore.ieee.org/document/7903646" target="_blank">Sooji Park, et al., “Feasibility Study for Monitoring Unconstrained Respiration based on Multi-way Approach Using an Acceleration and Force Sensing Module,” IEEE Sensors Journal, 17(11), 3482-3489, 2017</a></li>
+			</ul>
+			<button class="close-popup-btn" onclick="closeAllPopups()">X</button> <!-- Close Button -->
+		</div>
+
+		<div class="custom-popup" id="unconstrainedSleepMonitoring-patent">
+			<h3>Patents</h3>
+			<ul class="patent-list">
+				<li>힘 센서에 기반하여 각성 및 호흡률을 검출하기 위한 방법 및 장치, Granted (No: KR102221370, Date: 2021/02/23)</li>
+				<li>무구속적 생체신호 측정센서 및 이를 포함하는 생체신호 측정시스템, Granted (No: KR101974905, Date: 2019/04/26)</li>
+				<li>다채널 센서를 이용한 생체 신호 모니터링 시스템, Granted (No: KR101809468, Date: 2017/12/11)</li>
+			</ul>
+			<button class="close-popup-btn" onclick="closeAllPopups()">X</button> <!-- Close Button -->
+		</div>
+
+		<!-- Ubiquitous Sleep Monitoring -->
+		<section class="wrapper style2 container special">
+			<div class="custom-row">
+				<div class="content-container">
+					<header>
+						<h3>Ubiquitous Sleep Monitoring</h3>
+					</header>
+					<p>
+						<span class="research-block">&#8226; Multiple-user interface</span><br>
+						<span class="research-block">&#8226; Tele-sleep monitoring</span><br>
+						<span class="research-block">&#8226; Emergency detection and alarm</span>
+					</p>
+				</div>
+				<div class="horizontal-buttons">
+					<ul>
+						<li><a class="nav-link-research" onclick="openPopup('ubiquitousSleepMonitoring-paper')"><span class="icon fa-solid fa-book"></span> Papers</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- 팝업 요소: Ubiquitous Sleep Monitoring -->
+		<div class="custom-popup" id="ubiquitousSleepMonitoring-paper">
+			<h3>Papers</h3>
+			<ul class="paper-list" id="my_div">
+				<li><a class="paperclick" href="https://ieeexplore.ieee.org/document/9075220" target="_blank">Ahyoung Choi, Sangwoo Noh and Hangsik Shin, “Internet-Based Unobtrusive Tele-Monitoring System for Sleep and Respiration,” IEEE ACCESS, 8, 76700-76707, 2020</a></li>
+			</ul>
+			<button class="close-popup-btn" onclick="closeAllPopups()">X</button>
+		</div>
+
+		<!-- Snoring Detection -->
+		<section class="wrapper style2 container special">
+			<div class="custom-row">
+				<div class="content-container">
+					<header>
+						<h3>Snoring Detection</h3>
+					</header>
+					<p>
+						<span class="research-block">&#8226; Smartphone based snoring detection</span><br>
+						<span class="research-block">&#8226; Easy to use, accurate detection</span><br>
+					</p>
+				</div>
+				<div class="horizontal-buttons">
+					<ul>
+						<li><a class="nav-link-research" onclick="openPopup('snoringDetection-paper')"><span class="icon fa-solid fa-book"></span> Papers</a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<!-- 팝업 요소: Snoring Detection -->
+		<div class="custom-popup" id="snoringDetection-paper">
+			<h3>Papers</h3>
+			<ul class="paper-list" id="my_div">
+				<li><a class="paperclick" href="https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/1475-925X-13-116" target="_blank">Hangsik Shin and Jaegeol Cho, "Unconstrained Snoring Detection Using a Smartphone during Ordinary Sleep,” Biomedical Engineering Online, 13:116 doi:10.1186/1475-925X-13-116, 2014</a></li>
+			</ul>
+			<button class="close-popup-btn" onclick="closeAllPopups()">X</button>
+		</div>
+
+		<!-- 팝업 열고 닫는 스크립트 -->
+		<script>
+			function openPopup(id) {
+				closeAllPopups(); // 기존 팝업 닫기
+				document.getElementById(id).classList.add('show-custom-popup');
+				document.getElementById('overlay').classList.add('show-overlay');
+			}
+
+			function closeAllPopups() {
+				// 모든 팝업 닫기
+				const popups = document.querySelectorAll('.custom-popup');
+				popups.forEach(popup => popup.classList.remove('show-custom-popup'));
+				document.getElementById('overlay').classList.remove('show-overlay');
+			}
+		</script>
 	</article>
 </body>
