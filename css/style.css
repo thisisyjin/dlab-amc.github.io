@@ -109,7 +109,7 @@ ol,
 dl,
 table,
 blockquote {
-  margin: 0 0 2em 0;
+  margin: 0 0 0 0;  
 }
 
 h1,
@@ -1854,13 +1854,16 @@ a.small-button.clicked {
 /* } */
 
 .custom-row {
-  display: flex;
+  max-width: 70%; /* 4.전체 박스 크기 줄이기(가로로) */
+  width: 100%; 
+  margin: 0 auto; 
+  display: flex; 
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2em;
   background: #fff;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 60px;  /* 1. 곡선부분 조정 */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 하얀 배경 및 그림자 추가 */
 }
 
@@ -1873,6 +1876,11 @@ a.small-button.clicked {
   width: 100%; /* 전체 너비를 사용 */
   box-sizing: border-box;
 }
+
+.content-container h3{
+  font-size: 5em;    /* 2.글자 크기 조정 */
+}
+
 
 .lefty {
   flex: 1;
@@ -1892,6 +1900,7 @@ a.small-button.clicked {
   padding: 0;
   margin: 0;
   display: flex;
+  padding-right: 60px; /* 3.PATENT 오른쪽 간격 */
 }
 
 .horizontal-buttons li {
@@ -1972,7 +1981,7 @@ a.small-button.clicked {
 }
 
 .content-container .lefty h3 {
-  font-size: 1.3em;
+  font-size: 1.3em;                     
   line-height: 1.5em;
   text-align: left;
   margin-left: 0; /* Ensure there's no left margin */
@@ -1984,7 +1993,7 @@ a.small-button.clicked {
   font-size: 0.9em;
   margin-left: 0; /* Remove left margin for proper alignment */
   font-family: "NanumSquare_acR";
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
 }
 
 .paper,
@@ -2830,22 +2839,24 @@ hr {
 }
 
 .image-container-research {
-  width: 100%;
+  width: 300px; /* Fixed width for the image container */
+  height: 200px; /* Fixed height for the image container */
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* background: #fff; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
   border-radius: 30px;
   margin-bottom: 1.5em;
-  overflow: hidden; /* 이미지가 컨테이너를 넘지 않도록 설정 */
+  overflow: hidden; /* Ensures the image stays within the container */
 }
 
 .image-container-research img {
-  width: 100%; /* 이미지가 컨테이너 전체에 맞춰지도록 설정 */
-  height: auto; /* 이미지 비율 유지 */
-  object-fit: cover; /* 이미지가 컨테이너에 맞춰지도록 설정 */
+  width: 100%; /* Image will stretch to the container's width */
+  height: 100%; /* Image will stretch to the container's height */
+  object-fit: cover; /* Ensures the image covers the entire container while maintaining aspect ratio */
+  object-position: center; /* Keeps the image centered */
 }
 
 /* Right-side Popup 스타일 */
@@ -2903,100 +2914,101 @@ hr {
 
 /* 팝업 스타일 */
 .custom-popup {
-	display: none;
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%); /* 팝업 중앙 정렬 */
-	width: 40%;
-	padding: 20px;
-	background-color: white;
-	box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* 그림자 */
-	z-index: 1000;
-	overflow-y: auto;
-	border-radius: 8px;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* 팝업 중앙 정렬 */
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* 그림자 */
+  z-index: 1000;
+  overflow-y: auto;
+  border-radius: 8px;
 }
 
 .custom-popup h3 {
-	margin: 0 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 .show-custom-popup {
-	display: block;
+  display: block;
 }
 
 /* Close button style */
 .close-popup-btn {
-	color: black;
-	border: none;
-	border-radius: 5px;
-	padding: 8px 12px;
-	cursor: pointer;
-	position: absolute;
-	top: 10px;
-	right: 10px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
-.paper-list, .patent-list {
-	list-style-type: none;
-	padding: 0;
+.paper-list,
+.patent-list {
+  list-style-type: none;
+  padding: 0;
 }
 
-.paper-list li, .patent-list li {
-	margin-bottom: 10px;
+.paper-list li,
+.patent-list li {
+  margin-bottom: 10px;
 }
 
 .horizontal-buttons {
-	text-align: right;
+  text-align: right;
 }
 
 /* 배경을 클릭 시 팝업 닫기 */
 .overlay {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.5);
-	z-index: 999;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 
 .show-overlay {
-	display: block;
-}
-
-/* 컨텐츠와 버튼을 나란히 배치 */
-.custom-row {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  display: block;
 }
 
 .content-container {
-	flex: 1;
-	text-align: left; /* Left align the content */
+  flex: 1;
+  text-align: left; /* Left align the content */
 }
 
 .horizontal-buttons ul {
-	display: flex;
-	gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .horizontal-buttons ul li {
-	list-style: none;
+  list-style: none;
 }
 
 .horizontal-buttons ul li a {
-	text-decoration: none;
-	padding: 10px 15px;
-	background-color: #f0f0f0;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	color: #333;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: #333;
 }
 
 .horizontal-buttons ul li a:hover {
-	background-color: #ddd; /* Hover 효과 */
+  background-color: #ddd; /* Hover 효과 */
 }
 
+.img-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between images */
+}
