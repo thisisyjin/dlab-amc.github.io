@@ -1836,6 +1836,7 @@ a.small-button.clicked {
   color: #000;
 }
 
+
 /* research 레이아웃 */
 
 .image-and-content {
@@ -3011,4 +3012,20 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 10px; /* Space between images */
+}
+
+/* Inactive class with no hover effect */
+.nav-link-research.inactive {
+  pointer-events: none; /* Disable the clickability */
+  color: #ccc; /* Set a different color to indicate it's inactive */
+  background-color: #f0f0f0; /* Optional: light background to show inactivity */
+  border: 1px solid #ddd; /* Optional: lighter border */
+}
+
+/* Remove hover effect for inactive links */
+.nav-link-research.inactive:hover {
+  background-color: #f0f0f0; /* Keep the background the same on hover */
+  color: #ccc; /* Keep the text color the same on hover */
+  border: 1px solid #ddd; /* Maintain the border */
+  cursor: not-allowed; /* Change cursor to indicate it's inactive */
 }
