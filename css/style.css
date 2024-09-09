@@ -3037,6 +3037,33 @@ hr {
 }
 
 
-.research-row{
-  padding-bottom: 60px;
+
+/* Add to your existing CSS */
+#research-row {
+  display: flex;
+  flex-wrap: wrap; /* Allows the items to wrap to the next line */
+  justify-content: left; /* Centers the items horizontally */
+  gap: 8px; /* Adds space between items */
+  row-gap: 20px; /* Adds vertical space between rows */
+}
+
+#research-row section {
+  width: 150px; /* Set a fixed width for the sections */
+  height: 150px; /* Set a fixed height for the sections */
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+#research-row section ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+#research-row section ul li a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
