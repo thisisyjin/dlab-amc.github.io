@@ -1434,7 +1434,7 @@ body {
 }
 
 .sidebar {
-  padding-top: 30px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   max-height: 100%;
@@ -1560,7 +1560,7 @@ a.small-button.clicked {
 .nav-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 5px;
+  margin-bottom: 60px;
 }
 
 .nav-link {
@@ -2056,6 +2056,7 @@ a.small-button.clicked {
 }
 
 .image-with-text img {
+  /* padding-top: 40px; */
   width: 100%;
   /* 이미지의 가로 너비를 100%로 설정하여 부모 요소에 꽉 채움 */
   height: 560px;
@@ -3033,4 +3034,9 @@ hr {
   color: #ccc; /* Keep the text color the same on hover */
   border: 1px solid #ddd; /* Maintain the border */
   cursor: not-allowed; /* Change cursor to indicate it's inactive */
+}
+
+
+.research-row{
+  padding-bottom: 60px;
 }
