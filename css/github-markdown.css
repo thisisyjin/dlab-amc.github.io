@@ -179,7 +179,7 @@
 .markdown-body a {
   font-family: "NanumSquare_acL";
   background-color: transparent;
-  color: var(--color-accent-fg);
+  /* color: var(--color-accent-fg); */
   text-decoration: none;
 }
 
