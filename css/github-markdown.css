@@ -180,12 +180,17 @@
   font-family: "NanumSquare_acL";
   background-color: transparent;
   /* color: var(--color-accent-fg); */
+  color: #515455;
   text-decoration: none;
+  border-bottom: none;
 }
 
 .markdown-body a:active,
 .markdown-body a:hover {
   outline-width: 0;
+  color: #f57c13;
+  text-decoration: none;
+  border-bottom: none;
 }
 
 .markdown-body abbr[title] {
