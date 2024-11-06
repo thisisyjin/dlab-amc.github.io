@@ -32,9 +32,12 @@
         "imageLink": "#"
     },
 "references": [
-    "Seung Min Ryu, Keewon Shin, Chang Hyun Doh, Hui Ben, Ji Yeon Park, Kyung-Hwan Koh, Hangsik Shin and In-ho Jeon, “Orthopedic surgeon level joint angle assessment with artificial intelligence based on photography: a pilot study,” Biomedical Engineering Letters, 1-12, 2024",
-    "John Doe, Jane Smith, “A Comprehensive Study on AI in Healthcare,” Journal of Medical Technology, 45(3), 2023",
-    "Alice Johnson, Bob Lee, “Machine Learning Approaches to Health Diagnostics,” IEEE Transactions on Biomedical Engineering, 60(5), 2022",
-    "Emily Davis, Michael Brown, “Evaluating Large Language Models in Medical Fields,” Journal of Health Informatics, 12(4), 2024"
+    "Cadamuro, Janne, et al. “Potentials and pitfalls of ChatGPT and natural-language artificial intelligence models for the understanding of laboratory medicine test results. An assessment by the European Federation of Clinical Chemistry and Laboratory Medicine (EFLM) Working Group on Artificial Intelligence (WG-AI).” Clinical Chemistry and Laboratory Medicine (CCLM) 61.7 (2023): 1158-1166.",
+    "Stevenson, Emma, Chelsey Walsh, and Luke Hibberd. “Can artificial intelligence replace biochemists? A study comparing interpretation of thyroid function test results by ChatGPT and Google Bard to practising biochemists.” Annals of Clinical Biochemistry 61.2 (2024): 143-149.",
+    "Hadi, Muhammad Usman, et al. “Large language models: a comprehensive survey of its applications, challenges, limitations, and future prospects.” Authorea Preprints (2024).",
+    "국민건강보험공단. 공공데이터포털, 13 Aug. 2024, https://www.data.go.kr/data/15007122/fileData.do#.",
+    "질병관리청. 국가건강정보포털, 27 Sept. 2024, https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do?lclasSn=7.",
+    "Mayo Clinical Laboratories. 27 Sept. 2024, https://www.mayocliniclabs.com/test-catalog/critical-values-and-results.",
+    "Papers With Code. 27 Sept. 2024, https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu."
 ]
 }
