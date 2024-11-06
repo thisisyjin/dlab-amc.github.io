@@ -9,8 +9,8 @@
         {"id": "2", "name": "Department of Medical Science, Graduate School, University of Ulsan, Seoul, Korea"}
     ],
     "links": {
-        "paper": "https://drive.google.com/file/d/1WEDwC_Ax-BUusI8UZ4pmztZkIv9EyYDP/view?usp=drive_link",
-        "poster": "https://drive.google.com/file/d/1hqM8GGPP1z_qcA2F00sWYJhb--_8Moud/view?usp=sharing"
+        "paper": "https://drive.google.com/file/d/1cqH-cw1qk6WuqIwkX5U72Rzuqq4k0rEm/view?usp=drive_link",
+        "poster": "https://drive.google.com/file/d/1-XabnFP6ZjCQsQm5J_-2so8ug7iW8VfF/view?usp=drive_link"
     },
     "abstract": "This study analyzed sepsis cases among hospitalized patients to identify risk factors for sepsis-related mortality. Using data from 49,552 patients between 2011 and 2020, the impact of age, body mass index (BMI), readmission status, and underlying conditions was assessed through a Cox proportional-hazards model. The results showed that mortality risk increased with advancing age (hazard ratio;HR=1.15, p<0.001) and decreased with higher BMI (HR=0.71, 0.80, p<0.001). Comorbidities such as hematologic malignancy, solid organ cancer, chronic lung disease, and rhuematologic disease were associated with a significantly high mortality risk (HR≥1.4, p<0.001). Additionally, patients with multiple cases of sepsis showed a progressively higher risk of death with each subsequent occurrence (HR=1.24, 1.13, p<0.001).",
     "intro": "패혈증은 미생물 감염에 대한 전신적 반응으로, 장기장애를 유발하는 질환이다. 전신 염증 반응 증후군(Systemic Inflammatory Response Syndrome; SIRS)으로 증상이 흔히 정의되고, 감염원이 의심되는 SIRS를 패혈증이라고 한다 [1]. 패혈증은 전 세계적으로 사망률이 높은 질환이다. 패혈증에 의한 사망률은 40~70%에 달하고, 국내 다기관 패혈증 코호트 연구에서도 전체 패혈증 환자의 사망률은 28%, 병원 발생 패혈증 환자의 사망률은 39%로, 높은 사망률을 보인다 [2]. 본 연구는 환자의 인구통계학적 정보와 기저질환 유무 정보에서 사망 위험을 높이는 요인을 확인하고자 한다.",
@@ -23,7 +23,7 @@
     "results": {
         "text": "표 1은 단변량 및 다변량 콕스 비례위험 모델 분석 결과로, 패혈증 환자 사망 위험에 영향을 미치는 요인의 위험비(Hazard Ratio, HR)를 보여준다. 성별의 경우, 단변량 분석과 다변량 분석 (p=0.016, p=0.032) 모두에서 통계적으로 유의하지 않았다. 연령이 낮은 연령층 (18세~24세)의 경우, 사망 위험이 유의하게 감소하였으며 (HR=0.59, 0.65, p<0.001), 다변량 분석에서도 기준 나이 그룹 대비 청년층에서만 유의한 위험도 감소가 확인되었다 (HR=0.66, p<0.001). 한편, 65세 이상일 경우, 단변량 분석에서는 사망 위험이 유의하게 증가하였으나(HR 1.15, p<0.001), 다변량 분석에서는 유의하지 않았다(HR 1.10, p=0.006). 이는 패혈증 환자의 연령이 높을 수록 사망 위험이 증가하는 경향이 있지만, 다른 변수를 함께 고려할 경우, 높은 연령은 다른 요인에 비해 유의하지 않음을 시사한다. 저체중 그룹 사망 위험은 더 높았고 (HR=1.59, 1.39, p<0.001), 과체중, 비만그룹에서 사망 위험은 감소하였다. BMI에 대한 다변량 분석에서도 유사한 경향을 보였으며, 이는 기존 보고된 선행연구와 유사하였다 (HR=0.73, 0.72, p<0.001) [7]. ASE로 인한 재입원의 경우, 사망 위험은 증가하였고(HR=1.73, p<0.001), 사망 위험은 재입원 횟수 증가에 따라 상승하였다(HR=1.24, p<0.001). 단변량 분석 결과, 12가지 기저질환 모두에서 사망 위험은 유의하게 증가하였다(p<0.001).\n\n기저질환에 따라서는, 혈액암이 있는 패혈증 환자가 사망 위험이 가장 높았으며(HR=2.00, p<0.001), 만성폐질환, 류마티스 질환, 고형장기암, 기타 질환이 있을 경우 사망 위험이 약 1.6배 더 높았다(각 HR=1.65, 1.61, 1.66, 1.67, p<0.001).",
         "caption": " ",
-        "image": "img/표1_3.svg",
+        "image": "img/IBEC_CYE1_table1.JPG",
         "imageLink": "#"
     },
     "discussion": {
