@@ -1,0 +1,34 @@
+{
+    "title": "Large Language Models and Health Checkup Report Interpretation: Possibilities and Limitations",
+    "authors": [
+        {"name": "Jiwon You", "link": "https://dlab-amc.github.io/htmls/members/Jiwon_You.html", "affiliation": " "},
+        {"name": "Hangsik Shin", "link": "https://scholar.google.co.kr/citations?user=N1MUdi4AAAAJ&hl=en", "affiliation": " "}
+    ],
+    "affiliations": [
+        {"id": " ", "name": "Department of Convergence Medicine, Asan Medical Center, Brain Korea 21 Project, University of Ulsan College of Medicine"}
+    ],
+    "links": {
+        "paper": "https://drive.google.com/file/d/1WEDwC_Ax-BUusI8UZ4pmztZkIv9EyYDP/view?usp=drive_link",
+        "poster": "https://drive.google.com/file/d/1hqM8GGPP1z_qcA2F00sWYJhb--_8Moud/view?usp=sharing"
+    },
+    "abstract": "Health checkups are an important means of assessing a patient's health status and detecting potential diseases at an early stage. However, due to the practical constraints of medical persons needing to treat many patients within a limited time, patients may not receive sufficient explanations about their health checkup results. To address this issue, recent research on using artificial intelligence to interpret medical test results has been actively conducted. This study compares and analyzes the accuracy of test result interpretations using five large language models, serving as a crucial preliminary study for developing technology that can explain health checkup results to patients based on their data.",
+    "intro": "건강검진은 정기적인 검진을 통해 수검자의 건강 이상을 사전에 감지하고, 예방적 조치를 취함으로써, 건강을 유지할 수 있도록 돕는 중요한 잠재질병 평가 수단이다. 건강검진 결과는 대개 혈압, 혈당, 콜레스테롤, 간 기능, 신장 기능 등 다양한 생리적 수치를 포함하고 있는데, 결과를 충분히 설명할 수 있는 의료자원 부족으로 인해 정상/비정상 판정과 같이 단순 설명만 제공되는 경우가 빈번하며, 이는 결과적으로 수검자들이 자신의 건강 상태를 충분히 이해하지 못하게 하여 건강 증진 효과를 저하할 수 있다. 이러한 한계를 개선하기 위해, 인공지능을 활용하여 의료진을 대신할 수 있는 검사 결과 해석 기술이 활발히 연구되고 있으며 [1, 2], 특히 대규모 언어 모델(Large Language Model)을 활용하는 기술이 주목받고 있다. 하지만, 대규모 언어 모델의 경우 모델간 성능 편차가 존재하며, 특히 수치 데이터 해석에 있어서는 개선이 필요한 것으로 알려져 있어 지속적인 평가와 검증이 요구된다 [3].\n\n본 연구는 건강검진 결과를 자동으로 해석하고 수검자들에게 제공하기 위한 인공지능 개발에 앞서 건강검진 결과 해석에서 대규모 언어 모델의 가능성을 평가하는 것을 목적으로 한다. 이를 위해 현재까지 출시된 대표적인 대규모 언어 모델들의 건강검진 기록지 해석 성능을 비교평가하고 가능성과 한계를 조망한다.",
+    "method": {
+        "text": "본 연구는 국민건강보험공단에서 제공하는 건강검진 결과 데이터[4]를 활용하였다. 해당 데이터는 2023년 건강검진을 받은 국민건강보험 가입자 중 무작위로 선정된 100만 명에 대한 것이며, 기본 정보(가입자 일련번호, 성별 등)와 검진 결과(신장, 체중, 혈압, 혈당 등)로 구성되어 있다. 연구에서는 전체 데이터 중 모든 항목의 결과 값이 존재하는 100건을 무작위로 추출하여 분석에 활용하였다.\n\n사용된 주요 항목은 성별(sex), 신장(height), 체중(weight), 수축기 혈압(systolic blood pressure; SBP), 이완기 혈압 (diastolic blood pressure; DBP), 공복 혈당 (fasting blood glucose; FBG), 총콜레스테롤 (total cholesterol; T-C), 중성지방(triglycerides; TG), HDL 콜레스테롤 (high-density lipoprotein cholesterol; HDL-C), LDL 콜레스테롤(low-density lipoprotein cholesterol; LDL-C), 혈색소(hemoglobin; Hb), 요단백(urine protein), 혈청 크레아티닌(serum creatinine),아스파르테이트 트랜스아미나제 (aspartate aminotransferase; AST), 알라닌 트랜스아미나제 (alanine aminotransferase; ALT), 감마지티피(γ-glutamyl transferase; γ-GTP), 총 16개의 항목이다. 이외에도 시력, 청력, 허리둘레, 흡연, 음주와 결손치 유무, 치아마모증 유무 등 치아 관련 항목들이 포함되어 있으나, 이러한 항목들은 결과 해석과 무관한 단순한 측정값을 나타내기 때문에 본 연구에서는 제외하였다.\n\n본 연구에서는 분석할 항목에 대한 검사 결과값들을 프롬프트와 함께 대규모 언어 모델에 입력하여 ‘정상’, ‘경계’, ‘높음’ 등의 해석을 출력하도록 하였다. 프롬프트 설계 시, 건강검진 데이터를 활용해 결과 해석 보고서를 작성해달라는 명령어와 함께 분석 항목은 키(key), 결과 해석은 값(value)를 나타내는 JSON 형식의 텍스트 파일로 출력할 수 있도록 2가지의 예시를 제공하여, 모델이 보다 정확하게 데이터를 해석 및 출력할 수 있도록 하였다.\n\n본 연구에서는 대규모 언어 모델들의 해석 정확도를 평가하기 위해 정답 레이블을 생성하였으며, 기준으로 사용된 참고치는 질병관리청 [5]에서 제공하는 값을 기반으로 하였다. 다만, 질병관리청에서 제공하지 않는 혈청크레아티닌 기준치는 Mayo Clinic [6]에서 제공하는 각 검사 수치 임계값(critical value)을 참고하여 설정하였다. 분석에 사용된 검사 항목과 질병관리청 기준에 따라 설정된 레이블은 그림 1에 나타내었다. 또한, LLM 결과를 이용하여 각 항목별로 컬럼을 생성한 뒤, 한 행에 수검자 한 명의 결과 해석(예: 정상, 경계, 높음 등)을 나타낼 수 있도록 구성하여 CSV 파일로 저장하였다. 이렇게 생성된 CSV 파일은 그림 1에 제시된 결과 해석 수준에 따라 숫자로 레이블링하여, 정답 레이블과 비교할 수 있도록 하였다.\n\n분석에 사용된 대규모 언어 모델은 GPT-4o, Gemini 1.5 Pro, Claude 3.5 Sonnet, LLaMA 3.1 8B-Instruct, EXAONE-3.0-7.8B-Instruct 등 가장 널리 사용되는 모델들로, MMLU(massive multitask language understanding) 평가점수 [7]를 참고하여 각 모델의 성능이 비슷한 버전을 선택하였다.",
+        "caption": " ",
+        "image": "img/그림1_4.svg",
+        "imageLink": "#"
+    },
+    "results": {
+        "text": "각 모델의 정확도를 평가한 결과는 표 1과 같다. Claude 3.5 Sonnet과 GPT-4o는 평균 정확도가 0.838, 0.824, 최저 정확도가 0.50, 0.48로 분석한 모델들 중에서 높은 성능을 보였다. Claude는 요단백, 혈청크레아티닌, AST에서 만점(1.00)을 기록하였으며, 다른 모델들의 정확도가 낮은 BMI(Body Mass Index) 항목에서도 1.00의 우수한 성능을 보였다. Gemini 1.5 Pro는 요단백과 혈청크레아티닌 항목에서 우수한 성능(1.00)을 보였지만, T-C(0.47)에서는 가장 낮은 성능을 기록하였다. 하지만 평균 정확도는 0.798로 상위 두 모델과 비슷한 해석 능력을 갖추고 있는 것으로 평가되었다. 반면, EXAONE과 LLaMA는 평균 정확도가 0.560, 0.628, 최저 정확도가 0.06, 0.05로 다른 모델들에 비해 건강검진 데이터 해석 능력이 낮은 것으로 분석되었다.\n\n검사 항목별로, 요단백, 혈청크레아티닌, AST는 대부분의 모델에서 높은 정확도로 해석되었고. HDL-C, LDL-C은 모든 모델에서 상대적으로 낮은 정확도로 해석되었다, 특히 EXAONE과 LLaMA의 성능이 매우 낮았다. BMI는 모델 간 성능 차이가 크게 나타난 항목으로, Claude과 GPT는 우수한 성능을 보인 반면, EXAONE과 LLaMA는 낮은 성능을 보였다.",
+        "caption": " ",
+        "image": "img/표1_3.svg",
+        "imageLink": "#"
+    },
+    "discussion": {
+        "text": "본 연구에서는 5 종의 대규모 언어 모델을 사용하여 건강검진 데이터를 해석하고, 결과의 정확도를 비교하였다. Claude와 GPT는 전반적으로 가장 우수한 성능을 보였으며, EXAONE과 LLaMA는 전반적으로 낮은 해석 정확도를 보였다. 항목별 관점에서 보았을 때, 레이블이 2개였던 간 기능 및 신장 기능 관련 지표(요단백, 혈청크레아티닌, AST, ALT, γ-GTP)에서는 높은 해석 능력을 보여준 반면, BMI와 BP, 콜레스테롤(T-C, TG, HDL-C, LDL-C)과 같이 레이블의 개수가 2개 이상이었던 항목들의 해석에서는 전반적으로 미흡한 성능을 보였다.\n\n모델 간 정확도 편차 원인으로는 다음 이유들을 고려할 수 있다. 첫번째로는, 건강검진 데이터를 해석할 때 각 모델 학습에 사용된 임계값과 질병관리청 기준이 달라 일부 항목의 해석 정확도가 낮아졌을 가능성이 있다. 두번째로는, 레이블 종류가 상대적으로 많은 항목의 결과 해석에서 낮은 정확도를 보였는데, 이는 대규모 언어 모델들이 더 복잡한 지표를 해석하는 데에 어려움이 있다는 것으로 해석된다.\n\n본 연구의 결과는 일부 항목에 대해서는 높은 정확도를 보이지만, 아직까지 대규모 언어 모델을 건강검진 결과지 해석에 전면적으로 적용하기는 어려우며, 프롬프트 디자인 최적화나 의료 특화 대규모 언어 모델을 파인 튜닝하는 등의 후속 연구를 통한 성능 개선이 필요함을 시사한다. 단, 이 연구는 100건의 사례만을 분석한 것이므로 이러한 결론을 일반화하기 위해서는 보다 많은 사례에 대한 검증이 수행될 필요가 있다. 이에 따라, 대규모 언어 모델이 임상 현장에서 효과적으로 활용될 수 있는 가능성을 높일 수 있으며, 건강검진 결과 해석을 더 일관되고 신뢰성 있게 제공할 수 있을 것으로 기대된다.\n\n",
+        "caption": " ",
+        "image": "",
+        "imageLink": "#"
+    }
+}
