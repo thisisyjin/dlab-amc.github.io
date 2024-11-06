@@ -347,3 +347,14 @@ img.centered {
   width: 1.5em; /* Width allocated for the number */
   font-weight: bold;
 }
+
+#affiliations {
+  font-size: small;
+  line-height: 1.5; /* Adjust line spacing if needed */
+  white-space: normal; /* Allow text to wrap */
+}
+
+#affiliations span {
+  display: block; /* Each affiliation starts on a new line */
+  margin-bottom: 0.5em; /* Optional spacing between affiliations */
+}
