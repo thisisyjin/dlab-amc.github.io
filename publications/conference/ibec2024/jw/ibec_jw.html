@@ -151,7 +151,7 @@ layout: default
                     document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
                         `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
                     document.getElementById('paper-link').href = data.links.paper;
-                    document.getElementById('poster-link').href = data.links.paper;
+                    document.getElementById('poster-link').href = data.links.poster;
                     document.getElementById('abstract-text').innerText = data.abstract;
                     document.getElementById('intro-text').innerText = data.intro;
                     document.getElementById('method-text').innerText = data.method.text;
