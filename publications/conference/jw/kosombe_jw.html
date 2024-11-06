@@ -35,11 +35,7 @@ layout: default
                 <div class="paper-btn-parent">
                     <a class="paper-btn green-box" id="paper-link" href="#">
                         <span class="material-icons">description</span>
-                        Paper
-                    </a>
-                    <a class="paper-btn green-box" id="code-link" href="#">
-                        <span class="material-icons">code</span>
-                        Code
+                        Poster
                     </a>
                 </div>
             </div>
@@ -65,6 +61,16 @@ layout: default
             <hr>
             <div class="flex-row">
                 <p id="abstract-text">
+                    <!-- 초록 내용 -->
+                </p>
+            </div>
+        </section>
+        <!-- 인트로 섹션 -->
+        <section id="intro">
+            <h2>intro</h2>
+            <hr>
+            <div class="flex-row">
+                <p id="intro-text">
                     <!-- 초록 내용 -->
                 </p>
             </div>
@@ -119,100 +125,7 @@ layout: default
                 <!-- 토론 캡션 -->
             </p>
         </figure>
-        <!-- 논문 섹션 -->
-        <div class="section">
-            <h2>Paper</h2>
-            <hr>
-            <div class="flex-row">
-                <div class="download-thumb">
-                    <div
-                        style="box-sizing: border-box; padding: 16px; margin: auto;">
-                        <a id="paper-thumbnail-link" href="#"><img
-                                class="screenshot" id="paper-thumbnail" src></a>
-                    </div>
-                </div>
-                <div class="paper-stuff">
-                    <p id="paper-title"><b></b></p>
-                    <p id="paper-authors"></p>
-                    <p id="paper-venue"><i></i></p>
-                    <div><span class="material-icons">description</span><a
-                            id="paper-arxiv" href="#"> arXiv version</a></div>
-                    <div><span class="material-icons">insert_comment</span><a
-                            id="paper-bibtex" href="#"> BibTeX</a></div>
-                    <div><span
-                            class="material-icons">integration_instructions</span><a
-                            id="paper-code" href="#"> Code</a></div>
-                </div>
-            </div>
-        </div>
-        <div class="section">
-            <h2 class="related-projects-title">Our Related Projects</h2>
-            <hr>
-            <p id="related-projects-text">
-                <!-- 관련 프로젝트 설명 -->
-            </p>
-            <div class='row vspace-top'>
-                <div class="col-sm-3">
-                    <img id="project1-image" class='img-fluid'>
-                </div>
-                <div class="col">
-                   <div class='paper-title'>
-                    <h3><a href="#" id="project1-link"></a></h3>
-                    </div>
-                    <div id="project1-desc">
-                        <strong>프로젝트 설명</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="row vspace-top">
-                <div class="col-sm-3">
-                    <div class="move-down">
-                        <!-- <video width="100%" playsinline autoplay preload muted> -->
-                            <source id="project2-video" type="video/mp4">
-                        </video>
-                    </div>
-                </div>
-                <div class="col-sm-9">
-                    <div class="paper-title">
-                        <h3><a href="#" id="project2-link"></a></h3>
-                    </div>
-                    <div id="project2-desc">
-                        <strong>프로젝트 설명</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="row vspace-top">
-                <div class="col-sm-3">
-                    <!-- <video width="100%" playsinline autoplay preload muted> -->
-                        <source id="project3-video" type="video/mp4">
-                    </video>
-                </div>
-                <div class="col-sm-9">
-                    <div class="paper-title">
-                        <h3><a href="#" id="project3-link"></a></h3>
-                    </div>
-                    <div id="project3-desc">
-                        <strong>프로젝트 설명</strong>
-                    </div>
-                </div>
-            </div>
-            <div class="row vspace-top">
-                <div class="col-sm-3">
-                    <div class="move-down">
-                        <img id="project4-image" class="img-fluid"
-                            alt="comp_carton" style="width:90%">
-                    </div>
-                </div>
-                <div class="col-sm-9">
-                    <div class="paper-title">
-                        <h3><a href="#" id="project4-link"></a></h3>
-                    </div>
-                    <div id="project4-desc">
-                        <strong>프로젝트 설명</strong>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <section class="section-left gray-background" id="BibTeX">
             <h2 class="title">BibTeX</h2>
@@ -243,8 +156,8 @@ layout: default
                     document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
                         `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
                     document.getElementById('paper-link').href = data.links.paper;
-                    document.getElementById('code-link').href = data.links.code;
                     document.getElementById('abstract-text').innerText = data.abstract;
+                    document.getElementById('intro-text').innerText = data.abstract;
                     document.getElementById('method-text').innerText = data.method.text;
                     document.getElementById('method-caption').innerText = data.method.caption;
                     document.getElementById('method-image').src = data.method.image;
@@ -260,34 +173,8 @@ layout: default
                     document.getElementById('discussion-image').src = data.discussion.image;
                     document.getElementById('discussion-image-link').href = data.discussion.imageLink;
                     document.getElementById('teaser-video-source').src = data.teaserVideo;
-                    document.getElementById('related-projects-text').innerText = data.relatedProjects.text;
-                    document.getElementById('project1-link').innerText = data.relatedProjects.projects[0].title;
-                    document.getElementById('project1-link').href = data.relatedProjects.projects[0].link;
-                    document.getElementById('project1-desc').innerText = data.relatedProjects.projects[0].description;
-                    document.getElementById('project1-image').src = data.relatedProjects.projects[0].image;
-                    document.getElementById('project2-link').innerText = data.relatedProjects.projects[1].title;
-                    document.getElementById('project2-link').href = data.relatedProjects.projects[1].link;
-                    document.getElementById('project2-desc').innerText = data.relatedProjects.projects[1].description;
-                    document.getElementById('project2-video').src = data.relatedProjects.projects[1].video;
-                    document.getElementById('project3-link').innerText = data.relatedProjects.projects[2].title;
-                    document.getElementById('project3-link').href = data.relatedProjects.projects[2].link;
-                    document.getElementById('project3-desc').innerText = data.relatedProjects.projects[2].description;
-                    document.getElementById('project3-video').src = data.relatedProjects.projects[2].video;
-                    document.getElementById('project4-link').innerText = data.relatedProjects.projects[3].title;
-                    document.getElementById('project4-link').href = data.relatedProjects.projects[3].link;
-                    document.getElementById('project4-desc').innerText = data.relatedProjects.projects[3].description;
-                    document.getElementById('project4-image').src = data.relatedProjects.projects[3].image;
                     document.getElementById('bibtex-entry').innerText = data.bibtex;
 
-                    // Adding paper section
-                    document.getElementById('paper-thumbnail-link').href = data.paper.links.arxiv;
-                    document.getElementById('paper-thumbnail').src = data.paper.thumbnail;
-                    document.getElementById('paper-title').innerHTML = `<b>${data.paper.title}</b>`;
-                    document.getElementById('paper-authors').innerText = data.paper.authors;
-                    document.getElementById('paper-venue').innerHTML = `<i>${data.paper.venue}</i>`;
-                    document.getElementById('paper-arxiv').href = data.paper.links.arxiv;
-                    document.getElementById('paper-bibtex').href = data.paper.links.bibtex;
-                    document.getElementById('paper-code').href = data.paper.links.code;
                 })
                 .catch(error => {
                     console.error('Error fetching JSON data:', error);
