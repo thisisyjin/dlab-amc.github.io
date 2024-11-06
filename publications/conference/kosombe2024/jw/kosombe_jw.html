@@ -67,7 +67,7 @@ layout: default
         </section>
         <!-- 인트로 섹션 -->
         <section id="intro">
-            <h2>intro</h2>
+            <h2>introduction</h2>
             <hr>
             <div class="flex-row">
                 <p id="intro-text">
@@ -84,7 +84,7 @@ layout: default
             </p>
             <figure>
                 <a id="method-image-link">
-                    <img class="centered" id="method-image" width="80%">
+                    <img class="centered" id="method-image" width="60%">
                 </a>
                 <p class="caption-up" id="method-caption">
                     <!-- 결과 캡션 -->
@@ -100,7 +100,7 @@ layout: default
             </p>
             <figure>
                 <a id="results-image-link">
-                    <img class="centered" id="results-image" width="75%">
+                    <img class="centered" id="results-image" width="90%">
                 </a>
                 <p class="caption-right" id="results-caption">
                     <!-- 성능 향상 캡션 -->
@@ -149,7 +149,7 @@ layout: default
                         `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
                     document.getElementById('paper-link').href = data.links.paper;
                     document.getElementById('abstract-text').innerText = data.abstract;
-                    document.getElementById('intro-text').innerText = data.abstract;
+                    document.getElementById('intro-text').innerText = data.intro.text;
                     document.getElementById('method-text').innerText = data.method.text;
                     document.getElementById('method-caption').innerText = data.method.caption;
                     // Conditional display for the method image
