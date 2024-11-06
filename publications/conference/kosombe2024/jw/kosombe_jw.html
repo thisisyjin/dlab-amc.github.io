@@ -160,19 +160,42 @@ layout: default
                     document.getElementById('intro-text').innerText = data.abstract;
                     document.getElementById('method-text').innerText = data.method.text;
                     document.getElementById('method-caption').innerText = data.method.caption;
-                    document.getElementById('method-image').src = data.method.image;
-                    document.getElementById('method-image-link').href = data.method.imageLink;
+                    // Conditional display for the method image
+                    if (data.method.image) {
+                        document.getElementById('method-image').src = data.method.image;
+                        document.getElementById('method-image-link').href = data.method.imageLink;
+                    } else {
+                        document.getElementById('method-image').style.display = 'none';
+                        document.getElementById('method-image-link').style.display = 'none';
+                    }
                     document.getElementById('results-title').innerText = "Results";
                     document.getElementById('results-text').innerText = data.results.text;
                     document.getElementById('results-caption').innerText = data.results.caption;
-                    document.getElementById('results-image').src = data.results.image;
-                    document.getElementById('results-image-link').href = data.results.imageLink;
+                    // Conditional display for the results image
+                    if (data.results.image) {
+                        document.getElementById('results-image').src = data.results.image;
+                        document.getElementById('results-image-link').href = data.results.imageLink;
+                    } else {
+                        document.getElementById('results-image').style.display = 'none';
+                        document.getElementById('results-image-link').style.display = 'none';
+                    }
                     document.getElementById('discussion-title').innerText = "Discussion";
                     document.getElementById('discussion-text').innerText = data.discussion.text;
                     document.getElementById('discussion-caption').innerText = data.discussion.caption;
-                    document.getElementById('discussion-image').src = data.discussion.image;
-                    document.getElementById('discussion-image-link').href = data.discussion.imageLink;
-                    document.getElementById('teaser-video-source').src = data.teaserVideo;
+                    // Conditional display for the discussion image
+                    if (data.discussion.image) {
+                        document.getElementById('discussion-image').src = data.discussion.image;
+                        document.getElementById('discussion-image-link').href = data.discussion.imageLink;
+                    } else {
+                        document.getElementById('discussion-image').style.display = 'none';
+                        document.getElementById('discussion-image-link').style.display = 'none';
+                    }
+
+                    if (data.teaserVideo) {
+                        document.getElementById('teaser-video-source').src = data.teaserVideo;
+                    } else {
+                        document.getElementById('teaser-image').style.display = 'none';
+                    }
                     document.getElementById('bibtex-entry').innerText = data.bibtex;
 
                 })
