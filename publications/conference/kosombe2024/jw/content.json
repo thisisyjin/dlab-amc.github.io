@@ -31,46 +31,5 @@
         "image": "img/gpt_bard.png",
         "imageLink": "#"
     },
-    "teaserVideo": "img/debate.m4v",
-    "relatedProjects": {
-        "text": "Check out our related projects on combining and composing different models! A full list can be found here!",
-        "projects": [
-            {
-                "title": "Composing Pretrained Models through Iterative Consensus",
-                "link": "https://energy-based-model.github.io/composing-pretrained-models/",
-                "description": "We present a method to combine different large pretrained models together by having individual models communicate with each other through iterative consensus. We illustrate how this combination of models can do zero-shot VQA, image generation, reasoning, and image generation.",
-                "image": ""
-            },
-            {
-                "title": "Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC",
-                "link": "https://energy-based-model.github.io/reduce-reuse-recycle/",
-                "description": "We present a method to combine different diffusion models with different probabilistic operations. To enable this, we propose new samplers, inspired by MCMC, to enable successful compositional generation. Further, we propose an energy-based parameterization of diffusion models which enables the use of new compositional operators and more sophisticated, Metropolis-corrected samplers.",
-                "video": "img/recyle.m4v"
-            },
-            {
-                "title": "Compositional Visual Generation with Composable Diffusion Models",
-                "link": "https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/",
-                "description": "We present a method to improve the compositional generalization of diffusion models by composing different diffusion models together, drawing on the close connection of diffusion models with EBMs. We illustrate how compositional operators enable the ability to composing multiple sets of objects together as well as generate images subject to complex text prompts.",
-                "video": "img/teaser_glide.mp4"
-            },
-            {
-                "title": "Compositional Visual Generation with Energy Based Models",
-                "link": "https://energy-based-model.github.io/compositional-generation-inference/",
-                "description": "We present a set of compositional operators that enable EBMs to exhibit zero-shot compositional visual generation, enabling us to compose visual concepts (through operators of conjunction, disjunction, or negation) together in a zero-shot manner. Our approach enables us to generate faces given a description ((Smiling AND Female) OR (NOT Smiling AND Male)) or to combine several different objects together.",
-                "image": "img/comp_cartoon.png"
-            }
-        ]
-    },
-    "paper": {
-        "title": "LION: Latent Point Diffusion Models for 3D Shape Generation",
-        "authors": "Xiaohui Zeng, Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2022",
-        "links": {
-            "arxiv": "https://arxiv.org/abs/2210.06978",
-            "bibtex": "assets/zeng2022lion.bib",
-            "code": "https://github.com/nv-tlabs/LION"
-        },
-        "thumbnail": "img/cld_paper_preview.png"
-    },
     "bibtex": "@article{du2023improving,\ntitle={Improving factuality and reasoning in language models through multiagent debate},\nauthor={Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor},\njournal={arXiv preprint arXiv:2305.14325},\nyear={2023}\n}"
 }
