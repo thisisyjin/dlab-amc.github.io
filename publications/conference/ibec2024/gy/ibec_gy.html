@@ -94,39 +94,29 @@ layout: default
                 </p>
             </figure>
         </div>
-        <!-- 성능 향상 섹션 -->
+        <!-- Results 섹션 -->
         <div class="section">
             <h2 id="results-title">Results</h2>
             <hr>
-            <p id="results-text">
-                <!-- 성능 향상 내용 -->
-            </p>
-            <figure>
-                <a id="results-image-link">
-                    <img class="centered" id="results-image" width="40%">
-                </a>
-                <p class="caption-right" id="results-caption">
-                    <!-- 성능 향상 캡션 -->
-                </p>
-            </figure>
+            <p id="results-text"></p>
+            <div class="image-row" id="results-images-container">
+                <!-- Results 섹션에 여러 이미지 추가 -->
+            </div>
+            <p class="caption-right" id="results-caption"></p>
         </div>
 
+        <!-- Discussion 섹션 -->
         <div class="section">
             <h2 id="discussion-title">Discussion</h2>
             <hr>
-            <p id="discussion-text">
-            </p>
+            <p id="discussion-text"></p>
+            <div class="image-row" id="discussion-images-container">
+                <!-- Discussion 섹션에 여러 이미지 추가 -->
+            </div>
+            <p class="caption-right" id="discussion-caption"></p>
         </div>
-        <figure>
-            <a id="discussion-image-link">
-                <center>
-                    <img class="centered" id="discussion-image" width="40%">
-                </center>
-            </a>
-            <p class="caption" id="discussion-caption">
-                <!-- 토론 캡션 -->
-            </p>
-        </figure>
+
+
         <!-- Reference Section -->
         <div class="section" id="reference">
             <h2 class="title">References</h2>
@@ -139,77 +129,63 @@ layout: default
 </article>
 
 <script>
-        // JavaScript를 사용하여 JSON 파일로부터 데이터 불러오기
-        document.addEventListener('DOMContentLoaded', () => {
-            console.log('DOM fully loaded and parsed');
-            fetch('content.json')
-                .then(response => {
-                    console.log('Fetching JSON');
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok ' + response.statusText);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    console.log('JSON Data:', data);
-                    document.getElementById('title').innerText = data.title;
-                    document.getElementById('author-list').innerHTML = data.authors.map(author => 
-                        `<a href="${author.link}" style="color: orange;">${author.name}<sup>${author.affiliation}</sup></a>`).join(', ');
-                    document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
-                        `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
-                    document.getElementById('paper-link').href = data.links.paper;
-                    document.getElementById('poster-link').href = data.links.poster;
-                    document.getElementById('abstract-text').innerText = data.abstract;
-                    document.getElementById('intro-text').innerText = data.intro;
-                    document.getElementById('method-text').innerText = data.method.text;
-                    document.getElementById('method-caption').innerText = data.method.caption;
-                    // Conditional display for the method image
-                    if (data.method.image) {
-                        document.getElementById('method-image').src = data.method.image;
-                        document.getElementById('method-image-link').href = data.method.imageLink;
-                    } else {
-                        document.getElementById('method-image').style.display = 'none';
-                        document.getElementById('method-image-link').style.display = 'none';
-                    }
-                    document.getElementById('results-title').innerText = "Results";
-                    document.getElementById('results-text').innerText = data.results.text;
-                    document.getElementById('results-caption').innerText = data.results.caption;
-                    // Conditional display for the results image
-                    if (data.results.image) {
-                        document.getElementById('results-image').src = data.results.image;
-                        document.getElementById('results-image-link').href = data.results.imageLink;
-                    } else {
-                        document.getElementById('results-image').style.display = 'none';
-                        document.getElementById('results-image-link').style.display = 'none';
-                    }
-                    document.getElementById('discussion-title').innerText = "Discussion";
-                    document.getElementById('discussion-text').innerText = data.discussion.text;
-                    document.getElementById('discussion-caption').innerText = data.discussion.caption;
-                    // Conditional display for the discussion image
-                    if (data.discussion.image) {
-                        document.getElementById('discussion-image').src = data.discussion.image;
-                        document.getElementById('discussion-image-link').href = data.discussion.imageLink;
-                    } else {
-                        document.getElementById('discussion-image').style.display = 'none';
-                        document.getElementById('discussion-image-link').style.display = 'none';
-                    }
-                    if (data.teaserVideo) {
-                        document.getElementById('teaser-video-source').src = data.teaserVideo;
-                    } else {
-                        document.getElementById('teaser-image').style.display = 'none';
-                    }
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('content.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
+            return response.json();
+        })
+        .then(data => {
+            document.getElementById('title').innerText = data.title;
+            document.getElementById('author-list').innerHTML = data.authors.map(author => 
+                `<a href="${author.link}" style="color: orange;">${author.name}<sup>${author.affiliation}</sup></a>`).join(', ');
+            document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
+                `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join('<br>');
+            document.getElementById('paper-link').href = data.links.paper;
+            document.getElementById('poster-link').href = data.links.poster;
+            document.getElementById('abstract-text').innerText = data.abstract;
+            document.getElementById('intro-text').innerText = data.intro;
+            document.getElementById('method-text').innerText = data.method.text;
+            document.getElementById('method-caption').innerText = data.method.caption;
 
-                    // Populate References with numbering
-                    const referenceList = document.getElementById('reference-list');
-                    data.references.forEach((reference, index) => {
-                        const listItem = document.createElement('li');
-                        listItem.textContent = reference;
-                        listItem.setAttribute('data-number', `[${index + 1}] `);
-                        referenceList.appendChild(listItem);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error fetching JSON data:', error);
-                });
-        });
+            // Display multiple images in Results section
+            const resultsContainer = document.getElementById('results-images-container');
+            for (let i = 0; data.results[`image${i}`]; i++) {
+                const imgLink = document.createElement('a');
+                imgLink.href = data.results.imageLink;
+                const img = document.createElement('img');
+                img.src = data.results[`image${i}`];
+                img.className = 'centered';
+                img.alt = `Result Image ${i + 1}`;
+                imgLink.appendChild(img);
+                resultsContainer.appendChild(imgLink);
+            }
+            document.getElementById('results-caption').innerText = data.results.caption;
+            document.getElementById('results-text').innerText = data.results.text;
+
+            // Discussion section can also have multiple images
+            const discussionContainer = document.getElementById('discussion-images-container');
+            for (let i = 0; data.discussion[`image${i}`]; i++) {
+                const imgLink = document.createElement('a');
+                imgLink.href = data.discussion.imageLink;
+                const img = document.createElement('img');
+                img.src = data.discussion[`image${i}`];
+                img.className = 'centered';
+                img.alt = `Discussion Image ${i + 1}`;
+                imgLink.appendChild(img);
+                discussionContainer.appendChild(imgLink);
+            }
+            document.getElementById('discussion-caption').innerText = data.discussion.caption;
+            document.getElementById('discussion-text').innerText = data.discussion.text;
+
+            // References section
+            const referenceList = document.getElementById('reference-list');
+            data.references.forEach((ref, idx) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `[${idx + 1}] ${ref}`;
+                referenceList.appendChild(listItem);
+            });
+        })
+        .catch(error => console.error('Error fetching JSON data:', error));
+});
     </script>

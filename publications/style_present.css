@@ -358,3 +358,21 @@ img.centered {
   display: block; /* Each affiliation starts on a new line */
   margin-bottom: 0.5em; /* Optional spacing between affiliations */
 }
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.image-row a {
+  width: 45%; /* 각 이미지를 컨테이너 너비의 45%로 설정 */
+}
+
+.image-row img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

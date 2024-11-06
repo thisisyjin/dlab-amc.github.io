@@ -25,13 +25,14 @@
     "results": {
         "text": "생체신호는 뇌파(Electroencephalogram, EEG), 안전도(Electro -oculography, EOG), 턱 근전도(Chin electromyography, Chin EMG), 다리 근전도(Leg electromyography, Leg EMG), 심전도 (Electrocardiogram, ECG), 공기 흐름(Airflow), 호흡 노력 (Respiratory effort, RE), 산소 포화도(Oxygen saturation, SpO2), 자세(Position) 총 9개 범주로 분류되었다. 그리고 수면 분석 파라미터는 수면 점수(Sleep scoring), 각성(Arousal), 심장 (Cardiac), 움직임(Movement), 호흡(Respiratory)의 5개 범주로 분류되었다. 생체신호 측정 설정에 있어 EEG, ECG, 턱 및 다리 EMG는 DB에 따라 단극 또는 양극 방식으로 측정되어 DB간 차이를 보였다. EEG의 경우 ABC, CFS, SOF는 “C3(Left Central)”와 같은 단극 방식으로 측정된 신호를 포함하고 있는 반면, APPLE, SHHS, SOF, WSC은 “C3-M2(Left Central to Right Mastoid)” 또는 “C4-A1(Right Central to Left Mastoid)”와 같은 양극 방식으로 측정된 신호를 포함한다. ECG는 7개의 모든 DB에서 Lead II 방식으로 수집되었으나 ABC, CFS, SOF는 ECG1, ECG2로 (-)와 (+) 신호가 분리되어 기록된 반면, APPLE, MESA, SHHS, WSC는 ECG 또는 EKG 명칭의 양극 측정 방식으로 수집되었다. 턱 EMG는 ABC, CFS, SOF, WSC에서 Chin1(Center Chin EMG), Chin2(Left Chin EMG), Chin3(Right Chin EMG)의 단극 신호와 백업 전극 3개로 분류되었으나 APPLE, MESA, SHHS는 “Chinz”의 양극 측정 방식으로 기록되었다. 다리 EMG도 단일 전극 또는 양극으로 수집 방식에 차이가 있었다. 이외 Airflow, 복부(Abdomen), 흉부(Thorax), SpO2, Position, 코골이(Snore), 맥박(Pulse), 비강압(Nasal pressure)은 5개 이상의 DB에서 공통적으로 수집되었다. 오픈 DB 별 생체신호 측정 설정의 예시는 표 2와 같다.\n\n수면 분석 파라미터의 경우, TST(Total sleep time)와 각 수면 단계별 비율(Percentage of sleep stage)은 모든 DB에 공통적으로 포함된 것으로 확인된다. SE(Sleep efficiency), SL(Sleep latency), Sleep R Latency from Sleep Onset은 ABC를 제외한 모든 DB에서 포함되었으며, TRT(Total recording time)와 WASO(Wake after sleep onset)는 4개(APPLE, CFS, MESA, SHHS) DB에 공통적으로 포함된 것을 확인하였다. 각성 카테고리의 ArI(Arousal index)와 호흡 카테고리의 AHI(Apnea-Hypopnea index), OAI(Obstructive apnea index), CAI(Central apnea index) 및 OAHI(Obstructive apnea-hypopnea index)는 5개 이상의 DB에서 조사되었다. 움직임 카테고리에서는 AASM의 권장 파라미터 중 하나인 수면 중 주기적 사지 움직임 수(PLMS, Periodic Limb Movements of Sleep)가 3개 DB에서 확인되었다. 심장 카테고리는 주로 수면 중 최소, 최대, 평균 심박수가 CFS, MESA DB의 파라미터로 포함되었다. 결과적으로 CFS, MESA, SHHS는 모든 수면 분석 파라미터가 포함되었으며(표 3) ABC는 수면 카테고리, WSC는 호흡 카테고리 중에서 일부 파라미터가 포함되지 않았다.",
         "caption": "",
-        "image": "img/IBEC_RYU_table2.JPG",
+        "image0": "img/IBEC_RYU_table2.JPG",
+        "image1": "img/IBEC_RYU_table3.JPG",
         "imageLink": "#"
     },
     "discussion": {
         "text": "이 연구에서는 NSRR의 오픈 DB를 기반으로 다양한 생체 신호 및 수면 분석 파라미터를 조사하여, 각 DB의 특성을 정리하였다. 대부분의 오픈 DB는 AASM 권장 항목을 포함하고 있었으나, 신호 측정 방식에는 차이가 있었고 공통 파라미터의 종류에도 차이가 있었다. 이러한 결과는 연구자들이 개별 DB 설명서를 검토하는 과정 없이 다양한 오픈 DB를 효율적으로 전처리 할 수 있을 것으로 기대된다. 그러나 조사된 파라미터의 정의와 특징은 AASM 수면 스코어링 매뉴얼과 오픈 DB의 지속적인 업데이트를 반영하여 지속적으로 검토해야 할 필요성이 있다.",
         "caption": "",
-        "image": "img/IBEC_RYU_table3.JPG",
+        "image": "",
         "imageLink": "#"
     },
     "references": [
