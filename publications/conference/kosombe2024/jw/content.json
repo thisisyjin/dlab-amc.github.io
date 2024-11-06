@@ -30,6 +30,5 @@
         "caption": "Debate Between ChatGPT and Bard. Illustration of debate between different models. While both models generate incorrect responses to the initial GSM8K problem, debate between the models enables them to generate the correct final answer.",
         "image": "img/gpt_bard.png",
         "imageLink": "#"
-    },
-    "bibtex": "@article{du2023improving,\ntitle={Improving factuality and reasoning in language models through multiagent debate},\nauthor={Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor},\njournal={arXiv preprint arXiv:2305.14325},\nyear={2023}\n}"
+    }
 }
