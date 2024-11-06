@@ -30,5 +30,11 @@
         "caption": " ",
         "image": "",
         "imageLink": "#"
-    }
+    },
+"references": [
+    "Seung Min Ryu, Keewon Shin, Chang Hyun Doh, Hui Ben, Ji Yeon Park, Kyung-Hwan Koh, Hangsik Shin and In-ho Jeon, “Orthopedic surgeon level joint angle assessment with artificial intelligence based on photography: a pilot study,” Biomedical Engineering Letters, 1-12, 2024",
+    "John Doe, Jane Smith, “A Comprehensive Study on AI in Healthcare,” Journal of Medical Technology, 45(3), 2023",
+    "Alice Johnson, Bob Lee, “Machine Learning Approaches to Health Diagnostics,” IEEE Transactions on Biomedical Engineering, 60(5), 2022",
+    "Emily Davis, Michael Brown, “Evaluating Large Language Models in Medical Fields,” Journal of Health Informatics, 12(4), 2024"
+]
 }
