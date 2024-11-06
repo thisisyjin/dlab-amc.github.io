@@ -19,7 +19,7 @@
     "method": {
         "text": "2.1. 데이터 \n\n데이터는 ABC(Apnea, bariatric surgery, and CPAP study), APPLE(Apnea Positive Pressure Long-term Efficacy Study), CFS(Cleveland Family Study), MESA(Multi-ethnic study of atherosclerosis), SHHS(Sleep Heart Health Study), SOF(Study of osteoporotic fractures), WSC(Wisconsin sleep cohort)으로 총 7개 이다(표 1). APPLE, SHHS, WSC는 추적 관찰된 연구로  연구대상자 및 성별 정보는 웹페이지에 기재된 첫 방문(baseline) 기준으로 작성되었다. SOF를 제외한 모든 DB는 성별 비율이 유사하였지만 SOF는 모두 여성에게서 수집된 데이터이다. 대부분의 DB에서 연구 대상자는 18세 이상 성인으로 한정되지만 CFS는 수면 무호흡의 가족력에 관한 연구로 6세부터 88세까지로 연령의 범위가 넓다. NSRR의 오픈 DB는 원신호 정보를 포함한 EDF(European Data Format) 파일, 수면 정보가 레이블링된 XML(Extensible Markup Language), 그리고 임상 데이터 및 데이터 사전이 포함된 CSV(Comma-Separated Values) 파일로 구성된다. \n\n\n2.2. 생체신호 및 수면 분석 파라미터\n\n선정된 오픈 DB의 수집된 생체신호는 개별 오픈 DB의 신호 수집 설명서 및 몽타주-샘플링 정보와 실제 EDF 파일안에 존재하는 신호 명칭 및 정의를 기준으로 조사되었다. 조사된 신호는 AASM의 권장 신호 수집 방법[5]을 기준으로 신호의 종류를 정의에 맞게 분류하였다. 만약 수집된 신호가 권장 전극 대신 백업 전극으로 측정된 경우 권장 전극으로 측정된 신호와 동일한 신호로 분류하였다. 또한 신호가 같은 종류에 해당함에도 신호의 측정 방식이 단극(Unipolar) 방식과 양극(Bipolar) 방식으로 측정되었을 경우 두 방식을 구분하여 다른 신호로 분류하였다. 오픈 DB의 수면 분석 파라미터는 개별 오픈 DB 페이지에서 제공되는 파라미터 목록과 실제 XML 파일에 포함된 목록을 기준으로 조사되었고 AASM 권장 기준[6]에 따라 수면 분석 파라미터 종류를 분류하였다.",
         "caption": "",
-        "image": "img/IBEC_RYU_table1.JPG",
+        "image0": "img/IBEC_RYU_table1.JPG",
         "imageLink": "#"
     },
     "results": {
