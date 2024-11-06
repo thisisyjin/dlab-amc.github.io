@@ -69,6 +69,7 @@ layout: default
                 </p>
             </div>
         </section>
+
         <!-- 인트로 섹션 -->
         <section id="intro">
             <h2>introduction</h2>
@@ -78,22 +79,18 @@ layout: default
                 </p>
             </div>
         </section>
-        <!-- 결과 섹션 -->
+
+        <!-- Method 섹션 -->
         <div class="section">
             <h2>Method</h2>
             <hr>
-            <p id="method-text">
-                <!-- 결과 내용 -->
-            </p>
-            <figure>
-                <a id="method-image-link">
-                    <img class="centered" id="method-image" width="40%">
-                </a>
-                <p class="caption-up" id="method-caption">
-                    <!-- 결과 캡션 -->
-                </p>
-            </figure>
+            <p id="method-text"></p>
+            <div class="image-row" id="method-images-container">
+                <!-- Method 섹션에 여러 이미지 추가 -->
+            </div>
+            <p class="caption-up" id="method-caption"></p>
         </div>
+
         <!-- Results 섹션 -->
         <div class="section">
             <h2 id="results-title">Results</h2>
@@ -147,6 +144,19 @@ document.addEventListener('DOMContentLoaded', () => {
             document.getElementById('intro-text').innerText = data.intro;
             document.getElementById('method-text').innerText = data.method.text;
             document.getElementById('method-caption').innerText = data.method.caption;
+
+            // Display multiple images in Method section
+            const methodContainer = document.getElementById('method-images-container');
+            for (let i = 0; data.method[`image${i}`]; i++) {
+                const imgLink = document.createElement('a');
+                imgLink.href = data.method.imageLink;
+                const img = document.createElement('img');
+                img.src = data.method[`image${i}`];
+                img.className = 'centered';
+                img.alt = `Method Image ${i + 1}`;
+                imgLink.appendChild(img);
+                methodContainer.appendChild(imgLink);
+            }
 
             // Display multiple images in Results section
             const resultsContainer = document.getElementById('results-images-container');
