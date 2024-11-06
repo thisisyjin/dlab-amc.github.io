@@ -29,18 +29,5 @@
         "caption": " ",
         "image": " ",
         "imageLink": " "
-    },
-    "teaserVideo": " ",
-    "paper": {
-        "title": " ",
-        "authors": " ",
-        "venue": " ",
-        "links": {
-            "arxiv": " ",
-            "bibtex": " ",
-            "code": " "
-        },
-        "thumbnail": " "
-    },
-    "bibtex": " "
+    }
 }
