@@ -35,6 +35,10 @@ layout: default
                 <div class="paper-btn-parent">
                     <a class="paper-btn green-box" id="paper-link" href="#">
                         <span class="material-icons">description</span>
+                        Paper
+                    </a>
+                    <a class="paper-btn green-box" id="poster-link" href="#">
+                        <span class="material-icons">description</span>
                         Poster
                     </a>
                 </div>
@@ -125,6 +129,14 @@ layout: default
                 <!-- 토론 캡션 -->
             </p>
         </figure>
+
+
+        <section class="section-left gray-background" id="BibTeX">
+            <h2 class="title">BibTeX</h2>
+            <div class="container fixed-width content column is-full-width">
+                <pre><code id="bibtex-entry"></code></pre>
+            </div>
+        </section>
     </section>
 </article>
 
@@ -148,46 +160,26 @@ layout: default
                     document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
                         `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
                     document.getElementById('paper-link').href = data.links.paper;
+                    document.getElementById('poster-link').href = data.links.paper;
                     document.getElementById('abstract-text').innerText = data.abstract;
                     document.getElementById('intro-text').innerText = data.abstract;
                     document.getElementById('method-text').innerText = data.method.text;
                     document.getElementById('method-caption').innerText = data.method.caption;
-                    // Conditional display for the method image
-                    if (data.method.image) {
-                        document.getElementById('method-image').src = data.method.image;
-                        document.getElementById('method-image-link').href = data.method.imageLink;
-                    } else {
-                        document.getElementById('method-image').style.display = 'none';
-                        document.getElementById('method-image-link').style.display = 'none';
-                    }
+                    document.getElementById('method-image').src = data.method.image;
+                    document.getElementById('method-image-link').href = data.method.imageLink;
                     document.getElementById('results-title').innerText = "Results";
                     document.getElementById('results-text').innerText = data.results.text;
                     document.getElementById('results-caption').innerText = data.results.caption;
-                    // Conditional display for the results image
-                    if (data.results.image) {
-                        document.getElementById('results-image').src = data.results.image;
-                        document.getElementById('results-image-link').href = data.results.imageLink;
-                    } else {
-                        document.getElementById('results-image').style.display = 'none';
-                        document.getElementById('results-image-link').style.display = 'none';
-                    }
+                    document.getElementById('results-image').src = data.results.image;
+                    document.getElementById('results-image-link').href = data.results.imageLink;
                     document.getElementById('discussion-title').innerText = "Discussion";
                     document.getElementById('discussion-text').innerText = data.discussion.text;
                     document.getElementById('discussion-caption').innerText = data.discussion.caption;
-                    // Conditional display for the discussion image
-                    if (data.discussion.image) {
-                        document.getElementById('discussion-image').src = data.discussion.image;
-                        document.getElementById('discussion-image-link').href = data.discussion.imageLink;
-                    } else {
-                        document.getElementById('discussion-image').style.display = 'none';
-                        document.getElementById('discussion-image-link').style.display = 'none';
-                    }
+                    document.getElementById('discussion-image').src = data.discussion.image;
+                    document.getElementById('discussion-image-link').href = data.discussion.imageLink;
+                    document.getElementById('teaser-video-source').src = data.teaserVideo;
+                    document.getElementById('bibtex-entry').innerText = data.bibtex;
 
-                    if (data.teaserVideo) {
-                        document.getElementById('teaser-video-source').src = data.teaserVideo;
-                    } else {
-                        document.getElementById('teaser-image').style.display = 'none';
-                    }
                 })
                 .catch(error => {
                     console.error('Error fetching JSON data:', error);

@@ -9,7 +9,7 @@
     ],
     "links": {
         "paper": "https://drive.google.com/file/d/1WEDwC_Ax-BUusI8UZ4pmztZkIv9EyYDP/view?usp=drive_link",
-        "code": "https://github.com/composable-models/llm_multiagent_debate"
+        "poster": "https://github.com/composable-models/llm_multiagent_debate"
     },
     "abstract": "Health checkups are an important means of assessing a patient's health status and detecting potential diseases at an early stage. However, due to the practical constraints of medical persons needing to treat many patients within a limited time, patients may not receive sufficient explanations about their health checkup results. To address this issue, recent research on using artificial intelligence to interpret medical test results has been actively conducted. This study compares and analyzes the accuracy of test result interpretations using five large language models, serving as a crucial preliminary study for developing technology that can explain health checkup results to patients based on their data.",
     "intro": "Health checkups are an important means of assessing a patient's health status and detecting potential diseases at an early stage. However, due to the practical constraints of medical persons needing to treat many patients within a limited time, patients may not receive sufficient explanations about their health checkup results. To address this issue, recent research on using artificial intelligence to interpret medical test results has been actively conducted. This study compares and analyzes the accuracy of test result interpretations using five large language models, serving as a crucial preliminary study for developing technology that can explain health checkup results to patients based on their data.",
