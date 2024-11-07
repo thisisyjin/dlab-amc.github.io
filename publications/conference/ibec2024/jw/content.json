@@ -9,7 +9,7 @@
     ],
     "links": {
         "paper": "https://drive.google.com/file/d/1WEDwC_Ax-BUusI8UZ4pmztZkIv9EyYDP/view?usp=drive_link",
-        "poster": "https://drive.google.com/file/d/1hqM8GGPP1z_qcA2F00sWYJhb--_8Moud/view?usp=sharing"
+        "poster": "https://drive.google.com/file/d/1J2d3_ATryQPHToOyVQGcBX811yuZ8ObW/view?usp=sharing"
     },
     "abstract": "Health checkups are an important means of assessing a patient's health status and detecting potential diseases at an early stage. However, due to the practical constraints of medical persons needing to treat many patients within a limited time, patients may not receive sufficient explanations about their health checkup results. To address this issue, recent research on using artificial intelligence to interpret medical test results has been actively conducted. This study compares and analyzes the accuracy of test result interpretations using five large language models, serving as a crucial preliminary study for developing technology that can explain health checkup results to patients based on their data.",
     "intro": "건강검진은 정기적인 검진을 통해 수검자의 건강 이상을 사전에 감지하고, 예방적 조치를 취함으로써, 건강을 유지할 수 있도록 돕는 중요한 잠재질병 평가 수단이다. 건강검진 결과는 대개 혈압, 혈당, 콜레스테롤, 간 기능, 신장 기능 등 다양한 생리적 수치를 포함하고 있는데, 결과를 충분히 설명할 수 있는 의료자원 부족으로 인해 정상/비정상 판정과 같이 단순 설명만 제공되는 경우가 빈번하며, 이는 결과적으로 수검자들이 자신의 건강 상태를 충분히 이해하지 못하게 하여 건강 증진 효과를 저하할 수 있다. 이러한 한계를 개선하기 위해, 인공지능을 활용하여 의료진을 대신할 수 있는 검사 결과 해석 기술이 활발히 연구되고 있으며 [1, 2], 특히 대규모 언어 모델(Large Language Model)을 활용하는 기술이 주목받고 있다. 하지만, 대규모 언어 모델의 경우 모델간 성능 편차가 존재하며, 특히 수치 데이터 해석에 있어서는 개선이 필요한 것으로 알려져 있어 지속적인 평가와 검증이 요구된다 [3].\n\n본 연구는 건강검진 결과를 자동으로 해석하고 수검자들에게 제공하기 위한 인공지능 개발에 앞서 건강검진 결과 해석에서 대규모 언어 모델의 가능성을 평가하는 것을 목적으로 한다. 이를 위해 현재까지 출시된 대표적인 대규모 언어 모델들의 건강검진 기록지 해석 성능을 비교평가하고 가능성과 한계를 조망한다.",
