@@ -18,4 +18,6 @@ comments: true
 다양한 기계 학습 알고리즘을 활용하여 종양 표지자의 변화를 모니터링하고, 델타 체크 방법을 통해 이상 징후를 빠르게 감지할 수 있도록 고안했습니다.
 
 
-<span class="image featured" style="max-width: 50%; max-height: 50%"><img src="/images/posts/2310/우수연제상-231020.png" alt="" style="wdith:50% ,height:50%"></span>
+<div style="display: flex; justify-content: center;">
+    <span class="image featured"><img src="/images/posts/2310/우수연제상-231020.png" alt="" style='height: 500px; object-fit: contain;'></span>
+</div>

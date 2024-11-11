@@ -16,4 +16,6 @@ comments: true
 
 우수초록상 수상은 이 연구가 마취 및 수술 중 환자의 통증 평가 분야에서 높은 수준의 학술적 성과를 달성하였음을 인정한 결과입니다. 새로운 기술과 모델은 임상 환경에서 효과적으로 활용될 수 있으며, 환자의 통증 관리에 새로운 지평을 열 수 있을 것으로 기대됩니다.
 
-<span class="image featured" style="max-width: 50%; max-height: 50%"><img src="/images/posts/2304/우수초록상-230415.png" alt="" style="wdith:50% ,height:50%"></span>
+<div style="display: flex; justify-content: center;">
+    <span class="image featured"><img src="/images/posts/2304/우수초록상-230415.png" alt="" style='height: 500px; object-fit: contain;'></span>
+</div>

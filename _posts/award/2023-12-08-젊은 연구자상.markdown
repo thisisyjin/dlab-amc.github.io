@@ -13,4 +13,6 @@ comments: true
 
 교수님 축하드립니다!
 
-<span class="image featured" style="max-width: 50%; max-height: 50%"><img src="/images/posts/2312/젊은연구자상_231208.jpg" alt="" style="wdith:50% ,height:50%"></span>
+<div style="display: flex; justify-content: center;">
+    <span class="image featured"><img src="/images/posts/2312/젊은연구자상_231208.jpg" alt="" style='height: 500px; object-fit: contain;'></span>
+</div>
