@@ -265,7 +265,7 @@ header.special .icon:before {
   margin-bottom: 5em;
 }
 
-#re_header h2{
+#re_header h2 {
   font-family: "NanumSquare_acEB";
 }
 
@@ -2812,4 +2812,15 @@ hr {
 
 .toggle-btn:hover {
   background-color: #0056b3;
+}
+
+
+.accordion-header {
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.accordion-header:hover {
+  color: #f57c13; /* Change to your desired hover color */
 }

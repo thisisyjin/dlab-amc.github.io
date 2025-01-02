@@ -162,33 +162,6 @@ layout: default
 					</p>
 				</div>
 
-				<div class="3u"> <!--왕창원-->
-					<div class="profil-image-container">
-						<a href="/htmls/members/Changwon Wang.html">
-							<img src="/images/members/왕창원.jpeg" alt
-								style="width: 100%; height: 100%; border-radius: 50%;">
-						</a>
-					</div>
-
-					<p style="text-align: center; margin: 10px 0;">
-						<strong>Postdoctoral Researcher</strong><br>
-						<span class="member-block">
-							<span style="font-size: 2rem; "> Changwon Wang,</span> <span
-								style="font-size: 0.9rem;">Ph.D.</span><br>
-						</span>
-						<a class="mail"
-							href="mailto:lovelyiu315@gmail.com">lovelyiu315@gmail.com</a>
-					</p>
-
-					<p style="text-align: center; margin: 5px 0; line-height: 1.2em;">
-						<span id=tags># IoT</span>
-						<span id=tags># Smart Hospital</span>
-						<span id=tags># Digital Healthcare</span> <br>
-						<span id=tags># Gait analysis</span>
-						<span id=tags># Digital therapeutics</span>
-					</p>
-				</div>
-
 				<div class="3u"> <!--류가연-->
 					<div class="profil-image-container">
 						<a href="/htmls/members/Gayeon Ryu.html">
@@ -236,11 +209,7 @@ layout: default
 						<span id=tags># Medical AI</span>
 					</p>
 				</div>
-			</div>
-		</section>
 
-		<section class="wrapper style1 container special">
-			<div class="row">
 				<div class="3u"> <!--최예은-->
 					<div class="profil-image-container">
 						<a href="/htmls/members/Ye Eun Choi.html">
@@ -265,8 +234,11 @@ layout: default
 						<span id=tags># Digital Healthcare</span>
 					</p>
 				</div>
+			</div>
+		</section>
 
-
+		<section class="wrapper style1 container special">
+			<div class="row">
 				<div class="3u"> <!--임하민-->
 					<div class="profil-image-container">
 						<a href="/htmls/members/Hamin Lim.html">
@@ -339,11 +311,6 @@ layout: default
 						<span id=tags># Bioinformatics</span>
 					</p>
 				</div>
-			</div>
-		</section>
-
-		<section class="wrapper style1 container special">
-			<div class="row">
 
 				<div class="3u"><!--한유진-->
 					<div class="profil-image-container">
@@ -368,6 +335,11 @@ layout: default
 						<span id=tags># Machine learning</span> <br>
 					</p>
 				</div>
+			</div>
+		</section>
+
+		<section class="wrapper style1 container special">
+			<div class="row">
 
 				<div class="3u"><!--이건-->
 					<div class="profil-image-container">
@@ -442,11 +414,6 @@ layout: default
 					</p>
 				</div>
 
-			</div>
-		</section>
-
-		<section class="wrapper style1 container special">
-			<div class="row">
 				<div class="3u"> <!--석현석-->
 					<div class="profil-image-container">
 						<a href="/htmls/members/Hyeon Seok Seok.html">
@@ -473,6 +440,12 @@ layout: default
 						<strong>*Ph.D. Candidate</strong><br>(Chonnam National University)<br>
 					</p>
 				</div>
+			</div>
+		</section>
+
+		<!-- 사람 추가
+		<section class="wrapper style1 container special">
+			<div class="row"> -->
 								
 
 				<!--사람 추가
@@ -500,8 +473,10 @@ layout: default
 					</p>
 				</div>
 				-->
+		<!--
 			</div>
 		</section>
+		-->
 
 
 		<!--행 추가
@@ -535,6 +510,55 @@ layout: default
 			</div>
 		</section>-->
 
+		<section class="wrapper style1 container special">
+			<h2 onclick="toggleAccordion()" class="accordion-header"
+				style="cursor: pointer;">Alumni</h2>
+			<div id="accordion-content" class="accordion-content" style="display: none;">
+				<div class="row">
+					<div class="3u">
+						<div class="profil-image-container">
+							<a href="/htmls/members/Changwon Wang.html">
+							<img src="/images/members/왕창원.jpeg" alt
+								style="width: 100%; height: 100%; border-radius: 50%;">
+							</a>
+						</div>
+						<p style="text-align: center; margin: 10px 0;">
+							<span class="member-block">
+								<span style="font-size: 1.rem; "> Changwon Wang,</span> <span
+									style="font-size: 0.9rem;">Ph.D.</span><br>
+							</span>
+							<span>순천향대학교 조교수</span><br>
+						</p>
+					</div>
+
+					<!-- <div class="3u">
+						<div class="profil-image-container">
+							<img src="/images/members/alumni2.jpg" alt
+								style="width: 100%; height: 100%; border-radius: 50%;">
+						</div>
+						<p style="text-align: center; margin: 10px 0;">
+							<strong>Jane Smith</strong><br>
+							<span style="font-size: 1rem;">Master Graduate</span><br>
+							<span style="font-size: 0.9rem;">Affiliation: ABC Institute</span><br>
+							<span style="font-size: 0.9rem;">Duration: 2018-2021</span>
+						</p>
+					</div> -->
+
+					<!-- Add more alumni as needed -->
+				</div>
+			</div>
+		</section>
+
+		<script>
+			function toggleAccordion() {
+				const content = document.getElementById('accordion-content');
+				if (content.style.display === 'none') {
+					content.style.display = 'block';
+				} else {
+					content.style.display = 'none';
+				}
+			}
+		</script>
 
 
 	</article>
