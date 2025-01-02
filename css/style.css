@@ -265,7 +265,7 @@ header.special .icon:before {
   margin-bottom: 5em;
 }
 
-#re_header h2{
+#re_header h2 {
   font-family: "NanumSquare_acEB";
 }
 
@@ -2843,8 +2843,6 @@ hr {
   cursor: pointer;
 }
 
-
-
 .shared-content {
   display: none;
   padding: 20px;
@@ -2875,5 +2873,6 @@ hr {
 }
 
 .accordion-header:hover {
-  color: #007BFF; /* Change to your desired hover color */
+  color: #007bff; /* Change to your desired hover color */
 }
+
