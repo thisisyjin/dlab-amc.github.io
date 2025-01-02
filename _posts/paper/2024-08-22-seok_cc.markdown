@@ -8,9 +8,9 @@ comments : true
 ---
 
 
-석현석 학생(박사과정)의 **'Machine Learning-Based Sample Misidentification Error Detection in Clinical Laboratory Tests: A Retrospective Multicenter Study'** 논문이 *Clinical Chemistry* 에 게재되었습니다!🎊
+석현석 학생(박사과정)의 [**'Machine Learning-Based Sample Misidentification Error Detection in Clinical Laboratory Tests: A Retrospective Multicenter Study'**](http://academic.oup.com/clinchem/article/70/10/1256/7739014?guestAccessKey=1df85bdd-2fbf-480d-97d8-d0d649a9c699&login=true&utm_source=authortollfreelink&utm_campaign=clinchem&utm_medium=email) 논문이 *Clinical Chemistry* 에 게재되었습니다!🎊
 
-*Clinical Chemistry* 의 IF(Impact Factor)는 **7.1**로 진단검사의학 분야의 1위 저널입니다.
+[*Clinical Chemistry*](https://academic.oup.com/clinchem) 의 IF(Impact Factor)는 **7.1**로 진단검사의학 분야의 1위 저널입니다.
 
 
 논문 게재를 축하드립니다🥳🎉

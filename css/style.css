@@ -265,6 +265,10 @@ header.special .icon:before {
   margin-bottom: 5em;
 }
 
+#re_header h2{
+  font-family: "NanumSquare_acEB";
+}
+
 footer > :last-child {
   margin-bottom: 0;
 }
@@ -2839,237 +2843,37 @@ hr {
   cursor: pointer;
 }
 
-.image-container-research {
-  width: 300px; /* Fixed width for the image container */
-  height: 200px; /* Fixed height for the image container */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  /* background: #fff; */
-  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-  border-radius: 30px;
-  margin-bottom: 1.5em;
-  overflow: hidden; /* Ensures the image stays within the container */
-}
 
-.image-container-research img {
-  width: 100%; /* Image will stretch to the container's width */
-  height: 100%; /* Image will stretch to the container's height */
-  object-fit: cover; /* Ensures the image covers the entire container while maintaining aspect ratio */
-  object-position: center; /* Keeps the image centered */
-}
 
-/* Right-side Popup 스타일 */
-.right-popup {
+.shared-content {
   display: none;
-  position: fixed;
-  top: 10%;
-  right: 0;
-  width: 35%;
-  height: 80%;
-  background-color: white;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-  z-index: 9999;
-  overflow-y: scroll;
   padding: 20px;
-}
-
-.right-popup-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.right-popup-header h3 {
-  margin: 0;
-}
-
-.right-popup-content {
-  padding-top: 10px;
-}
-
-.right-popup-close {
-  cursor: pointer;
-  font-size: 20px;
-}
-
-/* Fade-in animation */
-.right-popup.show {
-  display: block;
-  animation: fadeIn 0.3s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateX(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-/* 팝업 스타일 */
-.custom-popup {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* 팝업 중앙 정렬 */
-  width: 40%;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* 그림자 */
-  z-index: 1000;
-  overflow-y: auto;
-  border-radius: 15px;
-}
-
-.custom-popup h3 {
-  margin: 10px 0 0 10px;
-}
-
-.show-custom-popup {
-  display: block;
-}
-
-/* Close button style */
-.close-popup-btn {
-  color: black;
-  border: none;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  padding: 8px 12px;
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 10px;
 }
 
-.paper-list,
-.patent-list {
-  list-style-type: none;
-  padding: 0;
-}
-
-.paper-list li {
-  margin-bottom: 10px;
-}
-
-.patent-list li {
-  margin-bottom: 10px;
-  font-size: 0.9em;
-}
-
-.horizontal-buttons {
-  text-align: right;
-}
-
-/* 배경을 클릭 시 팝업 닫기 */
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 999;
-}
-
-.show-overlay {
-  display: block;
-}
-
-.content-container {
-  flex: 1;
-  text-align: left; /* Left align the content */
-}
-
-.horizontal-buttons ul {
-  display: flex;
-  gap: 15px;
-}
-
-.horizontal-buttons ul li {
-  list-style: none;
-}
-
-.horizontal-buttons ul li a {
-  text-decoration: none;
-  padding: 10px 15px;
-  background-color: #f0f0f0;
+.toggle-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
   border-radius: 5px;
-  border: 1px solid #ccc;
-  color: #333;
+  padding: 10px 15px;
+  cursor: pointer;
 }
 
-.horizontal-buttons ul li a:hover {
-  background-color: #ddd; /* Hover 효과 */
+.toggle-btn:hover {
+  background-color: #0056b3;
 }
 
-.img-slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px; /* Space between images */
+.accordion-header {
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
 }
 
-/* Inactive class with no hover effect */
-.nav-link-research.inactive {
-  pointer-events: none; /* Disable the clickability */
-  color: #ccc; /* Set a different color to indicate it's inactive */
-  background-color: #f0f0f0; /* Optional: light background to show inactivity */
-  border: 1px solid #ddd; /* Optional: lighter border */
-}
-
-/* Remove hover effect for inactive links */
-.nav-link-research.inactive:hover {
-  background-color: #f0f0f0; /* Keep the background the same on hover */
-  color: #ccc; /* Keep the text color the same on hover */
-  border: 1px solid #ddd; /* Maintain the border */
-  cursor: not-allowed; /* Change cursor to indicate it's inactive */
-}
-
-#research-row {
-  display: flex;
-  justify-content: space-around; /* Ensure items are spaced out evenly */
-  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
-
-  row-gap: 40px; /* Adds vertical space between rows */
-}
-
-#research-row ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#research-row section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#research-row section ul {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0;
-}
-
-#research-row section ul li a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-
-.row-content-wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2em;
+.accordion-header:hover {
+  color: #007BFF; /* Change to your desired hover color */
 }

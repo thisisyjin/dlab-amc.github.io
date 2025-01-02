@@ -15,4 +15,6 @@ comments: true
 
 연구 결과로는 새로운 접근 방식이나 모델 구조를 통해 비순차 데이터에 대한 CNN 분류기의 성능을 향상시킬 수 있는 다양한 가능성이 제시되었습니다. 이러한 성과는 향후 다양한 분야에서의 응용 가능성을 열어놓을 것으로 기대됩니다. 해당 논문은 전기학 분야에서의 기여를 인정받아 우수 논문상을 수상하였습니다.
 
-<span class="image featured" style="max-width: 50%; max-height: 50%"><img src="/images/posts/2210/논문상_221025.png" alt="" style="wdith:50% ,height:50%"></span>
+<div style="display: flex; justify-content: center;">
+    <span class="image featured"><img src="/images/posts/2210/논문상_221025.png" alt="" style='height: 500px; object-fit: contain;'></span>
+</div>

@@ -1,0 +1,201 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/publications/style_present.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<article id="main">
+    <header class="special container">
+        <div>
+            <h2 id="title" class="main-title"><strong></strong></h2>
+            <div class="author-row-new" id="author-list">
+                <!-- 저자 정보 -->
+            </div>
+            <center>
+                <div class="affiliations" id="affiliations"
+                    style="font-size: small;">
+                    <!-- 소속 정보 -->
+                </div>
+                <div class="affil-row">
+                    <div class="venue text-center" id="venue"><b></b></div>
+                </div>
+            </center>
+        </div>
+    </header>
+</article>
+
+<article class="sections-container">
+    <section class="wrapper style4 container">
+        <div class="paper-title"></div>
+        <div id="authors">
+            <!-- 논문 및 코드 링크 -->
+            <div style="clear: both">
+                <div class="paper-btn-parent">
+                    <a class="paper-btn green-box" id="paper-link" href="#">
+                        <span class="material-icons">description</span>
+                        Paper
+                    </a>
+                    <a class="paper-btn green-box" id="poster-link" href="#">
+                        <span class="material-icons">description</span>
+                        Poster
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <section id="teaser-image">
+            <center>
+                <figure>
+                    <!-- <video class="centered" id="teaser-video" width="50%"
+                        controls autoplay loop muted playsinline
+                        class="video-background"> -->
+                        <source id="teaser-video-source" type="video/mp4">
+                        <!-- Your browser does not support the video tag. -->
+                    </video>
+                </figure>
+            </center>
+        </section>
+        
+        <!-- 초록 섹션 -->
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <hr>
+            <div class="flex-row">
+                <p id="abstract-text">
+                    <!-- 초록 내용 -->
+                </p>
+            </div>
+        </section>
+
+        <!-- 인트로 섹션 -->
+        <section id="intro">
+            <h2>introduction</h2>
+            <hr>
+            <div class="flex-row">
+                <p id="intro-text">
+                </p>
+            </div>
+        </section>
+
+        <!-- Method 섹션 -->
+        <div class="section">
+            <h2>Method</h2>
+            <hr>
+            <p id="method-text"></p>
+            <div class="image-row" id="method-images-container">
+                <!-- Method 섹션에 여러 이미지 추가 -->
+            </div>
+            <p class="caption-up" id="method-caption"></p>
+        </div>
+
+        <!-- Results 섹션 -->
+        <div class="section">
+            <h2 id="results-title">Results</h2>
+            <hr>
+            <p id="results-text"></p>
+            <div class="image-row" id="results-images-container">
+                <!-- Results 섹션에 여러 이미지 추가 -->
+            </div>
+            <p class="caption-right" id="results-caption"></p>
+        </div>
+
+        <!-- Discussion 섹션 -->
+        <div class="section">
+            <h2 id="discussion-title">Discussion</h2>
+            <hr>
+            <p id="discussion-text"></p>
+            <div class="image-row" id="discussion-images-container">
+                <!-- Discussion 섹션에 여러 이미지 추가 -->
+            </div>
+            <p class="caption-right" id="discussion-caption"></p>
+        </div>
+
+
+        <!-- Reference Section -->
+        <div class="section" id="reference">
+            <h2 class="title">References</h2>
+            <hr>
+            <div class="flex-row">
+                <ul id="reference-list" style="font-size: small;"></ul>
+            </div>
+        </div>
+    </section>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    fetch('content.json')
+        .then(response => {
+            if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
+            return response.json();
+        })
+        .then(data => {
+            document.getElementById('title').innerText = data.title;
+            document.getElementById('author-list').innerHTML = data.authors.map(author => 
+                `<a href="${author.link}" style="color: orange;">${author.name}<sup>${author.affiliation}</sup></a>`).join(', ');
+            document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
+                `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join('<br>');
+            document.getElementById('paper-link').href = data.links.paper;
+            document.getElementById('poster-link').href = data.links.poster;
+            document.getElementById('abstract-text').innerText = data.abstract;
+            document.getElementById('intro-text').innerText = data.intro;
+            document.getElementById('method-text').innerText = data.method.text;
+            document.getElementById('method-caption').innerText = data.method.caption;
+
+            // Display multiple images in Method section
+            const methodContainer = document.getElementById('method-images-container');
+            for (let i = 0; data.method[`image${i}`]; i++) {
+                const imgLink = document.createElement('a');
+                imgLink.href = data.method.imageLink;
+                const img = document.createElement('img');
+                img.src = data.method[`image${i}`];
+                img.className = 'centered';
+                img.alt = `Method Image ${i + 1}`;
+                imgLink.appendChild(img);
+                methodContainer.appendChild(imgLink);
+            }
+
+            // Display multiple images in Results section
+            const resultsContainer = document.getElementById('results-images-container');
+            for (let i = 0; data.results[`image${i}`]; i++) {
+                const imgLink = document.createElement('a');
+                imgLink.href = data.results.imageLink;
+                const img = document.createElement('img');
+                img.src = data.results[`image${i}`];
+                img.className = 'centered';
+                img.alt = `Result Image ${i + 1}`;
+                imgLink.appendChild(img);
+                resultsContainer.appendChild(imgLink);
+            }
+            document.getElementById('results-caption').innerText = data.results.caption;
+            document.getElementById('results-text').innerText = data.results.text;
+
+            // Discussion section can also have multiple images
+            const discussionContainer = document.getElementById('discussion-images-container');
+            for (let i = 0; data.discussion[`image${i}`]; i++) {
+                const imgLink = document.createElement('a');
+                imgLink.href = data.discussion.imageLink;
+                const img = document.createElement('img');
+                img.src = data.discussion[`image${i}`];
+                img.className = 'centered';
+                img.alt = `Discussion Image ${i + 1}`;
+                imgLink.appendChild(img);
+                discussionContainer.appendChild(imgLink);
+            }
+            document.getElementById('discussion-caption').innerText = data.discussion.caption;
+            document.getElementById('discussion-text').innerText = data.discussion.text;
+
+            // References section
+            const referenceList = document.getElementById('reference-list');
+            data.references.forEach((ref, idx) => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `[${idx + 1}] ${ref}`;
+                referenceList.appendChild(listItem);
+            });
+        })
+        .catch(error => console.error('Error fetching JSON data:', error));
+});
+    </script>

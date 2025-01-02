@@ -1,0 +1,215 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="/publications/style_present.css">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<article id="main">
+    <header class="special container">
+        <div>
+            <h2 id="title" class="main-title"><strong></strong></h2>
+            <div class="author-row-new" id="author-list">
+                <!-- 저자 정보 -->
+            </div>
+            <center>
+                <div class="affiliations" id="affiliations"
+                    style="font-size: small;">
+                    <!-- 소속 정보 -->
+                </div>
+                <div class="affil-row">
+                    <div class="venue text-center" id="venue"><b></b></div>
+                </div>
+            </center>
+        </div>
+    </header>
+</article>
+
+<article class="sections-container">
+    <section class="wrapper style4 container">
+        <div class="paper-title"></div>
+        <div id="authors">
+            <!-- 논문 및 코드 링크 -->
+            <div style="clear: both">
+                <div class="paper-btn-parent">
+                    <a class="paper-btn green-box" id="paper-link" href="#">
+                        <span class="material-icons">description</span>
+                        Paper
+                    </a>
+                    <a class="paper-btn green-box" id="poster-link" href="#">
+                        <span class="material-icons">description</span>
+                        Poster
+                    </a>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <section id="teaser-image">
+            <center>
+                <figure>
+                    <!-- <video class="centered" id="teaser-video" width="50%"
+                        controls autoplay loop muted playsinline
+                        class="video-background"> -->
+                        <source id="teaser-video-source" type="video/mp4">
+                        <!-- Your browser does not support the video tag. -->
+                    </video>
+                </figure>
+            </center>
+        </section>
+        
+        <!-- 초록 섹션 -->
+        <section id="abstract">
+            <h2>Abstract</h2>
+            <hr>
+            <div class="flex-row">
+                <p id="abstract-text">
+                    <!-- 초록 내용 -->
+                </p>
+            </div>
+        </section>
+        <!-- 인트로 섹션 -->
+        <section id="intro">
+            <h2>introduction</h2>
+            <hr>
+            <div class="flex-row">
+                <p id="intro-text">
+                </p>
+            </div>
+        </section>
+        <!-- 결과 섹션 -->
+        <div class="section">
+            <h2>Method</h2>
+            <hr>
+            <p id="method-text">
+                <!-- 결과 내용 -->
+            </p>
+            <figure>
+                <a id="method-image-link">
+                    <img class="centered" id="method-image" width="45%">
+                </a>
+                <p class="caption-up" id="method-caption">
+                    <!-- 결과 캡션 -->
+                </p>
+            </figure>
+        </div>
+        <!-- 성능 향상 섹션 -->
+        <div class="section">
+            <h2 id="results-title">Results</h2>
+            <hr>
+            <p id="results-text">
+                <!-- 성능 향상 내용 -->
+            </p>
+            <figure>
+                <a id="results-image-link">
+                    <img class="centered" id="results-image" width="90%">
+                </a>
+                <p class="caption-right" id="results-caption">
+                    <!-- 성능 향상 캡션 -->
+                </p>
+            </figure>
+        </div>
+
+        <div class="section">
+            <h2 id="discussion-title">Discussion</h2>
+            <hr>
+            <p id="discussion-text">
+            </p>
+        </div>
+        <figure>
+            <a id="discussion-image-link">
+                <center>
+                    <img class="centered" id="discussion-image" width="45%">
+                </center>
+            </a>
+            <p class="caption" id="discussion-caption">
+                <!-- 토론 캡션 -->
+            </p>
+        </figure>
+        <!-- Reference Section -->
+        <div class="section" id="reference">
+            <h2 class="title">References</h2>
+            <hr>
+            <div class="flex-row">
+                <ul id="reference-list" style="font-size: small;"></ul>
+            </div>
+        </div>
+    </section>
+</article>
+
+<script>
+        // JavaScript를 사용하여 JSON 파일로부터 데이터 불러오기
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log('DOM fully loaded and parsed');
+            fetch('content.json')
+                .then(response => {
+                    console.log('Fetching JSON');
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('JSON Data:', data);
+                    document.getElementById('title').innerText = data.title;
+                    document.getElementById('author-list').innerHTML = data.authors.map(author => 
+                        `<a href="${author.link}" style="color: orange;">${author.name}<sup>${author.affiliation}</sup></a>`).join(', ');
+                    document.getElementById('affiliations').innerHTML = data.affiliations.map(affil => 
+                        `<span><sup>${affil.id}</sup> ${affil.name}</span>`).join(' ');
+                    document.getElementById('paper-link').href = data.links.paper;
+                    document.getElementById('poster-link').href = data.links.poster;
+                    document.getElementById('abstract-text').innerText = data.abstract;
+                    document.getElementById('intro-text').innerText = data.intro;
+                    document.getElementById('method-text').innerText = data.method.text;
+                    document.getElementById('method-caption').innerText = data.method.caption;
+                    // Conditional display for the method image
+                    if (data.method.image) {
+                        document.getElementById('method-image').src = data.method.image;
+                        document.getElementById('method-image-link').href = data.method.imageLink;
+                    } else {
+                        document.getElementById('method-image').style.display = 'none';
+                        document.getElementById('method-image-link').style.display = 'none';
+                    }
+                    document.getElementById('results-title').innerText = "Results";
+                    document.getElementById('results-text').innerText = data.results.text;
+                    document.getElementById('results-caption').innerText = data.results.caption;
+                    // Conditional display for the results image
+                    if (data.results.image) {
+                        document.getElementById('results-image').src = data.results.image;
+                        document.getElementById('results-image-link').href = data.results.imageLink;
+                    } else {
+                        document.getElementById('results-image').style.display = 'none';
+                        document.getElementById('results-image-link').style.display = 'none';
+                    }
+                    document.getElementById('discussion-title').innerText = "Discussion";
+                    document.getElementById('discussion-text').innerText = data.discussion.text;
+                    document.getElementById('discussion-caption').innerText = data.discussion.caption;
+                    // Conditional display for the discussion image
+                    if (data.discussion.image) {
+                        document.getElementById('discussion-image').src = data.discussion.image;
+                        document.getElementById('discussion-image-link').href = data.discussion.imageLink;
+                    } else {
+                        document.getElementById('discussion-image').style.display = 'none';
+                        document.getElementById('discussion-image-link').style.display = 'none';
+                    }
+                    if (data.teaserVideo) {
+                        document.getElementById('teaser-video-source').src = data.teaserVideo;
+                    } else {
+                        document.getElementById('teaser-image').style.display = 'none';
+                    }
+
+                    // Populate References with numbering
+                    const referenceList = document.getElementById('reference-list');
+                    data.references.forEach((reference, index) => {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = reference;
+                        listItem.setAttribute('data-number', `[${index + 1}] `);
+                        referenceList.appendChild(listItem);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching JSON data:', error);
+                });
+        });
+    </script>

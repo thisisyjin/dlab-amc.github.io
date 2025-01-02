@@ -1,0 +1,44 @@
+{
+    "title": "성인 패혈증 환자 사망 위험 분석: 인구통계 및 기저질환 연구",
+    "authors": [
+        {"name": "Ye Eun Choi", "link": "https://dlab-amc.github.io/htmls/members/Ye%20Eun%20Choi.html", "affiliation": "1,2"},
+        {"name": "Hangsik Shin", "link": "https://scholar.google.co.kr/citations?user=N1MUdi4AAAAJ&hl=en", "affiliation": "1,2"}
+    ],
+    "affiliations": [
+        {"id": "1", "name": "Department of Digital Medicine, Asan Medical Center, Brain Korea 21 Project, University of Ulsan College of Medicine, Seoul, Korea"},
+        {"id": "2", "name": "Department of Medical Science, Graduate School, University of Ulsan, Seoul, Korea"}
+    ],
+    "links": {
+        "paper": "https://drive.google.com/file/d/1cqH-cw1qk6WuqIwkX5U72Rzuqq4k0rEm/view?usp=drive_link",
+        "poster": "https://drive.google.com/file/d/1-XabnFP6ZjCQsQm5J_-2so8ug7iW8VfF/view?usp=drive_link"
+    },
+    "abstract": "This study analyzed sepsis cases among hospitalized patients to identify risk factors for sepsis-related mortality. Using data from 49,552 patients between 2011 and 2020, the impact of age, body mass index (BMI), readmission status, and underlying conditions was assessed through a Cox proportional-hazards model. The results showed that mortality risk increased with advancing age (hazard ratio;HR=1.15, p<0.001) and decreased with higher BMI (HR=0.71, 0.80, p<0.001). Comorbidities such as hematologic malignancy, solid organ cancer, chronic lung disease, and rhuematologic disease were associated with a significantly high mortality risk (HR≥1.4, p<0.001). Additionally, patients with multiple cases of sepsis showed a progressively higher risk of death with each subsequent occurrence (HR=1.24, 1.13, p<0.001).",
+    "intro": "패혈증은 미생물 감염에 대한 전신적 반응으로, 장기장애를 유발하는 질환이다. 전신 염증 반응 증후군(Systemic Inflammatory Response Syndrome; SIRS)으로 증상이 흔히 정의되고, 감염원이 의심되는 SIRS를 패혈증이라고 한다 [1]. 패혈증은 전 세계적으로 사망률이 높은 질환이다. 패혈증에 의한 사망률은 40~70%에 달하고, 국내 다기관 패혈증 코호트 연구에서도 전체 패혈증 환자의 사망률은 28%, 병원 발생 패혈증 환자의 사망률은 39%로, 높은 사망률을 보인다 [2]. 본 연구는 환자의 인구통계학적 정보와 기저질환 유무 정보에서 사망 위험을 높이는 요인을 확인하고자 한다.",
+    "method": {
+        "text": "2.1. 데이터\n\n서울아산병원에서 2011년 1월부터 2020년 12월 사이에 입원하고 퇴원한 기록 중, 응급실 및 병동 재원 기간 동안 Adult Sepsis Event(ASE)를 한 번 이상 만족한 사례를 수집하였고, 이 중 18세 이상의 성인 환자를 선별하였다. ASE 판별은 다음과 같은 미국 질병통제예방센터 (Centers for Disease Control and Prevention, CDC) 기준을 따랐다 [3]; 1) 혈액배양 검사를 실행하고, 혈액배양검사 시행전 2일부터 시행후 3일 사이에 새로운 항균제를 사용 시작하여 4일 이상 사용. 2) 혈액배양 검사 시행전 2일부터 시행후 3일 사이에 다음 기준 중 하나 이상을 만족; a) 새로운 혈압 상승제 지속 주입 시작. b) 침습적 기계환기 시작. c) 기준값에 비해 2배 이상의 혈청 크레아티닌 상승 또는 50% 이상의 추정 사구체 여과율 감소. d) 혈청 총 빌리루빈이 2 mg/dL 이상이며 기준값에 비해 2배 이상 상승. e) 혈소판 수가 100,000개/mL3 미만이며 기준값에 비해 50% 이상 감소(기준 혈소판 수가 100,000개/mL3 이상인 경우만 기준 만족). f) 혈청 젖산 2 mmol/L 이상. 위 조건 1)과 2)의 요건을 모두 만족하는 경우를 패혈증으로 판정하였고, 발생 시점은 ASE 기준을 만족시키는 혈액배양검사 중 가장 빠른 혈액배양검사의 처방 일시로 정의한다. \n\n분석에 사용된 변수는 다음과 같다; 인구통계 정보: 성별, 나이, 체질량지수(Body Mass Index, BMI), 패혈증의 발생 시점, 사망일시, 패혈증 재발생 입원 건수; 기저질환 유무: 당뇨병, 고혈압, 만성신장질환, 만성간질환, 만성폐질환, 심혈관질환, 류마티스 질환, 신경근육질환, 뇌혈관질환, 고형장기암, 혈액암, 기타질환.\n\n본 연구는 서울아산병원 IRB(Institutional Review Board)의 승인 후, 수행되었다(No. 2021-1402).\n\n\n2.2. 데이터 스크리닝\n\n수집된 데이터는 64,205건으로, 사망날짜와 퇴원사망기록 날짜가 다른 건(n=154)과, 입원 중에 사망하였지만, 사망 날짜가 기록되지 않은 건(n=88)이 제외되었다. 환자의 입원 중, 다수의 ASE 기록이 있을 경우, 해당 중복 건에 대해 마지막 입원 기록만 남기고 제거하여(n=14,411), 중복되지 않는 49,552명의 환자 데이터를 생성하였다. BMI 미기입값이 존재하는 환자를 제거하여(n=4,832) 최종적으로 44,720명의 환자가 분석에 사용되었다. \n\n\n2.3 통계 분석\n\n콕스 비례위험 모형(Cox proportional-hazards model)은 사건이 일어날 위험률(Hazard rate)을 사건이 발생하기 까지의 시간에 따른 함수로 분석한다. 콕스 모형은 변수와 사건 발생률 사이의 관계 설명에 적합하며, 절단(censored) 자료 분석이 가능하다 [4]. 본 연구는, 패혈증 발생으로부터 2년 이내의 사망사건 발생을 확인하였고, 분석 구간은 1개월, 2개월, 3개월, 6개월, 12개월, 24개월로 설정하였다.\n\n이 연구에서는 여러 관측치와 함께 고려되었을 때의 사망 위험을 확인하기 위해 다변량(Multivariate) 콕스 분석을 진행하였으며, 패혈증 사망 위험에 대한 하나의 관측치의 영향을 분석하는 단변량(Univariate) 분석 또한 수행되었다. 콕스 분석에는 패혈증 발생 당시 나이와 BMI의 연속적 고유값 및 카테고리별 이진분류값이 각 입력 변수로 고려되었는데, 이 때의 나이 그룹은 미국 국립의학도서관 의학주제표제어(Medical Subject Heading, MeSH) 기준, BMI 그룹은 CDC 기준 [5, 6]에 따라 저체중(Underweight), 보통(Normal), 과체중(Overweight), 비만(Obese)으로 분류 후, 과체중과 비만을 묶어 비만군(Overweight&Obese)으로 정의하였다. 다수의 ASE 기록이 있는 환자의 경우, 재입원 유무(RE_ADM)와 재입원 횟수(RE_ADMc)가 분석에 사용되었으며, 기저질환의 유무 또한 입력 변수로 각각 진행되었다. 다변량 분석에서 나이 그룹은 25세~43세 그룹을 비교 기준(reference)으로 설정하여, MeSH에 명시된 연령층 (청년층: 18세~24세, 중년층: 44세~64세, 노년층: 65세 이상)과 비교하였고, BMI그룹은 보통 그룹을 기준으로 설정하여, 보통과 그 외 그룹(저체중, 비만군) 간을 비교하여 확인하였다. \n\n콕스 분석에는 Python(ver 3.9.12)에서 ‘lifelines’ 패키지가 사용되었고, 임계값은 p<0.001로 설정하여 분석하였다.",
+        "caption": " ",
+        "image": "",
+        "imageLink": "#"
+    },
+    "results": {
+        "text": "표 1은 단변량 및 다변량 콕스 비례위험 모델 분석 결과로, 패혈증 환자 사망 위험에 영향을 미치는 요인의 위험비(Hazard Ratio, HR)를 보여준다. 성별의 경우, 단변량 분석과 다변량 분석 (p=0.016, p=0.032) 모두에서 통계적으로 유의하지 않았다. 연령이 낮은 연령층 (18세~24세)의 경우, 사망 위험이 유의하게 감소하였으며 (HR=0.59, 0.65, p<0.001), 다변량 분석에서도 기준 나이 그룹 대비 청년층에서만 유의한 위험도 감소가 확인되었다 (HR=0.66, p<0.001). 한편, 65세 이상일 경우, 단변량 분석에서는 사망 위험이 유의하게 증가하였으나(HR 1.15, p<0.001), 다변량 분석에서는 유의하지 않았다(HR 1.10, p=0.006). 이는 패혈증 환자의 연령이 높을 수록 사망 위험이 증가하는 경향이 있지만, 다른 변수를 함께 고려할 경우, 높은 연령은 다른 요인에 비해 유의하지 않음을 시사한다. 저체중 그룹 사망 위험은 더 높았고 (HR=1.59, 1.39, p<0.001), 과체중, 비만그룹에서 사망 위험은 감소하였다. BMI에 대한 다변량 분석에서도 유사한 경향을 보였으며, 이는 기존 보고된 선행연구와 유사하였다 (HR=0.73, 0.72, p<0.001) [7]. ASE로 인한 재입원의 경우, 사망 위험은 증가하였고(HR=1.73, p<0.001), 사망 위험은 재입원 횟수 증가에 따라 상승하였다(HR=1.24, p<0.001). 단변량 분석 결과, 12가지 기저질환 모두에서 사망 위험은 유의하게 증가하였다(p<0.001).\n\n기저질환에 따라서는, 혈액암이 있는 패혈증 환자가 사망 위험이 가장 높았으며(HR=2.00, p<0.001), 만성폐질환, 류마티스 질환, 고형장기암, 기타 질환이 있을 경우 사망 위험이 약 1.6배 더 높았다(각 HR=1.65, 1.61, 1.66, 1.67, p<0.001).",
+        "caption": " ",
+        "image": "img/IBEC_CYE1_table1.JPG",
+        "imageLink": "#"
+    },
+    "discussion": {
+        "text": "본 연구는 국내 단일 기관에서의 약 4만 명의 패혈증 사례를 분석한 점에서 의의가 있다. 결론적으로, 연령이 높을수록, BMI가 낮을수록 사망 위험이 높아짐을 확인하였으며, 이전에 패혈증이 발생한 환자의 경우, 발생 횟수가 증가함에 따라 사망 위험도 함께 증가함을 알 수 있었다. 사망 위험이 상대적으로 유의하게 증가한 기저질환으로는 혈액암, 고형장기암, 만성폐질환, 그리고 류마티스 질환이 있었다.\n\n",
+        "caption": " ",
+        "image": "",
+        "imageLink": "#"
+    },
+    "references": [
+        "R. K. Chakraborty and B. Burns. “Systemic inflammatory response syndrome.“ StatPearls, Treasure Island, FL: StatPearls Publishing, Feb. 2023.",
+        "질병관리청. “국내 패혈증 환자 관리 개선을 위한 심층조사 결과(1차년도).“ 주간 건강과 질병, Vol. 13, No. 37, 2020.",
+        "Centers for Disease Control and Prevention, “Hospital Toolkit for Adult Sepsis Surveillance.” https://www.cdc.gov/sepsis/pdfs/Sepsis-Surveillance-Toolkit-Aug-2018_508.pdf. Accessed July 21, 2021",
+        "COX, David R. Regression models and life‐tables. Journal of the Royal Statistical Society: Series B (Methodological), 1972, 34.2: 187-202.",
+        "National Library of Medicine. “Age Groups [MeSH term].” https://www.ncbi.nlm.nih.gov/mesh/68009273. 1998. Accessed Aug 30, 2024.",
+        "Centers for Disease Control and Prevention. “BMI Categories.“ https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html. Accessed Aug. 30, 2024.",
+        "L. Bai, et al. “Association of body mass index with mortality of sepsis or septic shock: An updated meta-analysis.“ Journal of Intensive Care, Vol. 11, No. 1, p. 27, 2023."
+    ]
+}

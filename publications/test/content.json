@@ -1,0 +1,79 @@
+{
+    "title": "Improving Factuality and Reasoning in Language Models through Multiagent Debate",
+    "authors": [
+        {"name": "Yilun Du", "link": "https://yilundu.github.io/", "affiliation": "1"},
+        {"name": "Shuang Li", "link": "https://people.csail.mit.edu/lishuang/", "affiliation": "1"},
+        {"name": "Antonio Torralba", "link": "https://groups.csail.mit.edu/vision/torralbalab/", "affiliation": "1"},
+        {"name": "Joshua B. Tenenbaum", "link": "https://scholar.google.com/citations?user=rRJ9wTJMUB8C&hl=en", "affiliation": "1"},
+        {"name": "Igor Mordatch", "link": "https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en", "affiliation": "2"}
+    ],
+    "affiliations": [
+        {"id": "1", "name": "MIT"},
+        {"id": "2", "name": "Google Brain"}
+    ],
+    "links": {
+        "paper": "https://openreview.net/pdf?id=zj7YuTE4t8",
+        "code": "https://github.com/composable-models/llm_multiagent_debate"
+    },
+    "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities in language generation, understanding, and few-shot learning in recent years. An extensive body of work has explored how their performance may be further improved through the tools of prompting, ranging from verification, self-consistency, or intermediate scratchpads. In this paper, we present a complementary approach to improve language responses where multiple language model instances propose and debate their individual responses and reasoning processes over multiple rounds to arrive at a common final answer. Our findings indicate that this approach significantly enhances mathematical and strategic reasoning across a number of tasks. We also demonstrate that our approach improves the factual validity of generated content, reducing fallacious answers and hallucinations that contemporary models are prone to. Our approach may be directly applied to existing black-box models and uses identical procedure and prompts for all tasks we investigate. Overall, our findings suggest that such 'society of minds' approach has the potential to significantly advance the capabilities of LLMs and pave the way for further breakthroughs in language generation and understanding.",
+    "method": {
+        "text": "Existing approaches towards improving language models have primarily focused on improving the performance of a single language generator. We illustrate how we may treat different instances of the same language models as a 'multiagent society', where individual language model generate and critique the language generations of other instances of the language model. We find that the final answer generated after such a procedure is both more factually accurate and solves reasoning questions more accurately. We illustrate below the quantitative difference between multiagent debate and single agent generation on different domains in reasoning and factual validity.",
+        "caption": "Multiagent Debate Improves Reasoning and Factual Accuracy. Accuracy of traditional inference and our multi-agent debate over six benchmarks (chess move optimality reported as a normalized score)",
+        "image": "img/accuracy_small.png",
+        "imageLink": "#"
+    },
+    "results": {
+        "text": "Throughout the experiments in the paper, we used a total of 3 language models agents which debate for a total of two arounds, due to computational cost. However, the underlying performance of multiagent debate can be substantially improved by either using more agents or by having more of rounds of debate. Below, we report the accuracy of solving arithmetic expressions as these individual factors are varied.",
+        "caption": "(a) Performance with Increased Agents. Arithmetic performance improves as the number of underlying agents involved in debate increases. (b) Performance with Increased Rounds. Arithmetic performance improves as the number of rounds of underlying debate increases.",
+        "image": "img/agent_round.png",
+        "imageLink": "#"
+    },
+    "discussion": {
+        "text": "While we mainly study multiagent debate across multiple instances of the same language model, multiagent debate can also be used to combine different language models together. This enables the strengths of one model to enable better performance in another. Below, we illustrate how a combination of both ChatGPT and Bard can be used together to solve a difficult Grade School Math problem.",
+        "caption": "Debate Between ChatGPT and Bard. Illustration of debate between different models. While both models generate incorrect responses to the initial GSM8K problem, debate between the models enables them to generate the correct final answer.",
+        "image": "img/gpt_bard.png",
+        "imageLink": "#"
+    },
+    "teaserVideo": "img/debate.m4v",
+    "relatedProjects": {
+        "text": "Check out our related projects on combining and composing different models! A full list can be found here!",
+        "projects": [
+            {
+                "title": "Composing Pretrained Models through Iterative Consensus",
+                "link": "https://energy-based-model.github.io/composing-pretrained-models/",
+                "description": "We present a method to combine different large pretrained models together by having individual models communicate with each other through iterative consensus. We illustrate how this combination of models can do zero-shot VQA, image generation, reasoning, and image generation.",
+                "image": ""
+            },
+            {
+                "title": "Reduce, Reuse, Recycle: Compositional Generation with Energy-Based Diffusion Models and MCMC",
+                "link": "https://energy-based-model.github.io/reduce-reuse-recycle/",
+                "description": "We present a method to combine different diffusion models with different probabilistic operations. To enable this, we propose new samplers, inspired by MCMC, to enable successful compositional generation. Further, we propose an energy-based parameterization of diffusion models which enables the use of new compositional operators and more sophisticated, Metropolis-corrected samplers.",
+                "video": "img/recyle.m4v"
+            },
+            {
+                "title": "Compositional Visual Generation with Composable Diffusion Models",
+                "link": "https://energy-based-model.github.io/Compositional-Visual-Generation-with-Composable-Diffusion-Models/",
+                "description": "We present a method to improve the compositional generalization of diffusion models by composing different diffusion models together, drawing on the close connection of diffusion models with EBMs. We illustrate how compositional operators enable the ability to composing multiple sets of objects together as well as generate images subject to complex text prompts.",
+                "video": "img/teaser_glide.mp4"
+            },
+            {
+                "title": "Compositional Visual Generation with Energy Based Models",
+                "link": "https://energy-based-model.github.io/compositional-generation-inference/",
+                "description": "We present a set of compositional operators that enable EBMs to exhibit zero-shot compositional visual generation, enabling us to compose visual concepts (through operators of conjunction, disjunction, or negation) together in a zero-shot manner. Our approach enables us to generate faces given a description ((Smiling AND Female) OR (NOT Smiling AND Male)) or to combine several different objects together.",
+                "image": "img/comp_cartoon.png"
+            }
+        ]
+    },
+    "paper": {
+        "title": "LION: Latent Point Diffusion Models for 3D Shape Generation",
+        "authors": "Xiaohui Zeng, Arash Vahdat, Francis Williams, Zan Gojcic, Or Litany, Sanja Fidler, Karsten Kreis",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2022",
+        "links": {
+            "arxiv": "https://arxiv.org/abs/2210.06978",
+            "bibtex": "assets/zeng2022lion.bib",
+            "code": "https://github.com/nv-tlabs/LION"
+        },
+        "thumbnail": "img/cld_paper_preview.png"
+    },
+    "bibtex": "@article{du2023improving,\ntitle={Improving factuality and reasoning in language models through multiagent debate},\nauthor={Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor},\njournal={arXiv preprint arXiv:2305.14325},\nyear={2023}\n}"
+}
