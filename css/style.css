@@ -109,7 +109,7 @@ ol,
 dl,
 table,
 blockquote {
-  margin: 0 0 0 0;
+  margin: 0 0 2em 0;
 }
 
 h1,
@@ -1438,7 +1438,7 @@ body {
 }
 
 .sidebar {
-  padding-top: 10px;
+  padding-top: 30px;
   display: flex;
   flex-direction: column;
   max-height: 100%;
@@ -1491,11 +1491,10 @@ a.small-button.clicked {
 #my_div {
   margin-left: 5px;
   /* padding: 20px; */
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
   border-top: 2px solid #036166;
   border-bottom: 2px solid #036166;
 }
@@ -1564,7 +1563,7 @@ a.small-button.clicked {
 .nav-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 60px;
+  margin-bottom: 5px;
 }
 
 .nav-link {
@@ -1851,77 +1850,19 @@ a.small-button.clicked {
   /* 수직 가운데 정렬 (텍스트가 이미지 높이에 맞춰짐) */
 }
 
-/* .custom-row {
+/* .cutstom-row {
   display: grid;
   grid-template-columns: repeat(2, 1fr); */
 /* gap: 20px; */
 /* Adjust the gap as needed */
 /* } */
 
-.custom-row {
-  max-width: 80%; /* 4.전체 박스 크기 줄이기(가로로) */
-  width: 100%;
-  margin: 0 auto;
+.cutstom-row {
   display: flex;
+  flex-direction: row; /* 모든 섹션을 같은 방향으로 정렬 */
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 2em;
-  background: #fff;
-  padding: 20px;
-  border-radius: 25px; /* 1. 곡선부분 조정 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 하얀 배경 및 그림자 추가 */
-}
-
-.content-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* 수직 정렬 */
-  padding: 20px;
-  flex-direction: row; /* 수평 정렬 */
-  width: 100%; /* 전체 너비를 사용 */
-  box-sizing: border-box;
-}
-
-.content-container h3 {
-  font-size: 1.5em; /* 2.글자 크기 조정 */
-}
-
-.lefty {
-  flex: 1;
-  padding-right: 20px;
-}
-
-.horizontal-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start; /* 왼쪽 정렬 */
-  gap: 10px; /* 버튼들 간의 간격 */
-  margin-left: 20px; /* 오른쪽에 위치시키기 위한 여백 */
-}
-
-.horizontal-buttons ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  padding-right: 40px; /* 3.PATENT 오른쪽 간격 */
-}
-
-.horizontal-buttons li {
-  margin-right: 10px; /* 버튼들 사이의 간격 */
-}
-
-.horizontal-buttons a {
-  display: inline-block;
-  text-decoration: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  background-color: #f0f0f0;
-  color: #333;
-}
-
-.horizontal-buttons a:hover {
-  background-color: #ddd;
+  gap: 20px; /* 섹션 간의 간격을 20px로 설정 */
+  margin-bottom: 40px; /* 각 섹션 간의 아래쪽 간격 */
 }
 
 .image-container,
@@ -1943,7 +1884,7 @@ a.small-button.clicked {
   border-radius: 10px;
   align-items: flex-start; /* Ensure content within is aligned to the left */
 
-  margin-left: 50px;
+  margin-left: 80px;
 }
 
 /* .image-container {
@@ -1997,7 +1938,7 @@ a.small-button.clicked {
   font-size: 0.9em;
   margin-left: 0; /* Remove left margin for proper alignment */
   font-family: "NanumSquare_acR";
-  /* margin-bottom: 1em; */
+  margin-bottom: 1em;
 }
 
 .paper,
@@ -2011,8 +1952,8 @@ a.small-button.clicked {
   text-align: left;
 }
 .research-block {
-  font-size: 1.1em;
-  text-indent: 1.1em;
+  font-size: 1.3em;
+  text-indent: 1.3em;
   margin-left: 0; /* Align with the h3 in .lefty */
   padding-left: 0; /* Ensure no extra padding */
 }
@@ -2058,7 +1999,6 @@ a.small-button.clicked {
 }
 
 .image-with-text img {
-  /* padding-top: 40px; */
   width: 100%;
   /* 이미지의 가로 너비를 100%로 설정하여 부모 요소에 꽉 채움 */
   height: 560px;
@@ -2865,7 +2805,6 @@ hr {
 .toggle-btn:hover {
   background-color: #0056b3;
 }
-
 .accordion-header {
   font-weight: bold;
   cursor: pointer;
@@ -2875,4 +2814,3 @@ hr {
 .accordion-header:hover {
   color: #007bff; /* Change to your desired hover color */
 }
-
