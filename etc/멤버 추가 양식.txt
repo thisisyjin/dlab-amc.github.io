@@ -1,0 +1,15 @@
+이름:
+
+영문 이름:
+
+직위(Researcher / Master course / ... ):
+
+최고학위(M.S / B.Sc / ... ):
+
+이메일 주소:
+
+관심 분야(최대 3개-영문작성): 
+
+경력 or 경험(없으면 작성 x): 
+
+예시) Papers&Conferences, Patent, Awards, Participated Projects 등
