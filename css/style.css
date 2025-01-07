@@ -2806,7 +2806,6 @@ hr {
   background-color: #0056b3;
 }
 
-
 .accordion-header {
   font-weight: bold;
   cursor: pointer;
@@ -2816,7 +2815,6 @@ hr {
 .accordion-header:hover {
   color: #f57c13; /* Change to your desired hover color */
 }
-
 
 .collaborator-container {
   display: flex;
