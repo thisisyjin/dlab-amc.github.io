@@ -2644,6 +2644,11 @@ a.small-button.clicked {
   text-align: right;
 }
 
+.post-views {
+  text-align: right;
+  color: gray;
+}
+
 .slick-track {
   margin-bottom: 3em;
 }
