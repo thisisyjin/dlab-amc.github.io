@@ -1,4 +1,5 @@
 class	date	contents	state	link
+International	2024-10	Method and apparatus for training waveform restroration model to restore quasiperiodic biosignal waveforms, Filed (No: PCT/KR2024/015157, Date: 2024/10/07). 	complete	
 International	2022-04	Method and apparatus for measuring bio signal, Filed (No: EP14864547.6, Date: 2014/03/11), Published (No: EP03075310, Date: 2016/10/05), Granted (No: EP03075310, Date: 2022/04/27). 	complete	
 International	2022-08	A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: PCT/KR2021/002696, Date: 2021/03/04), Published (No: PCT2022169020, Date: 2022/08/11). 	complete	
 International	2021-06	Electronic apparatus and method of outputting content by the electronic apparatus, Filed (No: US16730078, Date: 2019/12/30), Granted (No: US11051147, Date: 2021/06/29). 	complete	
@@ -64,6 +65,7 @@ International	2013-09	Method of executing application and terminal using the met
 International	2013-09	Method and apparatus for providing floating user interface, Filed (No: US13849226, Date: 2013/03/22), Published (No: US20130254714, Date: 2013/09/26). 	complete	
 International	2013-09	System and method of controlling external device connected with device, Filed (No: RU2015108021, Date: 2013/09/10). 	complete	
 International	2012-12	Apparatus and method for providing an interface in a device with touch screen, Filed (No: US13492705, Date: 2012/06/08), Published (No: US20120315607, Date: 2012/12/13). 	complete	
+Domestic	2024-12	블루투스 기반 실내 위치 추정 정확도 향상을 위한 방법, Filed (No: KR1020240201045, Date: 2024/12/30). 	complete	
 Domestic	2024-04	통증평가모델 생성 장치, 통증평가모델 생성 방법 및 이를 수행하는 프로그램이 저장된 기록 매체, Filed (No: KR1020240053680, Date: 2024/04/22). 	complete	
 Domestic	2023-10	대동맥 압력 파형을 추정하는 방법 및 장치, Filed (No: KR1020230145004, Date: 2023/10/26). 	complete	
 Domestic	2023-09	준주기적 생체 신호 파형을 복원하기 위한 파형 복원 모델 학습 방법 및 장치, Filed (No: KR1020230136907, Date: 2023/10/13). 	complete	
@@ -80,7 +82,7 @@ Domestic	2022-08	마스크 부착형 호흡 모니터링 장치 및 시스템, F
 Domestic	2022-08	PPG 기반 스펙트로그램 및 CNN에 기반하는 통증 평가 방법 및 장치, Filed (No: KR1020210017756, Date: 2021/02/08), Published (No: KR1020220114351, Date: 2022/08/17). 	complete	
 Domestic	2022-08	허리밴드형 웨어러블 심전도 측정 장치 및 이를 이용한 심박 측정 방법 및 장치, Filed (No: KR1020210016604, Date: 2021/02/05), Published (No: KR1020220112992, Date: 2022/08/12). 	complete	
 Domestic	2022-08	압력 및 맥파에 기반한 평균동맥압 추정 방법 및 장치, Filed (No: KR102431521, Date: 2022/08/08). 	complete	
-Domestic	2021-11	광용적맥파의 품질 평가 방법 및 장치, Filed (No: KR1020210193461, Date: 2021/12/30). 	complete	
+Domestic	2021-11	광용적맥파의 품질 평가 방법 및 장치, Filed (No: KR1020210193461, Date: 2021/12/30), Published (Date: 2024/11/26). 	complete	
 Domestic	2021-11	광용적맥파의 입사파와 반사파를 사용한 혈관노화 평가 방법 및 장치, Filed (No: KR1020210193460, Date: 2021/12/30). 	complete	
 Domestic	2021-12	공기 진동 전달형 다중 배열 압력 센서 및 이를 포함하는 웨어러블 장치, Filed (No: KR1020210193739, Date: 2021/12/31). 	complete	
 Domestic	2021-05	스태킹 콘 시스템, Filed (No: KR1020190135734, Date: 2019/10/29), Published (No: KR1020210051013, Date: 2021/05/10), Granted (No: KR102310788, Date: 2021/10/01). 	complete	
@@ -143,6 +145,7 @@ Domestic Design	2012-11	화상디자인이 표시된 컴퓨터모니터, Filed (
 Domestic Design	2012-10	화상디자인이 표시된 태블릿 피씨(Tablet PC), Filed (No: KR3020120029134, Date: 2012/06/14), Granted (No: KR300663541, Date: 2012/10/10). 	complete	
 Domestic Design	2012-10	화상디자인이 표시된 이동통신기기, Filed (No: KR3020120029226, Date: 2012/06/15), Granted (No: KR300665356, Date: 2012/10/23). 	complete	
 Domestic Design	2012-09	화상디자인이 표시된 휴대용 단말기, Filed (No: KR3020120024451, Date: 2012/05/17), Granted (No: KR300658893, Date: 2012/09/04). 	complete	
+Registered SW	2025-01	복수의 3차원 데이터를 3차원 그래프 정보로 통합 변환하는 프로그램, Granted (No: C-2025-002262, Date: 2025/01/15). 	complete	
 Registered SW	2023-12	3차원 그래프 데이터 변환 프로그램, Granted (No: C-2023-060554, Date: 2023/12/15). 	complete	
 Registered SW	2023-11	심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션, Granted (No: C-2023-059443, Date: 2023/12/13). 	complete	
 Registered SW	2023-11	생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램, Granted (No: C-2023-059444, Date: 2023/12/13). 	complete	
