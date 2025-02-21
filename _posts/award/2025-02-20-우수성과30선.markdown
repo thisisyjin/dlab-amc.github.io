@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "우수성과 선정" 
+title:  "우수성과 선정 [Excellent R&D Performances]" 
 date:   2025-02-20 10:00:00
 featured-img: "/images/posts/2502/award2.png"
 short-content: "보건의료 R&D 우수성과 30선 선정" 
