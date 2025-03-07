@@ -14,7 +14,10 @@ comments : true
 
 
 논문 게재를 축하드립니다🥳🎉
-
+<br>
+<br>
+[**디지틀조선일보 기사 (링크)**](https://digitalchosun.dizzo.com/site/data/html_dir/2025/03/06/2025030680103.html)
+<br>
 <br>
 
 <span class="image featured"><img src="/images/posts/2501/npj.png" alt="" style='height: 500px; object-fit: contain;'></span>
