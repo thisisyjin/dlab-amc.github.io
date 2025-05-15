@@ -3,7 +3,7 @@ layout: post
 title:  "스승의 날 [Teacher's day]"
 date:   2025-05-15 13:36:23
 featured-img: "/images/posts/2505/25스승의날.png"
-short-content: "2024년 스승의 날 축하"
+short-content: "2025년 스승의 날 축하"
 comments : true
 ---
 
