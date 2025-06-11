@@ -6,160 +6,190 @@ permalink: /publications_p/
 
 <span id="content"></span>
 <article id="main">
-    <header class="special container">
-        <!-- <span class="icon fa-solid fa-scroll"></span> -->
-        <h2>publications</h2>
-    </header>
+  <header class="special container">
+    <h2>publications</h2>
+  </header>
 
-    <section class="wrapper style1 container special nav-container">
-        <div class="row" id="research-row">
-            <section id="nav-link-first">
-                <ul>
-                    <li><a href="{{site.baseurl}}/publications_j" class="nav-link"><span class="icon fa-solid fa-book"></span>Journal</a></li>
-                </ul>
-            </section>
-            <section>
-                <ul>
-                    <li><a href="{{site.baseurl}}/publications_c" class="nav-link"><span class="icon fa-solid fa-building-columns"></span>Conference</a></li>
-                </ul>
-            </section>
-            <section>
-                <ul>
-                    <li><a href="{{site.baseurl}}/publications_p" class="nav-link active"><span class="icon fa-regular fa-copyright"></span>Patent</a></li>
-                </ul>
-            </section>
-        </div>
-    </section>
+  <section class="wrapper style1 container special nav-container">
+    <div class="row" id="research-row">
+      <section id="nav-link-first">
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_j" class="nav-link"
+              ><span class="icon fa-solid fa-book"></span>Journal</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_c" class="nav-link"
+              ><span class="icon fa-solid fa-building-columns"></span
+              >Conference</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_p" class="nav-link active"
+              ><span class="icon fa-regular fa-copyright"></span>Patent</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+  </section>
 
-    <section class="wrapper style4 container">
-        <div class="row oneandhalf">
-
-            <div class="2u">
-                <div class="sidebar">
-                    <section>
-                        <div class="sidebar small-sidebar">
-                            <a class="small-button active" href="#all">ALL</a>
-                            {% assign cGroup = site.data.sheets.pub_p | group_by: "class" %}
-                            {% for class in cGroup %}
-                            <a class="small-button" href="#{{ class.name | slugify }}">{{ class.name }}</a>
-                            {% endfor %}
-                        </div>
-                    </section>
-                </div>
+  <section class="wrapper style4 container">
+    <div class="row oneandhalf">
+      <div class="2u">
+        <div class="sidebar">
+          <section>
+            <div class="sidebar small-sidebar" id="class-filter">
+              <!-- 버튼이 여기에 동적으로 렌더링됨 -->
             </div>
-
-            <div class="10u skel-cell-important">
-                <div id='my_div' class="my-div" style="text-align: justify;">
-                    <div id="all-publications" class="class-section">
-                            {% assign all_publications = site.data.sheets.pub_p | sort: "date" | reverse %}
-                            {% assign grouped_by_year_month = all_publications | group_by_exp: "item", "item.date | date: '%Y-%m'" %}
-                            {% for group in grouped_by_year_month %}
-                                {% assign sorted_year_month_items = group.items | sort: "date" | reverse %}
-                                {% for pub in sorted_year_month_items %}
-                                    {% assign items = pub.contents | replace: "?", " " | split: ". " %}
-                                    <div style="margin-bottom: 20px;">
-                                        {% if pub.link %}
-                                            {% if items.size > 1 %}
-                                                <div>
-                                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
-                                                    {% if pub.certificate_link %}
-                                                    <a href="{{ pub.certificate_link }}" target="_blank" style="margin-left: 8px; text-decoration: none; border: none; outline: none;">
-                                                        <img src="{{ '/assets/medal.png' | relative_url }}" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle; border: none;" />
-                                                    </a>
-                                                    {% endif %}
-                                                </div>
-                                                <div class="paperclick">{{ items[0] }}</div>
-                                                <div class="paperclick">
-                                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                                </div>
-                                            {% else %}
-                                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
-                                            {% endif %}
-                                        {% else %}
-                                            {% if items.size > 1 %}
-                                                <a class="paperlist">
-                                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                                </a>
-                                            {% else %}
-                                                <a class="paperlist">{{ items }}</a>
-                                            {% endif %}
-                                        {% endif %}
-                                    </div>
-                                {% endfor %}
-                            {% endfor %}
-                    </div>
-
-                    {% for class in cGroup %}
-                    <div class="class-section" id="{{ class.name | slugify }}" style="display:none;">
-                        {% assign dGroup = class.items | group_by_exp: "item", "item.date | date: '%Y-%m'" %}
-                        {% for dates in dGroup %}
-                            {% assign sorted_dates_items = dates.items | sort: "date" | reverse %}
-                            {% for pub in sorted_dates_items %}
-                            {% assign items = pub.contents | replace: "?", " " | split: ". " %}
-                            <div style="margin-bottom: 20px;">
-                                {% if pub.link %}
-                                {% if items.size > 1 %}
-                                <div>
-                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
-                                    {% if pub.certificate_link %}
-                                    <a href="{{ pub.certificate_link }}" target="_blank" style="margin-left: 8px; text-decoration: none; border: none; outline: none;">
-                                        <img src="{{ '/assets/medal.png' | relative_url }}" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle; border: none;" />
-                                    </a>
-                                    {% endif %}
-                                </div>
-                                <div class="paperclick">{{ items[0] }}</div>
-                                <div class="paperclick">
-                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                </div>
-                                {% else %}
-                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
-                                {% endif %}
-                                {% else %}
-                                {% if items.size > 1 %}
-                                <a class="paperlist">
-                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                </a>
-                                {% else %}
-                                <a class="paperlist">{{ items }}</a>
-                                {% endif %}
-                                {% endif %}
-                            </div>
-                            {% endfor %}
-                        {% endfor %}
-                        {% if class.name == "International Journal" %}<p>*: Equal contributors</p>{% endif %}
-                        <br>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
+          </section>
         </div>
-    </section>
+      </div>
+
+      <div class="10u skel-cell-important">
+        <div
+          id="pub-content"
+          class="my-div"
+          style="
+            border-top: 1px solid #222;
+            text-align: justify;
+            margin-top: 1.5em;
+            padding: 1.5em 1em;
+          "
+        >
+          <!-- 전체 특허 리스트가 렌더링될 영역 -->
+        </div>
+      </div>
+    </div>
+  </section>
 </article>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const sidebarLinks = document.querySelectorAll('.sidebar a');
-        const classSections = document.querySelectorAll('.class-section');
-        const allPublications = document.getElementById('all-publications');
+  const CLASS_ORDER = [
+    'ALL',
+    'International',
+    'Domestic',
+    'International Design',
+    'Domestic Design',
+    'Registered SW',
+  ];
 
-        sidebarLinks.forEach(link => {
-            link.addEventListener('click', function (event) {
-                event.preventDefault();
-                const targetClass = this.getAttribute('href').substring(1);
-                classSections.forEach(section => {
-                    section.style.display = section.id === targetClass ? 'block' : 'none';
-                });
-                allPublications.style.display = targetClass === 'all' ? 'block' : 'none';
-                sidebarLinks.forEach(sidebarLink => {
-                    sidebarLink.classList.remove('active');
-                });
-                this.classList.add('active');
-                // Scroll to the top of the page
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            });
+  document.addEventListener('DOMContentLoaded', () => {
+    fetch('/data/publications/pub_p.json')
+      .then((res) => res.json())
+      .then((data) => {
+        const byClass = groupBy(data, 'class');
+        const filterContainer = document.getElementById('class-filter');
+        const contentContainer = document.getElementById('pub-content');
+
+        CLASS_ORDER.forEach((cls) => {
+          const btn = document.createElement('a');
+          btn.textContent = cls;
+          btn.href = `#${cls.toLowerCase()}`;
+          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            document
+              .querySelectorAll('.class-section')
+              .forEach((el) => (el.style.display = 'none'));
+            document
+              .querySelectorAll('.small-button')
+              .forEach((el) => el.classList.remove('active'));
+            document.getElementById(
+              `section-${cls.toLowerCase()}`
+            ).style.display = 'block';
+            btn.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+          filterContainer.appendChild(btn);
         });
-    });
+
+        CLASS_ORDER.forEach((cls) => {
+          const section = document.createElement('div');
+          section.className = 'class-section';
+          section.id = `section-${cls.toLowerCase()}`;
+          section.style.display = cls === 'ALL' ? 'block' : 'none';
+
+          const entries =
+            cls === 'ALL'
+              ? [...data].sort((a, b) => b.date.localeCompare(a.date))
+              : [...(byClass[cls] || [])].sort((a, b) =>
+                  b.date.localeCompare(a.date)
+                );
+
+          entries.forEach((entry) => {
+            const items = entry.contents.split('. ');
+            const first = items[0] || '';
+            const second = items[1] || '';
+            const rest =
+              items
+                .slice(2)
+                .map((t) => t.replace('.', ''))
+                .join('. ') + (items.length > 2 ? '.' : '');
+
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+
+            const topLine = document.createElement('div');
+            if (entry.link) {
+              const a = document.createElement('a');
+              a.href = entry.link;
+              a.target = '_blank';
+              a.className = 'paperclick';
+              a.textContent = second || entry.contents;
+              topLine.appendChild(a);
+            } else {
+              const span = document.createElement('span');
+              span.className = 'paperclick';
+              span.textContent = second || entry.contents;
+              topLine.appendChild(span);
+            }
+
+            if (entry.certificate_link) {
+              const certLink = document.createElement('a');
+              certLink.href = entry.certificate_link;
+              certLink.target = '_blank';
+              certLink.style.marginLeft = '8px';
+              certLink.style.borderBottom = 'none';
+              certLink.innerHTML = `<img src="/assets/medal.png" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle;" />`;
+              topLine.appendChild(certLink);
+            }
+
+            const line2 = document.createElement('div');
+            line2.className = 'paperclick';
+            line2.textContent = first;
+
+            const line3 = document.createElement('div');
+            line3.className = 'paperclick';
+            line3.textContent = rest;
+
+            div.appendChild(topLine);
+            if (second) div.appendChild(line2);
+            if (rest.trim()) div.appendChild(line3);
+
+            section.appendChild(div);
+          });
+
+          contentContainer.appendChild(section);
+        });
+      });
+
+    function groupBy(arr, key) {
+      return arr.reduce((acc, cur) => {
+        const k = cur[key] || '기타';
+        acc[k] = acc[k] || [];
+        acc[k].push(cur);
+        return acc;
+      }, {});
+    }
+  });
 </script>

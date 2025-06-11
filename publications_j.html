@@ -7,162 +7,228 @@ permalink: /publications_j/
 <span id="content"></span>
 
 <article id="main">
-    <header class="special container">
-        <!-- <span class="icon fa-solid fa-scroll"></span> -->
-        <h2>publications</h2>
-    </header>
+  <header class="special container">
+    <!-- <span class="icon fa-solid fa-scroll"></span> -->
+    <h2>publications</h2>
+  </header>
 
-    <section class="wrapper style1 container special nav-container">
-        <div class="row" id="research-row">
-            <section id="nav-link-first">
-                <ul>
-                    <li><a href="{{ site.baseurl }}/publications_j" class="nav-link active"><span class="icon fa-solid fa-book"></span>Journal</a></li>
-                </ul>
-            </section>
+  <section class="wrapper style1 container special nav-container">
+    <div class="row" id="research-row">
+      <section id="nav-link-first">
+        <ul>
+          <li>
+            <a href="{{ site.baseurl }}/publications_j" class="nav-link active"
+              ><span class="icon fa-solid fa-book"></span>Journal</a
+            >
+          </li>
+        </ul>
+      </section>
 
-            <section>
-                <ul>
-                    <li><a href="{{ site.baseurl }}/publications_c" class="nav-link"><span class="icon fa-solid fa-building-columns"></span>Conference</a></li>
-                </ul>
-            </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{ site.baseurl }}/publications_c" class="nav-link"
+              ><span class="icon fa-solid fa-building-columns"></span
+              >Conference</a
+            >
+          </li>
+        </ul>
+      </section>
 
-            <section>
-                <ul>
-                    <li><a href="{{ site.baseurl }}/publications_p" class="nav-link"><span class="icon fa-regular fa-copyright"></span>Patent</a></li>
-                </ul>
-            </section>
-        </div>
-    </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{ site.baseurl }}/publications_p" class="nav-link"
+              ><span class="icon fa-regular fa-copyright"></span>Patent</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+  </section>
 
-    <section class="wrapper style4 container">
-        <div class="row oneandhalf">
-            <div class="2u">
-                <div class="sidebar">
-                    <section>
-                        <div class="sidebar small-sidebar">
-                            <a class="small-button active" href="#all">ALL</a>
-                            {% assign cGroup = site.data.sheets.pub_j | group_by: "class" %}
-                            {% for class in cGroup %}
-                            <a class="small-button" href="#{{ class.name | slugify }}">{{ class.name }}</a>
-                            {% endfor %}
-                        </div>
-                    </section>
-                </div>
+  <section class="wrapper style4 container">
+    <div class="row oneandhalf">
+      <div class="2u">
+        <div class="sidebar">
+          <section>
+            <div class="sidebar small-sidebar">
+              <a class="small-button active" href="#all">ALL</a>
+              {% assign cGroup = site.data.sheets.pub_j | group_by: "class" %}
+              {% for class in cGroup %}
+              <a class="small-button" href="#{{ class.name | slugify }}"
+                >{{ class.name }}</a
+              >
+              {% endfor %}
             </div>
-
-            <div class="10u skel-cell-important">
-                <div id="my_div" class="my-div" style="text-align: justify;">
-                    <div id="all-publications" class="class-section">
-                            {% assign all_publications = site.data.sheets.pub_j | sort: "date" | reverse %}
-                            {% assign grouped_by_year_month = all_publications | group_by_exp: "item", "item.date | date: '%Y-%m'" %}
-                            {% for group in grouped_by_year_month %}
-                                {% assign sorted_year_month_items = group.items | sort: "date" | reverse %}
-                                {% for pub in sorted_year_month_items %}
-                                    {% assign items = pub.contents | replace: "?", " " | split: ". " %}
-                                    <div style="margin-bottom: 20px;">
-                                        {% if pub.link %}
-                                            {% if items.size > 1 %}
-                                                <div>
-                                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
-                                                    {% if pub.certificate_link %}
-                                                    <a href="{{ pub.certificate_link }}" target="_blank" style="margin-left: 8px; text-decoration: none; border: none; outline: none;">
-                                                        <img src="{{ '/assets/medal.png' | relative_url }}" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle; border: none;" />
-                                                    </a>
-                                                    {% endif %}
-                                                </div>
-                                                <div class="paperclick">{{ items[0] }}</div>
-                                                <div class="paperclick">
-                                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                                </div>
-                                            {% else %}
-                                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
-                                            {% endif %}
-                                        {% else %}
-                                            {% if items.size > 1 %}
-                                                <a class="paperlist">
-                                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                                </a>
-                                            {% else %}
-                                                <a class="paperlist">{{ items }}</a>
-                                            {% endif %}
-                                        {% endif %}
-                                    </div>
-                                {% endfor %}
-                            {% endfor %}
-                    </div>
-
-                    {% for class in cGroup %}
-                    <div class="class-section" id="{{ class.name | slugify }}" style="display:none;">
-                        {% assign dGroup = class.items | group_by_exp: "item", "item.date | date: '%Y-%m'" %}
-                        {% for dates in dGroup %}
-                            {% assign sorted_dates_items = dates.items | sort: "date" | reverse %}
-                            {% for pub in sorted_dates_items %}
-                            {% assign items = pub.contents | replace: "?", " " | split: ". " %}
-                            <div style="margin-bottom: 20px;">
-                                {% if pub.link %}
-                                {% if items.size > 1 %}
-                                <div>
-                                    <a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items[1] }}</a>
-                                    {% if pub.certificate_link %}
-                                    <a href="{{ pub.certificate_link }}" target="_blank" style="margin-left: 8px; text-decoration: none; border: none; outline: none;">
-                                        <img src="{{ '/assets/medal.png' | relative_url }}" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle; border: none;" />
-                                    </a>
-                                    {% endif %}
-                                </div>
-                                <div class="paperclick">{{ items[0] }}</div>
-                                <div class="paperclick">
-                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                </div>
-                                {% else %}
-                                <div><a class="paperclick" href="{{ pub.link }}" target="_blank">{{ items }}</a></div>
-                                {% endif %}
-                                {% else %}
-                                {% if items.size > 1 %}
-                                <a class="paperlist">
-                                    {% for item in items offset: 2 %}{{ item | replace: ".", "" }}. {% endfor %}
-                                </a>
-                                {% else %}
-                                <a class="paperlist">{{ items }}</a>
-                                {% endif %}
-                                {% endif %}
-                            </div>
-                            {% endfor %}
-
-                        {% endfor %}
-                        {% if class.name == "International Journal" %}<p>*: Equal contributors</p>{% endif %}
-                        <br>
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
+          </section>
         </div>
-    </section>
+      </div>
+
+      <div class="10u skel-cell-important">
+        <div id="my_div" class="my-div" style="text-align: justify">
+          <div id="all-publications" class="class-section">
+            {% assign all_publications = site.data.sheets.pub_j | sort: "date" |
+            reverse %} {% assign grouped_by_year_month = all_publications |
+            group_by_exp: "item", "item.date | date: '%Y-%m'" %} {% for group in
+            grouped_by_year_month %} {% assign sorted_year_month_items =
+            group.items | sort: "date" | reverse %} {% for pub in
+            sorted_year_month_items %} {% assign items = pub.contents | replace:
+            "?", " " | split: ". " %}
+            <div style="margin-bottom: 20px">
+              {% if pub.link %} {% if items.size > 1 %}
+              <div>
+                <a class="paperclick" href="{{ pub.link }}" target="_blank"
+                  >{{ items[1] }}</a
+                >
+                {% if pub.certificate_link %}
+                <a
+                  href="{{ pub.certificate_link }}"
+                  target="_blank"
+                  style="
+                    margin-left: 8px;
+                    text-decoration: none;
+                    border: none;
+                    outline: none;
+                  "
+                >
+                  <img
+                    src="{{ '/assets/medal.png' | relative_url }}"
+                    alt="certificate"
+                    style="
+                      width: 18px;
+                      height: 18px;
+                      vertical-align: middle;
+                      border: none;
+                    "
+                  />
+                </a>
+                {% endif %}
+              </div>
+              <div class="paperclick">{{ items[0] }}</div>
+              <div class="paperclick">
+                {% for item in items offset: 2 %}{{ item | replace: ".", "" }}.
+                {% endfor %}
+              </div>
+              {% else %}
+              <div>
+                <a class="paperclick" href="{{ pub.link }}" target="_blank"
+                  >{{ items }}</a
+                >
+              </div>
+              {% endif %} {% else %} {% if items.size > 1 %}
+              <a class="paperlist">
+                {% for item in items offset: 2 %}{{ item | replace: ".", "" }}.
+                {% endfor %}
+              </a>
+              {% else %}
+              <a class="paperlist">{{ items }}</a>
+              {% endif %} {% endif %}
+            </div>
+            {% endfor %} {% endfor %}
+          </div>
+
+          {% for class in cGroup %}
+          <div
+            class="class-section"
+            id="{{ class.name | slugify }}"
+            style="display: none"
+          >
+            {% assign dGroup = class.items | group_by_exp: "item", "item.date |
+            date: '%Y-%m'" %} {% for dates in dGroup %} {% assign
+            sorted_dates_items = dates.items | sort: "date" | reverse %} {% for
+            pub in sorted_dates_items %} {% assign items = pub.contents |
+            replace: "?", " " | split: ". " %}
+            <div style="margin-bottom: 20px">
+              {% if pub.link %} {% if items.size > 1 %}
+              <div>
+                <a class="paperclick" href="{{ pub.link }}" target="_blank"
+                  >{{ items[1] }}</a
+                >
+                {% if pub.certificate_link %}
+                <a
+                  href="{{ pub.certificate_link }}"
+                  target="_blank"
+                  style="
+                    margin-left: 8px;
+                    text-decoration: none;
+                    border: none;
+                    outline: none;
+                  "
+                >
+                  <img
+                    src="{{ '/assets/medal.png' | relative_url }}"
+                    alt="certificate"
+                    style="
+                      width: 18px;
+                      height: 18px;
+                      vertical-align: middle;
+                      border: none;
+                    "
+                  />
+                </a>
+                {% endif %}
+              </div>
+              <div class="paperclick">{{ items[0] }}</div>
+              <div class="paperclick">
+                {% for item in items offset: 2 %}{{ item | replace: ".", "" }}.
+                {% endfor %}
+              </div>
+              {% else %}
+              <div>
+                <a class="paperclick" href="{{ pub.link }}" target="_blank"
+                  >{{ items }}</a
+                >
+              </div>
+              {% endif %} {% else %} {% if items.size > 1 %}
+              <a class="paperlist">
+                {% for item in items offset: 2 %}{{ item | replace: ".", "" }}.
+                {% endfor %}
+              </a>
+              {% else %}
+              <a class="paperlist">{{ items }}</a>
+              {% endif %} {% endif %}
+            </div>
+            {% endfor %} {% endfor %} {% if class.name == "International
+            Journal" %}
+            <p>*: Equal contributors</p>
+            {% endif %}
+            <br />
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
 </article>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const sidebarLinks = document.querySelectorAll('.sidebar a');
-        const classSections = document.querySelectorAll('.class-section');
-        const allPublications = document.getElementById('all-publications');
+  const CLASS_ORDER = ['ALL', 'SCI/SCIE', 'SCOPUS', 'KCI'];
 
-        sidebarLinks.forEach(link => {
-            link.addEventListener('click', function (event) {
-                event.preventDefault();
-                const targetClass = this.getAttribute('href').substring(1);
-                classSections.forEach(section => {
-                    section.style.display = section.id === targetClass ? 'block' : 'none';
-                });
-                allPublications.style.display = targetClass === 'all' ? 'block' : 'none';
-                sidebarLinks.forEach(sidebarLink => {
-                    sidebarLink.classList.remove('active');
-                });
-                this.classList.add('active');
-                // Scroll to the top of the page
-                window.scrollTo({
-                    top: 0,
-                    behavior: 'smooth'
-                });
-            });
+  document.addEventListener('DOMContentLoaded', function () {
+    const sidebarLinks = document.querySelectorAll('.sidebar a');
+    const classSections = document.querySelectorAll('.class-section');
+    const allPublications = document.getElementById('all-publications');
+
+    sidebarLinks.forEach((link) => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const targetClass = this.getAttribute('href').substring(1);
+        classSections.forEach((section) => {
+          section.style.display = section.id === targetClass ? 'block' : 'none';
         });
+        allPublications.style.display =
+          targetClass === 'all' ? 'block' : 'none';
+        sidebarLinks.forEach((sidebarLink) => {
+          sidebarLink.classList.remove('active');
+        });
+        this.classList.add('active');
+        // Scroll to the top of the page
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      });
     });
+  });
 </script>

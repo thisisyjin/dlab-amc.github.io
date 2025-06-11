@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<!-- Main -->
+<article id="main">
+  <header class="special container">
+    <h2>members</h2>
+  </header>
+
+  <!-- One -->
+  <section class="wrapper style4 container">
+    <div class="row oneandhalf">
+      <div class="4u">
+        <!-- Sidebar -->
+        <div class="sidebar">
+          <section>
+            <header>
+              <div class="egg_img">
+                <img
+                  src="{{ page.member.profile_image }}"
+                  alt=""
+                  class="egg_0"
+                />
+                <img src="{{ page.member.hover_image }}" alt="" class="egg_1" />
+              </div>
+              <p>
+                <strong
+                  ><span style="font-size: 2rem"
+                    >{{ page.member.name_eng }},</span
+                  ></strong
+                >
+                {{ page.member.degree }}
+              </p>
+            </header>
+
+            <p>
+              {{ page.member.role }}<br />
+              {{ page.member.profile_description | markdownify }}
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="8u skel-cell-important">
+        <!-- Content -->
+        <div class="content">
+          <section>{{ page.member.contents | markdownify }}</section>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
