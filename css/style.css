@@ -3,28 +3,28 @@
 
 @font-face {
   font-family: 'NanumSquare_acEB';
-  src: url('{{ site.baseurl }}/fonts/NanumSquare_acEB.ttf') format('truetype');
+  src: url('/dlab-amc.github.io/fonts/NanumSquare_acEB.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'NanumSquare_acL';
-  src: url('{{ site.baseurl }}/fonts/NanumSquare_acL.ttf') format('truetype');
+  src: url('/dlab-amc.github.io/fonts/NanumSquare_acL.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'NanumSquare_acR';
-  src: url('{{ site.baseurl }}/fonts/NanumSquare_acR.ttf') format('truetype');
+  src: url('/dlab-amc.github.io/fonts/NanumSquare_acR.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'NanumSquare_acB';
-  src: url('{{ site.baseurl }}/fonts/NanumSquare_acB.ttf') format('truetype');
+  src: url('/dlab-amc.github.io/fonts/NanumSquare_acB.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
