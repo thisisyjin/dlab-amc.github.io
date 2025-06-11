@@ -39,7 +39,7 @@ layout: default
 
 			<section>
 				<ul>
-					<li><a href="/htmls/inside_the_lab/news.html" class="nav-link"><span
+					<li><a href="{{ site.baseurl }}/htmls/inside_the_lab/news.html" class="nav-link"><span
 								class="icon fa-solid fa-newspaper"></span>News</a>
 					</li>
 				</ul>
@@ -57,7 +57,7 @@ layout: default
 				<!-- Sidebar -->
 				<div class="sidebar">
 					<section>
-						<!-- <img src="/images/logo/logo2.png" alt="" style="width: 360px; margin-bottom: 50px;"> -->
+						<!-- <img src="{{ site.baseurl }}/images/logo/logo2.png" alt="" style="width: 360px; margin-bottom: 50px;"> -->
 						<header>
 							<h3>MISSION & VISION</h3>
 						</header>
@@ -78,7 +78,7 @@ layout: default
 			<div class="6u" style="padding: 0px 0px 0px 0px;">
 				<div class="sidebar">
 					<section>
-						<a class="image featured"> <img src="/images/members/단체사진/2025/IMG_1132.JPG"
+						<a class="image featured"> <img src="{{ site.baseurl }}/images/members/단체사진/2025/IMG_1132.JPG"
 								alt width="600px"
 								style="text-align: center;"></a>
 					</section>
@@ -91,7 +91,7 @@ layout: default
 				<!-- Content -->
 				<div class="content">
 					<section>
-						<a class="image featured"> <img src="/images/members/단체사진/2025/25의공춘계 단체.jpeg"
+						<a class="image featured"> <img src="{{ site.baseurl }}/images/members/단체사진/2025/25의공춘계 단체.jpeg"
 								alt width="600px"
 								style="margin-top: 40px;"></a>
 					</section>
@@ -440,7 +440,7 @@ layout: default
 
         memberDiv.innerHTML = `
           <div class="profil-image-container">
-            <a href="/htmls/members/${nameOnly}.html">
+            <a href="{{ site.baseurl }}/htmls/members/${nameOnly}.html">
               <img src="${member.profile_image}" alt style="width: 100%; height: 100%; border-radius: 50%;">
             </a>
           </div>
