@@ -419,7 +419,8 @@ layout: default
 </article>
 
 <script>
-  fetch('/data/members/member.json')
+	const base = '{{ site.baseurl }}';
+    fetch(`${base}/data/members/member.json`)
     .then((response) => response.json())
     .then((members) => {
       const wrapper = document.querySelector('#member-list').parentElement;

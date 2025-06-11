@@ -77,7 +77,7 @@ permalink: /publications_c/
   const CLASS_ORDER = ['ALL', 'International', 'Domestic']; // 순서 지정
 
   document.addEventListener('DOMContentLoaded', () => {
-    fetch('/data/publications/pub_c.json')
+    fetch('{{ site.baseurl }}/data/publications/pub_c.json')
       .then((res) => res.json())
       .then((data) => {
         const byClass = groupBy(data, 'class');

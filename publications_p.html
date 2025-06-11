@@ -84,7 +84,7 @@ permalink: /publications_p/
   ];
 
   document.addEventListener('DOMContentLoaded', () => {
-    fetch('/data/publications/pub_p.json')
+    fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
       .then((data) => {
         const byClass = groupBy(data, 'class');
