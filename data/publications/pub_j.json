@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "class": "SCI/SCIE",
+    "date": "2025-05",
+    "contents": "테스트 입니다.",
+    "state": "complete",
+    "link": "https://documenter.getpostman.com/view/23165708/2sB2qdgztA",
+    "certificate_link": null
+  }
+]
