@@ -6,5 +6,13 @@
     "state": "complete",
     "link": "https://documenter.getpostman.com/view/23165708/2sB2qdgztA",
     "certificate_link": null
+  },
+  {
+    "class": "SCOPUS",
+    "date": "2025-03",
+    "contents": "123123123",
+    "state": "complete",
+    "link": "https://example.com",
+    "certificate_link": null
   }
 ]
