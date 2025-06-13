@@ -1,40 +1,8 @@
 [
   {
-    "class": "KCI",
-    "date": "2025-06",
-    "contents": "ㄴㅌㄴㅇㄹㄴㄹ",
-    "state": "complete",
-    "link": "https://example.com",
-    "certificate_link": null
-  },
-  {
-    "class": "SCOPUS",
-    "date": "2025-02",
-    "contents": "테스트임\n",
-    "state": "complete",
-    "link": "https://documenter.getpostman.com/view/23165708/2sB2qdgztA",
-    "certificate_link": null
-  },
-  {
     "class": "SCOPUS",
     "date": "2025-03",
-    "contents": "테스트 입니다. 제발",
-    "state": "complete",
-    "link": "https://example.com",
-    "certificate_link": null
-  },
-  {
-    "class": "SCI/SCIE",
-    "date": "2026-04",
-    "contents": "햄스터 테스트",
-    "state": "complete",
-    "link": "https://documenter.getpostman.com/view/23165708/2sB2qdgztA",
-    "certificate_link": null
-  },
-  {
-    "class": "SCOPUS",
-    "date": "2024-03",
-    "contents": "햄식이가 보고싶어",
+    "contents": "테스트 내용",
     "state": "complete",
     "link": "https://documenter.getpostman.com/view/23165708/2sB2qdgztA",
     "certificate_link": null
