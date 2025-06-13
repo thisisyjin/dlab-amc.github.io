@@ -22,5 +22,13 @@
     "state": "complete",
     "link": "https://example.com",
     "certificate_link": null
+  },
+  {
+    "class": "SCI/SCIE",
+    "date": "2026-04",
+    "contents": "햄스터 테스트",
+    "state": "complete",
+    "link": "https://documenter.getpostman.com/view/23165708/2sB2qdgztA",
+    "certificate_link": null
   }
 ]
