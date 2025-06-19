@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "profile_image": "/data/members/images/members/profile_image-1750320577645-778500455.png",
+    "role": "Web Developer ",
+    "name_eng": "Yeonjin Lee",
+    "degree": "학사",
+    "email": "test@mail.com",
+    "tags": "#Web Developer #Dev #Web #Front-end",
+    "hover_image": "/data/members/images/members/hover_image-1750320577645-704189019.png",
+    "profile_description": "웹개발자",
+    "contents": "#Web Developer #Dev #Web #Front-end"
+  }
+]
