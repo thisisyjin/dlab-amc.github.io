@@ -1,13 +1,24 @@
 [
   {
-    "profile_image": "/data/members/images/members/profile_image-1750320577645-778500455.png",
+    "profile_image": "/data/members/images/members/profile_image-1750382588702-492032728.jpeg",
+    "role": "Researcher",
+    "name_eng": "Hamin Lim",
+    "degree": "M.S",
+    "email": "hamin@mail.com",
+    "tags": "#Researcher #Research",
+    "hover_image": "/data/members/images/members/hover_image-1750382588710-852391085.png",
+    "profile_description": "연구원 임하민",
+    "contents": "## 소개\r\n안녕하세요 임하민입니다.\r\n\r\n\r\n## 학회\r\n00학회 포스터상 수상"
+  },
+  {
+    "profile_image": "/data/members/images/members/profile_image-1750382488130-849022273.JPG",
     "role": "Web Developer ",
     "name_eng": "Yeonjin Lee",
-    "degree": "학사",
-    "email": "test@mail.com",
-    "tags": "#Web Developer #Dev #Web #Front-end",
-    "hover_image": "/data/members/images/members/hover_image-1750320577645-704189019.png",
-    "profile_description": "웹개발자",
-    "contents": "#Web Developer #Dev #Web #Front-end"
+    "degree": "BS",
+    "email": "thisisyjin@gmail.com",
+    "tags": "#Web Developer #Software #Development",
+    "hover_image": "/data/members/images/members/hover_image-1750382488135-42145845.png",
+    "profile_description": "웹 개발자 Web Developer",
+    "contents": "## 소개\r\n웹개발자 이연진 입니다."
   }
 ]
