@@ -27,8 +27,12 @@ jobs:
 
       - name: Move image files preserving folder structure
         run: |
-          mkdir -p images/posts
-          rsync -a temp_news/images/posts/ images/posts/
+          if [ -d "temp_news/images/posts" ]; then
+            mkdir -p images/posts
+            rsync -a temp_news/images/posts/ images/posts/
+          else
+            echo "⚠️ No image directory found. Skipping image sync."
+          fi
 
       - name: Commit and Push
         run: |
