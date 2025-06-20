@@ -40,8 +40,8 @@ layout: default
 
             <p>
               {{ page.member.role }}<br />
-              {{ page.member.profile_description | replace: "\n" , " \n" |
-              markdownify }}
+              {{ page.member.profile_description | replace: "\r\n", " \n" |
+              replace: "\r", " \n" | replace: "\n", " \n" | markdownify }}
             </p>
           </section>
         </div>
@@ -51,7 +51,8 @@ layout: default
         <!-- Content -->
         <div class="content">
           <section>
-            {{ page.member.contents | replace: "\n", " \n" | markdownify }}
+            {{ page.member.contents | replace: "\r\n", " \n" | replace: "\r", "
+            \n" | replace: "\n", " \n" | markdownify }}
           </section>
         </div>
       </div>
