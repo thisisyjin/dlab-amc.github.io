@@ -16,6 +16,11 @@ jobs:
         run: |
           unzip -o data/members/members.zip -d temp_members
 
+      - name: Clear old member files
+        run: |
+          rm -rf data/members/images/members/*
+          rm -rf htmls/members/*
+
       - name: Move files to final locations
         run: |
           mkdir -p data/members/images/members
@@ -28,7 +33,9 @@ jobs:
           mv -f temp_members/images/members/* data/members/images/members/
 
           # Markdown files
-          mv -f temp_members/htmls/members/*.md htmls/members/
+          if ls temp_members/htmls/members/*.md 1> /dev/null 2>&1; then
+            mv -f temp_members/htmls/members/*.md htmls/members/
+          fi
 
       - name: Commit and Push
         run: |
