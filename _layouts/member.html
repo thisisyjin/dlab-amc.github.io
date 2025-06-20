@@ -40,7 +40,8 @@ layout: default
 
             <p>
               {{ page.member.role }}<br />
-              {{ page.member.profile_description | markdownify }}
+              {{ page.member.profile_description | replace: "\n" , " \n" |
+              markdownify }}
             </p>
           </section>
         </div>
@@ -49,7 +50,9 @@ layout: default
       <div class="8u skel-cell-important">
         <!-- Content -->
         <div class="content">
-          <section>{{ page.member.contents | markdownify }}</section>
+          <section>
+            {{ page.member.contents | replace: "\n", " \n" | markdownify }}
+          </section>
         </div>
       </div>
     </div>
