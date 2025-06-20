@@ -1,0 +1,43 @@
+name: Deploy News
+
+on:
+  push:
+    paths:
+      - 'data/news/news.zip'
+
+jobs:
+  unzip-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Unzip news.zip
+        run: |
+          unzip -o data/news/news.zip -d temp_news
+
+      - name: Clear old news markdown files (optional)
+        run: |
+          rm -rf _posts/others/*
+
+      - name: Move markdown files to _posts/others/
+        run: |
+          mkdir -p _posts/others
+          mv -f temp_news/_posts/others/*.md _posts/others/ || true
+
+      - name: Move image files by year-month directory
+        run: |
+          mkdir -p images/posts
+          for dir in $(find temp_news/images/posts -mindepth 1 -maxdepth 1 -type d); do
+            target_dir="images/posts/$(basename $dir)"
+            mkdir -p "$target_dir"
+            mv -f "$dir"/* "$target_dir"/ || true
+          done
+
+      - name: Commit and Push
+        run: |
+          git config user.name 'github-actions'
+          git config user.email 'github-actions@github.com'
+          git add _posts/others/ images/posts/
+          git commit -m "[AUTO] Deployed news.zip (markdowns + images)" || echo "No changes"
+          git push
