@@ -9,6 +9,7 @@ member:
   role: 'Web Developer '
   profile_description: |
     웹 개발자 Web Developer
+    [링크](https://github.com/)
   contents: |
     ## 소개
     웹개발자 이연진 입니다.
