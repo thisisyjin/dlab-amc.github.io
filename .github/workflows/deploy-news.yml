@@ -16,7 +16,7 @@ jobs:
         run: |
           unzip -o data/news/news.zip -d temp_news
 
-      - name: Clear old news markdown files (optional)
+      - name: Clear old news markdown files
         run: |
           rm -rf _posts/others/*
 
@@ -25,14 +25,10 @@ jobs:
           mkdir -p _posts/others
           mv -f temp_news/_posts/others/*.md _posts/others/ || true
 
-      - name: Move image files by year-month directory
+      - name: Move image files preserving folder structure
         run: |
           mkdir -p images/posts
-          for dir in $(find temp_news/images/posts -mindepth 1 -maxdepth 1 -type d); do
-            target_dir="images/posts/$(basename $dir)"
-            mkdir -p "$target_dir"
-            mv -f "$dir"/* "$target_dir"/ || true
-          done
+          rsync -a temp_news/images/posts/ images/posts/
 
       - name: Commit and Push
         run: |
