@@ -13,4 +13,9 @@ member:
   contents: |
     ## 소개
     웹개발자 이연진 입니다.
+    여러 줄 입력 가능합니다.
+    
+    ## 테스트
+    테스트 텍스트를 입력해볼게요.
+    [아니면 링크만 이러나?](https://github.com/thisisyjin/DLAB_HPG_ADMIN)
 ---
