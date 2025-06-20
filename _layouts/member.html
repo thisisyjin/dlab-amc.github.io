@@ -18,11 +18,15 @@ layout: default
             <header>
               <div class="egg_img">
                 <img
-                  src="{{ page.member.profile_image }}"
-                  alt=""
+                  src="{{ site.baseurl }}{{ page.member.profile_image }}"
+                  alt="프로필 이미지"
                   class="egg_0"
                 />
-                <img src="{{ page.member.hover_image }}" alt="" class="egg_1" />
+                <img
+                  src="{{ site.baseurl }}{{ page.member.hover_image }}"
+                  alt="호버 이미지"
+                  class="egg_1"
+                />
               </div>
               <p>
                 <strong
