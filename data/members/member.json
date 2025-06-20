@@ -1,5 +1,16 @@
 [
   {
+    "profile_image": "/data/members/images/members/profile_image-1750399129041-280166071.png",
+    "role": "Hamster",
+    "name_eng": "Hamster",
+    "degree": "H.M",
+    "email": "test123@mail.com",
+    "tags": "#Hamster #Cute #Pretty",
+    "hover_image": "/data/members/images/members/hover_image-1750399129042-756974582.png",
+    "profile_description": "Cute Golden Hamster",
+    "contents": "## 소개\r\n- 햄스터라서 귀엽습니다.\r\n- 귀엽기만 합니다.\r\n\r\n## 그 외\r\n- 기타\r\n- 기타"
+  },
+  {
     "profile_image": "/data/members/images/members/profile_image-1750382588702-492032728.jpeg",
     "role": "Researcher",
     "name_eng": "Hamin Lim",
