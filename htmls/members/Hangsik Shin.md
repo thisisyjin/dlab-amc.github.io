@@ -19,7 +19,9 @@ member:
     
     
     - 2013.09 – 2022.02
-    - Assistant & Associate Professor
-    - Dept. of Biomedical Engineering, Chonnam National University, Yeosu, South Korea
+      - Assistant & Associate Professor
+      - Dept. of Biomedical Engineering, Chonnam National University, Yeosu, South Korea
     
+    
+    -    예시 이런식으로
 ---
