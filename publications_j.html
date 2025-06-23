@@ -81,6 +81,7 @@ permalink: /publications_j/
     fetch('{{ site.baseurl }}/data/publications/pub_j.json')
       .then((res) => res.json())
       .then((data) => {
+        console.log('📦 pub_j.json data:', data);
         const byClass = groupBy(data, 'class');
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
@@ -122,6 +123,8 @@ permalink: /publications_j/
 
           entries.forEach((entry) => {
             const items = entry.contents.split('. ');
+            console.log(entry);
+            console.log(items);
             const first = items[0] || '';
             const second = items[1] || '';
             const rest =
