@@ -29,12 +29,18 @@ jobs:
           # JSON
           mv -f temp_members/member.json data/members/member.json
 
-          # Images
-          mv -f temp_members/images/members/* data/members/images/members/
+          # Images (only if exist)
+          if ls temp_members/images/members/* 1> /dev/null 2>&1; then
+            mv -f temp_members/images/members/* data/members/images/members/
+          else
+            echo "No member images to move."
+          fi
 
-          # Markdown files
+          # Markdown files (only if exist)
           if ls temp_members/htmls/members/*.md 1> /dev/null 2>&1; then
             mv -f temp_members/htmls/members/*.md htmls/members/
+          else
+            echo "No member markdowns to move."
           fi
 
       - name: Commit and Push
