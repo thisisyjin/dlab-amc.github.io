@@ -4,8 +4,8 @@ title: Hyeon Seok Seok
 member:
   name_eng: 'Hyeon Seok Seok'
   degree: 'Ph.D. Candidate (Chonnam National University)'
-  profile_image: '/data/members/images/members//images/members/HyeonSeok_0.png'
-  hover_image: '/data/members/images/members//images/members/egg_석현석.JPG'
+  profile_image: '/images/members/HyeonSeok_0.png'
+  hover_image: '/images/members/egg_석현석.JPG'
   role: 'Research Assistant'
   profile_description: |
     Researcher  

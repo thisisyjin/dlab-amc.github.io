@@ -4,8 +4,8 @@ title: Jaehyung Lee
 member:
   name_eng: 'Jaehyung Lee'
   degree: 'B.Eng.'
-  profile_image: '/data/members/images/members//images/members/이재형.jpeg'
-  hover_image: '/data/members/images/members//images/members/egg_이재형.jpg'
+  profile_image: '/images/members/이재형.jpeg'
+  hover_image: '/images/members/egg_이재형.jpg'
   role: 'Master Course'
   profile_description: |
     Master Course  

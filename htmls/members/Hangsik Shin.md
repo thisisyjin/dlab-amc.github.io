@@ -4,8 +4,8 @@ title: Hangsik Shin
 member:
   name_eng: 'Hangsik Shin'
   degree: 'Ph.D.'
-  profile_image: '/data/members/images/members//images/members/신항식.jpg'
-  hover_image: '/data/members/images/members//images/members/egg_신항식2.PNG'
+  profile_image: '/images/members/신항식.jpg'
+  hover_image: '/images/members/egg_신항식2.PNG'
   role: 'Principal Investigator'
   profile_description: |
     Professor  

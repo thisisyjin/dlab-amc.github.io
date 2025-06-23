@@ -4,8 +4,8 @@ title: Yu Jin Han
 member:
   name_eng: 'Yu Jin Han'
   degree: 'B.Sc.'
-  profile_image: '/data/members/images/members//images/members/한유진_0.png'
-  hover_image: '/data/members/images/members//images/members/egg_한유진.jpg'
+  profile_image: '/images/members/한유진_0.png'
+  hover_image: '/images/members/egg_한유진.jpg'
   role: 'Master Course'
   profile_description: |
     Master Course  

@@ -4,8 +4,8 @@ title: Ye Eun Choi
 member:
   name_eng: 'Ye Eun Choi'
   degree: 'B.Sc'
-  profile_image: '/data/members/images/members//images/members/최예은.jpg'
-  hover_image: '/data/members/images/members//images/members/egg_최예은.JPG'
+  profile_image: '/images/members/최예은.jpg'
+  hover_image: '/images/members/egg_최예은.JPG'
   role: 'Master Course'
   profile_description: |
     Master Course  

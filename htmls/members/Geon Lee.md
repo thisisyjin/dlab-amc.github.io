@@ -4,8 +4,8 @@ title: Geon Lee
 member:
   name_eng: 'Geon Lee'
   degree: 'M.S.'
-  profile_image: '/data/members/images/members//images/members/이건_0.png'
-  hover_image: '/data/members/images/members//images/members/egg_이건.jpeg'
+  profile_image: '/images/members/이건_0.png'
+  hover_image: '/images/members/egg_이건.jpeg'
   role: 'Researcher'
   profile_description: |
     Researcher  

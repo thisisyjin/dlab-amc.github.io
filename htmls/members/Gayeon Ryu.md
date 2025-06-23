@@ -4,8 +4,8 @@ title: Gayeon Ryu
 member:
   name_eng: 'Gayeon Ryu'
   degree: 'B.Sc.'
-  profile_image: '/data/members/images/members//images/members/류가연.jpeg'
-  hover_image: '/data/members/images/members//images/members/egg_류가연.JPG'
+  profile_image: '/images/members/류가연.jpeg'
+  hover_image: '/images/members/egg_류가연.JPG'
   role: 'Master Course'
   profile_description: |
     Master Course  

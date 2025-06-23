@@ -4,8 +4,8 @@ title: Hamin Lim
 member:
   name_eng: 'Hamin Lim'
   degree: 'M.S.'
-  profile_image: '/data/members/images/members//images/members/임하민1.JPG'
-  hover_image: '/data/members/images/members//images/members/egg_임하민.jpg'
+  profile_image: '/images/members/임하민1.JPG'
+  hover_image: '/images/members/egg_임하민.jpg'
   role: 'Researcher'
   profile_description: |
     Researcher  

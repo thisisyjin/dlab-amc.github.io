@@ -4,8 +4,8 @@ title: Jaewook Jin
 member:
   name_eng: 'Jaewook Jin'
   degree: 'M.S.'
-  profile_image: '/data/members/images/members//images/members/진재욱.jpg'
-  hover_image: '/data/members/images/members//images/members/egg_진재욱.jpeg'
+  profile_image: '/images/members/진재욱.jpg'
+  hover_image: '/images/members/egg_진재욱.jpeg'
   role: 'Ph.D. Course'
   profile_description: |
     Ph.D candidate  

@@ -4,8 +4,8 @@ title: Yeongdon Kim
 member:
   name_eng: 'Yeongdon Kim'
   degree: 'M.S.'
-  profile_image: '/data/members/images/members//images/members/김영돈.jpg'
-  hover_image: '/data/members/images/members//images/members/egg_김영돈2.png'
+  profile_image: '/images/members/김영돈.jpg'
+  hover_image: '/images/members/egg_김영돈2.png'
   role: 'Researcher'
   profile_description: |
     Researcher  
