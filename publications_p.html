@@ -121,10 +121,12 @@ permalink: /publications_p/
 
           const entries =
             cls === 'ALL'
-              ? [...data].sort((a, b) => b.date.localeCompare(a.date))
-              : [...(byClass[cls] || [])].sort((a, b) =>
-                  b.date.localeCompare(a.date)
-                );
+              ? [...data]
+                  .filter((d) => d.date)
+                  .sort((a, b) => b.date.localeCompare(a.date))
+              : [...(byClass[cls] || [])]
+                  .filter((d) => d.date)
+                  .sort((a, b) => b.date.localeCompare(a.date));
 
           entries.forEach((entry) => {
             const items = entry.contents.split('. ');
