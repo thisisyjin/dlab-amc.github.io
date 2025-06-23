@@ -14,8 +14,8 @@ member:
   contents: |
     ## PAPERS
     
-    1.  Gayeon Ryu, Yujin Han, Yeongdon Kim, Hangsik Shin, “Bio-signals and result feature analysis to leverage public polysomnography database integration,” The 64th Korea Society of Medical and Biological Engineering Fall Conference 2025, Swiss Grand Hotel, Seoul, Korea (Nov. 2025)
-    2.  Yeongdon Kim, Hamin Lim, Gayeon Ryu, Yujin Han, Hangsik Shin, "Development of a Real-Time Upper Limb Range of Motion Measurement Method Using a Single Depth Measurement Camera", The 55th KIEE Summer Conference, Jeju, Korea (Jul. 2025)
+    1.  Gayeon Ryu, Yujin Han, Yeongdon Kim, Hangsik Shin, “Bio-signals and result feature analysis to leverage public polysomnography database integration,” The 64th Korea Society of Medical and Biological Engineering Fall Conference 2024, Swiss Grand Hotel, Seoul, Korea (Nov. 2024)
+    2.  Yeongdon Kim, Hamin Lim, Gayeon Ryu, Yujin Han, Hangsik Shin, "Development of a Real-Time Upper Limb Range of Motion Measurement Method Using a Single Depth Measurement Camera", The 55th KIEE Summer Conference, Jeju, Korea (Jul. 2024)
     
     ## skills
     
@@ -41,7 +41,7 @@ member:
     
     ## awards
     
-    1.  대한의용생체공학회 추계 학술대회 우수 포스터 논문상(금상), 대한의용생체공학회, 2025.11
+    1.  대한의용생체공학회 추계 학술대회 우수 포스터 논문상(금상), 대한의용생체공학회, 2024.11
     2.  강원 정밀의료 빅데이터 해커톤 최우수상, 강원정밀의료사업단, 2022.12
     3.  AI Hub 학습데이터 활용 사업화 아이디어 해커톤 장려상, 한국스마트미디어학회, 2022.04
     4.  강원 애니 데이터톤 우수상, 강원정보문화진흥원, 2022.01

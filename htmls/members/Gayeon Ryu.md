@@ -15,14 +15,14 @@ member:
     ## Papers & Conferences
     
     1.  Gayeon Ryu,Jae Moon Choi,Hyeon Seok Seok,Jaehyung Lee,Eun-Kyung Lee,Hangsik Shin,Byung-Moon Choi, "Machine learning based quantitative pain assessment for the perioperative period", NPJ DIGITAL MEDICINE (2025)
-    2.  Gayeon Ryu, Jae Moon Choi, Jaehyung Lee, Hyeon Seok Seok, Hangsik Shin, Byung-Moon Choi, "Analysis of Photoplethysmography-Based Surgical Pain Severity Assessment Markers", JOURNAL OF ELECTRICAL ENGINEERING & TECHNOLOGY (2025)
-    3.  Jaehyung Lee, Oh-Seok Kwon, Gayeon Ryu, Hangsik Shin, Hui-Nam Pak, "Atrial Fibrillation Identification Using CNNs Based on Genomic Data", JOURNAL OF ELECTRICAL ENGINEERING & TECHNOLOGY (2025)
-    4.  Gayeon Ryu, Ye Eun Choi, Hangsik Shin, "The Impact of Demographic Characteristics and Comorbidities on the Incidence of Atrial Fibrillation", The 64th Korea Society of Medical and Biological Engineering Fall Conference 2025, Seoul, Korea (Nov. 2025)
-    5.  Gayeon Ryu, Yujin Han, Yeongdon Kim, Hangsik Shin, "Bio-signals and result feature analysis to leverage public polysomnography database integration", The 64th Korea Society of Medical and Biological Engineering Fall Conference 2025, Seoul, Korea (Nov. 2025)
-    6.  Gayeon Ryu, Ye Eun Choi, Hangsik Shin, "Evaluation of Photoplethysmogram-based Vascular Age Estimation Models", CICS'24 Conference on Information and Control Systems, Tongyeong, Korea (Oct. 2025)
-    7.  Yeongdon Kim, Hamin Lim, Gayeon Ryu, Yujin Han, Hangsik Shin, "Development of a Real-Time Upper Limb Range of Motion Measurement Method Using a Single Depth Measurement Camera", The 55th KIEE Summer Conference, Jeju, Korea (Jul. 2025)
-    8.  Y.Kim, G.Y Ryu, H.H Jeong, J. H. Oh, M. Kim, S. A. Park, H. L. Yang, "Development of interoprative blood transfusion prediction model", CARS 2025 Computer Assisted Radiology and Surgery, Barcelona, Spain (Jun. 2025)
-    9.  Gayeon Ryu, Hyeon Seok Seok, Byung-Moon Choi, Jae Moon Choi, Hangsik Shin, "Photopletysmogram Features for Severity Assessment of Postoperative Pain", KOSOMBE spring conference, Wonju, Korea (May. 2025)
+    2.  Gayeon Ryu, Jae Moon Choi, Jaehyung Lee, Hyeon Seok Seok, Hangsik Shin, Byung-Moon Choi, "Analysis of Photoplethysmography-Based Surgical Pain Severity Assessment Markers", JOURNAL OF ELECTRICAL ENGINEERING & TECHNOLOGY (2024)
+    3.  Jaehyung Lee, Oh-Seok Kwon, Gayeon Ryu, Hangsik Shin, Hui-Nam Pak, "Atrial Fibrillation Identification Using CNNs Based on Genomic Data", JOURNAL OF ELECTRICAL ENGINEERING & TECHNOLOGY (2024)
+    4.  Gayeon Ryu, Ye Eun Choi, Hangsik Shin, "The Impact of Demographic Characteristics and Comorbidities on the Incidence of Atrial Fibrillation", The 64th Korea Society of Medical and Biological Engineering Fall Conference 2024, Seoul, Korea (Nov. 2024)
+    5.  Gayeon Ryu, Yujin Han, Yeongdon Kim, Hangsik Shin, "Bio-signals and result feature analysis to leverage public polysomnography database integration", The 64th Korea Society of Medical and Biological Engineering Fall Conference 2024, Seoul, Korea (Nov. 2024)
+    6.  Gayeon Ryu, Ye Eun Choi, Hangsik Shin, "Evaluation of Photoplethysmogram-based Vascular Age Estimation Models", CICS'24 Conference on Information and Control Systems, Tongyeong, Korea (Oct. 2024)
+    7.  Yeongdon Kim, Hamin Lim, Gayeon Ryu, Yujin Han, Hangsik Shin, "Development of a Real-Time Upper Limb Range of Motion Measurement Method Using a Single Depth Measurement Camera", The 55th KIEE Summer Conference, Jeju, Korea (Jul. 2024)
+    8.  Y.Kim, G.Y Ryu, H.H Jeong, J. H. Oh, M. Kim, S. A. Park, H. L. Yang, "Development of interoprative blood transfusion prediction model", CARS 2024 Computer Assisted Radiology and Surgery, Barcelona, Spain (Jun. 2024)
+    9.  Gayeon Ryu, Hyeon Seok Seok, Byung-Moon Choi, Jae Moon Choi, Hangsik Shin, "Photopletysmogram Features for Severity Assessment of Postoperative Pain", KOSOMBE spring conference, Wonju, Korea (May. 2024)
     10.  Gayeon Ryu, Hyeon Seok Seok, Byung-Moon Choi, Jae Moon Choi, Hangsik Shin, "Ectopic Beat Correction Strategies for Accurate Heart Rate Variability Analysis", IEEE EMBS, St. Julians, Malta (Dec. 2023)
     11.  Gayeon Ryu, Hyeon Seok Seok, Byung-Moon Choi, Jae Moon Choi, Hangsik Shin, "Photoplethysmogram based on Surgical Pain Severity Assessment Feature Analysis", KOSOMBE autumn conference, Seoul, Korea (Nov. 2023)
     12.  Gayeon Ryu, Hyeon Seok Seok, Byung-Moon Choi, Jae Moon Choi, Hangsik Shin, "Analysis of Surgical Pain Severity Assessment Feature based on Photoplethysmogram", The 54th KIEE Summer Conference, Pyeongchang, Korea (Jul. 2023)
@@ -35,15 +35,15 @@ member:
     
     ## awards
     
-    1.  대한의용생체공학회 2025 추계학술대회 우수 포스터 논문상, 대한의용생체공학회, Korea (Nov. 2025)
-    2.  대한의용생체공학회 2025년 추계학술대회 우수논문상, 대한의용생체공학회, Korea (Nov. 2025)
-    3.  2025년 정보 및 제어 학술대회 우수논문상, 대한전기학회, Korea (Oct. 2025)
+    1.  대한의용생체공학회 2024 추계학술대회 우수 포스터 논문상, 대한의용생체공학회, Korea (Nov. 2024)
+    2.  대한의용생체공학회 2024년 추계학술대회 우수논문상, 대한의용생체공학회, Korea (Nov. 2024)
+    3.  2024년 정보 및 제어 학술대회 우수논문상, 대한전기학회, Korea (Oct. 2024)
     4.  Best Abstract Awards, Spring Conference, Korean Society for Anesthetic Pharmacology, Korea (Apr. 2023)
     5.  Paper of the Year Award, AMIST 종합학술대회, Korea (Nov. 2022)
     
     ## patents
     
-    1.  신항식ㆍ최병문 ㆍ 최재문ㆍ류가연, "통증평가모델 생성 장치, 통증평가모델 생성 방법 및 이를 수행하는 프로 그램이 저장된 기록 매체", KR-Application No. 10-2025-0053680
+    1.  신항식ㆍ최병문 ㆍ 최재문ㆍ류가연, "통증평가모델 생성 장치, 통증평가모델 생성 방법 및 이를 수행하는 프로 그램이 저장된 기록 매체", KR-Application No. 10-2024-0053680
     
     ## Participated Projects
     

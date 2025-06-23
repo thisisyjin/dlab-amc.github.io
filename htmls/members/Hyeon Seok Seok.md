@@ -14,8 +14,8 @@ member:
   contents: |
     ## Papers & Conferences
     
-    1.  Hyeon Seok Seok, Sang Su Kim, Do-Won Kim, Hangsik Shin, “Toward Objectification of Subjective Chronic Pain based on Implicit Response in Biosignals,” IEEE Transactions on Biomedical Engineering, 2025.
-    2.  Hyeon Seok Seok, Shinae Yu, Kyung-Hwa Shin, Woochang Lee, Sail Chun, Sollip Kim, Hangsik Shin, “Machine learning-based sample misidentification error detection in clinical laboratory tests: A retrospective multicenter study,” Clinical Chemistry, 70(10), 1256-1267, 2025.
+    1.  Hyeon Seok Seok, Sang Su Kim, Do-Won Kim, Hangsik Shin, “Toward Objectification of Subjective Chronic Pain based on Implicit Response in Biosignals,” IEEE Transactions on Biomedical Engineering, 2024.
+    2.  Hyeon Seok Seok, Shinae Yu, Kyung-Hwa Shin, Woochang Lee, Sail Chun, Sollip Kim, Hangsik Shin, “Machine learning-based sample misidentification error detection in clinical laboratory tests: A retrospective multicenter study,” Clinical Chemistry, 70(10), 1256-1267, 2024.
     3.  Junyung Park, Hyeon Seok Seok, Sang-Su Kim, and Hangsik Shin, "Photoplethysmogram Analysis and Applications: An Integrative Review," Frontiers in Physiology, 12, pp.1-23, 2022
     4.  Hyeon Seok Seok and Hangsik Shin, "Recommendation for Measuring Digital Volume Pulse in a Mobile Application: for Healthy Normal Subject," IEEE ACCESS, 9, pp. 69335-69345, 2021
     5.  Jin Woong Kim, Hyeon Seok Seok, and Hangsik Shin, "Is Ultra-Short-Term Heart Rate Variability Valid in Non-static Conditions?," Frontiers in Physiology, 12, pp. 596060, 2021

@@ -14,5 +14,5 @@ member:
   contents: |
     ## Papers & Conferences
     
-    1.  Jaewook Jin, Kahye Kim, KunHo Lee, Jeong-Woo Seo, Jaeuk U. Kim, "Association Between Cognitive Function and the Autonomic Nervous System by Photoplethysmography", Bioengineering 2025, 11(11), 1099, 2025
+    1.  Jaewook Jin, Kahye Kim, KunHo Lee, Jeong-Woo Seo, Jaeuk U. Kim, "Association Between Cognitive Function and the Autonomic Nervous System by Photoplethysmography", Bioengineering 2024, 11(11), 1099, 2024
 ---
