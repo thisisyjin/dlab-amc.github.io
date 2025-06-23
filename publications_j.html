@@ -75,7 +75,12 @@ permalink: /publications_j/
 </article>
 
 <script>
-  const CLASS_ORDER = ['ALL', 'SCI/SCIE', 'SCOPUS', 'KCI'];
+  const CLASS_ORDER = [
+    { label: 'ALL', key: 'ALL' },
+    { label: 'SCI/SCIE', key: 'SCI' },
+    { label: 'SCOPUS', key: 'SCOPUS' },
+    { label: 'KCI', key: 'KCI' },
+  ];
 
   document.addEventListener('DOMContentLoaded', () => {
     fetch('{{ site.baseurl }}/data/publications/pub_j.json')
@@ -88,9 +93,9 @@ permalink: /publications_j/
 
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
-          btn.textContent = cls;
-          btn.href = `#${cls.toLowerCase()}`;
-          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
+          btn.textContent = cls.label;
+          btn.href = `#${cls.key.toLowerCase()}`;
+          btn.className = 'small-button' + (cls.key === 'ALL' ? ' active' : '');
           btn.addEventListener('click', (e) => {
             e.preventDefault();
             document
@@ -100,7 +105,7 @@ permalink: /publications_j/
               .querySelectorAll('.small-button')
               .forEach((el) => el.classList.remove('active'));
             document.getElementById(
-              `section-${cls.toLowerCase()}`
+              `section-${cls.key.toLowerCase()}`
             ).style.display = 'block';
             btn.classList.add('active');
             window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -111,15 +116,15 @@ permalink: /publications_j/
         CLASS_ORDER.forEach((cls) => {
           const section = document.createElement('div');
           section.className = 'class-section';
-          section.id = `section-${cls.toLowerCase()}`;
-          section.style.display = cls === 'ALL' ? 'block' : 'none';
+          section.id = `section-${cls.key.toLowerCase()}`;
+          section.style.display = cls.key === 'ALL' ? 'block' : 'none';
 
           const entries =
-            cls === 'ALL'
+            cls.key === 'ALL'
               ? [...data]
                   .filter((d) => d.date)
                   .sort((a, b) => b.date.localeCompare(a.date))
-              : [...(byClass[cls] || [])]
+              : [...(byClass[cls.key] || [])]
                   .filter((d) => d.date)
                   .sort((a, b) => b.date.localeCompare(a.date));
 
