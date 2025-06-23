@@ -3,18 +3,13 @@ layout: member
 title: Hamster
 member:
   name_eng: 'Hamster'
-  degree: 'H.M'
-  profile_image: '/data/members/images/members/profile_image-1750399129041-280166071.png'
-  hover_image: '/data/members/images/members/hover_image-1750399129042-756974582.png'
-  role: 'Hamster'
+  degree: 'no'
+  profile_image: '/data/members/images/members/profile_image-1750661263041-947321159.png'
+  hover_image: '/data/members/images/members/hover_image-1750661263042-127275625.png'
+  role: '귀엽다'
   profile_description: |
-    Cute Golden Hamster
+    귀여운 친구다
   contents: |
-    ## 소개
-    - 햄스터라서 귀엽습니다.
-    - 귀엽기만 합니다.
-    
-    ## 그 외
-    - 기타
-    - 기타
+    # 하하
+    ### 귀엽군
 ---
