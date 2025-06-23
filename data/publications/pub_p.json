@@ -1,7 +1,7 @@
 [
   {
-    "class": null,
-    "date": null,
+    "class": "International",
+    "date": "2024-10",
     "contents": "Method and apparatus for training waveform restroration model to restore quasiperiodic biosignal waveforms, Filed (No: PCT/KR2024/015157, Date: 2024/10/07). ",
     "state": "complete",
     "link": null,
@@ -208,8 +208,8 @@
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "International",
+    "date": "2017-04",
     "contents": "Method and apparatus for executing an application in a device, Filed (No: EP13183431.9, Date: 2013/09/06), Published (No: EP2706734, Date: 2014/03/12), Granted (No: EP02706734, Date: 2017/04/26). ",
     "state": "complete",
     "link": null,
@@ -560,8 +560,8 @@
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Domestic",
+    "date": "2023-02",
     "contents": "연속맥파 도달시간 기반 혈압 추정 방법 및 그 방법을 수행하는 서버, Filed (No: KR1020230012121, Date: 2023/01/30). ",
     "state": "complete",
     "link": null,
@@ -1200,8 +1200,8 @@
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Registered SW",
+    "date": "2023-11",
     "contents": "사용자 생체정보 및 위치정보 모니터링, 위험 알람을 위한 웹 응용프로그램, Granted (No: C-2023-059445, Date: 2023/12/13). ",
     "state": "complete",
     "link": null,
@@ -1320,8 +1320,8 @@
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Registered SW",
+    "date": "2018-09",
     "contents": "맥파의 특정 진폭에 대한 박동 폭 계산 프로그램, Granted (No: KRC-2018-024252, Date: 2018/09/10). ",
     "state": "complete",
     "link": null,
@@ -1352,24 +1352,24 @@
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Registered SW",
+    "date": "2018-09",
     "contents": "삼각화된 맥파 신호의 박동별 넓이 계산 프로그램, Granted (No: KRC-2018-024253, Date: 2018/09/10). ",
     "state": "complete",
     "link": null,
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Registered SW",
+    "date": "2018-09",
     "contents": "맥파 신호의 박동별 기울기 분석 프로그램, Granted (No: KRC-2018-024256, Date: 2018/09/10). ",
     "state": "complete",
     "link": null,
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Registered SW",
+    "date": "2018-09",
     "contents": "맥파 신호의 박동별 수축기 및 이완기 분석 프로그램, Granted (No: KRC-2018-024254, Date: 2018/09/10). ",
     "state": "complete",
     "link": null,
@@ -1384,8 +1384,8 @@
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Registered SW",
+    "date": "2018-09",
     "contents": "맥파 신호의 맥동별 진폭 계산 프로그램, Granted (No: KRC-2018-024255, Date: 2018/09/10). ",
     "state": "complete",
     "link": null,
@@ -1408,8 +1408,8 @@
     "certificate_link": null
   },
   {
-    "class": null,
-    "date": null,
+    "class": "Registered SW",
+    "date": "2017-12",
     "contents": "실시간 압력파형 디스플레이를 위한 안드로이드 어플리케이션, Granted (No: KRC-2017-035126, Date: 2017/12/21). ",
     "state": "complete",
     "link": null,
