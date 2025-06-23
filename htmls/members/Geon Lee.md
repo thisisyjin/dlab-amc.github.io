@@ -14,14 +14,14 @@ member:
   contents: |
     ## Papers
     
-    1.  Ji, G., Woo, J., Lee, G., Msigwa, C., Bernard, D., & Yun, J. (2024). AIoT-Based Smart Healthcare in Everyday Lives: Data Collection and Standardization from Smartphones and Smartwatches. IEEE Internet of Things Journal.
-    2.  홍윤정, 이건, & 우지영. (2024). 컴퓨터 비전 기술을 이용한 하네스 불량 검출 방법. 한국컴퓨터정보학회논문지, 29(1), 77-84.
-    3.  이나영, 이건, 이민섭, 홍윤정, 양인범, & 우지영. (2024). 객체탐지를 이용한 캠퍼스내 교통안전 시스템 개발. 한국컴퓨터정보학회논문지, 29(1), 51-59.
+    1.  Ji, G., Woo, J., Lee, G., Msigwa, C., Bernard, D., & Yun, J. (2025). AIoT-Based Smart Healthcare in Everyday Lives: Data Collection and Standardization from Smartphones and Smartwatches. IEEE Internet of Things Journal.
+    2.  홍윤정, 이건, & 우지영. (2025). 컴퓨터 비전 기술을 이용한 하네스 불량 검출 방법. 한국컴퓨터정보학회논문지, 29(1), 77-84.
+    3.  이나영, 이건, 이민섭, 홍윤정, 양인범, & 우지영. (2025). 객체탐지를 이용한 캠퍼스내 교통안전 시스템 개발. 한국컴퓨터정보학회논문지, 29(1), 51-59.
     
     ## Conferences
     
     1.  이건, 우지영, & 김상현. (2023). 스케일로그램 이미지와 피쳐 엔지니어링 합성을 통한 딥러닝 기반 침습적 저혈압 예측. 한국정보과학회 학술발표논문집, 925-927.
-    2.  홍윤정, 이건, 우지영, & 남윤영. (2024). 이더넷 커넥터 자동 조립 기술 개발을 위한 컴퓨터 비전 기반 공정 검사. 한국컴퓨터정보학회 학술발표논문집, 32(1), 89-90.
+    2.  홍윤정, 이건, 우지영, & 남윤영. (2025). 이더넷 커넥터 자동 조립 기술 개발을 위한 컴퓨터 비전 기반 공정 검사. 한국컴퓨터정보학회 학술발표논문집, 32(1), 89-90.
     3.  이건, 우지영, 양인범, 이나영, & 홍윤정. (2023). 객체인식을 활용한 반응형 교통시스템 설계. 한국컴퓨터정보학회 학술발표논문집, 31(1), 23-24.
     4.  이건, 홍윤정, 차민수, & 우지영. (2022). 두피 이미지 학습을 통한 두피 상태 진단. 한국컴퓨터정보학회 학술발표논문집, 30(1), 327-329.
     
