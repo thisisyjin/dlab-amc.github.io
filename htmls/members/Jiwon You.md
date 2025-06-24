@@ -1,6 +1,6 @@
----
-layout: member
-title: Jiwon You
+--- 
+layout: member 
+title: Jiwon You 
 member:
   name_eng: 'Jiwon You'
   degree: 'M.S.'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_유지원.JPG'
   role: 'Researcher'
   profile_description: |
-    Researcher  
-    [71one.you@gmail.com](71one.you@gmail.com)  
+    Researcher
+    [71one.you@gmail.com](71one.you@gmail.com)
     Research Areas : Machine learning,Large Language Model,Bioinformatics,
   contents: |
     ## Papers & Conferences
@@ -38,4 +38,4 @@ member:
     4.  음악치료 VR 악기개발을 위한 암기연주와 즉흥연주에서의 뇌파분석 연구, 2022.10~2023.09
     5.  코로나 19 멀티오믹스 통합분석 및 예후 예측 모델 개발, 2023.04~2023.08
     6.  비음수 최소제곱법을 활용한 변이 패턴-유전자 발현 시계열 연관 분석, 2021.07~2023.02
----
+--- 

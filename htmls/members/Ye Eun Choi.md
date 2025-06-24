@@ -1,6 +1,6 @@
----
-layout: member
-title: Ye Eun Choi
+--- 
+layout: member 
+title: Ye Eun Choi 
 member:
   name_eng: 'Ye Eun Choi'
   degree: 'B.Sc'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_최예은.JPG'
   role: 'Master Course'
   profile_description: |
-    Master Course  
-    [yechoi.amc@gmail.com](mailto:yechoi.amc@gmail.com)  
+    Master Course
+    [yechoi.amc@gmail.com](mailto:yechoi.amc@gmail.com)
     Research Areas : Bioinformatics,Medical AI,Digital Healthcare
   contents: |
     ## Papers & Conferences
@@ -32,4 +32,4 @@ member:
     
     1.  Development, Optimization and Clinical Verification of Software for Early Diagnosis and Prognosis of Atrial Fibrillation Integrating Gene, Electrocardiogram and Clinical Information Based on Artificial Intelligence, Ministry of Health and Wellfare (MOHW), Korea (Apr. 2021 - Dec. 2023)
     2.  Developing artificial intelligence for early risk predictionof atrial fibrillation using clinical information, Asan Medical Center, Korea (Jan. 2024 - Dec. 2025)
----
+--- 

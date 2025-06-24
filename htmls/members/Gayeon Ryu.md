@@ -1,6 +1,6 @@
----
-layout: member
-title: Gayeon Ryu
+--- 
+layout: member 
+title: Gayeon Ryu 
 member:
   name_eng: 'Gayeon Ryu'
   degree: 'B.Sc.'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_류가연.JPG'
   role: 'Master Course'
   profile_description: |
-    Master Course  
-    [rgy90257823@gmail.com](mailto:rgy90257823@gmail.com)  
+    Master Course
+    [rgy90257823@gmail.com](mailto:rgy90257823@gmail.com)
     Research Areas : Data Analysis, Statistics, Signal Analysis
   contents: |
     ## Papers & Conferences
@@ -50,4 +50,4 @@ member:
     1.  Development and Commercialization of Next Generation Convergence Care Technology for Optimization of High Risk Patient Treatment, Ministry of Health and Welfare (MOHW), Korea (Jul. 2020 ~ Present)
     2.  Research of Photoplethysmography for Mobile Healthcare and Clinical Use, Ministry of Education (MOE), Korea (Jun. 2018 ~ May. 2023)
     3.  Development of a Wearable Device That Shows Pain Relief Using Complex Energy (Cold Razor + Ultrasound) and Pain Relief Using Photoplethysmography, Ministry of SMEs and Startups (MSS), Korea (Dec. 2020 ~ Dec. 2022)
----
+--- 

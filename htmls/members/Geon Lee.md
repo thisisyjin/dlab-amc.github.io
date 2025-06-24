@@ -1,6 +1,6 @@
----
-layout: member
-title: Geon Lee
+--- 
+layout: member 
+title: Geon Lee 
 member:
   name_eng: 'Geon Lee'
   degree: 'M.S.'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_이건.jpeg'
   role: 'Researcher'
   profile_description: |
-    Researcher  
-    [az86028602@gmail.com](mailto:az86028602@gmail.com)  
+    Researcher
+    [az86028602@gmail.com](mailto:az86028602@gmail.com)
     Research Areas : Biosignal analysis, Medical AI, Machine learning
   contents: |
     ## Papers
@@ -31,4 +31,4 @@ member:
     2.  2022.05 - 통계청 주관 '자연어 기반 AI활용 산업분류 자동화' 입상 (특별상)
     3.  2022.12 - 과학기술정보통신부 주관 '데이터 크리에이터 캠프' 입상 (우수상)
     4.  2023.12 - 한국정보과학회 주관 '2023 한국소프트웨어종합학술대회' 우수논문상
----
+--- 

@@ -1,6 +1,6 @@
----
-layout: member
-title: Hangsik Shin
+--- 
+layout: member 
+title: Hangsik Shin 
 member:
   name_eng: 'Hangsik Shin'
   degree: 'Ph.D.'
@@ -8,28 +8,28 @@ member:
   hover_image: '/images/members/egg_신항식2.PNG'
   role: 'Principal Investigator'
   profile_description: |
-    Professor  
-    Department of Digital Medicine  
-    Asan Medical Center, University of Ulsan College of Medicine  
+    Professor
+    Department of Digital Medicine
+    Asan Medical Center, University of Ulsan College of Medicine
     [Google Scholar Profile](https://scholar.google.co.kr/citations?user=N1MUdi4AAAAJ&hl=en)
   contents: |
     ## Employment
     
-    1.  2025.03 – Current  
-        Professor  
-        Dept. of Digital Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, South Korea
-    2.  2022.03 – 2025.02  
-        Associate Professor  
-        Dept. of Digital Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, South Korea
-    3.  2013.09 – 2022.02  
-        Assistant & Associate Professor  
-        Dept. of Biomedical Engineering, Chonnam National University, Yeosu, South Korea
-    4.  2010.03 – 2013.08  
-        Senior Engineer  
-        Healthcare & Sensing Lab., Digital Media and Communication Research Center, Samsung Electronics, Suwon, South Korea
-    5.  2003.03 – 2011.02  
-        Researcher  
-        Yonsei Institute of Medical Instrument Technology, Yonsei University, Seoul, South Korea
+    1.  2025.03 – Current
+    Professor
+    Dept. of Digital Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, South Korea
+    2.  2022.03 – 2025.02
+    Associate Professor
+    Dept. of Digital Medicine, Asan Medical Center, University of Ulsan College of Medicine, Seoul, South Korea
+    3.  2013.09 – 2022.02
+    Assistant & Associate Professor
+    Dept. of Biomedical Engineering, Chonnam National University, Yeosu, South Korea
+    4.  2010.03 – 2013.08
+    Senior Engineer
+    Healthcare & Sensing Lab., Digital Media and Communication Research Center, Samsung Electronics, Suwon, South Korea
+    5.  2003.03 – 2011.02
+    Researcher
+    Yonsei Institute of Medical Instrument Technology, Yonsei University, Seoul, South Korea
     
     ## Activity
     
@@ -48,4 +48,4 @@ member:
     3.  KMBES Awards, Korean Biomedical Engineering Society (KBMES)
     4.  Lutronic Young Investigator Awards, The Korean Society of Medical & Biological Engineering (KOSOMBE)
     5.  Young Investigator Award, Korean Institute of Intelligent Systems (KIIS)
----
+--- 
