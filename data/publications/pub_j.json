@@ -57,7 +57,7 @@
   },
   {
     "class": "SCI",
-    "date": "2024-05",
+    "date": "2024-05-01",
     "contents": "Mohamed Elgendi, Fridolin Haugg, Richard Ribon Fletcher, John Allen, Hangsik Shin, Aymen Alian, Carlo Menon, “Recommendations for evaluating photoplethysmography-based algorithms for blood pressure assessment,” Communications Medicine, 4(1), 140, 2024. ",
     "state": "complete",
     "link": "https://www.nature.com/articles/s43856-024-00555-2",
@@ -573,6 +573,14 @@
     "contents": "Chungkeun Lee, Hangsik Shin, Hong Rae Kim, Jeong-Whan Lee, Yong Jun Kim and Myoungho Lee, “A Study on the Measurement of Heart Rate Variability using the Modified Laplacian Electrodes,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 58(5), 1050-1056, 2009. ",
     "state": "complete",
     "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "SCI",
+    "date": "2025-06-01",
+    "contents": "Yeonjin Lee, Test, Test Data, Mock Data, \"Test Journal Name Example\",  Test Journal, 10(5), 2025",
+    "state": "complete",
+    "link": "https://thisisyjin.github.io/dlab-amc.github.io/",
     "certificate_link": null
   }
 ]
