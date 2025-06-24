@@ -1,17 +1,20 @@
----
-layout: member
-title: Test
+--- 
+layout: member 
+title: Test 
 member:
   name_eng: 'Test'
-  degree: 'Test'
-  profile_image: '/data/members/images/members/profile_image-1750664964168-147120308.png'
-  hover_image: '/data/members/images/members/hover_image-1750664964169-702883445.png'
-  role: 'Tester'
+  degree: 'M.S'
+  profile_image: '/data/members/images/members/profile_image-1750751708276-870014206.png'
+  hover_image: '/data/members/images/members/hover_image-1750751708276-606532329.png'
+  role: 'Researcher'
   profile_description: |
-    Test Member
+    테스트 멤버입니다.
   contents: |
-    ## 테스트 데이터
+    ## 논문
+    - 논문 1
+    - 논문 2
+    - 논문 3
+    - 논문 4
     
-    - 테스트 데이터를 넣을 수 있습니다.
     
----
+--- 
