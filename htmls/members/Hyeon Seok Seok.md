@@ -1,6 +1,6 @@
----
-layout: member
-title: Hyeon Seok Seok
+--- 
+layout: member 
+title: Hyeon Seok Seok 
 member:
   name_eng: 'Hyeon Seok Seok'
   degree: 'Ph.D. Candidate (Chonnam National University)'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_석현석.JPG'
   role: 'Research Assistant'
   profile_description: |
-    Researcher  
-    [shhs4695@gmail.com](mailto:shhs4695@gmail.com)  
+    Researcher
+    [shhs4695@gmail.com](mailto:shhs4695@gmail.com)
     Research Areas : Biomedical Engineering,Digital Healthcare,Medical AI
   contents: |
     ## Papers & Conferences
@@ -45,4 +45,4 @@ member:
     2.  2023.04-2027.12 (On-going): Research Student, Development and Validation of M3DT for Electroceuticals and Wearable Bio-Signal Medical Device, Ministry of Food and Drug Safety, South Korea
     3.  2022.04-2025.12 (On-going): Research Student, Development of AI Software as a Medical Device for Management of Full-Cycle of Atrial Fibrillation Based on Cardiac Digital Twin, Korea Government Skills and Techniques (the Ministry of Science and ICT, the Ministry of Trade, the Ministry of Health & Welfare, the Ministry of Food and Drug Safety), South Korea
     4.  2021.04-2023.12 (On-going): Research Student, Development, Optimization, and Clinical Verification of Software for Early Diagnosis and Prognosis of Atrial Fibrillation Integrating Gene, Electrocardiogram, and Clinical Information Based on Artificial Intelligence, Ministry of Health and Welfare (MOHW), South Korea
----
+--- 

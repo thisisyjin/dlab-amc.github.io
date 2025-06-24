@@ -1,6 +1,6 @@
----
-layout: member
-title: Yu Jin Han
+--- 
+layout: member 
+title: Yu Jin Han 
 member:
   name_eng: 'Yu Jin Han'
   degree: 'B.Sc.'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_한유진.jpg'
   role: 'Master Course'
   profile_description: |
-    Master Course  
-    [yujin.han.ds@gmail.com](mailto:yujin.han.ds@gmail.com)  
+    Master Course
+    [yujin.han.ds@gmail.com](mailto:yujin.han.ds@gmail.com)
     Research Areas : Statistics, Machine learning
   contents: |
     ## Papers & Conferences
@@ -27,4 +27,4 @@ member:
     1.  대한의용생체공학회 춘계 학술대회 최우수 포스터상, 대한의용생체공학회, 2025.05
     2.  대한의용생체공학회 추계 학술대회 우수 포스터 논문상(금상), 대한의용생체공학회, 2024.11
     3.  2023 이브와 ICT멘토링 공모전 금상(과학기술정보통신부장관상), 과학기술정보통신부(주최), 정보통신기획평가원(주관), IT여성기업인협회(주관), 2023.12
----
+--- 

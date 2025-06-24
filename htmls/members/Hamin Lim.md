@@ -1,6 +1,6 @@
----
-layout: member
-title: Hamin Lim
+--- 
+layout: member 
+title: Hamin Lim 
 member:
   name_eng: 'Hamin Lim'
   degree: 'M.S.'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_임하민.jpg'
   role: 'Researcher'
   profile_description: |
-    Researcher  
-    [hamin971203@gmail.com](hamin971203@gmail.com)  
+    Researcher
+    [hamin971203@gmail.com](hamin971203@gmail.com)
     Research Areas : Biosignal analsysis,Digital Healthcare
   contents: |
     ## Journal
@@ -41,4 +41,4 @@ member:
     1.  심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션, , Granted(NO: KRC- 2023-059443, Date: 2023/12/14)
     2.  생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램, , Granted(NO: KRC-2023-059444, Date: 2023/12/14)
     3.  사용자 생체정보 및 위치정보 모니터링, 위험 알림을 위한 웹 응용프로그램, , Granted(NO: KRC- 2023-059445, Date: 2023/12/14)
----
+--- 

@@ -1,6 +1,6 @@
----
-layout: member
-title: Jaehyung Lee
+--- 
+layout: member 
+title: Jaehyung Lee 
 member:
   name_eng: 'Jaehyung Lee'
   degree: 'B.Eng.'
@@ -8,8 +8,8 @@ member:
   hover_image: '/images/members/egg_이재형.jpg'
   role: 'Master Course'
   profile_description: |
-    Master Course  
-    [zeus9656@gmail.com](zeus9656@gmail.com)  
+    Master Course
+    [zeus9656@gmail.com](zeus9656@gmail.com)
     Research Areas : GNN, Image classification, Medical AI
   contents: |
     ## Papers & Conferences
@@ -27,4 +27,4 @@ member:
     
     1.  Development of AI Software as Medical Device for Management of Full-Cycle of Atrial Fibrillation Based on Cardiac Digital Twin
     2.  Optimization and Clinical Verification of Software for Early Diagnosis and Prognosis of Atrial Fibrillation Integrating Gene, Electrocardiogram, and Clinical Information Based on Artificial Intelligence
----
+--- 
