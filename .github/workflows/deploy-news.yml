@@ -18,12 +18,12 @@ jobs:
 
       - name: Clear old news markdown files
         run: |
-          rm -rf _posts/others/*
+          rm -rf _posts/new/*
 
-      - name: Move markdown files to _posts/others/
+      - name: Move markdown files to _posts/new/
         run: |
-          mkdir -p _posts/others
-          mv -f temp_news/_posts/others/*.md _posts/others/ || true
+          mkdir -p _posts/new
+          mv -f temp_news/_posts/new/*.md _posts/new/ || true
 
       - name: Move image files preserving folder structure
         run: |
@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name 'github-actions'
           git config user.email 'github-actions@github.com'
-          git add _posts/others/ images/posts/
+          git add _posts/new/ images/posts/
           git commit -m "[AUTO] Deployed news.zip (markdowns + images)" || echo "No changes"
           git push
