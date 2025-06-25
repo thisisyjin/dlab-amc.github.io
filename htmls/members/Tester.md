@@ -3,13 +3,19 @@ layout: member
 title: Tester 
 member:
   name_eng: 'Tester'
-  degree: 'test'
-  profile_image: '/data/members/images/members/profile_image-1750746845575-287138688.png'
-  hover_image: '/data/members/images/members/hover_image-1750746845575-713362413.png'
-  role: 'Test'
+  degree: 'B.Sc'
+  profile_image: '/data/members/images/members/profile_image-1750821813121-223260685.png'
+  hover_image: '/data/members/images/members/hover_image-1750821813122-534769281.png'
+  role: 'Researcher'
   profile_description: |
-    test data desc
+    테스트 멤버 입니다.
   contents: |
-    ## 테스트
-    - 테스트 멤버 입니다.
+    ## 성과
+    - 성과 1
+    - 성과 2
+    
+    
+    ## 수상
+    - 수상 1
+    - 수상 2
 --- 
