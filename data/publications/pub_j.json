@@ -574,13 +574,5 @@
     "state": "complete",
     "link": null,
     "certificate_link": null
-  },
-  {
-    "class": "SCI",
-    "date": "2025-06-01",
-    "contents": "Yeonjin Lee, Test, Test Data, Mock Data, \"Test Journal Name Example\",  Test Journal, 10(5), 2025",
-    "state": "complete",
-    "link": "https://www.nature.com/articles/s41746-024-01362-8",
-    "certificate_link": null
   }
 ]
