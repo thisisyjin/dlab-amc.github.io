@@ -12,16 +12,16 @@ member:
     [kyd5022@naver.com](mailto:kyd5022@naver.com)
     Research Areas : Software development,TinyML,Digital Healthcare
   contents: |
-    ## PAPERS
+    ## Journal
     
     1.  Gayeon Ryu, Yujin Han, Yeongdon Kim, Hangsik Shin, “Bio-signals and result feature analysis to leverage public polysomnography database integration,” The 64th Korea Society of Medical and Biological Engineering Fall Conference 2024, Swiss Grand Hotel, Seoul, Korea (Nov. 2024)
     2.  Yeongdon Kim, Hamin Lim, Gayeon Ryu, Yujin Han, Hangsik Shin, "Development of a Real-Time Upper Limb Range of Motion Measurement Method Using a Single Depth Measurement Camera", The 55th KIEE Summer Conference, Jeju, Korea (Jul. 2024)
     
-    ## skills
+    ## Skills
     
     Python,Kotlin,C/C++,Torch,TensorFlow
     
-    ## PROJECT
+    ## Project
     
     1.  2021-02 ~ 2021-09 흰개미탐지모델 (하이테크)
     1\. 목조 문화제 보호를 위한 흰개미 탐지 모델 구성
@@ -39,7 +39,7 @@ member:
     2\. PoseC3D, MMDetecion을 사용하여 환자의 행동 분석
     3\. 공공데이터 전처리 작업 및 모델 학습 준비 진행
     
-    ## awards
+    ## Award
     
     1.  대한의용생체공학회 추계 학술대회 우수 포스터 논문상(금상), 대한의용생체공학회, 2024.11
     2.  강원 정밀의료 빅데이터 해커톤 최우수상, 강원정밀의료사업단, 2022.12

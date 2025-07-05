@@ -12,7 +12,7 @@ member:
     [shhs4695@gmail.com](mailto:shhs4695@gmail.com)
     Research Areas : Biomedical Engineering,Digital Healthcare,Medical AI
   contents: |
-    ## Papers & Conferences
+    ## Journal
     
     1.  Hyeon Seok Seok, Sang Su Kim, Do-Won Kim, Hangsik Shin, “Toward Objectification of Subjective Chronic Pain based on Implicit Response in Biosignals,” IEEE Transactions on Biomedical Engineering, 2024.
     2.  Hyeon Seok Seok, Shinae Yu, Kyung-Hwa Shin, Woochang Lee, Sail Chun, Sollip Kim, Hangsik Shin, “Machine learning-based sample misidentification error detection in clinical laboratory tests: A retrospective multicenter study,” Clinical Chemistry, 70(10), 1256-1267, 2024.
@@ -26,11 +26,11 @@ member:
     10.  Hyeon Seok Seok and Hangsik Shin, “Postoperative Pain Assessment based on Derivative Waveform of Photoplethysmogram,” The Transaction of Korean Institute of Electrical Engineering (KIEE), 67(7), 962-968, 2018
     11.  Yoon La Yang, Hyeon Seok Seok, and Hangsik Shin, “Development of an application for correction and arrangement of pulse features of ECG and PPG,” Journal of the Korean Institute of Intelligent Systems (KIIS), 27(6), 566-572, 2017
     
-    ## patents
+    ## Patent
     
     1.  광용적맥파의 미분 지표를 이용한 수술 후 통증 평가 방법 및 장치, Filed (No: KR1020200066975, Date: 2020/06/03), Published (No: KR1020210150063, Date: 2021/12/10), Granted (No: KR102361725, Date: 2022/02/07)
     
-    ## awards
+    ## Award
     
     1.  Best Abstract Awards, Spring Conference, Korean Society for Anesthetic Pharmacology, 2023
     2.  Best Paper Awards, 53rd Conference on the Korean Institute of Electrical Engineering (KIEE), 2022
@@ -39,7 +39,7 @@ member:
     5.  Best Paper Award, Autumn Conference, Korean Institute of Intelligent Systems (KIIS), 2017
     6.  Best Paper Award, Spring Conference, Korean Institute of Intelligent Systems (KIIS), 2017
     
-    ## Participated Projects
+    ## Project
     
     1.  2023.01-2023.12 (On-going): Research Student, Development of Autoverification Algorithm for Laboratory Results Using Artificial Intelligence, Asan Medical Center, South Korea
     2.  2023.04-2027.12 (On-going): Research Student, Development and Validation of M3DT for Electroceuticals and Wearable Bio-Signal Medical Device, Ministry of Food and Drug Safety, South Korea

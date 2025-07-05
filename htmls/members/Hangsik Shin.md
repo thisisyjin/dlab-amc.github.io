@@ -41,7 +41,7 @@ member:
     6.  Director, The Korean Institute of Electrical Engineers (KIEE)
     7.  Director, Korean Institute of Intelligence Systems (KIIS)
     
-    ## Awards
+    ## Award
     
     1.  Best Editor Awards, Journal of Electrical Engineering & Technology
     2.  KIEE-Scholar Award, The Korean Institute of Electrical Engineers (KIEE)

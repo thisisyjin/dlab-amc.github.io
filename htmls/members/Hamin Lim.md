@@ -17,7 +17,7 @@ member:
     1.  Haeun Yum, Hamin Lim et al. “Effects of shear-thickening polymer on force attenuation capacities in hip protectors. Proceedings of the Institution of Mechanical Engineers” Part C: Journal of Mechanical Engineering Science. 2022;236(8):3881-3885.
     2.  Hamin Lim, Hangsik Shin, “Clustering Analysis of Activity of Daily Living based on Accelerometry.” The Transactions of the Korean Institute of Electrical Engineers KIEE Vol. 72, No. 11, p.1427-1433
     
-    ## Conference Papers
+    ## Conference
     
     1.  Changwon Wang, Hamin Lim, Sung Woo Joo, Jungsun Lee, Hangsik Shin, “Investigating Abnormal Behavior Patterns in Psychiatric Inpatients” IEEE-EMBS International Conference on Biomedical and Health Informatics, Pittsburgh, USA, 10-18 Sep 2023
     2.  Hamin Lim, Tae young Lee, “The effect of split sole shoes on lower leg kinematics and Muscle Activities while Walking” International Foot and Ankle Biomechanics 2021, Brazil(Virtual Meeting), 11 -14 April 2021
@@ -32,13 +32,15 @@ member:
     11.  Hamin Lim, Tae young Lee. “Effects of shoe midsole on lower limb kinematics and muscle activity while walking in two different speeds.” The Korean Society of Mechanical Engineers. 12-14 May 2021
     12.  Hamin Lim, Tae young Lee “Basic Study on the New Statistical Method of Electromyography Analysis” Korean Society for Precision Engineering, Online 14-16 Oct 2020
     
-    ## Patents
-    
-    1.  시설 내 대상자 모니터링 시스템, Filed (No: KR10-2023-0197490, Date: 2023/12/29)
     
     ## Registered SW
     
     1.  심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션, , Granted(NO: KRC- 2023-059443, Date: 2023/12/14)
     2.  생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램, , Granted(NO: KRC-2023-059444, Date: 2023/12/14)
     3.  사용자 생체정보 및 위치정보 모니터링, 위험 알림을 위한 웹 응용프로그램, , Granted(NO: KRC- 2023-059445, Date: 2023/12/14)
+    
+    
+    ## Patent
+    
+    1.  시설 내 대상자 모니터링 시스템, Filed (No: KR10-2023-0197490, Date: 2023/12/29)
 --- 

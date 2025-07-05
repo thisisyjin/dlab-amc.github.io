@@ -12,7 +12,7 @@ member:
     [71one.you@gmail.com](71one.you@gmail.com)
     Research Areas : Machine learning,Large Language Model,Bioinformatics,
   contents: |
-    ## Papers & Conferences
+    ## Journal
     
     1.  Jiwon You, Hyeon Seok Seok, Sollip Kim and Hangsik Shin. "Advancing Laboratory Medicine Practice with Machine Learning: Swift yet Exact" Annals of Laboratory Medicine, 45(1), 22-35, 2025.
     2.  Jiwon You, Hangsik Shin. "Can Large Language Models Analyze Health Data?: For Multi-Stage Items" The 65th Korea Society of Medical and Biological Engineering Spring Conference 2025, Jeju Lotte Hotel, Jeju Island, Republic of Korea, 8-10 May 2024
@@ -24,13 +24,13 @@ member:
     8.  Juho Park, Minseok Oh, Jiwon You, Hyoji Kang, Kyuri Jo. "Analysis on Prefrontal Cortex Activation During Musical Improvisation and Sight-Reading Using Multiple Linear Regression" Korea Computer Congress (KCC) 2023, June 2023 (2023): 1853-1855.
     9.  Jiwon You, Jeonghwan Yoon, Kyuri Jo. "Computational framework for time course association study between mutational signature and gene expression" Korea Computer Congress (KCC) 2021, June 2021 (2021): 2019-2021.
     
-    ## Awards
+    ## Award
     
     1.  KCC2023 학부생/주니어 논문 경진대회 장려상, 한국정보과학회, 2023.07
     2.  2022 종합학술대회 우수논문상(창업 아이디어 부문), 한국스마트미디어학회, 2022.06
     3.  KCC2021 학부생/주니어 논문 경진대회 장려상, 한국정보과학회, 2021.07
     
-    ## Participated Projects
+    ## Project
     
     1.  인공지능 기반 일반화학검사 수기 검증 Human Knowledge Transfer 모델 개발, 2025.01~
     2.  의학적 진단검사 결과 자동 오류검출 및 피드백 기술 개발, 2024.05~

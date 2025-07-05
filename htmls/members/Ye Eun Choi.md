@@ -12,7 +12,7 @@ member:
     [yechoi.amc@gmail.com](mailto:yechoi.amc@gmail.com)
     Research Areas : Bioinformatics,Medical AI,Digital Healthcare
   contents: |
-    ## Papers & Conferences
+    ## Conference
     
     1.  Muhyuk Kim, Hanbyul Song, Sung Joo Han, Ye Eun Choi, Hyebong Choi, Taejin Ahn. Differentially Expressed Genes Analysis of cancer developed by user centered web interface. "The 17th KOGO Winter Symposium," 한국유전체학회(KOGO), Seoul, Korea, Jan. 2021 - Conference poster
     2.  Seonyeong Park, Mingu Lee, Ye-eun Choi, Hyebong Choi. 반응형 정보 시각화를 통한 정보 전달의 효율성: 코로나 19 감염증 확산과 방역 정책을 중심으로. "한국HCI학회 학술대회," 한국HCI학회, Seoul, Korea, Jan. 2021 - Conference paper
@@ -23,13 +23,15 @@ member:
     7.  Ye Eun Choi, Hangsik Shin, “Survival Analysis of Adult Sepsis Patients based on Demographics and Underlying Diseases,” The 64th Korea Society of Medical and Biological Engineering Fall Conference 2024, Swiss Grand Hotel, Seoul, Republic of Korea, 07-09 Nov 2024 - Conference poster
     8.  Ye Eun Choi, Hangsik Shin, “Analysis of Mortality Risk in Adult Sepsis Patients based on Demographics and Underlying Diseases,” The 64th Korea Society of Medical and Biological Engineering Fall Conference 2024, Swiss Grand Hotel, Seoul, Republic of Korea, 07-09 Nov 2024 - Conference poster
     
-    ## awards
+    ## Award
     
     1.  2022 데이터 청년 캠퍼스 ‘우수 프로젝트 발표’ 장려상, 한국데이터산업진흥원(Korea Data Agency), Korea (Sep. 2022)
     2.  Best Paper Awards \[Silver\], Fall Conference, Korean Society of Medical and Biological Engineering, Korea (Nov. 2024)
     
-    ## Participated Projects
+    ## Project
     
     1.  Development, Optimization and Clinical Verification of Software for Early Diagnosis and Prognosis of Atrial Fibrillation Integrating Gene, Electrocardiogram and Clinical Information Based on Artificial Intelligence, Ministry of Health and Wellfare (MOHW), Korea (Apr. 2021 - Dec. 2023)
     2.  Developing artificial intelligence for early risk predictionof atrial fibrillation using clinical information, Asan Medical Center, Korea (Jan. 2024 - Dec. 2025)
+    
+    
 --- 
