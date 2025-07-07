@@ -1,1 +1,2450 @@
-[]
+[
+  {
+    "class": "Registered SW",
+    "date": "2025-01-15",
+    "contents": "복수의 3차원 데이터를 3차원 그래프 정보로 통합 변환하는 프로그램, Granted (No: C-2025-002262, Date: 2025/01/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-12-30",
+    "contents": "Method for Improving indoor positioning Accuracy based ob bluetooth, Filed (No: 10-2024-0201045, Date: 2024/12/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-04-22",
+    "contents": "An apparatus for creating a pain assessment model, method for creating a pain assessment model and computer readable recording medium, Filed (No: 10-2024-0053680, Date: 2024/04/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-12-13",
+    "contents": "심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션, Granted (No: C-2023-059443, Date: 2023/12/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-12-13",
+    "contents": "생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램, Granted (No: C-2023-059444, Date: 2023/12/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-12-15",
+    "contents": "A program for correcting ectopic heart beat, Granted (No: C-2023-060553, Date: 2023/12/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-12-15",
+    "contents": "A program for converting three-dimensional graph data, Granted (No: C-2023-060554, Date: 2023/12/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-12-13",
+    "contents": "사용자 생체정보 및 위치정보 모니터링, 위험 알림을 위한 웹 응용프로그램, Granted (No: C-2023-059445, Date: 2023/12/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-10-30",
+    "contents": "ELECTRONIC DEVICE FOR INTERPOLATING HEART RATE USING\n INTERPOLATED POSITION AND NUMBER OF INTERPOLATED SAMPLES AND METHOD FOR CORRECTING ECTOPIC RHYTHM THEREOF, Filed (No: 10-2023-0147182, Date: 2023/10/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-12-29",
+    "contents": "monitoring system for people in the facility, Filed (No: 10-2023-0197490, Date: 2023/12/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-10-26",
+    "contents": "A method and an apparatus for estimating the aortic pressure waveform, Filed (No: 10-2023-0145004, Date: 2023/10/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-10-13",
+    "contents": "METHOD AND APPARATUS FOR TRAINING WAVEFORM RESTORATION MODEL TO RESTORE QUASI-PERIODIC BIOSIGNAL WAVEFORMS, Filed (No: 10-2023-0136907, Date: 2023/10/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-05-25",
+    "contents": "Heart rate, acceleration signal measurement, transmission program for wearable devices, Granted (No: C-2023-023411, Date: 2023/05/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-05-25",
+    "contents": "",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2023-05-25",
+    "contents": "Server program for storing and transmitting heart rate and acceleration signals, Granted (No: C-2023-023409, Date: 2023/05/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-06-09",
+    "contents": "METHOD OF MANAGING EXTERNAL DEVICES, METHOD OF OPERATING EXTERNAL DEVICE, HOST DEVICE, MANAGEMENT SERVER, AND EXTERNAL DEVICE, Filed (No: 17342860, Date: 2021/06/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-01-30",
+    "contents": "Method for blood pressure estimation based on continuous pulse transit time and a server performing the method, Filed (No: 10-2023-0012121, Date: 2023/01/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-01-30",
+    "contents": "Method and apparatus for bio-signal quality evaluation, Filed (No: 10-2023-0012122, Date: 2023/01/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-01-18",
+    "contents": "Method and apparatus for physiological aging estimation, Filed (No: 10-2023-0007614, Date: 2023/01/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-08-08",
+    "contents": "압력 및 맥파에 기반한 평균동맥압 추정 방법 및 장치, Granted (No: 10-2431521, Date: 2022/08/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-06-06",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 11,056,234 B2, Date: 2021/06/06).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-10-16",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 16/654,266, Date: 2019/10/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-06-29",
+    "contents": "Electronic apparatus and method of outputting content by the electronic apparatus, Granted (No: US 11,051,147 B2 , Date: 2021/06/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-12-30",
+    "contents": "Electronic apparatus and method of outputting content by the electronic apparatus, Filed (No: 16/730,078, Date: 2019/12/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-12-31",
+    "contents": "A multi-array pressure sensor with air vibration transmission type and wearable deivce comprising the same, Filed (No: 10-2021-0193739, Date: 2021/12/31).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-10-29",
+    "contents": "A method and apparauts for classifying pain using photoplethysmograph, Granted (No: 10-2321653, Date: 2021/10/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-08-16",
+    "contents": "A method and apparauts for classifying pain using photoplethysmograph, Filed (No: 10-2019-0100484, Date: 2019/08/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-12-30",
+    "contents": "A method and apparatus for quality evaluation of photoplethysmography, Filed (No: 10-2021-0193461, Date: 2021/12/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-12-30",
+    "contents": "A method and apparatus for vascular aging assessment model Based on photoplethysmogram incident and reflected wave, Filed (No: 10-2021-0193460, Date: 2021/12/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-10-01",
+    "contents": "Stacking cone system, Granted (No: 10-2310788, Date: 2021/10/01).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-05-10",
+    "contents": "Stacking cone system, Published (No: 10-2021-0051013, Date: 2021/05/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-03-04",
+    "contents": "A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same, Filed (No: PCT/KR2021/002702, Date: 2021/03/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-03-04",
+    "contents": "A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: PCT/KR2021/002696, Date: 2021/03/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-02-23",
+    "contents": "A method and apparatus for detecting awakening and respiration rate based on force-sensor, Granted (No: 10-2221370, Date: 2021/02/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-02-15",
+    "contents": "Wearable blood pressure measuring device with multi-array pressure sensors, Filed (No: PCT/KR2021/001864, Date: 2021/02/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-02-08",
+    "contents": "Portable wearable respiratory monitoring unit and mask comprising the same, Filed (No: PCT/KR2021/001632, Date: 2021/02/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-02-08",
+    "contents": "A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: 10-2021-0017756, Date: 2021/02/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-02-05",
+    "contents": "A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same, Filed (No: 10-2021-0016604, Date: 2021/02/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-01-28",
+    "contents": "Portable wearable respiratory monitoring unit and mask comprising the same, Filed (No: 10-2021-0012631, Date: 2021/01/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-01-28",
+    "contents": "Apparatus comprising multiple array of pressure sensors and device comprising the same, Filed (No: 10-2021-0012642, Date: 2021/01/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-12-30",
+    "contents": "Method for generating of state classifier and for deciding walking state using the same, Granted (No: 10-2199341, Date: 2020/12/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2020-11-16",
+    "contents": "복수 사용자의 심박변이도 동시 계산 매트랩 그래픽유저인터페이스(MATLAB GUI), Granted (No: C-2020-042004, Date: 2020/11/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-08-31",
+    "contents": "Mask-attached breath monitoring apparatus and system, Filed (No: 10-2020-0110037, Date: 2020/08/31).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-10-29",
+    "contents": "System and method of controlling external apparatus connected with device, Granted (No: US 10,460,597 B2, Date: 2019/10/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-11-02",
+    "contents": "System and method of controlling external apparatus connected with device, Filed (No: 15/801,417, Date: 2017/11/02).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-11-19",
+    "contents": "Method and device for executing application, Granted (No: US 10,485,041 B1, Date: 2019/11/19).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-08-20",
+    "contents": "Method and device for executing application, Filed (No: 16/546,073, Date: 2019/08/20).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2020-07-21",
+    "contents": "System and method of controlling external apparatus connected with device, Granted (No: US 10,720,046 B2, Date: 2020/07/21).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-08-08",
+    "contents": "System and method of controlling external apparatus connected with device, Filed (No: 16/535,748, Date: 2019/08/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2020-09-24",
+    "contents": "A method and apparatus for estimating mean arterial pressure based on pressure and pulse wave, Filed (No: PCT/KR2020/012934, Date: 2020/09/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-03-25",
+    "contents": "System for measuring bio signal usingmulti channel piezoelectric sensor of film, Granted (No: 10-2095356, Date: 2020/03/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2009-01-29",
+    "contents": "Calculating method of actual size of object and systemthereof, Granted (No: 10-0881958, Date: 2009/01/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2007-04-25",
+    "contents": "Calculating method of actual size of object and systemthereof, Filed (No: 10-2007-0040348, Date: 2007/04/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-05-18",
+    "contents": "Apparatus and method for providing interface in device with touch screen, Granted (No: 10-1861318, Date: 2018/05/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2011-06-09",
+    "contents": "Apparatus and method for providing interface in device with touch screen, Filed (No: 10-2011-0055691, Date: 2011/06/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-09-20",
+    "contents": "Finger movement recognition glove and method using conductive coated material, Granted (No: 10-1781999, Date: 2017/09/20).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2011-07-27",
+    "contents": "Finger movement recognition glove and method using conductive coated material, Filed (No: 10-2011-0074508, Date: 2011/07/27).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2015-08-25",
+    "contents": "Portable electronic device with animated GUI, Granted (No: US D737,278 S, Date: 2015/08/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with animated GUI, Filed (No: 29/425,927, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2015-09-08",
+    "contents": "Portable electronic device with animated GUI, Granted (No: US D738,392 S, Date: 2015/09/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with animated GUI, Filed (No: 29/425,957, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2015-09-22",
+    "contents": "Portable electronic device with GUI, Granted (No: US D739,412 S, Date: 2015/09/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with GUI, Filed (No: 29/425,904, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2015-09-22",
+    "contents": "Portable electronic device with GUI, Granted (No: US D739,413 S, Date: 2015/09/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with GUI, Filed (No: 29/425,912, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2013-10-02",
+    "contents": "Device and method for providing floating user interface, Published (No: 10-2013-0107974, Date: 2013/10/02).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-03-23",
+    "contents": "Device and method for providing floating user interface, Filed (No: 10-2012-0030197, Date: 2012/03/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-09-04",
+    "contents": "화상디자인이 표시된 휴대용 단말기, Granted (No: 30-0658893, Date: 2012/09/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-05-17",
+    "contents": "화상디자인이 표시된 휴대용 단말기, Filed (No: 30-2012-0024451, Date: 2012/05/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-11-14",
+    "contents": "화상디자인이 표시된 컴퓨터모니터, Granted (No: 30-0668901, Date: 2012/11/14).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-05-21",
+    "contents": "화상디자인이 표시된 컴퓨터모니터, Filed (No: 30-2012-0024980, Date: 2012/05/21).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2015-04-28",
+    "contents": "Graphical user interface for a display screen or portion thereof, Granted (No: US D727,947 S, Date: 2015/04/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-05-30",
+    "contents": "Graphical user interface for a display screen or portion thereof, Filed (No: 29/423,286, Date: 2012/05/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2012-12-13",
+    "contents": "Apparatus and method for providing an interface in a device with touch screen, Published (No: US 2012/0315607 A1, Date: 2012/12/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2012-06-08",
+    "contents": "Apparatus and method for providing an interface in a device with touch screen, Filed (No: 13/492,705, Date: 2012/06/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2014-11-04",
+    "contents": "Tablet PC with graphical user interface, Granted (No: US D716,829 S, Date: 2014/11/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Tablet PC with graphical user interface, Filed (No: 29/425,919, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2014-11-25",
+    "contents": "Portable electronic device with an animated graphical user interface, Granted (No: US D718,330 S, Date: 2014/11/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with an animated graphical user interface, Filed (No: 29/425,953, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2014-11-25",
+    "contents": "Portable electronic device with an animated graphical user interface, Granted (No: US D718,329 S, Date: 2014/11/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with an animated graphical user interface, Filed (No: 29/425,947, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2014-12-02",
+    "contents": "Portable electronic device displaying graphic user interface, Granted (No: US D718,779 S, Date: 2014/12/02).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-29",
+    "contents": "Portable electronic device displaying graphic user interface, Filed (No: 29/426,095, Date: 2012/06/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2014-12-09",
+    "contents": "Portable electronic device displaying graphical user interface, Granted (No: US D719,182 S, Date: 2014/12/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-29",
+    "contents": "Portable electronic device displaying graphical user interface, Filed (No: 29/426,094, Date: 2012/06/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2014-12-09",
+    "contents": "Portable electronic device displaying graphical user interface, Granted (No: US D719,181 S, Date: 2014/12/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-29",
+    "contents": "Portable electronic device displaying graphical user interface, Filed (No: 29/426,093, Date: 2012/06/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2015-03-17",
+    "contents": "Portable electronic device with a graphical user interface, Granted (No: US D724,618 S, Date: 2015/03/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with a graphical user interface, Filed (No: 29/425,961, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2015-03-17",
+    "contents": "Portable electronic device with an animated graphical user interface, Granted (No: US D724,617 S, Date: 2015/03/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-06-28",
+    "contents": "Portable electronic device with an animated graphical user interface, Filed (No: 29/425,936, Date: 2012/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-07-24",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654118, Date: 2012/07/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-13",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028916, Date: 2012/06/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-07-24",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654125, Date: 2012/07/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-13",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028919, Date: 2012/06/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-07-24",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654121, Date: 2012/07/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-14",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029133, Date: 2012/06/14).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-07-24",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654120, Date: 2012/07/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-14",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029136, Date: 2012/06/14).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-07-31",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654124, Date: 2012/07/31).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-15",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029207, Date: 2012/06/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-07-31",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654119, Date: 2012/07/31).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-15",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029208, Date: 2012/06/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-10-17",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0663556, Date: 2012/10/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-13",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028917, Date: 2012/06/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-10-17",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0663554, Date: 2012/10/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-13",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028920, Date: 2012/06/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-10-10",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0663555, Date: 2012/10/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-13",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028918, Date: 2012/06/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-10-10",
+    "contents": "화상디자인이 표시된 태블릿 피씨(Tablet PC), Granted (No: 30-0663541, Date: 2012/10/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-14",
+    "contents": "화상디자인이 표시된 태블릿 피씨(Tablet PC), Filed (No: 30-2012-0029134, Date: 2012/06/14).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-10-23",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0665356, Date: 2012/10/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-06-15",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029226, Date: 2012/06/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-11-14",
+    "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0668893, Date: 2012/11/14).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2012-06-14",
+    "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029135, Date: 2012/06/14).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-01-30",
+    "contents": "Finger motion recognition glove using conductive materials and method thereof, Published (No: US 2015/0028538 A1, Date: 2014/01/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2012-07-27",
+    "contents": "Finger motion recognition glove using conductive materials and method thereof, Filed (No: 13/560,849, Date: 2012/07/27).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-01-22",
+    "contents": "Braille input and output device, Published (No: 10-2014-0008823, Date: 2014/01/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-07-12",
+    "contents": "Braille input and output device, Filed (No: 10-2012-0076069, Date: 2012/07/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-11-06",
+    "contents": "Method and apparatus of converting color for color vision defectives, Granted (No: 10-1917776, Date: 2018/11/06).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-08-08",
+    "contents": "Method and apparatus of converting color for color vision defectives, Filed (No: 10-2012-0086746, Date: 2012/08/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-08-08",
+    "contents": "Method for executing application and terminal thereof, Granted (No: 10-1888650, Date: 2018/08/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-09-07",
+    "contents": "Method for executing application and terminal thereof, Filed (No: 10-2012-0099465, Date: 2012/09/07).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-08-09",
+    "contents": "Method for executing application on device and apparatus thereof, Granted (No: 10-2011360, Date: 2019/08/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-09-10",
+    "contents": "Method for executing application on device and apparatus thereof, Filed (No: 10-2012-0099738, Date: 2012/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-03-19",
+    "contents": "System and method for controlling external apparatus connected with device, Published (No: 10-2014-0033654, Date: 2014/03/19).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-09-10",
+    "contents": "System and method for controlling external apparatus connected with device, Filed (No: 10-2012-0099739, Date: 2012/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-04-26",
+    "contents": "Method for controlling a device and device performing the same, Granted (No: 10-1974820, Date: 2019/04/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-09-10",
+    "contents": "Method for controlling a device and device performing the same, Filed (No: 10-2012-0099791, Date: 2012/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2016-01-12",
+    "contents": "Display of a handheld terminal with graphical user interface, Granted (No: US D747,337 S, Date: 2016/01/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International Design",
+    "date": "2012-10-18",
+    "contents": "Display of a handheld terminal with graphical user interface, Filed (No: 29/421,917, Date: 2012/10/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-26",
+    "contents": "Method and apparatus for providing floating user interface, Published (No: US 2013/0254714 A1, Date: 2013/09/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-03-22",
+    "contents": "Method and apparatus for providing floating user interface, Filed (No: 13/849,226, Date: 2013/03/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-06-18",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Published (No: CN 103870402 A, Date: 2014/06/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Unknown",
+    "date": "2014-01-19",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Published (No: US 2014/0173082 A1, Date: 2014/01/19).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-05-13",
+    "contents": "System and method of controlling external apparatus connected with device, Published (No: CN 104620597 A, Date: 2015/05/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-12-07",
+    "contents": "Connecting two devices, Published (No: EP 3101869 A1, Date: 2016/12/07).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "Method of executing application and terminal using the method, Published (No: AU 2013313849 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "Method and divice for excuting application, Published (No: AU 2013313746 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "System and method of controlling external apparatus connected with device, Published (No: US 2014/0070925 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-12",
+    "contents": "Method and device for executing application, Published (No: EP 2706726 A3, Date: 2014/03/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "Method and divice for excuting application, Published (No: US 2014/0073244 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-26",
+    "contents": "Method of executing application and terminal using the method, Published (No: CN 103677257 A, Date: 2014/03/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-12",
+    "contents": "Method and apparatus for executing an applicatin in a device, Published (No: EP 2706734 A1, Date: 2014/03/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-05-13",
+    "contents": "Method and apparatus for executing application in device, Published (No: CN 104620220 A, Date: 2015/05/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "Method and apparatus for executing application in device, Published (No: US 2014/0075056 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-12-19",
+    "contents": "Method and apparatus for quality measurement of sleep using a portable terminal, Published (No: 10-2014-0144499, Date: 2014/12/19).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-10-22",
+    "contents": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device, Granted (No: 10-2037416, Date: 2019/10/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-06-25",
+    "contents": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device, Granted (No: 10-2014-0078518, Date: 2014/06/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2013-05-09",
+    "contents": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device, Filed (No: 10-2013-0052754, Date: 2013/05/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-08-05",
+    "contents": "Method and apparatus for quality measurement of sleep using a portable terminal, Granted (No: 10-2143499, Date: 2020/08/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2013-06-11",
+    "contents": "Method and apparatus for quality measurement of sleep using a portable terminal, Filed (No: 10-2013-0066552, Date: 2013/06/11).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-01-16",
+    "contents": "Color transformation method and apparatus for person with color vision defect, Published (No: US 2014/0015850 A1, Date: 2014/01/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-07-11",
+    "contents": "Color transformation method and apparatus for person with color vision defect, Filed (No: 13/939,681, Date: 2013/07/11).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-01-30",
+    "contents": "Method and apparatus for executing application in device, Granted (No: US 9,880,584 B2, Date: 2018/01/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-08-26",
+    "contents": "Method and apparatus for executing application in device, Filed (No: 13/975,790, Date: 2013/08/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "Method and apparatus for executing application in device, Published (No: WO 2014/038828 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-03",
+    "contents": "Method and apparatus for executing application in device, Filed (No: PCT/KR2013/007921, Date: 2013/09/03).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-07-20",
+    "contents": "Method and apparatus for executing application in device, Granted (No: CN 104620220 B, Date: 2018/07/20).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-03",
+    "contents": "Method and apparatus for executing application in device, Filed (No: 201380047076, Date: 2013/09/03).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "Method of executing application and terminal using the method, Published (No: WO 2014/038860 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-05",
+    "contents": "Method of executing application and terminal using the method, Filed (No: PCT/KR2013/008007, Date: 2013/09/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-01-10",
+    "contents": "Application execution method and terminal thereof, Granted (No: JP 6258640 B2, Date: 2018/01/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-05",
+    "contents": "Application execution method and terminal thereof, Filed (No: 2013-183766, Date: 2013/09/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-05",
+    "contents": "Method of executing application and terminal using the method, Filed (No: IN3979/CHE/2013, Date: 2013/09/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-04-26",
+    "contents": "Method and apparatus for executing an applicatin in a device, Granted (No: EP 2706734 B1, Date: 2017/04/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-06",
+    "contents": "Method and apparatus for executing an applicatin in a device, Filed (No: 13183431.9, Date: 2013/09/06).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-06",
+    "contents": "Method of executing application and terminal using the method, Filed (No: 13183328.7, Date: 2013/09/06).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-20",
+    "contents": "Method of executing application and terminal using the method, Published (No: US 2014/0080469 A1, Date: 2014/03/20).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-09",
+    "contents": "Method of executing application and terminal using the method, Filed (No: 14/021,346, Date: 2013/09/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-10-19",
+    "contents": "Method of executing application and terminal using the method, Granted (No: CN 103677257 B, Date: 2018/10/19).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-09",
+    "contents": "Method of executing application and terminal using the method, Filed (No: 201310406791, Date: 2013/09/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "Method and divice for excuting application, Published (No: WO 2014/038902 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-09",
+    "contents": "Method and divice for excuting application, Filed (No: PCT/KR2013/008115, Date: 2013/09/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-03-01",
+    "contents": "Method and divice for excuting application, Granted (No: US 9,277,576 B2, Date: 2016/03/01).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "Method and divice for excuting application, Filed (No: 14/022,903, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "Method and device for controlling an external apparatus, Filed (No: 13183694.2, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-13",
+    "contents": "System and method of controlling external apparatus connected with device, Published (No: WO 2014/038916 A1, Date: 2014/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "System and method of controlling external apparatus connected with device, Filed (No: PCT/KR2013/008143, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-10-12",
+    "contents": "Method and device for executing application, Granted (No: EP 2706726 B1, Date: 2016/10/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "Method and device for executing application, Filed (No: 13183817.9, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-12-12",
+    "contents": "System and method of controlling external apparatus connected with device, Granted (No: US 9,842,490 B2, Date: 2017/12/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "System and method of controlling external apparatus connected with device, Granted (No: 14/022,556, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "System and method of controlling external apparatus connected with device, Filed (No: 2013313760, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-12-03",
+    "contents": "Method and divice for excuting application, Granted (No: AU 2013313746 B2, Date: 2015/12/03).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-09",
+    "contents": "Method and divice for excuting application, Filed (No: 2013313746, Date: 2013/09/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-01-07",
+    "contents": "Method of executing application and terminal using the method, Granted (No: AU 2013313849 B2, Date: 2016/01/07).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-05",
+    "contents": "Method of executing application and terminal using the method, Filed (No: 2013313849, Date: 2013/09/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-05-27",
+    "contents": "Method and device for executing application, Granted (No: RU 2585168 C1, Date: 2016/05/27).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-09",
+    "contents": "Method and device for executing application, Filed (No: 2015108018/07, Date: 2013/09/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-07-20",
+    "contents": "System and method of controlling external device connected with device, Granted (No: RU 2592062 C1, Date: 2016/07/20).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "System and method of controlling external device connected with device, Filed (No: 2015108021/07, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-08-01",
+    "contents": "Connecting two devices, Granted (No: EP 3101869 B1, Date: 2018/08/01).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "Connecting two devices, Filed (No: 16181807.5, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-05-13",
+    "contents": "Method and device for executing application, Published (No: CN 104620514 A, Date: 2015/05/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-09",
+    "contents": "Method and device for executing application, Filed (No: 201380047145, Date: 2013/09/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-03-08",
+    "contents": "System and method of controlling external apparatus connected with device, Granted (No: CN 104620597 B, Date: 2019/03/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-09-10",
+    "contents": "System and method of controlling external apparatus connected with device, Filed (No: 201380047104, Date: 2013/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-06-04",
+    "contents": "Apparatus and method for measuring physiological signal, Published (No: 10-2015-0061100, Date: 2015/06/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2013-11-25",
+    "contents": "Apparatus and method for measuring physiological signal, Filed (No: 10-2013-0143950, Date: 2013/11/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-06-26",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Published (No: WO 2014/098415 A1, Date: 2014/06/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-12-13",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: PCT/KR2013/011565, Date: 2013/12/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-05-16",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server and external device, Granted (No: RU 2654164 C2, Date: 2018/05/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-12-13",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server and external device, Filed (No: 2015129073, Date: 2013/12/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-12-16",
+    "contents": "Management of managing external devices, method of operating external devices, host terminal, management server, and external devices, Filed (No: 2013-258972, Date: 2013/12/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-08-22",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 9,740,470 B2, Date: 2017/08/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-12-17",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 14/109,293, Date: 2013/12/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-02-01",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: CN 103870402 B, Date: 2019/02/01).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-12-17",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 201310693765, Date: 2013/12/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2020-02-05",
+    "contents": "Method of managing external devices, method of perating external device, host device, management server, and external device, Granted (No: EP 2743850 B1, Date: 2020/02/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-12-17",
+    "contents": "Method of managing external devices, method of perating external device, host device, management server, and external device, Filed (No: 13197690.4, Date: 2013/12/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-06",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No:  AU 2013364704 B2, Date: 2017/07/06).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2013-12-13",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 2013364704, Date: 2013/12/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-05-28",
+    "contents": "Method and apparatus for measuring bio signal, Published (No: WO 2015/076462 AI, Date: 2015/05/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-11",
+    "contents": "Method and apparatus for measuring bio signal, Filed (No: PCT/KR2014/001973, Date: 2014/03/11).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-11-15",
+    "contents": "Method and apparatus for measuring bio signal, Granted (No: CN 105764414 B, Date: 2019/11/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-11",
+    "contents": "Method and apparatus for measuring bio signal, Filed (No: 201480064389, Date: 2014/03/11).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-11",
+    "contents": "Method and appratus for measuring bio signal, Filed (No: 14086454.7, Date: 2014/03/11).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-10-05",
+    "contents": "Method and apparatus for measuring bio signal, Granted (No: EP 3075310 A1, Date: 2016/10/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-03-11",
+    "contents": "Method and apparatus for measuring bio signal, Filed (No: 14864547.6, Date: 2014/03/11).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-10-29",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 10,459,712 B2, Date: 2019/10/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-12-01",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 14/556,768, Date: 2014/12/01).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-10-30",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 10,144,631 B2, Date: 2018/10/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-01-30",
+    "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 14/610,165, Date: 2015/01/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-03-04",
+    "contents": "Method and device for executing application, Filed (No: BR1120150047947, Date: 2015/03/04).",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-03-04",
+    "contents": "System and method of controlling external apparatus connected with device, Filed (No: BR1120150047963, Date: 2015/03/04).",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-03-05",
+    "contents": "Method and device for executing application, Filed (No: 473/MUMNP/2015, Date: 2015/03/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-03-05",
+    "contents": "System and method of controlling external apparatus connected with device, Filed (No: 474/MUMNP/2015, Date: 2015/03/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-03-06",
+    "contents": "Method of executing application and terminal using the method, Filed (No: BR1120150050344, Date: 2015/03/06).",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-04-02",
+    "contents": "Method and apparatus for executing application in device, Filed (No: 727/MUMNP/2015, Date: 2015/04/02).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-08-01",
+    "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Granted (No: US 9,722,811 B2, Date: 2017/08/01).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-04-06",
+    "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Filed (No: 14/679,749, Date: 2015/04/06).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-11-04",
+    "contents": "Wearable appaaratus, server, system, and method for extracting parameters of cardiovascular, Granted (No: 10-1674997, Date: 2016/11/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-04-24",
+    "contents": "Wearable appaaratus, server, system, and method for extracting parameters of cardiovascular, Filed (No: 10-2015-0058001, Date: 2015/04/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-12-31",
+    "contents": "ELECTRONIC APPARATUS AND METHOD OF OUTPUTTING CONTENT BY THE ELECTRONIC APPARATUS, Granted (No: US 10,524,100 B2, Date: 2019/12/31).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-06-18",
+    "contents": "ELECTRONIC APPARATUS AND METHOD OF OUTPUTTING CONTENT BY THE ELECTRONIC APPARATUS, Filed (No: 14/743,203, Date: 2015/06/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-06-24",
+    "contents": "METHOD OF MANAGING EXTERNAL DEVICES METHOD OF OPERATING EXTERNAL DEVICE HOST DEVICE ANAGEMENT SERVER AND EXTERNAL DEVICE, Filed (No: 1644/MUMNP/2015, Date: 2015/06/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-11-27",
+    "contents": "System and program for evaluating cardiovascular function based on interaction between smart device and wearable device, Granted (No: 10-1803918, Date: 2017/11/27).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-06-22",
+    "contents": "System and program for evaluating cardiovascular function based on interaction between smart device and wearable device, Filed (No: 10-2015-0088175, Date: 2015/06/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-06-22",
+    "contents": "System and program for evaluating cardiovascular function based on interaction between multi wearable devices, Filed (No: 10-2015-0088176, Date: 2015/06/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-08-23",
+    "contents": "Method for real-time QRS-complex detection and program thereof, Granted (No: 10-1651875, Date: 2016/08/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-08-04",
+    "contents": "Method for real-time QRS-complex detection and program thereof, Filed (No: 10-2015-0109889, Date: 2015/08/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-06-21",
+    "contents": "Quasi-periodic signal pole detection method of quasi-periodic signal and program thereof, Granted (No: 10-1633665, Date: 2016/06/21).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-09-17",
+    "contents": "Quasi-periodic signal pole detection method of quasi-periodic signal and program thereof, Filed (No: 10-2015-0131347, Date: 2015/09/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-04-25",
+    "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Granted (No: US 9,635,499 B2, Date: 2017/04/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-01-29",
+    "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Filed (No: 15/010,659, Date: 2016/01/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-10-18",
+    "contents": "Contactless height measuring method based on image and system thereof, Granted (No: 10-1789779, Date: 2017/10/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-04-25",
+    "contents": "Contactless height measuring method based on image and system thereof, Filed (No: 10-2016-0049809, Date: 2016/04/25).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-04-09",
+    "contents": "METHOD AND APPARATUS FOR MEASURING BIO SIGNAL, Granted (No: US 10,251,607 B2, Date: 2019/04/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-05-24",
+    "contents": "METHOD AND APPARATUS FOR MEASURING BIO SIGNAL, Filed (No: 15/163,073, Date: 2016/05/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-12-11",
+    "contents": "Biosignal monitoring system using multi-channel sensor patch, Granted (No: 10-1809468, Date: 2017/12/11).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-05-16",
+    "contents": "Biosignal monitoring system using multi-channel sensor patch, Filed (No: 10-2016-0059503, Date: 2016/05/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2016-06-28",
+    "contents": "심박변이도 시간영역 분석을 위한 Matlab(매트랩) 라이브러리, Granted (No: C-2016-015989, Date: 2016/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2016-06-28",
+    "contents": "심박변이도 주파수영역 분석을 위한 Matlab(매트랩) 라이브러리, Granted (No: C-2016-015990, Date: 2016/06/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-01-23",
+    "contents": "Multi-channel capacitive pressure sensor, Granted (No: 10-1943492 , Date: 2019/01/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-12-30",
+    "contents": "Multi-channel capacitive pressure sensor, Filed (No: 10-2016-0183738, Date: 2016/12/30).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-03-26",
+    "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Granted (No: US 10,244,570 B2, Date: 2019/03/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-03-28",
+    "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Filed (No: 15/471,832, Date: 2017/03/28).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-05-23",
+    "contents": "두 표본간 정규성 검정, 등분산 검정, 가설검정을 위한 One-step GUI(원스텝 그래픽유저인터페이스), Granted (No: C-2017-011973, Date: 2017/05/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-05-23",
+    "contents": "S5(에스5) 환자감시장치에서 추출된 심전도, 맥파의 극점 추출을 위한 프로그램, Granted (No: C-2017-011974, Date: 2017/05/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-05-23",
+    "contents": "맥파도달시간(Pulse Transit Time) 측정을 위한 심전도, 광용적맥파(ECG, PPG) 극점 검출 및 교정 프로그램, Granted (No: C-2017-011975, Date: 2017/05/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-05-23",
+    "contents": "준주기신호 극점 검출을 위한 MATLAB(매트랩) 함수, Granted (No: C-2017-011976, Date: 2017/05/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-05-23",
+    "contents": "심전도 QRS(큐-알-에스)검출을 위한 MATLAB(매트랩) 함수, Granted (No: C-2017-011977, Date: 2017/05/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-05-23",
+    "contents": "호흡 특성 분석 프로그램, Granted (No: C-2017-011978, Date: 2017/05/23).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-04-26",
+    "contents": "Unconstrained type bio signal measuring sensor and bio signal measuring system having the same, Granted (No: 10-1974905, Date: 2019/04/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-06-16",
+    "contents": "Unconstrained type bio signal measuring sensor and bio signal measuring system having the same, Filed (No: 10-2017-0076621, Date: 2017/06/16).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2020-02-18",
+    "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Granted (No: US 10,567,189 B2, Date: 2020/02/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-20",
+    "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Filed (No: 15/654,829, Date: 2017/07/20).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-11-22",
+    "contents": "다파장 광용적맥파 데이터 수집 및 표시를 위한 프로그램, Granted (No: C-2017-029355, Date: 2017/11/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-11-24",
+    "contents": "다파장 광용적맥파 데이터 수집 및 표시를 위한 매트랩 프로그램, Granted (No: C-2017-030070, Date: 2017/11/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-11-04",
+    "contents": "System and method for estimating blood pressure based on deep learning, Granted (No: 10-2042700, Date: 2019/11/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-11-17",
+    "contents": "System and method for estimating blood pressure based on deep learning, Filed (No: 10-2017-0154208, Date: 2017/11/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-12-21",
+    "contents": "2채널 실시간 데이터 수집 및 표시를 위한 프로그램, Granted (No: C-2017-035125, Date: 2017/12/21).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2017-12-21",
+    "contents": "실시간 압력파형 디스플레이를 위한 안드로이드 어플리케이션, Granted (No: C-2017-035126, Date: 2017/12/21).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-07-31",
+    "contents": "System for measuring bio signal usingmulti channel piezoelectric sensor of film, Published (No: 10-2019-0089353, Date: 2019/07/31).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-01-22",
+    "contents": "System for measuring bio signal usingmulti channel piezoelectric sensor of film, Filed (No: 10-2018-0007731, Date: 2018/01/22).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-11-04",
+    "contents": "Multi-wavelength light sensing device, Granted (No: 10-2042613, Date: 2019/11/04).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-03-05",
+    "contents": "Multi-wavelength light sensing device, Filed (No: 10-2018-0025621, Date: 2018/03/05).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-05-09",
+    "contents": "생체 신호 데이터 수집 프로그램, Granted (No: C-2018-011582, Date: 2018/05/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-05-09",
+    "contents": "생체 신호 데이터 모니터링 플랫폼, Granted (No: C-2018-011581, Date: 2018/05/09).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-05-17",
+    "contents": "다중 배열 요골동맥압 시뮬레이터, Granted (No: C-2018-012615, Date: 2018/05/17).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2019-03-13",
+    "contents": "의료용 다파장 광센서, Granted (No: 30-0998636, Date: 2019/03/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic Design",
+    "date": "2018-06-27",
+    "contents": "의료용 다파장 광센서, Filed (No: 30-2018-0029691, Date: 2018/06/27).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-02-18",
+    "contents": "Method for generating of state classifier and for deciding walking state using the same, Published (No: 10-2020-0017131, Date: 2020/02/18).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-08-08",
+    "contents": "Method for generating of state classifier and for deciding walking state using the same, Filed (No: 10-2018-0092368, Date: 2018/08/08).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-09-10",
+    "contents": "맥파의 특정 진폭에 대한 박동 폭 계산 프로그램, Granted (No: C-2018-024252, Date: 2018/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-09-10",
+    "contents": "삼각화된 맥파 신호의 박동별 넓이 계산 프로그램, Granted (No: C-2018-024253, Date: 2018/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-09-10",
+    "contents": "맥파 신호의 박동별 수축기 및 이완기 분석 프로그램, Granted (No: C-2018-024254, Date: 2018/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-09-10",
+    "contents": "맥파 신호의 맥동별 진폭 계산 프로그램, Granted (No: C-2018-024255, Date: 2018/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-09-10",
+    "contents": "맥파 신호의 박동별 기울기 분석 프로그램, Granted (No: C-2018-024256, Date: 2018/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-09-10",
+    "contents": "맥파 신호의 박동별 넓이 계산 프로그램, Granted (No: C-2018-024257, Date: 2018/09/10).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2018-12-26",
+    "contents": "신호 동기화 프로그램, Granted (No: C-2018-039675, Date: 2018/12/26).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-02-13",
+    "contents": "A method and apparatus for detecting awakening and respiration rate based on force-sensor, Filed (No: 10-2019-0016809, Date: 2019/02/13).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "벡불안척도(Beck Anxiety Inventory, BAI) 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022410, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "벡우울척도(Beck Depression Inventory, BDI) 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022411, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "한국판 역학연구 우울척도(K-CESD)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022412, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "건강관련삶의질 평가도구(EQ-5D)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022413, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "건강관련 삶의질, 불안 및 우울 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022414, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "SF36(건강관련삶의질 평가도구)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022415, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "상태불안척도(State-Trait Anxiety Inventory, STAI-X-1)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022416, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "특성불안척도(State-Trait Anxiety Inventory, STAI-X-2)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022417, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Registered SW",
+    "date": "2019-08-12",
+    "contents": "건강관련삶의질 평가도구(WHOQOL-BREF)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022418, Date: 2019/08/12).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-10-29",
+    "contents": "Stacking cone system, Filed (No: 10-2019-0135734, Date: 2019/10/29).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-12-24",
+    "contents": "A method and apparatus for estimating mean arterial pressure based on pressure and pulse wave, Filed (No: 10-2019-0174119, Date: 2019/12/24).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-06-03",
+    "contents": "A method and apparatus for postoperative pain assessment using differential index of photoplethysmogram, Filed (No: 10-2020-0066975, Date: 2020/06/03).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-06-15",
+    "contents": "Wearable blood pressure measuring device with multi-array pressure sensors, Filed (No: 10-2020-0072249, Date: 2020/06/15).",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  }
+]
