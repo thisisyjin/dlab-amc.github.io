@@ -74,7 +74,77 @@ permalink: /publications_c/
 </article>
 
 <script>
-  const CLASS_ORDER = ['ALL', 'International', 'Domestic']; // 순서 지정
+  const CLASS_ORDER = ['ALL', 'International', 'Domestic'];
+
+  const MONTHS = [
+    '',
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ];
+
+  function formatTitleCase(str) {
+    if (!str) return '';
+    return /^[A-Z\s]+$/.test(str)
+      ? str.charAt(0) + str.slice(1).toLowerCase()
+      : str;
+  }
+
+  function formatDateRange(dateStr, endStr) {
+    try {
+      const start = new Date(dateStr.replace(/\./g, '-'));
+      const end = new Date(endStr.replace(/\./g, '-'));
+      const year = start.getFullYear();
+      const month = MONTHS[start.getMonth() + 1];
+      const startDate = start.getDate();
+      const endDate = end.getDate();
+      return `${year} ${month} ${startDate}-${endDate}`;
+    } catch {
+      return '';
+    }
+  }
+
+  function extractYear(dateStr) {
+    try {
+      return new Date(dateStr.replace(/\./g, '-')).getFullYear();
+    } catch {
+      return '';
+    }
+  }
+
+  function buildConferenceHTML(entry) {
+    const authors = entry.authors_text?.trim();
+    const title = formatTitleCase(entry.title_eng)?.trim();
+    const conference = entry.conference_eng
+      ? `<em>${entry.conference_eng}</em>`
+      : '';
+    const duration =
+      entry.date && entry.end_date
+        ? formatDateRange(entry.date, entry.end_date)
+        : '';
+    const place = entry.place_eng?.trim();
+    const year = extractYear(entry.date);
+
+    let result = '';
+
+    if (authors) result += `${authors}. `;
+    if (title) result += `${title}. `;
+    if (conference) result += `${conference}. `;
+    if (duration) result += `${duration}; `;
+    if (place) result += `${place}; `;
+    if (year) result += `${year}.`;
+
+    return result.trim().replace(/;+$/, '');
+  }
 
   document.addEventListener('DOMContentLoaded', () => {
     fetch('{{ site.baseurl }}/data/publications/pub_c.json')
@@ -84,7 +154,6 @@ permalink: /publications_c/
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
 
-        // 필터 버튼 생성
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
@@ -107,7 +176,6 @@ permalink: /publications_c/
           filterContainer.appendChild(btn);
         });
 
-        // 콘텐츠 섹션 생성
         CLASS_ORDER.forEach((cls) => {
           const section = document.createElement('div');
           section.className = 'class-section';
@@ -124,31 +192,24 @@ permalink: /publications_c/
                   .sort((a, b) => b.date.localeCompare(a.date));
 
           entries.forEach((entry) => {
-            const items = entry.contents.split('. ');
-            const first = items[0] || '';
-            const second = items[1] || '';
-            const rest =
-              items
-                .slice(2)
-                .map((t) => t.replace('.', ''))
-                .join('. ') + (items.length > 2 ? '.' : '');
-
             const div = document.createElement('div');
             div.style.marginBottom = '20px';
 
-            const topLine = document.createElement('div');
+            const line = document.createElement('div');
+            const html = buildConferenceHTML(entry);
+
             if (entry.link) {
               const a = document.createElement('a');
               a.href = entry.link;
               a.target = '_blank';
               a.className = 'paperclick';
-              a.textContent = second || entry.contents;
-              topLine.appendChild(a);
+              a.innerHTML = html;
+              line.appendChild(a);
             } else {
               const span = document.createElement('span');
               span.className = 'paperclick';
-              span.textContent = second || entry.contents;
-              topLine.appendChild(span);
+              span.innerHTML = html;
+              line.appendChild(span);
             }
 
             if (entry.certificate_link) {
@@ -158,21 +219,10 @@ permalink: /publications_c/
               certLink.style.marginLeft = '8px';
               certLink.style.borderBottom = 'none';
               certLink.innerHTML = `<img src="{{ site.baseurl }}/assets/medal.png" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle;" />`;
-              topLine.appendChild(certLink);
+              line.appendChild(certLink);
             }
 
-            const line2 = document.createElement('div');
-            line2.className = 'paperclick';
-            line2.textContent = first;
-
-            const line3 = document.createElement('div');
-            line3.className = 'paperclick';
-            line3.textContent = rest;
-
-            div.appendChild(topLine);
-            if (second) div.appendChild(line2);
-            if (rest.trim()) div.appendChild(line3);
-
+            div.appendChild(line);
             section.appendChild(div);
           });
 
