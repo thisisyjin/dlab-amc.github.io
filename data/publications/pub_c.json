@@ -1,1 +1,1690 @@
-[]
+[
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Jeeyoung Jung,Ye Eun Choi,Hangsik Shin, “Development of a Machine Learning Model for Prediction of Sepsis Onset, ”, 2025 대한의용생체공학회 춘계학술대회, 제주 롯데 호텔(중문), 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Ye Eun Choi,Jeeyoung Jung,Hangsik Shin, “Analysis of the effects of obesity and age on the risk of death from sepsis, ”, 2025 대한의용생체공학회 춘계학술대회, 제주 롯데 호텔(중문), 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "임하민,왕창원,신항식, “Activity Level Characteristics Analysis According to Severity in Closed Ward Patients, ”, 2025년도 제 65회 대한의용생체공학회 춘계학술대회, 제주 롯데호텔, 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2025/05/09/%EC%9A%B0%EC%88%98%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "석현석,이건,류가연,신항식, “Feasibility of Photoplethysmogram for Mental Fatigue Assessment, ”, 2025 대한의용생체공학회 춘계학술대회, 제주 롯데호텔, 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "류가연,최예은,신항식, “건강검진 데이터 기반 심방세동 예측 모델 개발, ”, 2025 대한의용생체공학회 춘계학술대회, 제주도 롯데 호텔(중문)",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "김태현,류가연,최예은,신항식, “관상동맥질환 치료제의 심방세동 발생에 대한 영향: 후향적 코호트 분석, ”, 2025 대한의용생체공학회 춘계학술대회, 제주도 롯데 호텔(중문)",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Yujin Han, Hangsik Shin, “Harmonization Pipeline for Correcting Data Discrepancies in Multicenter Radiomic, ”, 2025 대한의용생체공학회 춘계학술대회, 제주 롯데호텔",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Yujin Han, Sung Woo Joo, Hangsik Shin, “Radiomic Tractometry-Based Machine Learning Model for Schizophrenia Classification, ”, 2025 대한의용생체공학회 춘계학술대회, 제주 롯데호텔, 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Jiwon You, Hangsik Shin, “Can Large Language Models Analyze Health Data?: For Multi-Stage Items, ”, The 65th Korea Society of Medical and Biological Engineering Spring Conference 2025, Jeju Lotte Hotel, 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-05-09",
+    "contents": "류가연,석현석,최병문,최재문,신항식, “광용적맥파 기반 수술후 통증 중증도 평가지표 분석, ”, 2024년 제63회 대한의용생체공학회 춘계 학술대회, 강원도 원주 연세대학교 미래캠퍼스 컨버전스홀",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2024-03-20",
+    "contents": "Yuna Choi, Hyeon Seok Seok, Hangsik Shin, Seunghoo Lee, Joonsang Yu, Sollip Kim, Woochang Lee, Sail Chun, “Applying Machine Learning for Result Verification: Analysis of Five Tumor Markers, ”, Cherry Blossom Symposium 2024 (CBS 2024) The 13th International Conference of Clinical Laboratory Automation, The-K Hotel, Seoul, Korea, 21 Mar 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-11-07",
+    "contents": "Gayeon Ryu,Ye Eun Choi,Hangsik Shin, “The Impact of Demographic Characteristics and Comorbidities on the Incidence of Atrial Fibrillation, ”, 2024년도 제 64회 대한의용생체공학회 추계학술대회, 서울 스위스 그랜드 호텔, 07-09 Nov 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2024/11/09/%EA%B5%AC%EC%97%B0%EB%B0%9C%ED%91%9C%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-11-07",
+    "contents": "Gayeon Ryu,Yujin Han,Yeongdon Kim,Hangsik Shin, “Bio-signals and result feature analysis to leverage public polysomnography database  integration, ”, 대한의용생체공학회 2024년 추계학술대회, 서울 스위스 그랜드 호텔, 대한민국, 07-09 Nov 2024.",
+    "state": "complete",
+    "link": "https://dlab-amc.github.io/publications/conference/ibec2024/gy/ibec_gy.html#",
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2024/11/09/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-10-23",
+    "contents": "Changwon Wang, Hangsik Shin, “Comparison of PANSS Total Score and K-means Clustering-Based Methods for Evaluating Schizophrenia Symptom Severity, ”, Conference on Information and Control Systems, Tongyeong, South Korea, 23-26 Oct 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-11-07",
+    "contents": "Jaehyung Lee,Hamin Lim, Changwon Wang,Hangsik Shin, “In-hospital patient’s location correction using machine learning, ”, The 64th Annual Fall Conference of the Korean Society of Medical and Biological Engineering (KOSOMBE) 2024, Swiss Grand Hotel Seoul (Seodaemun-gu, Seoul, South Korea), 07-09 Nov 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-10-23",
+    "contents": "Jaehyung Lee, Oh-Seok Kwon, Hui-Nam Pak, Hangsik Shin, “Graph Neural Network for Atrial Fibrillation Classification Using Left Atrial Anatomy and Physiology, ”, Conference on Information and Control Systems, Kumho Tongyeong Marina Resort (1-gi, Keunbalgae, Tongyeong-si, Gyeongnam, South Korea), 23-26 Oct 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-11-07",
+    "contents": "Jiwon You,  Hangsik Shin,, “Large Language Models and Health Checkup Report Interpretation: Possibilities and Limitations, ”, The 64th Korea Society of Medical and Biological Engineering Fall Conference 2024, Swiss Grand Hotel, Seoul, 07-09 Nov 2024.",
+    "state": "complete",
+    "link": "https://dlab-amc.github.io/publications/conference/ibec2024/jw/ibec_jw.html#",
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-11-07",
+    "contents": "Ye Eun Choi,Hangsik Shin, “Survival Analysis of Adult Sepsis Patients based on Demographics and Underlying Diseases, ”, The Korean Society of Medical and Biological Engineering Autumn Conference 2024, Swiss Grand Hotel, Seoul, Republic of Korea, 07-09 Nov 2024.",
+    "state": "complete",
+    "link": "https://dlab-amc.github.io/publications/conference/ibec2024/ye1/ibec_ye1.html#",
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-11-07",
+    "contents": "Ye Eun Choi,Hangsik Shin, “Analysis of Mortality Risk in Adult Sepsis Patients based on  Demographics and Underlying Diseases, ”, Korea Society of Medical and Biological Engineering Autumn Conference 2024, Swiss Grand Hotel, Seoul, Republic of Korea, 07-09 Nov 2024.",
+    "state": "complete",
+    "link": "https://dlab-amc.github.io/publications/conference/ibec2024/ye2/ibec_ye2.html#",
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-11-07",
+    "contents": "Gayeon Ryu,Yujin Han,Yeongdon Kim,Hangsik Shin, “Bio-signals and result feature analysis to leverage public polysomnography database integration, ”, The Korean Society of Medical & Biological Engineering, Seoul Swiss Grand Hotel, Seoul, 07-09 Nov 2024.",
+    "state": "complete",
+    "link": "https://dlab-amc.github.io/publications/conference/ibec2024/gy/ibec_gy.html#",
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2024/11/09/%ED%8F%AC%EC%8A%A4%ED%84%B0%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-10-23",
+    "contents": "Gayeon Ryu,Ye Eun Choi,Hangsik Shin, “Evaluation of Photoplethysmogram-based Vascular Age Estimation Models, ”, Conference on Information and Control Systems, 금호통영마리나리조트 (경남 통영시 큰발개1길 33), 23-26 Oct 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2024/10/23/%EC%9A%B0%EC%88%98%EB%85%BC%EB%AC%B8%EC%83%81.html"
+  },
+  {
+    "class": "International",
+    "date": "2024-07-15",
+    "contents": "Changwon Wang,Hangsik Shin, “Identify Pre-Frailty Among the Elderly Using Demographic, Physical Function, and Gait Data, ”, EMBC 2024, Orlando, USA, 15-19 July 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2024-07-15",
+    "contents": "Ye Eun Choi,Jaehyung Lee,Hyeon Seok Seok,Hangsik Shin, “Demographics and Comorbidities as an Atrial Fibrillation Risk Factor: a Retrospective Study in Koreans, ”, EMBC 2024, Orlando, USA, 15-19 July 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2023-12-07",
+    "contents": "Gayeon Ryu,Hyeon Seok Seok,Hangsik Shin, “Ectopic Beat Correction Strategies for Accurate Heart Rate Variability Analysis, ”, IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Portomaso, St. Julians, Malta, 07-09 Dec 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-07-10",
+    "contents": "석현석,유지원,김솔잎,신항식, “Error Detection in Laboratory Tests using Machine Learning, ”, The 55th KIEE Summer Conference 2024, 제주도, 10-13 Jul 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-07-10",
+    "contents": "Yeongdon Kim, Hamin Lim, Gayeon Ryu, Yujin Han, Hangsik Shin, “Development of a Real-Time Upper Limb Range of Motion Measurement Method Using a Single Depth Measurement Camera, ”, The 55th KIEE Summer Conference 2024, jeju island, 10-13 Jul 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-06-19",
+    "contents": "Jiwon You, Sollip Kim, Woochang Lee, Sail Chun, Hangsik Shin, “Types and Frequencies of Errors in Clinical Chemistry Tests at the University Hospital Clinical Laboratory, ”, The Korean Society of Medical Informatics, The Catholic University of Korea, 19-21 June 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-07-10",
+    "contents": "Changwon Wang, Hamin Lim, Hangsik Shin, “Development of a Patient Location Monitoring Mobile Application in Hospitals, ”, The 55th KIEE Summer Conference 2024, INTERNATIONAL CONVENTION CENTER JEJU",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-07-10",
+    "contents": "Hamin Lim, Changwon Wang, Hangsik Shin, “Location Monitoring Platform for  Psychiatric Closed Ward, ”, The 55th KIEE Summer Conference 2024, INTERNATIONAL CONVENTION CENTER JEJU, 10-13 Jul 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2024/12/13/%EC%9A%B0%EC%88%98%EB%85%BC%EB%AC%B8%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-05-09",
+    "contents": "Lim Hamin, Hangsik Shin, “Gravity Compensation of Accelerometer with Madgwick Filter-Based Quaternion Rotation Estimation, ”, 2024 KOSOMBE spring conference, Yonsei University, Won-ju, Korea, 9-11 May 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-05-09",
+    "contents": "Changwon Wang, Hangsik Shin, “Identifying Key Physical Function Indicators for Pre-Frailty, ”, 2024 KOSOMBE spring conference, Yonsei University, Won-ju, Korea, 9-11 May 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2023-12-07",
+    "contents": "Jaehyung Lee,Oh-Seok Kwon,Ye Eun Choi,Hui-Nam Pak,Hangsik Shin, “Atrial Fibrillation Diagnosis Using Machine Learning: Leveraging Minimal Health Data from UK Biobank, ”, IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology, Malta, 07-09 Dec 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2024-06-19",
+    "contents": "Changwon Wang, Hamin Lim, Sung Woo Joo3, Jungsun Lee, Hangsik Shin, “Development of a Location Monitoring Platform for Inpatients within Closed Psychiatric Ward, ”, KOSMI 2024 Spring conference, The catholic univrsity of Korea, Seoul, Korea, 19-21 June 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2023-12-06",
+    "contents": "Gayeon Ryu , Hyeon Seok Seok , Hangsik Shin, “Ectopic Beat Correction Strategies for Accurate Heart Rate Variability Analysis, ”, IEEE EMBS, St.Julians, 07-09 Dec 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2024-03-20",
+    "contents": "Hyeon Seok Seok, Shinae Yu, Kyung-Hwa Shin, Woochang Lee, Sollip Kim, Hangsik Shin, “AI-based Approach for Detecting Sample Misidentification Errors in Alpha-fetoprotein with Multi-Center Validation, ”, Cherry Blossom Symposium 2024 (CBS 2024) The 13th International Conference of Clinical Laboratory Automation, The-K Hotel, Seoul, Korea, 21 Mar 2024.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-11-09",
+    "contents": "Changwon Wang,Hangsik Shin, “Development of an Emotional State Prediction Model Using Acceleration Signal, Heart rate, Electrodermal Activity, and Emotional Questionnaires, ”, 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University, 09-11 Nov 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-11-09",
+    "contents": "Hyeon Seok Seok,Sollip Kim,Hangsik Shin, “Deep Learning for Tumor Marker Misidentification Error Detection: inter-center model performance comparison, ”, 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University, 09-11 Nov 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-11-09",
+    "contents": "Gayeon Ryu,Hyeon Seok Seok,Byung-Moon Choi,Jae Moon Choi,Hangsik Shin, “Photoplethysmogram based on Surgical Pain Severity Assessment Feature Analysis, ”, 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University, 09-11 Nov 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-11-09",
+    "contents": "Jaehyung Lee,Oh-Seok Kwon,Hangsik Shin,Hui-Nam Pak, “Graph Neural Network-Based Atrial Fibrillation Recurrence Prediction Using Left Atrial Three-Dimensional Anatomical and Physiology Characteristics, ”, 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University, 09-11 Nov 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-11-09",
+    "contents": "Ji Hyeun Park,Chungkeun Lee,Hangsik Shin, “Standard Specifications for Testing of U.S. FDA-Cleared Home Sleep Apnea Testing Device, ”, 9th International Biomedical Engineering Conference IBEC 2023, Hana Square of The Korea University",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-10-23",
+    "contents": "Hyoen Seok Seok,Sollip Kim,Hangsik Shin, “Performance Analysis of Diagnostic Test Error Detection Using Artificial Intelligence in Class Imbalance Scenarios, ”, Conference on Information and Control Systems, SAINTJOHNS HOTEL, 23-25 Oct 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2023-07-24",
+    "contents": "H. S. Seok,G. Y. Ryu,J. M. Choi,B.-M. Choi,H. Shin, “Arrival Times of Maximum Pain and Pain Suppression After Acute Pain Stimulation in Surgical Procedure, ”, 45th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Sydney International Convention Centre (ICC), 24-28 July 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-07-12",
+    "contents": "Ga Yeon Ryu,Hyeon Seok Seok,Hangsik Shin,Byung-Moon Choi,Jae Moon Choi, “Analysis of a surgical pain severity assessment feature based on photoplethysmogram, ”, The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-07-12",
+    "contents": "Changwon Wang,Geunho Bang,KwanKon Ryu,Jeongyeon Hwang,Ahyoung Choi,Hangsik Shin, “Development of a Real-time Abnormal Heart rate and Physical activity Platform Using Wearable Watches for Monitoring Psychiatric Inpatients, ”, The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-07-12",
+    "contents": "Hyeon Seok Seok,Oh-Seok Kwon,Hui-Nam Pak,Hangsik Shin, “Assessment of Atrial Fibrillation Recurrence Risk Using an Artificial Intelligence Model Based on Multiview Cardiac Images, ”, The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2023/12/08/%EC%9A%B0%EC%88%98%EB%85%BC%EB%AC%B8%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-07-12",
+    "contents": "Jaehyung Lee,Hyeon Seok Seok,Oh-Seok Kwon,Hui-Nam Pak,Hangsik Shin, “Analyzing the Performance of a Convolutional Neural Network-based Atrial Fibrillation Classifier According to the Genetic Screening Thresholds, ”, The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-07-12",
+    "contents": "Hamin Lim,Changwon Wang,Hangsik Shin, “Preliminary Study for the Optimal Attachment Position of Accelerometer for Detecting Abnormal Behavior of Psychiatric Inpatient, ”, The 54th KIEE Summer Conference 2023, Yongpyong Resort, Pyeongchang, Republic of Korea, 12-15 Jul 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-05-11",
+    "contents": "Ga Yeon Ryu,Hyeon Seok Seok,Hangsik Shin,Byung-Moon Choi,Jae Moon Choi, “Development of photopleyhsmogram based feature for intra- and post-operative pain, ”, KOSOMBE spring conference 2023, KMEDIhub, Daegu, Republic of Korea, 11-13 May 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-05-11",
+    "contents": "Jaehyung Lee,Hyeon Seok Seok,Oh-Seok Kwon,Hui-Nam Pak,Hangsik Shin, “The Impact of Regularization Techniques on Convolutional Neural Network-based Genomic Study, ”, KOSOMBE spring conference 2023, KMEDIhub, Daegu, Republic of Korea, 11-13 May 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-05-11",
+    "contents": "Changwon Wang,Hamin Lim,Sung Woo Joo,Jungsun Lee,Hangsik Shin, “Analysis of psychiatric inpatients' abnormal behavior prior to self-harm or harm to others through nursing diary records, ”, KOSOMBE spring conference 2023, KMEDIhub, Daegu, Republic of Korea, 11-13 May 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2023-04-15",
+    "contents": "석현석,류가연,신항식,최재문,최병문, “Development of an artificial intelligence model for both intra- and post- operative pain assessment, ”, 2023 대한마취약리학회 학술대회, 서울, 15 Apr 2023.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2023/04/15/%EC%9A%B0%EC%88%98%EC%B4%88%EB%A1%9D%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-11-03",
+    "contents": "Ga Yeon Ryu,Hyeon Seok Seok,Changwon Wang,Byung-Moon Choi,Jae Moon Choi,Hangsik Shin, “Photoplethysmogram Feature Analysis for Surgical Pain Assessment, ”, 60th KOSOMBE Autumn Conference 2022, 인천 파라다이스시티 호텔, 3-5 Nov 2022.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-11-03",
+    "contents": "Jaehyung Lee,Changwon Wang,Hyeon Seok Seok,Oh-Seok Kwon,Hui-Nam Pak,Hangsik Shin, “GWAS-based Atrial Fibrillation Identification Using DCNN, ”, 60th KOSOMBE Autumn Conference 2022, 인천 파라다이스시티 호텔",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-11-03",
+    "contents": "Changwon Wang,Hangsik Shin, “Evaluation of classification performance for the non-sequential input data of convolution neural network classifier according to the effect size, ”, 60th KOSOMBE Autumn Conference 2022, 인천 파라다이스시티 호텔, 3-5 Nov 2022.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-10-19",
+    "contents": "Changwon Wang,Hangsik Shin, “비순차 데이터 적용을 위한 합성곱 신경망 분류기 하이퍼 파라미터 최적화 기초 연구, ”, CICS’22 정보 및 제어 학술대회, 평창 알펜시아리조트",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-10-19",
+    "contents": "Jaehyung Lee,Changwon Wang,Hyeon Seok Seok,Oh-Seok Kwon,Hui-Nam Pak,Hangsik Shin, “Genome-Wide Association Studies and Electronic Medical Record based Atrial Fibrillation Discriminat ion Using Ensemble Models, ”, CICS'22 정보 및 제어 학술대회, 평창 알펜시아리조트",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-10-19",
+    "contents": "Ga Yeon Ryu,Hyeon Seok Seok,Changwon Wang,Byung-Moon Choi,Jae Moon Choi,Hangsik Shin, “Comparison of Photoplethysmogram Feature for Intraoperative Pain and Postoperative Pain, ”, CICS'22 정보 및 제어 학술대회, 평창 알펜시아리조트, 19-22 Oct 2022.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-10-19",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Electrocardiogram Waveform based Aging Assessment Using Convolutional Neural Network, ”, CICS'22 정보 및 제어 학술대회, 평창 알펜시아리조트, 19-22 Oct 2022.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-07-13",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Atrial Fibrillation Patients Assessment Based on One-Dimensional Convolutional Neural Network Using Short-term Electrocardiogram, ”, 제 53회 대한전기학회 하계학술대회, 여수엑스포컨벤션센터, 13-16 July 2022.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-07-13",
+    "contents": "Changwon Wang,Hyun Seok Seok,Hangsik Shin, “Evaluation of Convolution Neural Network classifier compatibility for Non-Sequential Data Input, ”, 제 53회 대한전기학회 하계학술대회, 여수엑스포컨벤션센터, 13-16 July 2022.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": "https://dlab-amc.ulsan.ac.kr/2022/10/25/%EB%85%BC%EB%AC%B8%EC%83%81.html"
+  },
+  {
+    "class": "Domestic",
+    "date": "2022-01-17",
+    "contents": "Hangsik Shin, “Exploration of Intertial Signal Frequency Range of Normal Gait, ”, Bio-Medical System Conference 2022, Yongpyong Resort, Pyeongchang, Republic of Korea, 17 Jan 2022.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2021-12-15",
+    "contents": "Junyung Park,Hangsik Shin, “Feasibility Study for Local Pulse Transit Time as an Alternative of Pulse Arrival Time, ”, The 22nd International Symposium on Advanced Intelligent Systems(ISIS 2021), Chungbuk National University, Cheongju, Republic of Korea, 15-18 Dec 2021.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-07-14",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Investigation of changes in ANS activity through PPG morphological changes according to emotional video stimulation, ”, The 52th KIEE Summer Conference 2021, Yongpyong Resort, Pyeongchang, Republic of Korea, 14-17 Jul 2021.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-07-14",
+    "contents": "Junyung Park,Hangsik Shin, “Vascular aging estimation based on artificial neural network using photoplethysmogram, ”, The 52th KIEE Summer Conference 2021, Yongpyong Resort, Pyeongchang, Republic of Korea, 14-17 Jul 2021.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-05-12",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Autonomic Balance Changes of the Chronic Pains According to the Emotional Stimulation, ”, The 57th Korea Society of Medical and Biological Engineering Spring Conference 2021, Online, 12-14 May 2021.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-05-12",
+    "contents": "Junyung Park,Hangsik Shin, “Blood pressure estimation based on CNN regression model using multi-wavelength photoplethysmogram, ”, The 57th Korea Society of Medical and Biological Engineering Spring Conference 2021, Online",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2021-04-23",
+    "contents": "Danbi Kwon,Hyeon Seok Seok,Joo-Hee Kwon,Sang-Su Kim,Songhyup Kang,Do-Won Kim,Jihoon Kang,Hangsik Shin, “An Evaluation of Emotion Induced by Static and Dynamic Audio-Visual Stimulation, ”, Proceedings of Korean Institute of Intelligent Systems Sping Conference 2021, AI Center, Sejong University(Online), Seoul, Republic of Korea, 23-24 Apr 2021.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-10-22",
+    "contents": "Junyung Park,Donggeun Roh,Hangsik Shin, “Correlation analysis of aging with the refelctive and stiffness index of the photoplethysmogram, ”, Conference on Information and Control Systems 2020, Sono calm jeju, Jeju Island, Republic of Korea, 22-24 Oct 2020.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-10-22",
+    "contents": "Donggeun Roh,Junyung Park,Eunhwa Jeoung,Hangsik shin, “Frequency domain characteristics of constant pressurization-type werable pressure pulse wave measurement system, ”, Conference on Information and Control Systems 2020, Sono calm jeju, Jeju Island, Republic of Korea, 22-24 Oct 2020.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2003-11-07",
+    "contents": "민세동,강세구,이충근,윤성원,박찬욱,신항식,이병우,이명호, “트레드밀 운동 후 원적외선 온열이 심혈관계에 미치는 영향 평가 시스템 구현, ”, Korea Society of Medical and Biological Engineering Autumn Conference 2003, Inchon Memorial Hall of Korea University, Seoul, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2004-11-26",
+    "contents": "이병우,신항식,박찬욱,민세동,이명호, “인터넷 기반의 데이차 전송을 적용한 맥파 측정 시스템 연구, ”, Korea Society of Medical and Biological Engineering Autumn Conference 2004, Yonsei University, Seoul, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2004-11-26",
+    "contents": "신항식,이병우,윤대중,윤성원,이명호, “원격영상진단지원을 위한 Down-Scaled 3D 오브젝트 연구, ”, Korea Society of Medical and Biological Engineering Autumn Conference 2004, Yonsei University, Seoul, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2004-11-19",
+    "contents": "이병우,신항식,이승표,이명호, “인터넷 기반의 실시간 데이타 전송을 이용한 맥파 측정 시스템에 관한 연구, ”, The Korean Society of Medical Informatics Autumn Conference 2004, Pusan National University Sangnam International House, Basan, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2004-11-20",
+    "contents": "Hangsik Shin,B.W. Lee,C.O. Park,Chungkeun Lee,Myoungho Lee, “A Study on Down-Scaled 3D Medical Image Transmission System Using Instant Messenger, ”, Proceedings of Autumn Symposium of the Korean Institute of communications and Information Sciences 2004, Nov 2004.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2005-01-01",
+    "contents": "Myoungho Lee,Sung Won Yoon,Se Dong Min,Chan Ouk. Park,Hangsik Shin,Hyungu Kang,Hunbeom Chang,Eunho Lee, “Perspectives on e-health industry in Korea Enterprise networking and Computing in Healthcare Industry, ”, Proceedings of 7th International Workshop on Proceeding, Jan 2005.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2005-04-01",
+    "contents": "Hangsik Shin,Sung Won Yoon,Se Dong Min,Myoungho Lee, “A Study of the Down-Scaled 3D Objects for Telediagnostic Imaging Support System, ”, 6th Asian-Pacific Conference on Medical and Biological Engineering(APCMBE2005),, Apr 2005.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2005-04-01",
+    "contents": "Hangsik Shin,Yong Hyeon Yun,Seong Pyo Lee,Myoungho Lee, “A Study on Instant Messenger System that Supports Transmitting 3D Medical Image Objects for Telediagnostic Use, ”, 6th Asian-Pacific Conference on Medical and Biological Engineering(APCMBE2005),, Apr 2005.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2005-05-13",
+    "contents": "Hangsik Shin,Chungkeun Lee,Yong Hyeon Yun,Myoungho Lee, “전도성 섬유와 Ag/AgCl 전극을 사용하였을때의 심박변동신호 유의성 비교, ”, Korea Society of Medical and Biological Engineering Spring Conference 2005, Inje University, Gimhae, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2005-06-02",
+    "contents": "Hangsik Shin,Chungkeun Lee,Yong Hyeon Yun,Myoungho Lee, “Heart Rate Variability Analysis for Significance Between Ag/AgCl Electrode and Electric Textile Sensor in Wearable Condition, ”, International Conference on Control, Automation and Systems(ICCAS 2005), KINTEX, Goyang, Republic of Korea, Jun 2005.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2005-09-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,Sung Won Yoon,Dae Joong Yoon,Myoungho Lee, “Heart Rate Variability Analysis using Electric Fabric in Dry-Normal Condition, ”, Engineering in Medicine and Biology Society, 2005. IEEE-EMBS 2005. 27th Annual International Conference of the. IEEE Proceeding, Sep 2005.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2005-10-20",
+    "contents": "Sung Won Yoon,Se Dong Min,Hangsik Shin,Myoungho Lee, “Medical Endoscopic Image Segmentation with Multi-resolution Deformation, ”, Proceedings of the Korea Automatic Control Conference 2005, KAIST, Daejeon, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2005-10-28",
+    "contents": "Hang Sik Shin,Chunkeun Lee,Jin Kwon Kim,Young Min Joo,Myoungho Lee, “Detection of atrial tachycardia and fibrillation using spectrum analysis of intracardiac signal, ”, Conference on Information and Control Systems 2005, Suanbo Sangnok Tourist Hotel, Chungju, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2005-11-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,Myoungho Lee, “Characteristic Analysis of Electric Textile Sensor using Heart Rate Variability, ”, 3rd European Medical and Biological Engineering Conference EMBEC Proceeding, Nov 2005.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2005-12-02",
+    "contents": "이충근,신항식,정완진,정보영,이명호, “ICD 개발을 위한 심방 및 심실의 최적 주파수 대역에 관한 연구, ”, Korea Society of Medical and Biological Engineering Autumn Conference 2005, KINTEX, Goyang, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2005-12-02",
+    "contents": "신항식,이충근,정완진,정보영,이명호, “실시간 PP간격 측정을 통한 Atrium Tachycardia 및 Atrium Fibrillation 검출 알고리즘 개발, ”, Korea Society of Medical and Biological Engineering Autumn Conference 2005, KINTEX, Goyang, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2005-12-02",
+    "contents": "Hangsik Shin,Chungkeun Lee,Jin Kwon Kim,Myoungho Lee, “Intracardiac의 Filter Bank 적용 및 Power Estimation을 통한 심방 빈맥 및 세동 측정, ”, Korea Society of Medical and Biological Engineering Autumn Conference 2005, KINTEX, Goyang, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2006-06-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,Jin Kwon Kim,Myoungho Lee, “Development of Arrhythmia Diagnosis Algorithm for Effective Control of Antitachycardia Pacing and High Energy Shock of ICD, ”, Control, Automation, and Systems Symposium 2006, KINTEX, Goyang, Republic of Korea, Jun 2006.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2006-08-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,J. Kim,Myoungho Lee, “Low complexity and power consumption design for pacemaker using shared MAC structure based on FPGA platform, ”, World Congress on Medical Physics and Biomedical Engineering Proceeding, Aug 2006.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2006-08-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,Myoungho Lee, “Principal Point Discrimination of Electrocardiogram for Automatic Diagnosis, ”, World Congress on Medical Physics and Biomedical Engineering Proceeding, Aug 2006.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2006-08-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,J. Kim,Myoungho Lee, “Development of Arrhythmia Diagnosis Algorithm for Effective Control of Antitachycardia Pacing and High Energy Shock of ICD, ”, Engineering in Medicine and Biology Society, 2006. EMBS '06. 28th Annual International Conference of the IEEE Proceeding, Jun 2006.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2006-08-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,B. Y. Choo,Myoungho Lee, “Time-frequency analysis for arrhythmia discrimination using human atrium electrogram, ”, Engineering in Medicine and Biology Society, 2006. EMBS '06. 28th Annual International Conference of the IEEE Proceeding, Aug 2006.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2006-08-01",
+    "contents": "Chungkeun Lee,Yong Ho Kim,Hangsik Shin,Yong Jun Kim,Myoungho Lee, “Measurement of Compound Neural Action Potential in Sciatic Nerve Using Microelectrode Array, ”, Engineering in Medicine and Biology Society, 2006. EMBS '06. 28th Annual International Conference of the IEEE Proceeding, Aug 2006.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2007-01-01",
+    "contents": "Sung Won Yoon,Hangsik Shin,Se Dong Min,Myoungho Lee, “Medical Endoscopic Image Segmentation with Multi-resolution Deformation e-Health Networking, ”, Application and Services, 2007 9th International Conference on Proceeding, Jan 2007.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2007-08-01",
+    "contents": "Jinkwon Kim,Hangsik Shin,Youngbum Lee,Myoungho Lee, “Algorithm for classifying arrhythmia using Extreme Learning Machine and principal component analysis, ”, Engineering in Medicine and Biology Society, 2007. EMBS 2007. 29th Annual International Conference of the IEEE Proceeding, Aug 2007.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2007-12-01",
+    "contents": "Myung-suk Choi,Sang-won Lee,Jong-chul Kim,Jun-dong Cho,Jinkwon Kim,Hangsik Shin,Myoungho Lee,Uusun. Cho,Jaesuk Kim, “Implantable Bio system design for displacement measurement of living life, ”, In: Advanced Communication Technology, The 9th International Conference on. IEEE Proceeding, Dec 2007.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2008-04-25",
+    "contents": "K. S. Shin,J. K. Kim,H. S. Shin,C. K. Lee,M. H. Lee, “Implementation of ICD(Implantable Cardioverter Defibrillator) Algorithm and Simulator for Detecting and Treatment of Patient with Arrhythmia, ”, 2008 Information and Control Symposium, Konkuk University, Seoul, Republic of Korea, Apr 2008.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2008-07-16",
+    "contents": "Se Dong Min,Chunkeun Lee,Hang Sik Shin,Byoung Woo Lee,Jin Kwon Kim,Hyun Cheol Park,Myoungho Lee, “The Influence on Corelation between Photo-plethysmograph Variability and Heart Rate Variability by Temperature Variation, ”, The 39th KIEE Summer Conference 2008, Hyundai Sungwoo Resort, Heongseong, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2008-07-16",
+    "contents": "Chung-keun Lee,Se-Dong Min,Hang-Sik Shin,Yong-Hyun Yun,Myoung-Ho Lee, “A Study on Correlation of Photoplethysmogram Variability and Heart Rate Variability using Exercise Test, ”, The 39th KIEE Summer Conference 2008, Hyundai Sungwoo Resort, Heongseong, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2008-07-16",
+    "contents": "Hang-Sik Shin,Myoungho Lee, “Pratical Usage Evaluation of ECG and HR signal related on DCT Compression Ratio, ”, The 39th KIEE Summer Conference 2008, Hyundai Sungwoo Resort, Heongseong, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2008-07-16",
+    "contents": "Chung-Keun Lee,Hyun-Chul Park,Hang-Sik Shin,Hone-Rae Kim,Yong-Ho Kim,Jeong-Whan Lee,Yong-Jun Kim,Myoung-Ho Lee, “A Study on Measurement Heart Rate Variability using modified Laplacian Electrode, ”, The 39th KIEE Summer Conference 2008, Hyundai Sungwoo Resort, Heongseong, Republic of Korea, 16-18 Jul 2008.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2009-01-01",
+    "contents": "Chungkeun Lee, Hangsik Shin, Se Dong Min and Myoungho Lee, “A Study on Comparison PPG Variability with Heart Rate Variability in the Sitting Position During Paced Respiration, ”, International Union for Physical and Engineering Sciences in Medicine IFMBE Proceedings, Jan 2009.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2009-01-01",
+    "contents": "Hangsik Shin,Chungkeun Lee,Yong Hyeon Yun,Youngbum Lee,Myoungho Lee, “Verification of Spectrum Analysis for Finger Plethysmography Based on Standing Wave and Harmonics, ”, International Union for Physical and Engineering Sciences in Medicine IFMBE Proceedings, Jan 2009.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2010-10-22",
+    "contents": "Chungkeun Lee,Hang Sik Shin,JinKwon Kim,Byoungwoo Lee,Myoungho Lee, “A study on photoplethysmographic component and arterial stiffness by body posture, ”, Conference on Information and Control Systems 2010, Ulsan National Institute of Science and Technology(UNIST), Ulsan, Republic of Korea, 22-23 Oct 2010.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2012-10-01",
+    "contents": "Hangsik Shin,Yong Hyeon Yun,Eun Bo Shim,Hee-Nam Pak, “Application of Arrhythmia Simulation Modeling on Catheter Ablation of Fibrillation, ”, Journal of Arrhythmia, 28 (Supplement), 2012.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2012-10-01",
+    "contents": "Yong Hyeon Yun,Eun Bo Shim,Hangsik Shin,Jae Hyung Park,Hee-Nam Pak, “Spatial Distribution of Wave-break, Phase Singularity, Dominullt Frequency, and Complex Fractionated Electrograms During Fibrillation: Quantitative Analysis by Simulation Modeling, ”, Journal of Arrhythmia, 28 (Supplement),",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2012-11-16",
+    "contents": "Yonghyeon Yun, Hangsik Shin, Jae Hyung Park, Eun Bo Shim, “The Meaning of Complex Fractionated Electrograms in Fibrillation Wave-Dynamics: Modeling Study Comparing With Wavebreak, Phase Singularity, and Dominullt Frequency, ”, 56th Annual Scientific Meeting of the Korean Society of Cardiology, 2012, Daejeon Convention Center, Daejeon, Republic of Korea, Nov 2012.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2013-10-17",
+    "contents": "Hangsik Shin,Hui-Nam Pak,Yonghyeon Yun, “Deriving complex fractionated electrogram from the simulated cardiac action potential, ”, Conference on Information and Control Systems 2013, Beachepalace, Boryeong, Republic of Korea, 17-19 Oct 2013.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-04-25",
+    "contents": "Hangsik Shin,Hui-Nam Pak,Yonghyeon Yun, “Development and evaluation of the wavebreak detection technique based on in-silico ventricle model, ”, 2014 Information and Control Symposium, Chung-ang University, Seoul, Republic of Korea, Apr 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-04-25",
+    "contents": "Yonghyeon Yun,Hui-Nam Pak,Hangsik Shin, “The change of the simulated cardiac action potential waveforms according to the ion-current control, ”, 2014 Information and Control Symposium, Chung-ang University, Seoul, Republic of Korea, Apr 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-08-26",
+    "contents": "Hangsik Shin,Wangrim Choi,Yi-gon Kim,Jaegeol Cho, “Preliminary Study for the Personal Handheld Device based Snoring Detection in Ordinary Sleep Situation, ”, 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC 2014), Sheraton Hotel&Towers, Chicago, United States of America, Aug 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-10-16",
+    "contents": "Hwajin Choi,Sooji Park,Hangsik Shin, “Development of the Infant Mattress for the Environment and the Pressure Monitoring, ”, Conference on Information and Control Systems 2014, Phoenix Island, Jeju Island, Republic of Korea, 16-18 Oct 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2014-10-16",
+    "contents": "Miri Kim,Jeawon Son,Kwanghyun Kim,Hangsik Shin, “Development of Force Sensing Platform based on VelostatTM for Pressure Distribution Measurement of Driver's Seat, ”, Conference on Information and Control Systems 2014, Phoenix Island, Jeju Island, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-11-20",
+    "contents": "Sangjin Han,Jewon Son,Miri Kim,Hangsik Shin, “Preliminary Study for Posture Monitoring in Driving Condition Using Piezoresistive Film-based Force Sensor, ”, International Biomedical Engineering Conference 2014(IBEC 2014), Kim Dae-jung Convention Center, Gwagnju, Republic of Korea, 20 Nov 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-11-20",
+    "contents": "Sooji Park,Hwajin Choi,Yun La Yang,Soo Kyeong Han,Min-A Kim,Hangsik Shin, “Multiple Sensor Positioning for Mattress type Infant Heartbeat and Respiration Monitoring System, ”, International Biomedical Engineering Conference 2014(IBEC 2014), Kim Dae-jung Convention Center, Gwagnju, Republic of Korea, 20 Nov 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-12-17",
+    "contents": "Hangsik Shin,Hwajin Choi,Sooji Park, “Unconstrained Continuous Infants Monitoring System Based on Mattress-Type Force Sensing Platform: A Pilot Study, ”, The 6th FTRA International Conference on Computer Science and its Applications(CSA 2014), Gaum, United States of America, 17-20 Dec 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2014-12-17",
+    "contents": "Hangsik Shin,Kwanghyun Kim,Jeawon Son,Miri Kim, “Preliminary Study for Driver’s Posture Correction Support System Based on Seat-Embedded Pressure Sensing Platform, ”, The 6th FTRA International Conference on Computer Science and its Applications(CSA 2014), Gaum, United States of America, 17-20 Dec 2014.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-02-09",
+    "contents": "Hangsik Shin,Hawjin Choi,Jaewon Son, “Investigation for the Gender Difference of Autonomic Nervous Activity under Cold Stress, ”, Bio-Medical System Conference 2015, Wellihilli Resort, Heongseong, Republic of Korea, Feb 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-05-08",
+    "contents": "Sooji Park,Hwajin Choi,Hangsik Shin, “Development of Belt-type Pressure Sensor Module and Evaluation the Respiration Waveform according to the Measuring Site, ”, The 50th Korea Society of Medical and Biological Engineering Spring Conference 2015, Daegu Gyeongbuk Medical Innovation Foundation Communication Center, Daeju, Republic of Korea, 8-9 May 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-07-15",
+    "contents": "Yoon La Yang,Hangsik Shin, “Preliminary Study of Biomedical Signal-based IoT Diffuser, ”, The 46th KIEE Summer Conference 2015, Deogyusan Resort, Muju, Republic of Korea, 15-17 Jul 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-07-15",
+    "contents": "Sooji Park,Hangsik Shin,Hoon Kim, “Preliminary Study of IoT Module for Monitoring of Abnormal Respiratory Activity during Sleep, ”, The 46th KIEE Summer Conference 2015, Deogyusan Resort, Muju, Republic of Korea, 15-17 Jul 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-07-15",
+    "contents": "Hangsik Shin, “Maximum dV/dt Detection Algorithm for Photoplethysmography Waveform, ”, The 46th KIEE Summer Conference 2015, Deogyusan Resort, Muju, Republic of Korea, 15-17 Jul 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-07-15",
+    "contents": "Hwajin Choi,Sooji Park,Hangsik Shin, “Investigation of Optimal Position of Strip-type Force Sensor to Detect Respiration, ”, The 46th KIEE Summer Conference 2015, Deogyusan Resort, Muju, Republic of Korea, 15-17 Jul 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-07-15",
+    "contents": "Hwajin Choi,Hangsik Shin, “Modeling for Webcam-based Height Measurement System, ”, The 46th KIEE Summer Conference 2015, Deogyusan Resort, Muju, Republic of Korea, Jul 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-08-25",
+    "contents": "Sooji Park,Hangsik Shin, “Feasibility Study of the Respiratory Activity Monitoring based on Acceleration and Pressure Measurement Inside Pillow, ”, 37th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC 2015), MiCo-Milano Conference Ceter, Milan, Italy",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-10-22",
+    "contents": "Sooji Park,Yoon La Yang,Hoon Kim,Hangsik Shin, “Development of Pillow Insertable Multiple Sensor Platform for Sleep Monitoring, ”, Conference on Information and Control Systems 2015, Delpino Resort, Goseong, Republic of Korea, 22-24 Oct 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-10-22",
+    "contents": "Yoon La Yang,Seongtak Kang,Hangsik Shin,Dong Jun Kim, “Development of Internet-of-Things Diffuser to Provide Aroma and Lightning Therapy based on Bio-Signal, ”, Conference on Information and Control Systems 2015, Delpino Resort, Goseong, Republic of Korea, 22-24 Oct 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-10-30",
+    "contents": "Hangsik Shin,Seongtak Kang, “An Program for Detection and Manual Correction of Specific Feature of Heart Beat, ”, The 2015 Autumn Conference of the Korea Information Processing Society, Jeju National University, Jeju Island, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2015-10-30",
+    "contents": "Yoon La Yang,Seongtak Kang,Hangsik Shin, “An Investigation for Stress Relief Effect of Aroma Therapy and Hue of Lighting, ”, The 2015 Autumn Conference of the Korea Information Processing Society, Jeju National University, Jeju Island, Republic of Korea, Oct 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-11-12",
+    "contents": "Hangsik Shin,Yoon La Yang, “An Effect of the Sampling Frequency to the Pulse Rate Variability Analysis, ”, International Biomedical Engineering Conference 2015(IBEC 2015), Hyundai Hotel, Gyeongju, Republic of Korea, Nov 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-11-12",
+    "contents": "Hangsik Shin,Sooji Park, “Relation between the Maximum Systolic Location of Photoplethysmography Waveform and Sampling Frequency, ”, International Biomedical Engineering Conference 2015(IBEC 2015), Hyundai Hotel, Gyeongju, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2015-12-02",
+    "contents": "Dong-Jun Kim,Hyun-Min Lee,Jeong-Whan Lee,Hangsik Shin, “Pulse Wave Pitch Detection Technique and Its Application to Human Sensibility Evaluation, ”, 2015 International Conference on Mechatronics and Information Technology(ICMIT 2015), Delpino Resort, Goseong, Republic of Korea, Dec 2015.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-02-15",
+    "contents": "Hangsik Shin,Seongtak Kang, “Investigation of Peak Location Changes of Photoplethysmography according to the Sampling Frequency Changes, ”, Bio-Medical System Conference 2016, Wellihilli Resort, Heongseong, Republic of Korea, Feb 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-04-08",
+    "contents": "Yoon La Yang,Hangsik Shin, “Time Domain Analysis of Pulse Rate Variability according to the Sampling Rate Change, ”, Proceedings of Korean Institute of Intelligent Systems Spring Conference 2016, Gachon University, Seongnam, Republic of Korea, 8-9 Apr 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-05-13",
+    "contents": "Yoon La Yang,Seongtak Kang,Donggeun Roh,Min Ju Choi,Hangsik Shin, “An Effect of Sampling Rate to the Time Domain Analysis Result of Pulse Rate Variability, ”, The 51th Korea Society of Medical and Biological Engineering Spring Conference 2016, Pukyong National University, Busan, Republic of Korea, 13-14 May 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-05-13",
+    "contents": "Sooji Park,Hoon Kim,Hangsik Shin, “Unconstrained Respiration Monitoring System based on Strip-type Force Sensor, ”, The 51th Korea Society of Medical and Biological Engineering Spring Conference 2016, Pukyong National University, Busan, Republic of Korea, 13-14 May 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-05-13",
+    "contents": "Seongtak Kang,Donggeun Roh,Min Ju Choi,Hangsik Shin, “An Investigation of the Peak Location Restoration of the Photoplethysmogram based on the Linear Interpolation, ”, The 51th Korea Society of Medical and Biological Engineering Spring Conference 2016, Pukyong National University, Busan, Republic of Korea, 13-14 May 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-07-11",
+    "contents": "Hangsik Shin, “An Investigation of the Photoplethysmography for Clinical and Healthcare Use, ”, Optical Society of Korea Summer Meeting 2016, Bexco, Busan, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-07-13",
+    "contents": "Hangsik Shin,Dong-jun Kim, “Availability of Frequency Domain Analysis of Heart Rate Variability Using Ultra Short-term Electrocardiogram, ”, The 47th KIEE Summer Conference 2016, Yongpyong Resort, Pyeongchang, Republic of Korea, 13-15 Jul 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-07-13",
+    "contents": "Jin-Seok Lee,Sooji Park,Hangsik Shin, “The Prototype Development of a Wearable Device for Lower Limb Balance Evaluation During Walking, ”, The 47th KIEE Summer Conference 2016, Yongpyong Resort, Pyeongchang, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-07-13",
+    "contents": "Sooji Park,Hoon Kim,Hangsik Shin, “Development of Realtime Unconstrained Respiratory Monitoring System based on Strip-type Force-sensor, ”, The 47th KIEE Summer Conference 2016, Yongpyong Resort, Pyeongchang, Republic of Korea, 13-15 Jul 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-07-13",
+    "contents": "Yoon La Yang,Hangsik Shin, “An Effect of Sampling Rate to the Sample Entropy Analysis of Pulse Rate Variability, ”, The 47th KIEE Summer Conference 2016, Yongpyong Resort, Pyeongchang, Republic of Korea, 13-15 Jul 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-07-13",
+    "contents": "Seongtak Kang,Hangsik Shin, “An Investigation of the Feature Point Restoration of Undersampled Photoplethysmogram Using Interpolation, ”, The 47th KIEE Summer Conference 2016, Yongpyong Resort, Pyeongchang, Republic of Korea, 13-15 Jul 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-07-21",
+    "contents": "Hangsik Shin, “Feature Location Restoration for Under-Sampled Photoplethysmogram Using Spline Interpolation, ”, 18th International Conference on Medical Physics and Biomedical Engineering(ICMPBE 2016), Zurich, Switzerland, Jul 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-08-16",
+    "contents": "Hangsik Shin, “An Investigation of the Time Domain Analysis of Ultra-Short Term Heart Rate Variability in Resting Condition, ”, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC 2016), Disney's Contemporary Resort, Orlando, United States of America, Aug 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-08-16",
+    "contents": "Sooji Park,Hoon Kim,Hangsik Shin, “Feasibility Study of Respiration Monitoring based on Strip-Type Force Sensing Platform in Various Lying Positions, ”, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC 2016), Disney's Contemporary Resort, Orlando, United States of America, Aug 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-08-16",
+    "contents": "Yoon La Yang,Hangsik Shin, “An Investigation of the Effect of Sampling Frequency to the Frequency Domain Analysis of Pulse Rate Variability, ”, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC 2016), Disney's Contemporary Resort, Orlando, United States of America, Aug 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-08-16",
+    "contents": "H. Shin,Y. H. Lee,J. Y. Bang,B. M. Choi,G. J. Noh, “Time Domain Analysis of Heart Rate Variability for Nociceptive Pain Assessment, ”, 38th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC 2016), Disney's Contemporary Resort, Orlando, United States of America, Aug 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-08-25",
+    "contents": "Hangsik Shin,Hwa Young Jung,Se Dong Min, “Preliminary Study for Biometric based on Gait Pattern Analysis Using Insole-Type Force Sensor, ”, \"Joint 8th International Conference on Soft Computing and Intelligent Systems and, Hokkai-Gakuen University, Sapporo, Japan, Aug 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-10-20",
+    "contents": "Sooji Park,Min Ju Choi,Seongtak Kang,Hangsik Shin, “An Investigation of the Characteristic of Force Sensors in Biomedical Measurement, ”, Conference on Information and Control Systems 2016, Daemyung Resort, Danyang, Republic of Korea, 20-22 Oct 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-10-28",
+    "contents": "Yoon La Yang,Hangsik Shin, “Preliminary Study for Non-invasive Plasma Volume Estimation based on Plethysmograpic Waveform, ”, Proceedings of Korean Institute of Intelligent Systems Autumn Conference 2016, Yonsei University Sinchon Campus, Seoul, Republic of Korea, 28-29 Oct 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-11-11",
+    "contents": "Hangsik Shin, “What sampling rate would be necessary to analyze of differentiated photoplethysmographic waveform morphologically?, ”, International Biomedical Engineering Conference 2016 (IBEC 2016), Hana Square B1 of Korea University Anam Campus, Seoul, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2016-11-11",
+    "contents": "Y. L. Yang,H. S. Seok,H. Shin, “Development of Mastication Monitoring System for Assessment of the Mandibular Asymmetry, ”, International Biomedical Engineering Conference 2016 (IBEC 2016), Hana Square B1 of Korea University Anam Campus, Seoul, Republic of Korea, Nov 2016.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2016-12-16",
+    "contents": "Jaekyung Kwak,Hangsik Shin, “Implementation of composition application based on smart device-pen interaction, ”, Advanced Intelligent Systems Conference: AISC2016, Korea Institute of Industrial Technology West-South Area Headquarters, Gwagnju, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-02-08",
+    "contents": "Jaekyung Kwak,Kwangdek An,Hangsik Shin, “Music notation software based on the smart device and stylus pen, ”, PROCEEDINGS OF HCI KOREA 2017, High1 Resort, jeongseon, Republic of Korea, 13-15 Feb 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-02-13",
+    "contents": "Sooji Park,Hangsik Shin, “Feasibility Test of Respiratory Measurement Using the Shirt Embroidered Conductive Yarn, ”, Bio-Medical System Conference 2017, Wellihilli Resort, Heongseong, Republic of Korea, 13-15 Feb 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-04-13",
+    "contents": "Yoon La Yang,Hyeon Seok Seok,Hangsik Shin, “Development of an Application for Correction and Arrangement of Pulse Features of ECG and PPG Waveforms, ”, Proceedings of Korean Institute of Intelligent Systems Spring Conference 2017, Jeju National University, Jeju Island, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-04-28",
+    "contents": "Donggeun Roh,Sangjin Han,Hawjin Choi,Hangsik Shin, “Gait Measurement based on Differential Capacitive Textile Force Sensor, ”, The 2017 Spring Conference of the Korea Information Processing Society, Jeju National University Ara Campus, Jeju Island, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-04-28",
+    "contents": "Seongtak Kang,Jaegeun Lee,Sooji Park,Hangsik Shin, “Development of Rollable Smartpad for Management of the Sitting Behavior, ”, The 2017 Spring Conference of the Korea Information Processing Society, Jeju National University Ara Campus, Jeju Island, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-11",
+    "contents": "Sooji Park,Jun Seok Lee,Jaekyung Kwak,Hangsik Shin, “Design of the Wearable Device for Hemiplegic Gait Detection Using an Accelerometer and a Gyroscope, ”, 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’17), International Convention Center(ICC), Jeju Island, Republic of Korea, 11-15 Jul 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-11",
+    "contents": "Sangjin Han,Hangsik Shin, “Effect of Low Sampling Rate on the First Derivative of the PPG Waveform, ”, 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’17), International Convention Center(ICC), Jeju Island, Republic of Korea, 11-15 Jul 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-11",
+    "contents": "Jun Seok Lee,Sooji Park,Hangsik Shin, “Detection of Hemiplegic Gait Using 6-axis Inertial Sensor, ”, 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’17), International Convention Center(ICC), Jeju Island, Republic of Korea, 11-15 Jul 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-11",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Investigation of Photoplethysmography AC Component Variation Before and After Surgery, ”, 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’17), International Convention Center(ICC), Jeju Island, Republic of Korea, 11-15 Jul 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-11",
+    "contents": "Yoon La Yang,Hangsik Shin, “Investigation of the Photoplethysmography Waveform according to the Nociceptive Pain, ”, 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’17), International Convention Center(ICC), Jeju Island, Republic of Korea, 11-15 Jul 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-07-11",
+    "contents": "Sooji Park,Hangsik Shin, “Feasibility Test of Strip-type Unconstrained Sleep Monitoring System with Polysomnography, ”, 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’17), International Convention Center(ICC), Jeju Island, Republic of Korea, 11-15 Jul 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2017-10-11",
+    "contents": "Hyeon Seok Seok,Yoon La Yang,Hangsik Shin, “Postoperative Pain Assessment based on Photoplethysmography Analysis, ”, The 18th International Symposium on Advanced Intelligent Systems(ISIS 2017), EXCO, Daegu, Republic of Korea, 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-10-26",
+    "contents": "Sangjin Han,Donggeun Roh,Hangsik Shin, “Investigation of Optical Conditioning for Multi-wavelength PPG measurement onf Wrist, ”, Conference on Information and Control Systems 2017, Shinull Beach Hotel, Mokpo, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-10-26",
+    "contents": "Donggeun Roh,Sangjin Han,Hangsik Shin, “Observation of radial tono-arteriogram according to the external pressure using partial cuff, ”, Conference on Information and Control Systems 2017, Shinull Beach Hotel, Mokpo, Republic of Korea, 26-28 Oct 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-10-26",
+    "contents": "Yoon La Yang,Hyeon Seok Seok,Hangsik Shin, “Analysis of Systolic and Diastolic Waveform Characteristic of Photoplethysmogram according to the Surgical Pain, ”, Conference on Information and Control Systems 2017, Shinull Beach Hotel, Mokpo, Republic of Korea, 26-28 Oct 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-11-10",
+    "contents": "Sooji Park,Hangsik Shin, “Evaluation of Significance of Photoplethysmograpy Amplitude Variation by Harmonic Rejection, ”, The 52th Korea Society of Medical and Biological Engineering Autumn Conference 2017, Jeonbuk National University, Jeonju, Republic of Korea, 10-11 Nov 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-11-10",
+    "contents": "Sangjin Han,Hangsik Shin, “Preliminary Study on Comparison of Forced Blood Pressure Change by Hemodynamic Maneuver, ”, The 52th Korea Society of Medical and Biological Engineering Autumn Conference 2017, Jeonbuk National University, Jeonju, Republic of Korea, 10-11 Nov 2017.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-11-23",
+    "contents": "Yoon La Yang,Hangsik Shin, “Investigation of the Feasibility of Postoperative Pain Assessment by Analysing Photoplethysmogram Variability Analysis, ”, Proceedings of Korean Institute of Intelligent Systems Autumn Conference 2017, Chonnam National University Yeosu Campus, Yeosu, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2017-11-23",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Extraction of the Pain Relavance Paremeters based on Pain-induced Photoplethysmographic Waveform Change Analysis, ”, Proceedings of Korean Institute of Intelligent Systems Autumn Conference 2017, Chonnam National University Yeosu Campus, Yeosu, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-04-20",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Photoplethysmographic Waveform Changes from the Surgical Pain, ”, Korean Institute of Intelligent Systems Sping Conference 2018, The-K Hotel, Seoul, Republic of Korea, 19-21 Apr 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-05-11",
+    "contents": "Sangjin Han,Hangsik Shin, “Correlation between Pulse Arrival Time Change and Blood Pressure Change according to Measurement Methods, ”, The 53th Korea Society of Medical and Biological Engineering Spring Conference 2018, Konkuk University Glocal Campus, Chungju, Republic of Korea, 11-12 May 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-06-03",
+    "contents": "Sangjin Han,Hangsik Shin, “Assessment of Similarity Between Finger and Wrist Photoplethysmography According to the Light Wavelength, ”, World Congress on Medical Physics & Biomedical Engineering(IUPESM 2018), Prague Congress Centre, Prague, Czech Republic",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-06-03",
+    "contents": "Yoon La Yang,Hyeon Seok Seok,Hangsik Shin, “Investigation of the feasibility of postoperative pain assessment using frequency analysis of photoplethysmogram variability, ”, World Congress on Medical Physics & Biomedical Engineering(IUPESM 2018), Prague Congress Centre, Prague, Czech Republic, 3-8 Jun 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-07-11",
+    "contents": "Sangjin Han,Hangsik Shin, “Observation of the Photoplethysmography Waveform according to Light Penetration Depth of Skin, ”, The 49th KIEE Summer Conference 2018, Yongpyong Resort, Pyeongchang, Republic of Korea, 11-13 Jul 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-07-17",
+    "contents": "Sangjin Han,Hangsik Shin, “Investigation of Arterial Property Changes based on Blood Pressure Waveform and Photoplethysmogram, ”, 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’18), Honolulu, Hawaii, United States of America, 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-07-17",
+    "contents": "Sunhyung Jung,Yewon Kang,Duek Yong Lee,Hangsik Shin,Yonghyeon Yun, “Development of Microphone Preamplifier for Recording Hearts Sound of Esophageal Stethoscope, ”, 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC’18), Honolulu, Hawaii, United States of America, 17-21 Jul 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-10-25",
+    "contents": "Jin Woong Kim,Hyeon Seok Seok,Hangsik Shin, “Photoplethysmographic waveform modeling based on Gaussian Mixture Model with Expectation-maximization algorithm, ”, Conference on Information and Control Systems 2018, Phoenix Park, Pyeongchang, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-10-25",
+    "contents": "SeungBin Choi,Hangsik Shin, “Comparison of pulse rate variability and heart rate variability in postoperative condition, ”, Conference on Information and Control Systems 2018, Phoenix Park, Pyeongchang, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2018-10-25",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Comparison of Signal Quality Assessment Methods for Photoplethysmograpic Waveform, ”, Conference on Information and Control Systems 2018, Phoenix Park, Pyeongchang, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-11-08",
+    "contents": "SeungBin Choi,Hyeon Seok Seok,Hangsik Shin, “Preliminary Study of Postoperative Pain Assessment based on Pulse Rate Variability: Investigation of the Pulse Rate Variability Changes in Postoperative Condition, ”, Society for Medical Innovation and Technology-International Biomedical Engineering Conference 2018, Grand Walkerhill Hotel, Seoul, Republic of Korea, 8-10 Nov 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2018-12-05",
+    "contents": "Hyeon Seok Seok,Sangjin Han,Junyeong Park,Donggeun Roh,Hangsik Shin, “A New Pulse Quality Assessment Method for Photoplethysmogram based on Similliarity Analysis, ”, \"10th International Conference on Soft Computing and Intelligent Systems and, Toyama International Conference Center, Toyama, Japan, 5-8 Dec 2018.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-02-11",
+    "contents": "Donggeun Roh,Jun yeong Park,Hangsik Shin, “Development of GUI for 2-D Distribution Simulation of Radial Artery Pulse Wave, ”, Bio-Medical System Conference 2019, Phoenix Park, Pyeongchang, Republic of Korea, Feb 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-02-11",
+    "contents": "Sangjin Han,Hangsik Shin, “Investigation of systolic fraction of a pulse pressure waveform according to heart disease, ”, Bio-Medical System Conference 2019, Phoenix Park, Pyeongchang, Republic of Korea, Feb 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-05-09",
+    "contents": "Donggeun Roh,Jun Yeong Park,Hangsik Shin, “Estimation of Radial Artery Location Using Gaussian Fitting in Multi-Channel Pressure Measurement, ”, The 54th Korea Society of Medical and Biological Engineering Spring Conference 2019, MVL Hotel, Yeosu, Republic of Korea, 9-11 May 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-05-09",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Investigation of Pulse Rate Variability Changes by Quantization Level, ”, The 54th Korea Society of Medical and Biological Engineering Spring Conference 2019, MVL Hotel, Yeosu, Republic of Korea, 9-11 May 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-05-09",
+    "contents": "Jin Woong Kim,Hangsik Shin, “Feasibility Study of Time Domain Analysis of Ultra-Short-Term Pulse Rate Variability in Dynamic Conditions, ”, The 54th Korea Society of Medical and Biological Engineering Spring Conference 2019, MVL Hotel, Yeosu, Republic of Korea, 9-11 May 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-05-09",
+    "contents": "D. Kwon,H. Cho,H. Shin, “Feasibility Study of Waistband-type Wearable ECG Electrode, ”, The 54th Korea Society of Medical and Biological Engineering Spring Conference 2019, MVL Hotel, Yeosu, Republic of Korea, 9-11 May 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-05-09",
+    "contents": "J. Yim,H. Shin, “Beats Per Minute Accuracy in Heart Rate Estimation according to the Analysis Time Interval, ”, The 54th Korea Society of Medical and Biological Engineering Spring Conference 2019, MVL Hotel, Yeosu, Republic of Korea, 9-11 May 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-05-09",
+    "contents": "J. Park,S. Han,D. Roh,H. Shin, “Trend of Blood Pressure Estimation Model based on Pulse Transit Time, ”, The 54th Korea Society of Medical and Biological Engineering Spring Conference 2019, MVL Hotel, Yeosu, Republic of Korea, 9-11 May 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-05-09",
+    "contents": "H. Shin,Y. Yun, “Novel Pulse Transit Time Estimation Method based on Temporal Delay of Photoplethysmographic Waveform, ”, The 54th Korea Society of Medical and Biological Engineering Spring Conference 2019, MVL Hotel, Yeosu, Republic of Korea, 9-11 May 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-07-10",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Changes of Photoplethysmography waveform by sampling rate and quantization level, ”, The 50th KIEE Summer Conference 2019, Delpino Resort, Goseong, Republic of Korea, 10-12 Jul 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-07-10",
+    "contents": "Jin Woong Kim,Hangsik Shin, “Minimum Interval Required for Heart Rate Variability Analysis in Recovery Condition after Exercise, ”, The 50th KIEE Summer Conference 2019, Delpino Resort, Goseong, Republic of Korea, 10-12 Jul 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-07-10",
+    "contents": "Ji Yeon Yim,Hangsik Shin, “Postoperative Pain Assessment Model based on Photoplethysmogram Using Multi-Layer Perceptron Network, ”, The 50th KIEE Summer Conference 2019, Delpino Resort, Goseong, Republic of Korea",
+    "state": null,
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-07-10",
+    "contents": "Junyung park,Sangjin Han,Donggeun Roh,Hangsik Shin, “Comparison of Multiwavelength Photoplethysmogram Perfusion Index according to Activation of Sympathetic Nerve System, ”, The 50th KIEE Summer Conference 2019, Delpino Resort, Goseong, Republic of Korea, 10-12 Jul 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-07-23",
+    "contents": "Hangsik Shin,Deuk Yong Lee,Yonghyeon Yun, “Design of Strip-type Force Sensor Interfacing Circuit for Body Movement during Sleep Study, ”, 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC'19), Messe Berlin, Berlin, Germany, 23-27 Jul 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-07-23",
+    "contents": "Hangsik Shin,Junyung Park,Hyeon Seok Seok,Younghyeon Yun, “Postoperative Pain Assessment Using Convolutional Neural Network, ”, 41st Annual International Conference of the IEEE Engineering in Medicine and Biology Society(EMBC'19), 베를린, 독일, 23-27 Jul 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-10-24",
+    "contents": "Sangjin Han,Sooji Park,Hangsik Shin, “Feasibility Test of BedditTM for Heart rate and Respiration Rate Measurement, ”, Conference on Information and Control Systems 2019, Daemyung Resort, Gyeongju, Republic of Korea, 24-26 Oct 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-10-24",
+    "contents": "Junyung Park,Jun Seok Lee,Sooji Park,Jaekyung Kwak,Hangsik Shin, “Development of Wearable System for Hemiplegic Gait Detection, ”, Conference on Information and Control Systems 2019, Daemyung Resort, Gyeongju, Republic of Korea, 24-26 Oct 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-10-24",
+    "contents": "Hyeon Seok Seok,Ji Yeon Yim,Danbi Kwon,Hangsik Shin, “Postoperative Pain Assessment Using Convolutional Neural Network, ”, Conference on Information and Control Systems 2019, Daemyung Resort, Gyeongju, Republic of Korea, 23-27 Jul 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2019-11-07",
+    "contents": "Junyung Park,Hangsik Shin, “Analysis of stiffness and reflective index according to aging using Photoplethysmogram, ”, The 55th Korea Society of Medical and Biological Engineering Autumn Conference 2019, Paradise city, Incheon, Republic of Korea, 7-9 Nov 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "International",
+    "date": "2019-12-04",
+    "contents": "Ji Yeon Yim,Hangsik Shin, “Postoperative Pain Assesment Model based on Photoplethysmogram and Convolutional Neural Network, ”, The 20th International Sysmposium on Advanced Intelligent Systems and 2019 International Conference on Biometrics and Kansei Engineering, International Convention Center(ICC), Jeju Island, Republic of Korea, Dec 4-7 2019.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-07-15",
+    "contents": "Junyung Park,Hangsik Shin, “Age-related change of photoplethysmographic reflective and stiffness index, ”, The 51th KIEE Summer Conference 2020, Bexco, Busan, Republic of Korea, 15-17 Jul 2020.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-07-15",
+    "contents": "Danbi Gwon,Hangsik Shin, “Development of Mask Attachable Respiration Monitoring System, ”, The 51th KIEE Summer Conference 2020, Bexco, Busan, Republic of Korea, 15-17 Jul 2020.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-07-15",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “MATLAB GUI for Feature Detection of Electrocardiogram and Photoplethysmogram, ”, The 51th KIEE Summer Conference 2020, Bexco, Busan, Republic of Korea, 15-17 Jul 2020.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2020-07-15",
+    "contents": "Hyeon Seok Seok,Hangsik Shin, “Study on Characteristics of Heart Rate Variability with Chronic Pain, ”, The 51th KIEE Summer Conference 2020, Bexco, Busan, Republic of Korea, 15-17 Jul 2020.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Jaewook Jin, Hangsik Shin, “Prediction of Postoperative Pain Based on Preoperative Stress Assessment, ”, KOSOMBE, 제주도 롯데호텔 중문, 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Geon Lee,Hangsik Shin, “Development of a Multi-Task Learning–Based Phonocardiogram Denoising Model for  Considering Heart Murmurs, ”, 2025 대한의용생체공학회 춘계학술대회, 제주 롯데호텔, 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  },
+  {
+    "class": "Domestic",
+    "date": "2025-05-08",
+    "contents": "Jaehyung Lee, Oh-Seok Kwon, Hui-Nam Pak,Hangsik Shin, “Prediction of Atrial Fibrillation Type and Recurrence Using a Multi-task Learning Model, ”, 2025 The Korean Society of Medical and Biological Engineering, LOTTE HOTEL JEJU, 8-10 May 2025.",
+    "state": "complete",
+    "link": null,
+    "certificate_link": null
+  }
+]
