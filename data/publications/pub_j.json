@@ -2364,31 +2364,5 @@
     "id": "a70adc5b-f455-47f0-9088-ca8a9047d026",
     "contents_prev": "Ahyoung Choi, Sangwoo Noh and Hangsik Shin, “Internet-Based Unobtrusive Tele-Monitoring System for Sleep and Respiration,” IEEE ACCESS, 8, 76700-76707, 2020. ",
     "is_prev": true
-  },
-  {
-    "_id": "686dc2837c33222a2b99637b",
-    "category": "journal",
-    "class": "SCI",
-    "country_kor": "대한민국",
-    "country_eng": "Korea",
-    "date": "2025-06-01",
-    "author_kor": "이연진",
-    "author_eng": "Yeonjin Lee",
-    "title_kor": "제목 테스트",
-    "title_eng": "Test Title",
-    "journal_kor": "저널명 예시",
-    "journal_eng": "Test Journal",
-    "volume": 1,
-    "issue": 3,
-    "page": "123-456",
-    "IF": 12,
-    "acknowledgements": "RS-123-4567",
-    "contents": "Yeonjin Lee, “Test Title,”, Test Journal, vol. 1, no. 3, pp. 123-456, Jun. 2025",
-    "state": "complete",
-    "link": "https://example.com",
-    "authors": [
-      "68622d801ea1bf5301056996"
-    ],
-    "__v": 0
   }
 ]
