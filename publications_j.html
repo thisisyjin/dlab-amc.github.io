@@ -74,130 +74,7 @@ permalink: /publications_j/
   </section>
 </article>
 
-<!-- <script>
-  const CLASS_ORDER = [
-    { label: 'ALL', key: 'ALL' },
-    { label: 'SCI/SCIE', key: 'SCI' },
-    { label: 'SCOPUS', key: 'SCOPUS' },
-    { label: 'KCI', key: 'KCI' },
-  ];
-
-  document.addEventListener('DOMContentLoaded', () => {
-    fetch('{{ site.baseurl }}/data/publications/pub_j.json')
-      .then((res) => res.json())
-      .then((data) => {
-        console.log('📦 pub_j.json data:', data);
-        const byClass = groupBy(data, 'class');
-        const filterContainer = document.getElementById('class-filter');
-        const contentContainer = document.getElementById('pub-content');
-
-        CLASS_ORDER.forEach((cls) => {
-          const btn = document.createElement('a');
-          btn.textContent = cls.label;
-          btn.href = `#${cls.key.toLowerCase()}`;
-          btn.className = 'small-button' + (cls.key === 'ALL' ? ' active' : '');
-          btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            document
-              .querySelectorAll('.class-section')
-              .forEach((el) => (el.style.display = 'none'));
-            document
-              .querySelectorAll('.small-button')
-              .forEach((el) => el.classList.remove('active'));
-            document.getElementById(
-              `section-${cls.key.toLowerCase()}`
-            ).style.display = 'block';
-            btn.classList.add('active');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          });
-          filterContainer.appendChild(btn);
-        });
-
-        CLASS_ORDER.forEach((cls) => {
-          const section = document.createElement('div');
-          section.className = 'class-section';
-          section.id = `section-${cls.key.toLowerCase()}`;
-          section.style.display = cls.key === 'ALL' ? 'block' : 'none';
-
-          const entries =
-            cls.key === 'ALL'
-              ? [...data]
-                  .filter((d) => d.date)
-                  .sort((a, b) => b.date.localeCompare(a.date))
-              : [...(byClass[cls.key] || [])]
-                  .filter((d) => d.date)
-                  .sort((a, b) => b.date.localeCompare(a.date));
-
-          entries.forEach((entry) => {
-            const items = entry.contents.split('. ');
-            console.log(entry);
-            console.log(items);
-            const first = items[0] || '';
-            const second = items[1] || '';
-            const rest =
-              items
-                .slice(2)
-                .map((t) => t.replace('.', ''))
-                .join('. ') + (items.length > 2 ? '.' : '');
-
-            const div = document.createElement('div');
-            div.style.marginBottom = '20px';
-
-            const topLine = document.createElement('div');
-            if (entry.link) {
-              const a = document.createElement('a');
-              a.href = entry.link;
-              a.target = '_blank';
-              a.className = 'paperclick';
-              a.textContent = second || entry.contents;
-              topLine.appendChild(a);
-            } else {
-              const span = document.createElement('span');
-              span.className = 'paperclick';
-              span.textContent = second || entry.contents;
-              topLine.appendChild(span);
-            }
-
-            if (entry.certificate_link) {
-              const certLink = document.createElement('a');
-              certLink.href = entry.certificate_link;
-              certLink.target = '_blank';
-              certLink.style.marginLeft = '8px';
-              certLink.style.borderBottom = 'none';
-              certLink.innerHTML = `<img src="{{ site.baseurl }}/assets/medal.png" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle;" />`;
-              topLine.appendChild(certLink);
-            }
-
-            const line2 = document.createElement('div');
-            line2.className = 'paperclick';
-            line2.textContent = first;
-
-            const line3 = document.createElement('div');
-            line3.className = 'paperclick';
-            line3.textContent = rest;
-
-            div.appendChild(topLine);
-            if (second) div.appendChild(line2);
-            if (rest.trim()) div.appendChild(line3);
-
-            section.appendChild(div);
-          });
-
-          contentContainer.appendChild(section);
-        });
-      });
-
-    function groupBy(arr, key) {
-      return arr.reduce((acc, cur) => {
-        const k = cur[key] || '기타';
-        acc[k] = acc[k] || [];
-        acc[k].push(cur);
-        return acc;
-      }, {});
-    }
-  });
-</script> -->
-
+<!-- 
 <script>
   const CLASS_ORDER = [
     { label: 'ALL', key: 'ALL' },
@@ -269,6 +146,166 @@ permalink: /publications_j/
               const span = document.createElement('span');
               span.className = 'paperclick';
               span.textContent = entry.contents;
+              line.appendChild(span);
+            }
+
+            if (entry.certificate_link) {
+              const certLink = document.createElement('a');
+              certLink.href = entry.certificate_link;
+              certLink.target = '_blank';
+              certLink.style.marginLeft = '8px';
+              certLink.style.borderBottom = 'none';
+              certLink.innerHTML = `<img src="{{ site.baseurl }}/assets/medal.png" alt="certificate" style="width: 18px; height: 18px; vertical-align: middle;" />`;
+              line.appendChild(certLink);
+            }
+
+            div.appendChild(line);
+            section.appendChild(div);
+          });
+
+          contentContainer.appendChild(section);
+        });
+      });
+
+    function groupBy(arr, key) {
+      return arr.reduce((acc, cur) => {
+        const k = cur[key] || '기타';
+        acc[k] = acc[k] || [];
+        acc[k].push(cur);
+        return acc;
+      }, {});
+    }
+  });
+</script> -->
+
+<script>
+  const CLASS_ORDER = [
+    { label: 'ALL', key: 'ALL' },
+    { label: 'SCI/SCIE', key: 'SCI' },
+    { label: 'SCOPUS', key: 'SCOPUS' },
+    { label: 'KCI', key: 'KCI' },
+  ];
+
+  const MONTHS = [
+    '',
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ];
+
+  // 모든 대문자 문자열이면 첫 글자만 대문자로, 나머지는 소문자로
+  function formatTitleCase(str) {
+    if (!str) return '';
+    return /^[A-Z\s]+$/.test(str)
+      ? str.charAt(0) + str.slice(1).toLowerCase()
+      : str;
+  }
+
+  function formatDateToYearMonth(dateStr) {
+    const date = new Date(dateStr);
+    const year = date.getFullYear();
+    const month = MONTHS[date.getMonth() + 1];
+    return `${year} ${month}`;
+  }
+
+  function formatIF(ifVal) {
+    return ifVal % 1 === 0 ? parseInt(ifVal) : ifVal;
+  }
+
+  function formatAcknowledgements(str) {
+    return str
+      ? str
+          .split(';')
+          .map((s) => s.trim())
+          .join(', ')
+      : '';
+  }
+
+  function buildJournalHTML(entry) {
+    const authors = entry.authors_text;
+    const title = formatTitleCase(entry.title_eng);
+    const journal = `<em>${formatTitleCase(entry.journal_eng)}</em>`;
+    const date = formatDateToYearMonth(entry.date);
+    const volume = `<strong>${entry.volume}</strong>`;
+    const issue = entry.issue ? `(${entry.issue})` : '';
+    const page = entry.page ? `${entry.page}` : '';
+    const IF = entry.IF ? `IF:${formatIF(entry.IF)}` : '';
+    const jif = entry.JIF ? `@${entry.JIF}JIF` : '';
+    const ack = formatAcknowledgements(entry.acknowledgements);
+    const ackPart = ack ? `; ${ack}.` : '.';
+
+    return `${authors}. ${title}. ${journal}. ${date}; ${volume}${issue}:${page}; ${IF}${jif}${ackPart}`;
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    fetch('{{ site.baseurl }}/data/publications/pub_j.json')
+      .then((res) => res.json())
+      .then((data) => {
+        const byClass = groupBy(data, 'class');
+        const filterContainer = document.getElementById('class-filter');
+        const contentContainer = document.getElementById('pub-content');
+
+        CLASS_ORDER.forEach((cls) => {
+          const btn = document.createElement('a');
+          btn.textContent = cls.label;
+          btn.href = `#${cls.key.toLowerCase()}`;
+          btn.className = 'small-button' + (cls.key === 'ALL' ? ' active' : '');
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            document
+              .querySelectorAll('.class-section')
+              .forEach((el) => (el.style.display = 'none'));
+            document
+              .querySelectorAll('.small-button')
+              .forEach((el) => el.classList.remove('active'));
+            document.getElementById(
+              `section-${cls.key.toLowerCase()}`
+            ).style.display = 'block';
+            btn.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+          filterContainer.appendChild(btn);
+        });
+
+        CLASS_ORDER.forEach((cls) => {
+          const section = document.createElement('div');
+          section.className = 'class-section';
+          section.id = `section-${cls.key.toLowerCase()}`;
+          section.style.display = cls.key === 'ALL' ? 'block' : 'none';
+
+          const entries = (
+            cls.key === 'ALL' ? [...data] : [...(byClass[cls.key] || [])]
+          )
+            .filter((d) => d.date)
+            .sort((a, b) => b.date.localeCompare(a.date));
+
+          entries.forEach((entry) => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+            const line = document.createElement('div');
+
+            const htmlString = buildJournalHTML(entry);
+
+            if (entry.link) {
+              const a = document.createElement('a');
+              a.href = entry.link;
+              a.target = '_blank';
+              a.className = 'paperclick';
+              a.innerHTML = htmlString;
+              line.appendChild(a);
+            } else {
+              const span = document.createElement('span');
+              span.className = 'paperclick';
+              span.innerHTML = htmlString;
               line.appendChild(span);
             }
 
