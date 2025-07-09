@@ -230,16 +230,16 @@ permalink: /publications_j/
   }
 
   function buildJournalHTML(entry) {
-    const authors = entry.authors_text?.trim();
+    const authors = entry.authors_text?.toString().trim();
     const title = formatTitleCase(entry.title_eng)?.trim();
     const journal = entry.journal_eng
       ? `<em>${formatTitleCase(entry.journal_eng)}</em>`
       : '';
     const date = entry.date ? formatDateToYearMonth(entry.date) : '';
 
-    const volume = entry.volume?.trim();
-    const issue = entry.issue?.trim();
-    const page = entry.page?.trim();
+    const volume = entry.volume?.toString().trim();
+    const issue = entry.issue?.toString().trim();
+    const page = entry.page?.toString().trim();
     const IF = entry.IF ? `IF:${formatIF(entry.IF)}` : '';
     const jif = entry.JIF ? `@${entry.JIF}JIF` : '';
     const ack = formatAcknowledgements(entry.acknowledgements);
