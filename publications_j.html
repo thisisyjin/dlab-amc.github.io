@@ -202,7 +202,6 @@ permalink: /publications_j/
     'Dec',
   ];
 
-  // 모든 대문자 문자열이면 첫 글자만 대문자로, 나머지는 소문자로
   function formatTitleCase(str) {
     if (!str) return '';
     return /^[A-Z\s]+$/.test(str)
@@ -231,19 +230,45 @@ permalink: /publications_j/
   }
 
   function buildJournalHTML(entry) {
-    const authors = entry.authors_text;
-    const title = formatTitleCase(entry.title_eng);
-    const journal = `<em>${formatTitleCase(entry.journal_eng)}</em>`;
-    const date = formatDateToYearMonth(entry.date);
-    const volume = `<strong>${entry.volume}</strong>`;
-    const issue = entry.issue ? `(${entry.issue})` : '';
-    const page = entry.page ? `${entry.page}` : '';
+    const authors = entry.authors_text?.trim();
+    const title = formatTitleCase(entry.title_eng)?.trim();
+    const journal = entry.journal_eng
+      ? `<em>${formatTitleCase(entry.journal_eng)}</em>`
+      : '';
+    const date = entry.date ? formatDateToYearMonth(entry.date) : '';
+
+    const volume = entry.volume?.trim();
+    const issue = entry.issue?.trim();
+    const page = entry.page?.trim();
     const IF = entry.IF ? `IF:${formatIF(entry.IF)}` : '';
     const jif = entry.JIF ? `@${entry.JIF}JIF` : '';
     const ack = formatAcknowledgements(entry.acknowledgements);
-    const ackPart = ack ? `; ${ack}.` : '.';
 
-    return `${authors}. ${title}. ${journal}. ${date}; ${volume}${issue}:${page}; ${IF}${jif}${ackPart}`;
+    let result = '';
+
+    if (authors) result += `${authors}. `;
+    if (title) result += `${title}. `;
+    if (journal) result += `${journal}. `;
+    if (date) result += `${date}; `;
+
+    // 권(호):페이지
+    if (volume || issue || page) {
+      result += volume ? `${volume}` : '';
+      result += issue ? `(${issue})` : '';
+      result += page ? `:${page}` : '';
+      result += '; ';
+    }
+
+    if (IF || jif) {
+      if (IF) result += `${IF}`;
+      if (jif) result += `${IF ? ' ' : ''}${jif}`;
+      result += '; ';
+    }
+
+    if (ack) result += `${ack}.`;
+
+    // 마지막에 ; 로 끝나지 않게 다듬기
+    return result.trim().replace(/;+$/, '');
   }
 
   document.addEventListener('DOMContentLoaded', () => {
