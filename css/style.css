@@ -1517,7 +1517,8 @@ a.small-button.clicked {
 }
 
 a.paperclick,
-span.paperclick {
+span.paperclick,
+div.paperclick {
   color: #515455;
   font-size: 0.9em;
   text-decoration: none;
