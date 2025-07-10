@@ -7,9 +7,10 @@ permalink: /publications_s/
 <span id="content"></span>
 <article id="main">
   <header class="special container">
-    <h2>publications</h2>
+    <h2>PUBLICATIONS</h2>
   </header>
 
+  <!-- 상단 nav 탭 -->
   <section class="wrapper style1 container special nav-container">
     <div class="row" id="research-row">
       <section id="nav-link-first">
@@ -61,14 +62,24 @@ permalink: /publications_s/
     </div>
   </section>
 
+  <!-- 상단 상태 필터 -->
+  <div
+    class="wrapper style2 container"
+    style="margin-top: 1em; margin-bottom: -1em"
+  >
+    <div class="patent-tab-container" style="text-align: center">
+      <a href="#" class="patent-tab active" data-state="granted">Granted</a>
+      <a href="#" class="patent-tab" data-state="filed">Filed</a>
+    </div>
+  </div>
+
+  <!-- 본문 -->
   <section class="wrapper style4 container">
     <div class="row oneandhalf">
       <div class="2u">
         <div class="sidebar">
           <section>
-            <div class="sidebar small-sidebar" id="class-filter">
-              <!-- 버튼이 여기에 동적으로 렌더링됨 -->
-            </div>
+            <div class="sidebar small-sidebar" id="class-filter"></div>
           </section>
         </div>
       </div>
@@ -83,26 +94,44 @@ permalink: /publications_s/
             margin-top: 1.5em;
             padding: 1.5em 1em;
           "
-        >
-          <!-- 전체 특허 리스트가 렌더링될 영역 -->
-        </div>
+        ></div>
       </div>
     </div>
   </section>
 </article>
 
+<style>
+  .patent-tab-container .patent-tab {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 6px 14px;
+    background-color: #eee;
+    color: #333;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+
+  .patent-tab-container .patent-tab.active {
+    background-color: #333;
+    color: #fff;
+  }
+</style>
+
 <script>
   const CLASS_ORDER = ['ALL'];
+  const ALLOWED_CLASSES = ['Registered SW'];
+  let selectedClass = 'ALL';
+  let selectedState = 'granted';
 
   document.addEventListener('DOMContentLoaded', () => {
     fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
       .then((data) => {
-        const byClass = groupBy(data, 'class');
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
 
-        // 필터 버튼 생성
+        // class 필터 버튼 생성
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
@@ -110,58 +139,61 @@ permalink: /publications_s/
           btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
           btn.addEventListener('click', (e) => {
             e.preventDefault();
-            document
-              .querySelectorAll('.class-section')
-              .forEach((el) => (el.style.display = 'none'));
+            selectedClass = cls;
+            updateContent(data);
             document
               .querySelectorAll('.small-button')
               .forEach((el) => el.classList.remove('active'));
-            document.getElementById(
-              `section-${cls.toLowerCase()}`
-            ).style.display = 'block';
             btn.classList.add('active');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
           });
           filterContainer.appendChild(btn);
         });
 
-        // 콘텐츠 섹션 생성
-        CLASS_ORDER.forEach((cls) => {
-          const section = document.createElement('div');
-          section.className = 'class-section';
-          section.id = `section-${cls.toLowerCase()}`;
-          section.style.display = cls === 'ALL' ? 'block' : 'none';
-
-          const entries = (
-            cls === 'ALL' ? [...data] : [...(byClass[cls] || [])]
-          )
-            .filter((d) => d.date)
-            .sort((a, b) => b.date.localeCompare(a.date));
-
-          entries.forEach((entry) => {
-            const div = document.createElement('div');
-            div.style.marginBottom = '20px';
-
-            const content = buildPatentHTML(entry);
-            const line = document.createElement('div');
-            line.className = 'paperclick';
-            line.textContent = content;
-
-            div.appendChild(line);
-            section.appendChild(div);
+        // 상태 필터 탭
+        document.querySelectorAll('.patent-tab').forEach((tab) => {
+          tab.addEventListener('click', (e) => {
+            e.preventDefault();
+            selectedState = tab.dataset.state;
+            updateContent(data);
+            document
+              .querySelectorAll('.patent-tab')
+              .forEach((el) => el.classList.remove('active'));
+            tab.classList.add('active');
           });
-
-          contentContainer.appendChild(section);
         });
+
+        // 초기 콘텐츠 렌더링
+        updateContent(data);
       });
 
-    function groupBy(arr, key) {
-      return arr.reduce((acc, cur) => {
-        const k = cur[key] || '기타';
-        acc[k] = acc[k] || [];
-        acc[k].push(cur);
-        return acc;
-      }, {});
+    function updateContent(data) {
+      const container = document.getElementById('pub-content');
+      container.innerHTML = '';
+
+      const filtered = data
+        .filter((item) => item.date)
+        .filter((item) => {
+          const classMatch =
+            selectedClass === 'ALL'
+              ? ALLOWED_CLASSES.includes(item.class)
+              : item.class === selectedClass;
+          const stateMatch = item.patent_state === selectedState;
+          return classMatch && stateMatch;
+        })
+        .sort((a, b) => b.date.localeCompare(a.date));
+
+      filtered.forEach((entry) => {
+        const div = document.createElement('div');
+        div.style.marginBottom = '20px';
+
+        const content = buildPatentHTML(entry);
+        const line = document.createElement('div');
+        line.className = 'paperclick';
+        line.textContent = content;
+
+        div.appendChild(line);
+        container.appendChild(div);
+      });
     }
 
     function buildPatentHTML(entry) {
@@ -172,12 +204,10 @@ permalink: /publications_s/
       const date = formatDate(entry.date);
 
       const segments = [];
-
       if (authors) segments.push(`${authors}.`);
       if (title) segments.push(`${title}.`);
       if (country && number) segments.push(`${country} ${number},`);
       if (date) segments.push(`${date}.`);
-
       return segments.join(' ').replace(/\s+/g, ' ').trim();
     }
 
