@@ -145,7 +145,7 @@
     "id": "fb68311e-5892-4acf-8beb-3903f421a8a0",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH"
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b765",
@@ -218,7 +218,7 @@
     "id": "7fece762-85cc-4c24-9624-c27843c785ef",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH"
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b768",
@@ -241,7 +241,7 @@
     "id": "e401d263-72e8-4304-a79d-d829488b7d8d",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "SHIN HS, Wang C, Lee J, Joo SW, Lim H, "
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b769",
@@ -289,7 +289,7 @@
     "id": "3312af4f-0f30-450f-a561-5e27deb07417",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH"
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76b",
@@ -7659,7 +7659,7 @@
       "68622d801ea1bf5301056994"
     ],
     "__v": 0,
-    "authors_text": ""
+    "authors_text": "Lee Y, Seok HS, Jeon K"
   },
   {
     "_id": "686f9b4384b966f967501b08",
@@ -7684,7 +7684,7 @@
       "68622d801ea1bf530105698c"
     ],
     "__v": 0,
-    "authors_text": ""
+    "authors_text": "Lee Y, Han YJ, Lee J"
   },
   {
     "_id": "686f9b6284b966f967501b1a",
@@ -7693,13 +7693,13 @@
     "country_kor": "대한민국",
     "country_eng": "South Korea",
     "country_code": "KR",
-    "date": "2025-07-01",
+    "date": "2025-07-02",
     "author_kor": "전경인; 이연진; 민진홍",
     "author_eng": "Kyungin Jeon; Yeonjin Lee; Jinhong Min",
     "title_kor": "제목 테스트 321",
     "title_eng": "Test Title 321",
     "acknowledgements": "RS-123-45671",
-    "contents": "Jeon K, Lee Y, Min J. Test Title 321. KR C-2025-002262, 2025 Jul 1.",
+    "contents": "Jeon K, Lee Y, Min J. Test Title 321. KR C-2025-002262, 2025 Jul 2.",
     "state": "complete",
     "link": "https://example.com",
     "patent_state": "granted",
@@ -7710,6 +7710,6 @@
       "68622d801ea1bf5301056a6c"
     ],
     "__v": 0,
-    "authors_text": ""
+    "authors_text": "Jeon K, Lee Y, Min J"
   }
 ]
