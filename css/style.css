@@ -1574,33 +1574,6 @@ a.paperclick:hover {
 
 /* nav-link css 적용  */
 
-/* .nav-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 5px;
-} 
-
-.nav-link {
-  display: block;
-  display: flex;
-  text-align: center;
-  text-decoration: none;
-  flex-direction: column;
-  padding: 10px;
-  border-radius: 12px;
-  align-items: center;
-  color: #445353;
-  transition: background-color 0.3s, color 0.3s;
-  width: 200px;
-  margin: 5px;
-  box-sizing: border-box;
-  border: 1px solid rgba(201, 188, 206, 0.15);
-  padding: 20px;
-  height: 100%;
-  box-shadow: 0px 0px 10px 5px rgba(201, 188, 206, 0.15);
-}
-*/
-
 .nav-container {
   display: flex;
   justify-content: center;
@@ -1623,7 +1596,7 @@ a.paperclick:hover {
   box-shadow: 0 0 10px 5px rgba(201, 188, 206, 0.15);
   width: 170px;
   justify-content: center;
-  padding: 10px;
+  padding: 15px;
   transition: all 0.3s;
 }
 
