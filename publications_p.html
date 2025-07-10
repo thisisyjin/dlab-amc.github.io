@@ -41,17 +41,6 @@ permalink: /publications_p/
     </ul>
   </section>
 
-  <!-- 상태 필터 탭 -->
-  <div
-    class="wrapper style2 container"
-    style="margin-top: -1em; margin-bottom: 0"
-  >
-    <div class="patent-tab-container">
-      <a href="#" class="patent-tab active" data-state="granted">Granted</a>
-      <a href="#" class="patent-tab" data-state="filed">Filed</a>
-    </div>
-  </div>
-
   <!-- 콘텐츠 영역 -->
   <section class="wrapper style4 container">
     <div class="row oneandhalf">
@@ -63,13 +52,24 @@ permalink: /publications_p/
         </div>
       </div>
       <div class="10u skel-cell-important">
+        <!-- 상태 필터 탭 -->
+        <div
+          class="wrapper style2 container"
+          style="margin-top: -1em; margin-bottom: 0"
+        >
+          <div class="patent-tab-container">
+            <a href="#" class="patent-tab active" data-state="granted"
+              >Granted</a
+            >
+            <a href="#" class="patent-tab" data-state="filed">Filed</a>
+          </div>
+        </div>
         <div
           id="pub-content"
           class="my-div"
           style="
             border-top: 1px solid #222;
             text-align: justify;
-            margin-top: 1.5em;
             padding: 1.5em 1em;
           "
         >
@@ -82,19 +82,17 @@ permalink: /publications_p/
 
 <style>
   /* 상태 필터 탭 스타일 */
-  .patent-tab-container {
-    text-align: center;
-    margin-top: 1.5em;
-  }
-
   .patent-tab {
     display: inline-block;
     padding: 6px 16px;
-    margin: 0 6px;
     border-bottom: 2px solid transparent;
     text-decoration: none;
     color: #999;
     font-size: 1.1em;
+  }
+
+  .patent-tab:hover {
+    color: #6b6b6b;
   }
 
   .patent-tab.active {
