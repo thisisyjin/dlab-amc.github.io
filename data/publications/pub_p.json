@@ -7643,19 +7643,20 @@
     "country_eng": "Korea",
     "country_code": "KR",
     "date": "2025-06-01",
-    "author_kor": "석현석; 신연주",
-    "author_eng": "Hyeon Seok Seok; Yeonjoo Shin",
+    "author_kor": "석현석; 신연주; 이연진",
+    "author_eng": "Hyeon Seok Seok; Yeonjoo Shin; Yeonjin Lee",
     "title_kor": "제목 테스트",
     "title_eng": "Title Test",
     "acknowledgements": "RS-123-4567",
-    "contents": "Seok HS, Shin Y. Title Test. KR C-2025-002262, 2025 Jun 1.",
+    "contents": "Seok HS, Shin Y, Lee Y. Title Test. KR C-2025-002262, 2025 Jun 1.",
     "state": "complete",
     "link": "https://example.com",
-    "patent_state": "published",
+    "patent_state": "granted",
     "number": "C-2025-002262",
     "authors": [
       "68622d801ea1bf5301056995",
-      "68622d801ea1bf5301056993"
+      "68622d801ea1bf5301056993",
+      "68622d801ea1bf5301056996"
     ],
     "__v": 0,
     "authors_text": ""
