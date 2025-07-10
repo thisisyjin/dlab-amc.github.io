@@ -27,4 +27,5 @@ member:
     
     1.  Development of AI Software as Medical Device for Management of Full-Cycle of Atrial Fibrillation Based on Cardiac Digital Twin
     2.  Optimization and Clinical Verification of Software for Early Diagnosis and Prognosis of Atrial Fibrillation Integrating Gene, Electrocardiogram, and Clinical Information Based on Artificial Intelligence
+    
 --- 

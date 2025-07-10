@@ -13,12 +13,4 @@ member:
     Interesting Areas : Web Application Development, Product Development
   contents: |
     
-    
-    ## Conference
-    <!-- 6868d9e7f5a0550d1af25f14 -->
-    - Yeonjin Lee, “Test Title,”, Test Conference , Test Place, 1-3 Jun 2025
-    
-    ## Award
-    <!-- 6868da01f5a0550d1af25f32 -->
-    - Yeonjin Lee; Kyungin Jeon(이연진; 전경인), Test Title(제목 테스트), RS-123-4567, Test Organization(테스트 기관), Hamster Award(햄스터상)
 --- 
