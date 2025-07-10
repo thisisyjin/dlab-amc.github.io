@@ -101,20 +101,26 @@ permalink: /publications_s/
 </article>
 
 <style>
-  .patent-tab-container .patent-tab {
-    display: inline-block;
-    margin: 0 8px;
-    padding: 6px 14px;
-    background-color: #eee;
-    color: #333;
-    font-weight: bold;
-    border-radius: 6px;
-    text-decoration: none;
+  /* 상태 필터 탭 스타일 */
+  .patent-tab-container {
+    text-align: center;
+    margin-top: 1.5em;
   }
 
-  .patent-tab-container .patent-tab.active {
-    background-color: #333;
-    color: #fff;
+  .patent-tab {
+    display: inline-block;
+    padding: 6px 16px;
+    margin: 0 6px;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: #999;
+    font-size: 1.1em;
+  }
+
+  .patent-tab.active {
+    color: #036166;
+    border-bottom: 2px solid #036166;
+    font-weight: 700;
   }
 </style>
 
