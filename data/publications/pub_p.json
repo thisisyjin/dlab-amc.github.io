@@ -7634,5 +7634,30 @@
     "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A",
     "author_eng": "Hangsik Shin;Junyung Park;Donggeun Roh;Yongsoon Choi;Doyu Kim;Ahyoung Choi",
     "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영"
+  },
+  {
+    "_id": "686f9913a350dcb7101b835c",
+    "category": "patent",
+    "class": "International",
+    "country_kor": "대한민국",
+    "country_eng": "Korea",
+    "country_code": "KR",
+    "date": "2025-06-01",
+    "author_kor": "석현석; 신연주",
+    "author_eng": "Hyeon Seok Seok; Yeonjoo Shin",
+    "title_kor": "제목 테스트",
+    "title_eng": "Title Test",
+    "acknowledgements": "RS-123-4567",
+    "contents": "Seok HS, Shin Y. Title Test. KR C-2025-002262, 2025 Jun 1.",
+    "state": "complete",
+    "link": "https://example.com",
+    "patent_state": "published",
+    "number": "C-2025-002262",
+    "authors": [
+      "68622d801ea1bf5301056995",
+      "68622d801ea1bf5301056993"
+    ],
+    "__v": 0,
+    "authors_text": ""
   }
 ]
