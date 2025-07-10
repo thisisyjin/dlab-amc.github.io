@@ -1605,7 +1605,7 @@ a.paperclick:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   padding: 0;
   list-style: none;
   margin-bottom: 1em;
@@ -1621,8 +1621,7 @@ a.paperclick:hover {
   border: 1px solid rgba(201, 188, 206, 0.15);
   border-radius: 12px;
   box-shadow: 0 0 10px 5px rgba(201, 188, 206, 0.15);
-  width: 130px;
-  height: 100px;
+  width: 170px;
   justify-content: center;
   padding: 10px;
   transition: all 0.3s;

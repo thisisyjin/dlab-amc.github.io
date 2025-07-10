@@ -11,7 +11,7 @@ permalink: /publications_p/
   </header>
 
   <!-- 상단 nav 탭 -->
-  <section class="wrapper style1 container special">
+  <section class="wrapper style1 container special nav-container">
     <ul class="nav-container">
       <li class="nav-item">
         <a href="{{site.baseurl}}/publications_j" class="nav-link">
@@ -52,15 +52,13 @@ permalink: /publications_p/
     </div>
   </div>
 
-  <!-- 콘텐츠 -->
+  <!-- 콘텐츠 영역 -->
   <section class="wrapper style4 container">
     <div class="row oneandhalf">
       <div class="2u">
         <div class="sidebar">
           <section>
-            <div class="sidebar small-sidebar" id="class-filter">
-              <!-- 필터 버튼 렌더링 -->
-            </div>
+            <div class="sidebar small-sidebar" id="class-filter"></div>
           </section>
         </div>
       </div>
@@ -71,7 +69,7 @@ permalink: /publications_p/
           style="
             border-top: 1px solid #222;
             text-align: justify;
-            margin-top: 1em;
+            margin-top: 1.5em;
             padding: 1.5em 1em;
           "
         >
@@ -83,6 +81,7 @@ permalink: /publications_p/
 </article>
 
 <style>
+  /* 상태 필터 탭 스타일 */
   .patent-tab-container {
     text-align: center;
     margin-top: 1.5em;
@@ -92,7 +91,6 @@ permalink: /publications_p/
     display: inline-block;
     padding: 6px 16px;
     margin: 0 6px;
-    font-weight: bold;
     border-bottom: 2px solid transparent;
     text-decoration: none;
     color: #999;
@@ -102,21 +100,64 @@ permalink: /publications_p/
   .patent-tab.active {
     color: #036166;
     border-bottom: 2px solid #036166;
+    font-weight: 700;
   }
 </style>
 
-<!-- 스크립트 -->
 <script>
   const CLASS_ORDER = ['ALL', 'International', 'Domestic'];
+  const ALLOWED_CLASSES = ['International', 'Domestic'];
 
   document.addEventListener('DOMContentLoaded', () => {
     fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
-      .then((data) => {
-        const byClass = groupBy(data, 'class');
+      .then((allData) => {
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
+        let selectedState = 'granted'; // default 탭
 
+        const render = () => {
+          // 기존 컨텐츠 비움
+          contentContainer.innerHTML = '';
+
+          const filteredData = allData.filter(
+            (d) =>
+              d.patent_state === selectedState &&
+              ALLOWED_CLASSES.includes(d.class)
+          );
+
+          const byClass = groupBy(filteredData, 'class');
+
+          CLASS_ORDER.forEach((cls) => {
+            const section = document.createElement('div');
+            section.className = 'class-section';
+            section.id = `section-${cls.toLowerCase()}`;
+            section.style.display = cls === 'ALL' ? 'block' : 'none';
+
+            const entries = (
+              cls === 'ALL' ? filteredData : [...(byClass[cls] || [])]
+            )
+              .filter((d) => d.date)
+              .sort((a, b) => b.date.localeCompare(a.date));
+
+            entries.forEach((entry) => {
+              const div = document.createElement('div');
+              div.style.marginBottom = '20px';
+
+              const content = buildPatentHTML(entry);
+              const line = document.createElement('div');
+              line.className = 'paperclick';
+              line.textContent = content;
+
+              div.appendChild(line);
+              section.appendChild(div);
+            });
+
+            contentContainer.appendChild(section);
+          });
+        };
+
+        // 클래스 필터 버튼
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
@@ -139,45 +180,21 @@ permalink: /publications_p/
           filterContainer.appendChild(btn);
         });
 
-        CLASS_ORDER.forEach((cls) => {
-          const section = document.createElement('div');
-          section.className = 'class-section';
-          section.id = `section-${cls.toLowerCase()}`;
-          section.style.display = cls === 'ALL' ? 'block' : 'none';
-
-          const entries = (
-            cls === 'ALL' ? [...data] : [...(byClass[cls] || [])]
-          )
-            .filter((d) => d.date)
-            .sort((a, b) => b.date.localeCompare(a.date));
-
-          entries.forEach((entry) => {
-            const div = document.createElement('div');
-            div.style.marginBottom = '20px';
-
-            const content = buildPatentHTML(entry);
-            const line = document.createElement('div');
-            line.className = 'paperclick';
-            line.textContent = content;
-
-            div.appendChild(line);
-            section.appendChild(div);
+        // 상태 탭 필터링 (Granted/Filed)
+        document.querySelectorAll('.patent-tab').forEach((tab) => {
+          tab.addEventListener('click', (e) => {
+            e.preventDefault();
+            document
+              .querySelectorAll('.patent-tab')
+              .forEach((el) => el.classList.remove('active'));
+            tab.classList.add('active');
+            selectedState = tab.dataset.state;
+            render();
           });
-
-          contentContainer.appendChild(section);
         });
-      });
 
-    document.querySelectorAll('.patent-tab').forEach((tab) => {
-      tab.addEventListener('click', (e) => {
-        e.preventDefault();
-        document
-          .querySelectorAll('.patent-tab')
-          .forEach((el) => el.classList.remove('active'));
-        tab.classList.add('active');
-        // 필요한 경우 필터링 로직 여기에 추가
+        render(); // 최초 실행
       });
-    });
 
     function groupBy(arr, key) {
       return arr.reduce((acc, cur) => {
