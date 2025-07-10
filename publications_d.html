@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Publications_p
-permalink: /publications_p/
+title: Publications_d
+permalink: /publications_d/
 ---
 
 <span id="content"></span>
@@ -10,14 +10,13 @@ permalink: /publications_p/
     <h2>publications</h2>
   </header>
 
-  <!-- 상단 nav 탭 -->
   <section class="wrapper style1 container special nav-container">
     <div class="row" id="research-row">
       <section id="nav-link-first">
         <ul>
           <li>
-            <a href="{{site.baseurl}}/publications_j" class="nav-link">
-              <span class="icon fa-solid fa-book"></span>Journal</a
+            <a href="{{site.baseurl}}/publications_j" class="nav-link"
+              ><span class="icon fa-solid fa-book"></span>Journal</a
             >
           </li>
         </ul>
@@ -25,8 +24,8 @@ permalink: /publications_p/
       <section>
         <ul>
           <li>
-            <a href="{{site.baseurl}}/publications_c" class="nav-link">
-              <span class="icon fa-solid fa-building-columns"></span
+            <a href="{{site.baseurl}}/publications_c" class="nav-link"
+              ><span class="icon fa-solid fa-building-columns"></span
               >Conference</a
             >
           </li>
@@ -35,8 +34,8 @@ permalink: /publications_p/
       <section>
         <ul>
           <li>
-            <a href="{{site.baseurl}}/publications_p" class="nav-link active">
-              <span class="icon fa-regular fa-copyright"></span>Patent</a
+            <a href="{{site.baseurl}}/publications_p" class="nav-link"
+              ><span class="icon fa-regular fa-copyright"></span>Patent</a
             >
           </li>
         </ul>
@@ -44,8 +43,8 @@ permalink: /publications_p/
       <section>
         <ul>
           <li>
-            <a href="{{site.baseurl}}/publications_d" class="nav-link">
-              <span class="icon fa-solid fa-pen-nib"></span>Design</a
+            <a href="{{site.baseurl}}/publications_d" class="nav-link active"
+              ><span class="icon fa-solid fa-pen-nib"></span>Design</a
             >
           </li>
         </ul>
@@ -53,8 +52,8 @@ permalink: /publications_p/
       <section>
         <ul>
           <li>
-            <a href="{{site.baseurl}}/publications_s" class="nav-link">
-              <span class="icon fa-brands fa-uncharted"></span>S/W</a
+            <a href="{{site.baseurl}}/publications_s" class="nav-link"
+              ><span class="icon fa-brands fa-uncharted"></span>S/W</a
             >
           </li>
         </ul>
@@ -62,21 +61,13 @@ permalink: /publications_p/
     </div>
   </section>
 
-  <!-- 상태 필터 탭 -->
-  <div class="wrapper style2 container">
-    <div class="patent-tab-container" style="text-align: center; margin: 1em 0">
-      <a href="#" class="patent-tab active" data-state="granted">Granted</a>
-      <a href="#" class="patent-tab" data-state="filed">Filed</a>
-    </div>
-  </div>
-
   <section class="wrapper style4 container">
     <div class="row oneandhalf">
       <div class="2u">
         <div class="sidebar">
           <section>
             <div class="sidebar small-sidebar" id="class-filter">
-              <!-- 클래스 필터 버튼 -->
+              <!-- 버튼이 여기에 동적으로 렌더링됨 -->
             </div>
           </section>
         </div>
@@ -93,48 +84,25 @@ permalink: /publications_p/
             padding: 1.5em 1em;
           "
         >
-          <!-- 특허 콘텐츠 렌더링 영역 -->
+          <!-- 전체 특허 리스트가 렌더링될 영역 -->
         </div>
       </div>
     </div>
   </section>
 </article>
 
-<style>
-  /* 상단 탭 - Temp */
-  .patent-tab-container .patent-tab {
-    display: inline-block;
-    margin: 0 8px;
-    padding: 6px 14px;
-    background-color: #eee;
-    color: #333;
-    font-weight: bold;
-    border-radius: 6px;
-    text-decoration: none;
-  }
-
-  .patent-tab-container .patent-tab.active {
-    background-color: #333;
-    color: #fff;
-  }
-</style>
-
 <script>
   const CLASS_ORDER = ['ALL', 'International', 'Domestic'];
 
   document.addEventListener('DOMContentLoaded', () => {
-    let allData = [];
-    let byClass = {};
-    const filterContainer = document.getElementById('class-filter');
-    const contentContainer = document.getElementById('pub-content');
-
     fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
       .then((data) => {
-        allData = data.filter((d) => d.class && d.date);
-        byClass = groupBy(allData, 'class');
+        const byClass = groupBy(data, 'class');
+        const filterContainer = document.getElementById('class-filter');
+        const contentContainer = document.getElementById('pub-content');
 
-        // 클래스 필터 버튼 생성
+        // 필터 버튼 생성
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
@@ -157,53 +125,43 @@ permalink: /publications_p/
           filterContainer.appendChild(btn);
         });
 
-        // 상태 탭 클릭 시 재렌더링
-        document.querySelectorAll('.patent-tab').forEach((tab) => {
-          tab.addEventListener('click', (e) => {
-            e.preventDefault();
-            document
-              .querySelectorAll('.patent-tab')
-              .forEach((t) => t.classList.remove('active'));
-            tab.classList.add('active');
-            const selectedState = tab.dataset.state;
-            renderByClassAndState(selectedState);
+        // 콘텐츠 섹션 생성
+        CLASS_ORDER.forEach((cls) => {
+          const section = document.createElement('div');
+          section.className = 'class-section';
+          section.id = `section-${cls.toLowerCase()}`;
+          section.style.display = cls === 'ALL' ? 'block' : 'none';
+
+          const entries = (
+            cls === 'ALL' ? [...data] : [...(byClass[cls] || [])]
+          )
+            .filter((d) => d.date)
+            .sort((a, b) => b.date.localeCompare(a.date));
+
+          entries.forEach((entry) => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+
+            const content = buildPatentHTML(entry);
+            const line = document.createElement('div');
+            line.className = 'paperclick';
+            line.textContent = content;
+
+            div.appendChild(line);
+            section.appendChild(div);
           });
-        });
 
-        // 초기 렌더링
-        renderByClassAndState('granted');
+          contentContainer.appendChild(section);
+        });
       });
 
-    function renderByClassAndState(state) {
-      contentContainer.innerHTML = ''; // 초기화
-
-      CLASS_ORDER.forEach((cls) => {
-        const section = document.createElement('div');
-        section.className = 'class-section';
-        section.id = `section-${cls.toLowerCase()}`;
-        section.style.display = cls === 'ALL' ? 'block' : 'none';
-
-        const entries =
-          cls === 'ALL'
-            ? allData.filter((d) => d.patent_state === state)
-            : (byClass[cls] || []).filter((d) => d.patent_state === state);
-
-        const sorted = entries.sort((a, b) => b.date.localeCompare(a.date));
-
-        sorted.forEach((entry) => {
-          const div = document.createElement('div');
-          div.style.marginBottom = '20px';
-
-          const line = document.createElement('div');
-          line.className = 'paperclick';
-          line.textContent = buildPatentHTML(entry);
-
-          div.appendChild(line);
-          section.appendChild(div);
-        });
-
-        contentContainer.appendChild(section);
-      });
+    function groupBy(arr, key) {
+      return arr.reduce((acc, cur) => {
+        const k = cur[key] || '기타';
+        acc[k] = acc[k] || [];
+        acc[k].push(cur);
+        return acc;
+      }, {});
     }
 
     function buildPatentHTML(entry) {
@@ -244,15 +202,6 @@ permalink: /publications_p/
       ];
       const month = monthNames[parseInt(mm, 10)] || '';
       return `${yyyy} ${month} ${parseInt(dd, 10)}`;
-    }
-
-    function groupBy(arr, key) {
-      return arr.reduce((acc, cur) => {
-        const k = cur[key] || '기타';
-        acc[k] = acc[k] || [];
-        acc[k].push(cur);
-        return acc;
-      }, {});
     }
   });
 </script>

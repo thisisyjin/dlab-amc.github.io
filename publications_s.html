@@ -1,0 +1,207 @@
+---
+layout: default
+title: Publications_s
+permalink: /publications_s/
+---
+
+<span id="content"></span>
+<article id="main">
+  <header class="special container">
+    <h2>publications</h2>
+  </header>
+
+  <section class="wrapper style1 container special nav-container">
+    <div class="row" id="research-row">
+      <section id="nav-link-first">
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_j" class="nav-link"
+              ><span class="icon fa-solid fa-book"></span>Journal</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_c" class="nav-link"
+              ><span class="icon fa-solid fa-building-columns"></span
+              >Conference</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_p" class="nav-link"
+              ><span class="icon fa-regular fa-copyright"></span>Patent</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_d" class="nav-link"
+              ><span class="icon fa-solid fa-pen-nib"></span>Design</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <a href="{{site.baseurl}}/publications_s" class="nav-link active"
+              ><span class="icon fa-brands fa-uncharted"></span>S/W</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+  </section>
+
+  <section class="wrapper style4 container">
+    <div class="row oneandhalf">
+      <div class="2u">
+        <div class="sidebar">
+          <section>
+            <div class="sidebar small-sidebar" id="class-filter">
+              <!-- 버튼이 여기에 동적으로 렌더링됨 -->
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="10u skel-cell-important">
+        <div
+          id="pub-content"
+          class="my-div"
+          style="
+            border-top: 1px solid #222;
+            text-align: justify;
+            margin-top: 1.5em;
+            padding: 1.5em 1em;
+          "
+        >
+          <!-- 전체 특허 리스트가 렌더링될 영역 -->
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+
+<script>
+  const CLASS_ORDER = ['ALL'];
+
+  document.addEventListener('DOMContentLoaded', () => {
+    fetch('{{ site.baseurl }}/data/publications/pub_p.json')
+      .then((res) => res.json())
+      .then((data) => {
+        const byClass = groupBy(data, 'class');
+        const filterContainer = document.getElementById('class-filter');
+        const contentContainer = document.getElementById('pub-content');
+
+        // 필터 버튼 생성
+        CLASS_ORDER.forEach((cls) => {
+          const btn = document.createElement('a');
+          btn.textContent = cls;
+          btn.href = `#${cls.toLowerCase()}`;
+          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            document
+              .querySelectorAll('.class-section')
+              .forEach((el) => (el.style.display = 'none'));
+            document
+              .querySelectorAll('.small-button')
+              .forEach((el) => el.classList.remove('active'));
+            document.getElementById(
+              `section-${cls.toLowerCase()}`
+            ).style.display = 'block';
+            btn.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          });
+          filterContainer.appendChild(btn);
+        });
+
+        // 콘텐츠 섹션 생성
+        CLASS_ORDER.forEach((cls) => {
+          const section = document.createElement('div');
+          section.className = 'class-section';
+          section.id = `section-${cls.toLowerCase()}`;
+          section.style.display = cls === 'ALL' ? 'block' : 'none';
+
+          const entries = (
+            cls === 'ALL' ? [...data] : [...(byClass[cls] || [])]
+          )
+            .filter((d) => d.date)
+            .sort((a, b) => b.date.localeCompare(a.date));
+
+          entries.forEach((entry) => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+
+            const content = buildPatentHTML(entry);
+            const line = document.createElement('div');
+            line.className = 'paperclick';
+            line.textContent = content;
+
+            div.appendChild(line);
+            section.appendChild(div);
+          });
+
+          contentContainer.appendChild(section);
+        });
+      });
+
+    function groupBy(arr, key) {
+      return arr.reduce((acc, cur) => {
+        const k = cur[key] || '기타';
+        acc[k] = acc[k] || [];
+        acc[k].push(cur);
+        return acc;
+      }, {});
+    }
+
+    function buildPatentHTML(entry) {
+      const authors = entry.authors_text || '';
+      const title = entry.title_eng || '';
+      const country = entry.country_code || '';
+      const number = entry.number || '';
+      const date = formatDate(entry.date);
+
+      const segments = [];
+
+      if (authors) segments.push(`${authors}.`);
+      if (title) segments.push(`${title}.`);
+      if (country && number) segments.push(`${country} ${number},`);
+      if (date) segments.push(`${date}.`);
+
+      return segments.join(' ').replace(/\s+/g, ' ').trim();
+    }
+
+    function formatDate(dateStr) {
+      if (!dateStr) return '';
+      const normalized = dateStr.replace(/\./g, '-').replace(/\s/g, '').trim();
+      const [yyyy, mm, dd] = normalized.split('-');
+      const monthNames = [
+        '',
+        'Jan',
+        'Feb',
+        'Mar',
+        'Apr',
+        'May',
+        'Jun',
+        'Jul',
+        'Aug',
+        'Sep',
+        'Oct',
+        'Nov',
+        'Dec',
+      ];
+      const month = monthNames[parseInt(mm, 10)] || '';
+      return `${yyyy} ${month} ${parseInt(dd, 10)}`;
+    }
+  });
+</script>
