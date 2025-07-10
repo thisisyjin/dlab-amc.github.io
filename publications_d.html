@@ -7,9 +7,10 @@ permalink: /publications_d/
 <span id="content"></span>
 <article id="main">
   <header class="special container">
-    <h2>publications</h2>
+    <h2>PUBLICATIONS</h2>
   </header>
 
+  <!-- 상단 nav 탭 -->
   <section class="wrapper style1 container special">
     <ul class="nav-container">
       <li class="nav-item">
@@ -40,18 +41,29 @@ permalink: /publications_d/
     </ul>
   </section>
 
+  <!-- 상태 필터 탭 -->
+  <div
+    class="wrapper style2 container"
+    style="margin-top: -1em; margin-bottom: 0"
+  >
+    <div class="patent-tab-container">
+      <a href="#" class="patent-tab active" data-state="granted">Granted</a>
+      <a href="#" class="patent-tab" data-state="filed">Filed</a>
+    </div>
+  </div>
+
+  <!-- 콘텐츠 -->
   <section class="wrapper style4 container">
     <div class="row oneandhalf">
       <div class="2u">
         <div class="sidebar">
           <section>
             <div class="sidebar small-sidebar" id="class-filter">
-              <!-- 버튼이 여기에 동적으로 렌더링됨 -->
+              <!-- 필터 버튼 렌더링 -->
             </div>
           </section>
         </div>
       </div>
-
       <div class="10u skel-cell-important">
         <div
           id="pub-content"
@@ -63,21 +75,47 @@ permalink: /publications_d/
             padding: 1.5em 1em;
           "
         >
-          <!-- 전체 특허 리스트가 렌더링될 영역 -->
+          <!-- 디자인 리스트 렌더링 -->
         </div>
       </div>
     </div>
   </section>
 </article>
 
+<style>
+  .patent-tab-container {
+    text-align: center;
+    margin-top: 1.5em;
+  }
+
+  .patent-tab {
+    display: inline-block;
+    padding: 6px 16px;
+    margin: 0 6px;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: #999;
+    font-size: 1.1em;
+  }
+
+  .patent-tab.active {
+    color: #036166;
+    border-bottom: 2px solid #036166;
+    font-weight: 700;
+  }
+</style>
+
 <script>
-  const CLASS_ORDER = ['ALL', 'International', 'Domestic'];
+  const CLASS_ORDER = ['ALL', 'International Design', 'Domestic Design'];
+  const ALLOWED_CLASSES = ['International Design', 'Domestic Design'];
+
+  let classFilter = 'ALL';
+  let stateFilter = 'granted';
 
   document.addEventListener('DOMContentLoaded', () => {
     fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
-      .then((data) => {
-        const byClass = groupBy(data, 'class');
+      .then((allData) => {
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
 
@@ -85,53 +123,85 @@ permalink: /publications_d/
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
-          btn.href = `#${cls.toLowerCase()}`;
+          btn.href = `#${cls.toLowerCase().replace(/\s+/g, '-')}`;
           btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
           btn.addEventListener('click', (e) => {
             e.preventDefault();
-            document
-              .querySelectorAll('.class-section')
-              .forEach((el) => (el.style.display = 'none'));
-            document
-              .querySelectorAll('.small-button')
-              .forEach((el) => el.classList.remove('active'));
-            document.getElementById(
-              `section-${cls.toLowerCase()}`
-            ).style.display = 'block';
-            btn.classList.add('active');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            classFilter = cls;
+            updateClassButtons(cls);
+            render();
           });
           filterContainer.appendChild(btn);
         });
 
-        // 콘텐츠 섹션 생성
-        CLASS_ORDER.forEach((cls) => {
-          const section = document.createElement('div');
-          section.className = 'class-section';
-          section.id = `section-${cls.toLowerCase()}`;
-          section.style.display = cls === 'ALL' ? 'block' : 'none';
+        // 상단 상태 탭
+        document.querySelectorAll('.patent-tab').forEach((tab) => {
+          tab.addEventListener('click', (e) => {
+            e.preventDefault();
+            stateFilter = tab.dataset.state;
+            updateStateTabs(tab);
+            render();
+          });
+        });
 
-          const entries = (
-            cls === 'ALL' ? [...data] : [...(byClass[cls] || [])]
-          )
-            .filter((d) => d.date)
-            .sort((a, b) => b.date.localeCompare(a.date));
+        const updateClassButtons = (activeCls) => {
+          document.querySelectorAll('.small-button').forEach((btn) => {
+            btn.classList.toggle('active', btn.textContent === activeCls);
+          });
+        };
 
-          entries.forEach((entry) => {
-            const div = document.createElement('div');
-            div.style.marginBottom = '20px';
+        const updateStateTabs = (activeTab) => {
+          document.querySelectorAll('.patent-tab').forEach((btn) => {
+            btn.classList.remove('active');
+          });
+          activeTab.classList.add('active');
+        };
 
-            const content = buildPatentHTML(entry);
-            const line = document.createElement('div');
-            line.className = 'paperclick';
-            line.textContent = content;
+        const render = () => {
+          contentContainer.innerHTML = '';
 
-            div.appendChild(line);
-            section.appendChild(div);
+          const filtered = allData.filter((item) => {
+            const matchClass =
+              classFilter === 'ALL'
+                ? ALLOWED_CLASSES.includes(item.class)
+                : item.class === classFilter;
+            const matchState = item.patent_state === stateFilter;
+            return matchClass && matchState;
           });
 
-          contentContainer.appendChild(section);
-        });
+          const byClass = groupBy(filtered, 'class');
+
+          CLASS_ORDER.forEach((cls) => {
+            const section = document.createElement('div');
+            section.className = 'class-section';
+            section.id = `section-${cls.toLowerCase().replace(/\s+/g, '-')}`;
+            section.style.display =
+              cls === classFilter || classFilter === 'ALL' ? 'block' : 'none';
+
+            const entries = (
+              cls === 'ALL' ? filtered : [...(byClass[cls] || [])]
+            )
+              .filter((d) => d.date)
+              .sort((a, b) => b.date.localeCompare(a.date));
+
+            entries.forEach((entry) => {
+              const div = document.createElement('div');
+              div.style.marginBottom = '20px';
+
+              const content = buildPatentHTML(entry);
+              const line = document.createElement('div');
+              line.className = 'paperclick';
+              line.textContent = content;
+
+              div.appendChild(line);
+              section.appendChild(div);
+            });
+
+            contentContainer.appendChild(section);
+          });
+        };
+
+        render();
       });
 
     function groupBy(arr, key) {
@@ -149,7 +219,6 @@ permalink: /publications_d/
       const country = entry.country_code || '';
       const number = entry.number || '';
       const date = formatDate(entry.date);
-
       const segments = [];
 
       if (authors) segments.push(`${authors}.`);
