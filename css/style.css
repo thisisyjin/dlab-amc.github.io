@@ -1574,11 +1574,11 @@ a.paperclick:hover {
 
 /* nav-link css 적용  */
 
-.nav-container {
+/* .nav-container {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
-}
+} 
 
 .nav-link {
   display: block;
@@ -1592,14 +1592,40 @@ a.paperclick:hover {
   color: #445353;
   transition: background-color 0.3s, color 0.3s;
   width: 200px;
-  /* Set a fixed width for all nav-link boxes */
   margin: 5px;
   box-sizing: border-box;
-  /* Use border-box to include padding and border in width calculation */
   border: 1px solid rgba(201, 188, 206, 0.15);
   padding: 20px;
   height: 100%;
   box-shadow: 0px 0px 10px 5px rgba(201, 188, 206, 0.15);
+}
+*/
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: #445353;
+  background: #fff;
+  border: 1px solid rgba(201, 188, 206, 0.15);
+  border-radius: 12px;
+  box-shadow: 0 0 10px 5px rgba(201, 188, 206, 0.15);
+  width: 130px;
+  height: 100px;
+  justify-content: center;
+  padding: 10px;
+  transition: all 0.3s;
 }
 
 .nav-link:hover {
