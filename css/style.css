@@ -188,6 +188,10 @@ blockquote {
   padding: 1em 0 1em 2em;
 }
 
+em {
+  font-style: italic !important;
+}
+
 /* Section/Article */
 
 section.special,
