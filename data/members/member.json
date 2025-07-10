@@ -1,16 +1,5 @@
 [
   {
-    "profile_image": "/data/members/images/members/profile_image-1752141165050-188921858.png",
-    "hover_image": "/data/members/images/members/hover_image-1752141165055-331322765.png",
-    "role": "Researcher",
-    "name_eng": "Tester",
-    "degree": "B.Sc",
-    "email": "test@mail.com",
-    "tags": "#Test #Text #Research",
-    "profile_description": "Researcher Test",
-    "contents": ""
-  },
-  {
     "profile_image": "/images/members/신항식.jpg",
     "hover_image": "/images/members/egg_신항식2.PNG",
     "role": "Principal Investigator",
