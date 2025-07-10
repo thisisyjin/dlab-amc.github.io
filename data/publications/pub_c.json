@@ -4531,30 +4531,5 @@
     "contents_prev": "Jaehyung Lee, Oh-Seok Kwon, Hui-Nam Pak, Hangsik Shin, “Prediction of Atrial Fibrillation Type and Recurrence Using a Multi-task Learning Model,” The 65th Korea Society of Medical and Biological Engineering Spring Conference 2025, Jeju Lotte Hotel, Jeju Island, Republic of Korea, 8-10 May 2025. ",
     "is_prev": true,
     "authors_text": "Lee J, Kwon O, Pak H, Shin H"
-  },
-  {
-    "_id": "686f9882a350dcb7101b830b",
-    "category": "conference",
-    "class": "International",
-    "date": "2025-06-01",
-    "end_date": "2025-06-03",
-    "author_kor": "이연진; 전경인",
-    "author_eng": "Yeonjin Lee; Kyungin Jeon",
-    "title_kor": "제목 테스트",
-    "title_eng": "Test Title",
-    "conference_kor": "학회 테스트",
-    "conference_eng": "Test Conference ",
-    "place_kor": "테스트 장소",
-    "place_eng": "Test Place",
-    "acknowledgements": "RS-123-4567",
-    "contents": "Lee Y, Jeon K. Test Title. Test Conference. 2025 Jun 1-3; Test Place; 2025.",
-    "state": "complete",
-    "link": "https://example.com",
-    "authors": [
-      "68622d801ea1bf5301056996",
-      "68622d801ea1bf5301056994"
-    ],
-    "__v": 0,
-    "authors_text": "Lee Y, Jeon K"
   }
 ]

@@ -145,7 +145,7 @@
     "id": "fb68311e-5892-4acf-8beb-3903f421a8a0",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH"
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b765",
@@ -218,7 +218,7 @@
     "id": "7fece762-85cc-4c24-9624-c27843c785ef",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH"
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b768",
@@ -241,7 +241,7 @@
     "id": "e401d263-72e8-4304-a79d-d829488b7d8d",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "SHIN HS, Wang C, Lee J, Joo SW, Lim H, "
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b769",
@@ -289,7 +289,7 @@
     "id": "3312af4f-0f30-450f-a561-5e27deb07417",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH"
+    "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76b",
@@ -7634,82 +7634,5 @@
     "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A",
     "author_eng": "Hangsik Shin;Junyung Park;Donggeun Roh;Yongsoon Choi;Doyu Kim;Ahyoung Choi",
     "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영"
-  },
-  {
-    "_id": "686f9913a350dcb7101b835c",
-    "category": "patent",
-    "class": "International",
-    "country_kor": "대한민국",
-    "country_eng": "Korea",
-    "country_code": "KR",
-    "date": "2025-06-01",
-    "author_kor": "이연진; 석현석; 전경인",
-    "author_eng": "Yeonjin Lee; Hyeon Seok Seok; Kyungin Jeon",
-    "title_kor": "제목 테스트",
-    "title_eng": "Title Test",
-    "acknowledgements": "RS-123-4567",
-    "contents": "Lee Y, Seok HS, Jeon K. Title Test. KR C-2025-002262, 2025 Jun 1.",
-    "state": "complete",
-    "link": "https://example.com",
-    "patent_state": "granted",
-    "number": "C-2025-002262",
-    "authors": [
-      "68622d801ea1bf5301056996",
-      "68622d801ea1bf5301056995",
-      "68622d801ea1bf5301056994"
-    ],
-    "__v": 0,
-    "authors_text": ""
-  },
-  {
-    "_id": "686f9b4384b966f967501b08",
-    "category": "patent",
-    "class": "International Design",
-    "country_kor": "영국",
-    "country_eng": "UK",
-    "country_code": "UK",
-    "date": "2025-05-30",
-    "author_kor": "이연진; 한유진; 이재형",
-    "author_eng": "Yeonjin Lee; Yu Jin Han; Jaehyung Lee",
-    "title_kor": "제목 테스트 123",
-    "title_eng": "Test Title 123",
-    "acknowledgements": "RS-123-45671",
-    "contents": "Lee Y, Han YJ, Lee J. Test Title 123. UK 10-2023-0147182, 2025 May 30.",
-    "state": "complete",
-    "patent_state": "filed",
-    "number": "10-2023-0147182",
-    "authors": [
-      "68622d801ea1bf5301056996",
-      "68622d801ea1bf530105698e",
-      "68622d801ea1bf530105698c"
-    ],
-    "__v": 0,
-    "authors_text": ""
-  },
-  {
-    "_id": "686f9b6284b966f967501b1a",
-    "category": "patent",
-    "class": "Registered SW",
-    "country_kor": "대한민국",
-    "country_eng": "South Korea",
-    "country_code": "KR",
-    "date": "2025-07-01",
-    "author_kor": "전경인; 이연진; 민진홍",
-    "author_eng": "Kyungin Jeon; Yeonjin Lee; Jinhong Min",
-    "title_kor": "제목 테스트 321",
-    "title_eng": "Test Title 321",
-    "acknowledgements": "RS-123-45671",
-    "contents": "Jeon K, Lee Y, Min J. Test Title 321. KR C-2025-002262, 2025 Jul 1.",
-    "state": "complete",
-    "link": "https://example.com",
-    "patent_state": "granted",
-    "number": "C-2025-002262",
-    "authors": [
-      "68622d801ea1bf5301056994",
-      "68622d801ea1bf5301056996",
-      "68622d801ea1bf5301056a6c"
-    ],
-    "__v": 0,
-    "authors_text": ""
   }
 ]
