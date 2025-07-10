@@ -12,68 +12,47 @@ permalink: /publications_s/
 
   <!-- 상단 nav 탭 -->
   <section class="wrapper style1 container special nav-container">
-    <div class="row" id="research-row">
-      <section id="nav-link-first">
-        <ul>
-          <li>
-            <a href="{{site.baseurl}}/publications_j" class="nav-link"
-              ><span class="icon fa-solid fa-book"></span>Journal</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
-            <a href="{{site.baseurl}}/publications_c" class="nav-link"
-              ><span class="icon fa-solid fa-building-columns"></span
-              >Conference</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
-            <a href="{{site.baseurl}}/publications_p" class="nav-link"
-              ><span class="icon fa-regular fa-copyright"></span>Patent</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
-            <a href="{{site.baseurl}}/publications_d" class="nav-link"
-              ><span class="icon fa-solid fa-pen-nib"></span>Design</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section>
-        <ul>
-          <li>
-            <a href="{{site.baseurl}}/publications_s" class="nav-link active"
-              ><span class="icon fa-brands fa-uncharted"></span>S/W</a
-            >
-          </li>
-        </ul>
-      </section>
-    </div>
+    <ul class="nav-container">
+      <li class="nav-item">
+        <a href="{{site.baseurl}}/publications_j" class="nav-link">
+          <span class="icon fa-solid fa-book"></span>Journal
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{site.baseurl}}/publications_c" class="nav-link">
+          <span class="icon fa-solid fa-building-columns"></span>Conference
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{site.baseurl}}/publications_p" class="nav-link">
+          <span class="icon fa-regular fa-copyright"></span>Patent
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{site.baseurl}}/publications_d" class="nav-link">
+          <span class="icon fa-solid fa-pen-nib"></span>Design
+        </a>
+      </li>
+      <li class="nav-item">
+        <a href="{{site.baseurl}}/publications_s" class="nav-link active">
+          <span class="icon fa-brands fa-uncharted"></span>S/W
+        </a>
+      </li>
+    </ul>
   </section>
 
   <!-- 상단 상태 필터 -->
   <div
     class="wrapper style2 container"
-    style="margin-top: 1em; margin-bottom: -1em"
+    style="margin-top: -1em; margin-bottom: 0"
   >
-    <div class="patent-tab-container" style="text-align: center">
+    <div class="patent-tab-container">
       <a href="#" class="patent-tab active" data-state="granted">Granted</a>
       <a href="#" class="patent-tab" data-state="filed">Filed</a>
     </div>
   </div>
 
-  <!-- 본문 -->
+  <!-- 콘텐츠 -->
   <section class="wrapper style4 container">
     <div class="row oneandhalf">
       <div class="2u">
@@ -94,7 +73,9 @@ permalink: /publications_s/
             margin-top: 1.5em;
             padding: 1.5em 1em;
           "
-        ></div>
+        >
+          <!-- SW 리스트 렌더링 -->
+        </div>
       </div>
     </div>
   </section>
