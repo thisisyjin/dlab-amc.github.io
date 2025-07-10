@@ -11,13 +11,15 @@
     "title_kor": "복수의 3차원 데이터를 3차원 그래프 정보로 통합 변환하는 프로그램",
     "title_eng": "복수의 3차원 데이터를 3차원 그래프 정보로 통합 변환하는 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "korea",
+    "country_eng": "South Korea",
     "number": "C-2025-002262",
     "acknowledgements": "RS-2022-00141473",
     "class": "Registered SW",
     "contents": "복수의 3차원 데이터를 3차원 그래프 정보로 통합 변환하는 프로그램, Granted (No: C-2025-002262, Date: 2025/01/15).",
+    "state": "complete",
     "id": "56050b92-dd16-4742-a9de-5a2530fed2c8",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Lee J"
   },
   {
@@ -32,13 +34,15 @@
     "title_kor": "블루투스 기반 실내 위치 추정 정확도 향상을 위한 방법",
     "title_eng": "Method for Improving indoor positioning Accuracy based ob bluetooth",
     "country_kor": "대한민국",
-    "country_eng": "Korea",
+    "country_eng": "South Korea",
     "number": "10-2024-0201045",
     "acknowledgements": "HI22C1668; HR20C0026",
     "class": "Domestic",
     "contents": "Method for Improving indoor positioning Accuracy based ob bluetooth, Filed (No: 10-2024-0201045, Date: 2024/12/30).",
+    "state": "complete",
     "id": "f6f4aaf9-2e48-49d7-8ee2-babcf0cb65b7",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "이재형, 신항식, 임하민, 왕창원"
   },
   {
@@ -53,13 +57,15 @@
     "title_kor": "통증평가모델 생성 장치, 통증평가모델 생성 방법 및 이를 수행하는 프로그램이 저장된 기록 매체",
     "title_eng": "An apparatus for creating a pain assessment model, method for creating a pain assessment model and computer readable recording medium",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2024-0053680",
     "acknowledgements": "HR20C0026010023",
     "class": "Domestic",
     "contents": "An apparatus for creating a pain assessment model, method for creating a pain assessment model and computer readable recording medium, Filed (No: 10-2024-0053680, Date: 2024/04/22).",
+    "state": "complete",
     "id": "3f037504-428d-406c-9c76-7d0fde04eb4c",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Choi B, Choi JM, Ryu G"
   },
   {
@@ -74,13 +80,15 @@
     "title_kor": "심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션",
     "title_eng": "심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2023-059443",
     "acknowledgements": "HR20C0026",
     "class": "Registered SW",
     "contents": "심박수, 가속도, 실내 위치 정보 측정을 위한 웨어러블 기기 어플리케이션, Granted (No: C-2023-059443, Date: 2023/12/13).",
+    "state": "complete",
     "id": "d9faa601-2a16-4028-bf71-11ab78b22a2e",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "신항식, 왕창원, 임하민"
   },
   {
@@ -95,13 +103,15 @@
     "title_kor": "생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램",
     "title_eng": "생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2023-059444",
     "acknowledgements": "HR20C0026",
     "class": "Registered SW",
     "contents": "생체정보 및 위치정보 수집, 사용자 위험 분석, 알람 제어를 위한 서버 프로그램, Granted (No: C-2023-059444, Date: 2023/12/13).",
+    "state": "complete",
     "id": "647f9bd0-aa84-41ba-a6c4-99eeb0554b61",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "신항식, 왕창원, 임하민"
   },
   {
@@ -116,13 +126,15 @@
     "title_kor": "이소성 박동 교정 프로그램",
     "title_eng": "A program for correcting ectopic heart beat",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2023-060553",
     "acknowledgements": "RS-2022-00141473",
     "class": "Registered SW",
     "contents": "A program for correcting ectopic heart beat, Granted (No: C-2023-060553, Date: 2023/12/15).",
+    "state": "complete",
     "id": "fb68311e-5892-4acf-8beb-3903f421a8a0",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Sik SH"
   },
   {
@@ -137,13 +149,15 @@
     "title_kor": "3차원 그래프 데이터 변환 프로그램",
     "title_eng": "A program for converting three-dimensional graph data",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2023-060554",
     "acknowledgements": "RS-2022-00141473",
     "class": "Registered SW",
     "contents": "A program for converting three-dimensional graph data, Granted (No: C-2023-060554, Date: 2023/12/15).",
+    "state": "complete",
     "id": "71830e62-250c-4957-848f-9deddca9ec65",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "신항식, 이재형"
   },
   {
@@ -158,13 +172,15 @@
     "title_kor": "사용자 생체정보 및 위치정보 모니터링, 위험 알림을 위한 웹 응용프로그램",
     "title_eng": "사용자 생체정보 및 위치정보 모니터링, 위험 알림을 위한 웹 응용프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2023-059445",
     "acknowledgements": "HI22C1668",
     "class": "Registered SW",
     "contents": "사용자 생체정보 및 위치정보 모니터링, 위험 알림을 위한 웹 응용프로그램, Granted (No: C-2023-059445, Date: 2023/12/13).",
+    "state": "complete",
     "id": "8b8fb1d8-4152-49c6-b141-74e4f4dc7e55",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "신항식, 왕창원, 임하민"
   },
   {
@@ -179,13 +195,15 @@
     "title_kor": "보간 위치 및 보간 샘플 수를 이용하여 심장 박동을 보간하는 전자 장치 및 이의 이소성 박동 교정 방법",
     "title_eng": "ELECTRONIC DEVICE FOR INTERPOLATING HEART RATE USING\n INTERPOLATED POSITION AND NUMBER OF INTERPOLATED SAMPLES AND METHOD FOR CORRECTING ECTOPIC RHYTHM THEREOF",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2023-0147182",
     "acknowledgements": "RS-2022-00141473;HR20C0026",
     "class": "Domestic",
     "contents": "ELECTRONIC DEVICE FOR INTERPOLATING HEART RATE USING\n INTERPOLATED POSITION AND NUMBER OF INTERPOLATED SAMPLES AND METHOD FOR CORRECTING ECTOPIC RHYTHM THEREOF, Filed (No: 10-2023-0147182, Date: 2023/10/30).",
+    "state": "complete",
     "id": "7fece762-85cc-4c24-9624-c27843c785ef",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Sik SH"
   },
   {
@@ -200,13 +218,15 @@
     "title_kor": "보호시설내 보호 대상자 위험 알람 프로토콜",
     "title_eng": "monitoring system for people in the facility",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2023-0197490",
     "acknowledgements": "HI22C1668",
     "class": "Domestic",
     "contents": "monitoring system for people in the facility, Filed (No: 10-2023-0197490, Date: 2023/12/29).",
+    "state": "complete",
     "id": "e401d263-72e8-4304-a79d-d829488b7d8d",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "SHIN HS, Wang C, Lee J, Joo SW, Lim H, "
   },
   {
@@ -221,13 +241,15 @@
     "title_kor": "대동맥 압력 파형을 추정하는 방법 및 장치",
     "title_eng": "A method and an apparatus for estimating the aortic pressure waveform",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2023-0145004",
     "acknowledgements": "RS-2022-00141473",
     "class": "Domestic",
     "contents": "A method and an apparatus for estimating the aortic pressure waveform, Filed (No: 10-2023-0145004, Date: 2023/10/26).",
+    "state": "complete",
     "id": "8a4d751d-b46f-47e2-afbe-5e52dda4b5ed",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Sik SH"
   },
   {
@@ -242,13 +264,15 @@
     "title_kor": "준주기적 생체 신호 파형을 복원하기 위한 파형 복원 모델 학습 방법 및 장치",
     "title_eng": "METHOD AND APPARATUS FOR TRAINING WAVEFORM RESTORATION MODEL TO RESTORE QUASI-PERIODIC BIOSIGNAL WAVEFORMS",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2023-0136907",
     "acknowledgements": "HI22C1668;HR20C0026",
     "class": "Domestic",
     "contents": "METHOD AND APPARATUS FOR TRAINING WAVEFORM RESTORATION MODEL TO RESTORE QUASI-PERIODIC BIOSIGNAL WAVEFORMS, Filed (No: 10-2023-0136907, Date: 2023/10/13).",
+    "state": "complete",
     "id": "3312af4f-0f30-450f-a561-5e27deb07417",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Sik SH"
   },
   {
@@ -263,12 +287,14 @@
     "title_kor": "웨어러블 기기용 심박수, 가속도 신호 측정, 전송 프로그램",
     "title_eng": "Heart rate, acceleration signal measurement, transmission program for wearable devices",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2023-023411",
     "class": "Registered SW",
     "contents": "Heart rate, acceleration signal measurement, transmission program for wearable devices, Granted (No: C-2023-023411, Date: 2023/05/25).",
+    "state": "complete",
     "id": "55078441-f6a7-4eac-ad08-c10488c2a1aa",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "아산사회복지재단 재, 산학협력단 울, 산학협력단 가"
   },
   {
@@ -283,11 +309,13 @@
     "title_kor": "웹 기반 생체정보 디스플레이 프로그램",
     "title_eng": "Web-based biosignal display program",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "acknowledgements": "C-2023-023410",
     "class": "Registered SW",
+    "state": "complete",
     "id": "aa2c9aaf-e5d8-4595-9290-e5da3e26e0a0",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "아산사회복지재단 재, 산학협력단 울, 산학협력단 가"
   },
   {
@@ -302,12 +330,14 @@
     "title_kor": "심박수와 가속도 신호 저장 및 전송을 위한 서버 프로그램",
     "title_eng": "Server program for storing and transmitting heart rate and acceleration signals",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2023-023409",
     "class": "Registered SW",
     "contents": "Server program for storing and transmitting heart rate and acceleration signals, Granted (No: C-2023-023409, Date: 2023/05/25).",
+    "state": "complete",
     "id": "62eac829-8ba2-4a31-9cbd-7b4f5a15db39",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "아산사회복지재단 재, 산학협력단 울, 산학협력단 가"
   },
   {
@@ -322,12 +352,14 @@
     "title_kor": "외장 기기, 운영상 외장 기기, 호스트 디바이스, 관리 서버와 외장 기기의 방법을 다루는 방법",
     "title_eng": "METHOD OF MANAGING EXTERNAL DEVICES, METHOD OF OPERATING EXTERNAL DEVICE, HOST DEVICE, MANAGEMENT SERVER, AND EXTERNAL DEVICE ",
     "country_kor": "미국",
-    "country_eng": "USA",
+    "country_eng": "United States of America",
     "number": "17342860",
     "class": "International",
     "contents": "METHOD OF MANAGING EXTERNAL DEVICES, METHOD OF OPERATING EXTERNAL DEVICE, HOST DEVICE, MANAGEMENT SERVER, AND EXTERNAL DEVICE, Filed (No: 17342860, Date: 2021/06/09).",
+    "state": "complete",
     "id": "2c198d4c-d78c-4f49-8f4a-083a9462b0e7",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -342,13 +374,15 @@
     "title_kor": "연속맥파 도달시간 기반 혈압 추정 방법 및 그 방법을 수행 하는 서버",
     "title_eng": "Method for blood pressure estimation based on continuous pulse transit time and a server performing the method",
     "country_kor": "대한민국",
-    "country_eng": "Korea",
+    "country_eng": "South Korea",
     "number": "10-2023-0012121",
     "acknowledgements": "2018R1D1A3B07046442",
     "class": "Domestic",
     "contents": "Method for blood pressure estimation based on continuous pulse transit time and a server performing the method, Filed (No: 10-2023-0012121, Date: 2023/01/30).",
+    "state": "complete",
     "id": "fc03d603-79e0-45f6-a92c-155613ea8fe1",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Sik SH"
   },
   {
@@ -363,13 +397,15 @@
     "title_kor": "생체신호 품질 평가 방법 및 장치",
     "title_eng": "Method and apparatus for bio-signal quality evaluation",
     "country_kor": "대한민국",
-    "country_eng": "Korea",
+    "country_eng": "South Korea",
     "number": "10-2023-0012122",
     "acknowledgements": "2018R1D1A3B07046442",
     "class": "Domestic",
     "contents": "Method and apparatus for bio-signal quality evaluation, Filed (No: 10-2023-0012122, Date: 2023/01/30).",
+    "state": "complete",
     "id": "00c11128-93cb-42b0-b955-7e9d364d107c",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Sik SH"
   },
   {
@@ -384,13 +420,15 @@
     "title_kor": "생리적 나이 추정 방법 및 장치",
     "title_eng": "Method and apparatus for physiological aging estimation",
     "country_kor": "대한민국",
-    "country_eng": "Korea",
+    "country_eng": "South Korea",
     "number": "10-2023-0007614",
     "acknowledgements": "2018R1D1A3B07046442",
     "class": "Domestic",
     "contents": "Method and apparatus for physiological aging estimation, Filed (No: 10-2023-0007614, Date: 2023/01/18).",
+    "state": "complete",
     "id": "a21dc4b9-d781-4382-b08e-add9fedaf479",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Sik SH"
   },
   {
@@ -410,8 +448,10 @@
     "acknowledgements": "NRF-2016M3A9F1941328",
     "class": "Domestic",
     "contents": "압력 및 맥파에 기반한 평균동맥압 추정 방법 및 장치, Granted (No: 10-2431521, Date: 2022/08/08).",
+    "state": "complete",
     "id": "8bca95f2-8ec3-44ab-a585-64db04b28408",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -431,8 +471,10 @@
     "acknowledgements": "삼성전자",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 11,056,234 B2, Date: 2021/06/06).",
+    "state": "complete",
     "id": "5357d1ab-9cf8-4127-8841-8d5afabe14bb",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -452,8 +494,10 @@
     "acknowledgements": "삼성전자",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 16/654,266, Date: 2019/10/16).",
+    "state": "complete",
     "id": "83a8142f-317c-4c4f-af0e-7a0e5dc2423c",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -473,8 +517,10 @@
     "acknowledgements": "삼성전자",
     "class": "International",
     "contents": "Electronic apparatus and method of outputting content by the electronic apparatus, Granted (No: US 11,051,147 B2 , Date: 2021/06/29).",
+    "state": "complete",
     "id": "ebf4813c-4c3a-4768-8417-af5040b67bfd",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D"
   },
   {
@@ -494,8 +540,10 @@
     "acknowledgements": "삼성전자",
     "class": "International",
     "contents": "Electronic apparatus and method of outputting content by the electronic apparatus, Filed (No: 16/730,078, Date: 2019/12/30).",
+    "state": "complete",
     "id": "e7e11587-a311-4743-9a43-0b78bdf5bb18",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D"
   },
   {
@@ -510,13 +558,15 @@
     "title_kor": "공기 진동 전달형 다중 배열 압력 센서 및 이를 포함하는 웨어러블 장치",
     "title_eng": "A multi-array pressure sensor with air vibration transmission type and wearable deivce comprising the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0193739",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "A multi-array pressure sensor with air vibration transmission type and wearable deivce comprising the same, Filed (No: 10-2021-0193739, Date: 2021/12/31).",
+    "state": "complete",
     "id": "3eb391b0-6b48-4486-83bc-179300e01f6a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Choi Y, Jung J"
   },
   {
@@ -531,13 +581,15 @@
     "title_kor": "광용적맥파를 이용한 통증 분류 방법 및 장치",
     "title_eng": "A method and apparauts for classifying pain using photoplethysmograph",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2321653",
     "acknowledgements": "1711074231",
     "class": "Domestic",
     "contents": "A method and apparauts for classifying pain using photoplethysmograph, Granted (No: 10-2321653, Date: 2021/10/29).",
+    "state": "complete",
     "id": "4173ebdb-f818-486d-bfb6-bee33fc3e13f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Noh G, Choi B"
   },
   {
@@ -552,13 +604,15 @@
     "title_kor": "광용적맥파를 이용한 통증 분류 방법 및 장치",
     "title_eng": "A method and apparauts for classifying pain using photoplethysmograph",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2019-0100484",
     "acknowledgements": "1711074231",
     "class": "Domestic",
     "contents": "A method and apparauts for classifying pain using photoplethysmograph, Filed (No: 10-2019-0100484, Date: 2019/08/16).",
+    "state": "complete",
     "id": "06c2622b-c8f0-4002-8367-e4abb388bd4b",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Noh G, Choi B"
   },
   {
@@ -573,13 +627,15 @@
     "title_kor": "광용적맥파의 품질 평가 방법 및 장치",
     "title_eng": "A method and apparatus for quality evaluation of photoplethysmography",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0193461",
     "acknowledgements": "1425153809",
     "class": "Domestic",
     "contents": "A method and apparatus for quality evaluation of photoplethysmography, Filed (No: 10-2021-0193461, Date: 2021/12/30).",
+    "state": "complete",
     "id": "e4a56844-65c7-4f83-b203-e9362104a8a8",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -594,13 +650,15 @@
     "title_kor": "광용적맥파의 입사파와 반사파를 사용한 혈관노화 평가 방법 및 장치",
     "title_eng": "A method and apparatus for vascular aging assessment model Based on photoplethysmogram incident and reflected wave",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0193460",
     "acknowledgements": "1345313795",
     "class": "Domestic",
     "contents": "A method and apparatus for vascular aging assessment model Based on photoplethysmogram incident and reflected wave, Filed (No: 10-2021-0193460, Date: 2021/12/30).",
+    "state": "complete",
     "id": "fe8e7c61-da65-408b-a6a6-ac8ebcd4a82a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J"
   },
   {
@@ -615,13 +673,15 @@
     "title_kor": "스태킹 콘 시스템",
     "title_eng": "Stacking cone system",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2310788",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "Stacking cone system, Granted (No: 10-2310788, Date: 2021/10/01).",
+    "state": "complete",
     "id": "2e0fbd54-d86b-4614-99dc-7a71f8ed4149",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -636,13 +696,15 @@
     "title_kor": "스태킹 콘 시스템",
     "title_eng": "Stacking cone system",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0051013",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "Stacking cone system, Published (No: 10-2021-0051013, Date: 2021/05/10).",
+    "state": "complete",
     "id": "fec326cf-165f-4f5d-ae92-06bb61090a14",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -656,14 +718,16 @@
     "inventor_eng": "Hangsik Shin;Danbi Gwon",
     "title_kor": "허리밴드형 웨어러블 심전도 측정 장치 및 이를 이용한 심박 측정 방법 및 장치",
     "title_eng": "A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same",
-    "country_kor": "국제사무국",
-    "country_eng": "PCT",
+    "country_kor": "세계지식재산권기구",
+    "country_eng": "IMCF",
     "number": "PCT/KR2021/002702",
     "acknowledgements": "1711074231",
     "class": "International",
     "contents": "A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same, Filed (No: PCT/KR2021/002702, Date: 2021/03/04).",
+    "state": "complete",
     "id": "64c036ed-d796-4f21-8f8c-d032f80a01da",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Gwon D"
   },
   {
@@ -677,14 +741,16 @@
     "inventor_eng": "Hangsik Shin;JiYoen Yim;Byungmoon Choi;Gyujeong Noh",
     "title_kor": "PPG 기반 스펙트로그램 및 CNN에 기반하는 통증 평가 방법 및 장치",
     "title_eng": "A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network",
-    "country_kor": "국제사무국",
-    "country_eng": "PCT",
+    "country_kor": "세계지식재산권기구",
+    "country_eng": "IMCF",
     "number": "PCT/KR2021/002696",
     "acknowledgements": "1711074231",
     "class": "International",
     "contents": "A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: PCT/KR2021/002696, Date: 2021/03/04).",
+    "state": "complete",
     "id": "4976a23d-976f-42b5-9a57-828d963d0dd5",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Yim J, Choi B, Noh G"
   },
   {
@@ -699,13 +765,15 @@
     "title_kor": "힘 센서에 기반하여 각성 및 호흡률을 검출하기 위한 방법 및 장치",
     "title_eng": "A method and apparatus for detecting awakening and respiration rate based on force-sensor",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2221370",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "A method and apparatus for detecting awakening and respiration rate based on force-sensor, Granted (No: 10-2221370, Date: 2021/02/23).",
+    "state": "complete",
     "id": "3fa1e816-8085-43a5-bdf6-7afda40f4bf9",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park S"
   },
   {
@@ -719,14 +787,16 @@
     "inventor_eng": "Hangsik Shin;Junyung Park;Donggeun Roh;Yongsoon Choi;Doyu Kim;Ahyoung Choi",
     "title_kor": "다중 배열 압력 센서를 포함하는 웨어러블 혈압 측정 장치",
     "title_eng": "Wearable blood pressure measuring device with multi-array pressure sensors",
-    "country_kor": "국제사무국",
-    "country_eng": "PCT",
+    "country_kor": "세계지식재산권기구",
+    "country_eng": "IMCF",
     "number": "PCT/KR2021/001864",
     "acknowledgements": "1711046913",
     "class": "International",
     "contents": "Wearable blood pressure measuring device with multi-array pressure sensors, Filed (No: PCT/KR2021/001864, Date: 2021/02/15).",
+    "state": "complete",
     "id": "78c2ce35-58a4-4af5-8677-f6ce2df6803d",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A"
   },
   {
@@ -740,14 +810,16 @@
     "inventor_eng": "Hangsik Shin;Danbi Gwon",
     "title_kor": "휴대용 웨어러블 호흡 모니터링 장치 및 이를 포함하는 마스크",
     "title_eng": "Portable wearable respiratory monitoring unit and mask comprising the same",
-    "country_kor": "국제사무국",
-    "country_eng": "PCT",
+    "country_kor": "세계지식재산권기구",
+    "country_eng": "IMCF",
     "number": "PCT/KR2021/001632",
     "acknowledgements": "1711074231",
     "class": "International",
     "contents": "Portable wearable respiratory monitoring unit and mask comprising the same, Filed (No: PCT/KR2021/001632, Date: 2021/02/08).",
+    "state": "complete",
     "id": "1b25019e-5e44-4de9-b10d-c94355d27674",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Gwon D"
   },
   {
@@ -762,13 +834,15 @@
     "title_kor": "PPG 기반 스펙트로그램 및 CNN에 기반하는 통증 평가 방법 및 장치",
     "title_eng": "A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0017756",
     "acknowledgements": "1711074231",
     "class": "Domestic",
     "contents": "A method and apparatus for pain assessment based on a photoplethysmographic based spectrogram and convolutional neural network, Filed (No: 10-2021-0017756, Date: 2021/02/08).",
+    "state": "complete",
     "id": "72fa4a5f-5287-4140-a8ca-b20d3cb21184",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Yim J, Choi B, Noh G"
   },
   {
@@ -783,13 +857,15 @@
     "title_kor": "허리밴드형 웨어러블 심전도 측정 장치 및 이를 이용한 심박 측정 방법 및 장치",
     "title_eng": "A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0016604",
     "acknowledgements": "1711074231",
     "class": "Domestic",
     "contents": "A waistband wearable electrocardiogram measuring apparatus and method and apparatus for heart rate measurement using the same, Filed (No: 10-2021-0016604, Date: 2021/02/05).",
+    "state": "complete",
     "id": "864acce6-7ca3-49af-89a9-6ef916f58d24",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Gwon D"
   },
   {
@@ -804,13 +880,15 @@
     "title_kor": "휴대용 웨어러블 호흡 모니터링 장치 및 이를 포함하는 마스크",
     "title_eng": "Portable wearable respiratory monitoring unit and mask comprising the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0012631",
     "acknowledgements": "1711074231",
     "class": "Domestic",
     "contents": "Portable wearable respiratory monitoring unit and mask comprising the same, Filed (No: 10-2021-0012631, Date: 2021/01/28).",
+    "state": "complete",
     "id": "dfdea2b9-0376-4b00-a168-344daf816500",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Gwon D"
   },
   {
@@ -825,13 +903,15 @@
     "title_kor": "다중배열 압력센서를 포함하는 장치 및 이를 포함하는 웨어러블 기기",
     "title_eng": "Apparatus comprising multiple array of pressure sensors and device comprising the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2021-0012642",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Apparatus comprising multiple array of pressure sensors and device comprising the same, Filed (No: 10-2021-0012642, Date: 2021/01/28).",
+    "state": "complete",
     "id": "2e52b971-68a6-477e-81f9-d75c4c9ab47a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A"
   },
   {
@@ -846,13 +926,15 @@
     "title_kor": "상태 분류기 생성 방법 및 이를 이용한 보행상태 판단 방법",
     "title_eng": "Method for generating of state classifier and for deciding walking state using the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2199341",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Method for generating of state classifier and for deciding walking state using the same, Granted (No: 10-2199341, Date: 2020/12/30).",
+    "state": "complete",
     "id": "9894a82e-6c28-4113-a803-3064e7416304",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Lee J, Park S"
   },
   {
@@ -867,13 +949,15 @@
     "title_kor": "복수 사용자의 심박변이도 동시 계산 매트랩 그래픽유저인터페이스(MATLAB GUI)",
     "title_eng": "복수 사용자의 심박변이도 동시 계산 매트랩 그래픽유저인터페이스(MATLAB GUI)",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2020-042004",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "복수 사용자의 심박변이도 동시 계산 매트랩 그래픽유저인터페이스(MATLAB GUI), Granted (No: C-2020-042004, Date: 2020/11/16).",
+    "state": "complete",
     "id": "8d19fdd5-145a-4d53-8ccc-a844edab13b7",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -888,13 +972,15 @@
     "title_kor": "마스크 부착형 호흡 모니터링 장치 및 시스템",
     "title_eng": "Mask-attached breath monitoring apparatus and system",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2020-0110037",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Mask-attached breath monitoring apparatus and system, Filed (No: 10-2020-0110037, Date: 2020/08/31).",
+    "state": "complete",
     "id": "e5b7bbbf-2106-47d0-8d53-0d704e0b2008",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Gwon D"
   },
   {
@@ -914,8 +1000,10 @@
     "acknowledgements": "사사확인 불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Granted (No: US 10,460,597 B2, Date: 2019/10/29).",
+    "state": "complete",
     "id": "bc53d806-6056-4f67-bf0a-efe82ec8d77a",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -935,8 +1023,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Filed (No: 15/801,417, Date: 2017/11/02).",
+    "state": "complete",
     "id": "2435e0cf-ebb5-463f-a4b8-f091646a8c07",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -956,8 +1046,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Granted (No: US 10,485,041 B1, Date: 2019/11/19).",
+    "state": "complete",
     "id": "c53efa90-1880-4473-b172-83a08175c175",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -977,8 +1069,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Filed (No: 16/546,073, Date: 2019/08/20).",
+    "state": "complete",
     "id": "c91ed8df-bb2b-43dd-98ec-27987cedc6d4",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -998,8 +1092,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Granted (No: US 10,720,046 B2, Date: 2020/07/21).",
+    "state": "complete",
     "id": "12bc44fe-502b-4ff1-bd05-3cd425865cfa",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -1019,8 +1115,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Filed (No: 16/535,748, Date: 2019/08/08).",
+    "state": "complete",
     "id": "bfc8c9f3-b6a7-4163-a01a-6b606053ec0c",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -1034,14 +1132,16 @@
     "inventor_eng": "Hangsik Shin",
     "title_kor": "압력 및 맥파에 기반한 평균동맥압 추정 방법 및 장치",
     "title_eng": "A method and apparatus for estimating mean arterial pressure based on pressure and pulse wave",
-    "country_kor": "국제사무국",
-    "country_eng": "PCT",
+    "country_kor": "세계지식재산권기구",
+    "country_eng": "IMCF",
     "number": "PCT/KR2020/012934",
     "acknowledgements": "1711046913",
     "class": "International",
     "contents": "A method and apparatus for estimating mean arterial pressure based on pressure and pulse wave, Filed (No: PCT/KR2020/012934, Date: 2020/09/24).",
+    "state": "complete",
     "id": "8c017840-c738-43a1-8ad0-72a669d7fa9c",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H"
   },
   {
@@ -1056,13 +1156,15 @@
     "title_kor": "필름형 다채널 압전 센서를 이용한 생체신호 측정 시스템",
     "title_eng": "System for measuring bio signal usingmulti channel piezoelectric sensor of film",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2095356",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "System for measuring bio signal usingmulti channel piezoelectric sensor of film, Granted (No: 10-2095356, Date: 2020/03/25).",
+    "state": "complete",
     "id": "75328e09-2b24-4923-a6d5-419d6d7053c6",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park S"
   },
   {
@@ -1077,13 +1179,15 @@
     "title_kor": "영상의 실물 크기 계산 방법 및 그 시스템",
     "title_eng": "Calculating method of actual size of object and systemthereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-0881958",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Calculating method of actual size of object and systemthereof, Granted (No: 10-0881958, Date: 2009/01/29).",
+    "state": "complete",
     "id": "0ff8db41-3ff3-405f-a09b-eef0b213b3e0",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Lee M, Yoon S, Yoon Y, Shin H, Choo Y, Jeong W"
   },
   {
@@ -1098,13 +1202,15 @@
     "title_kor": "영상의 실물 크기 계산 방법 및 그 시스템",
     "title_eng": "Calculating method of actual size of object and systemthereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2007-0040348",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Calculating method of actual size of object and systemthereof, Filed (No: 10-2007-0040348, Date: 2007/04/25).",
+    "state": "complete",
     "id": "aace2be3-bd38-442a-9f72-fc5e585f0312",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Lee M, Yoon S, Yoon Y, Shin H, Choo Y, Jeong W"
   },
   {
@@ -1119,13 +1225,15 @@
     "title_kor": "터치 스크린을 구비한 기기의 인터페이스 제공 장치 및 방법",
     "title_eng": "Apparatus and method for providing interface in device with touch screen",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1861318",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Apparatus and method for providing interface in device with touch screen, Granted (No: 10-1861318, Date: 2018/05/18).",
+    "state": "complete",
     "id": "d2a2143c-32da-4592-8a88-03a04c9e2a35",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Ahn S"
   },
   {
@@ -1140,13 +1248,15 @@
     "title_kor": "터치 스크린을 구비한 기기의 인터페이스 제공 장치 및 방법",
     "title_eng": "Apparatus and method for providing interface in device with touch screen",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2011-0055691",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Apparatus and method for providing interface in device with touch screen, Filed (No: 10-2011-0055691, Date: 2011/06/09).",
+    "state": "complete",
     "id": "75f338a9-9398-4c3e-9738-345920485222",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Ahn S"
   },
   {
@@ -1161,13 +1271,15 @@
     "title_kor": "전도성 소재를 이용한 손가락 동작 인식 장갑 및 그 방법",
     "title_eng": "Finger movement recognition glove and method using conductive coated material",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1781999",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Finger movement recognition glove and method using conductive coated material, Granted (No: 10-1781999, Date: 2017/09/20).",
+    "state": "complete",
     "id": "4869b5bf-4dc1-422c-86ac-2ee4ca425911",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Park J, Lee J, Ahn S, Jung E"
   },
   {
@@ -1182,13 +1294,15 @@
     "title_kor": "전도성 소재를 이용한 손가락 동작 인식 장갑 및 그 방법",
     "title_eng": "Finger movement recognition glove and method using conductive coated material",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2011-0074508",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Finger movement recognition glove and method using conductive coated material, Filed (No: 10-2011-0074508, Date: 2011/07/27).",
+    "state": "complete",
     "id": "f894c4d6-4500-4fce-afe7-34113df9cfc3",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Park J, Lee J, Ahn S, Jung E"
   },
   {
@@ -1208,8 +1322,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with animated GUI, Granted (No: US D737,278 S, Date: 2015/08/25).",
+    "state": "complete",
     "id": "6fcae3c0-d570-4cf6-8744-8cc4617bbf26",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1229,8 +1345,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with animated GUI, Filed (No: 29/425,927, Date: 2012/06/28).",
+    "state": "complete",
     "id": "b772b2f1-750d-43d1-b5f3-875dcf8ca655",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1250,8 +1368,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with animated GUI, Granted (No: US D738,392 S, Date: 2015/09/08).",
+    "state": "complete",
     "id": "f56aab27-6a2d-4d32-985d-0e7e9dc99971",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1271,8 +1391,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with animated GUI, Filed (No: 29/425,957, Date: 2012/06/28).",
+    "state": "complete",
     "id": "acc22474-6d11-4b00-8627-437a344b086a",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1292,8 +1414,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with GUI, Granted (No: US D739,412 S, Date: 2015/09/22).",
+    "state": "complete",
     "id": "791d3c60-fc61-4ac9-a01e-23a09f22b89f",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1313,8 +1437,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with GUI, Filed (No: 29/425,904, Date: 2012/06/28).",
+    "state": "complete",
     "id": "91d5b450-95be-49cd-9e42-d320f8429ede",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1334,8 +1460,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with GUI, Granted (No: US D739,413 S, Date: 2015/09/22).",
+    "state": "complete",
     "id": "89186b99-3c56-4b0c-a82f-ef27cac950ee",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1355,8 +1483,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with GUI, Filed (No: 29/425,912, Date: 2012/06/28).",
+    "state": "complete",
     "id": "86023da1-0782-41de-b7c1-819048dc7cc8",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1371,13 +1501,15 @@
     "title_kor": "플로팅 사용자 인터페이스 제공 장치 및 방법",
     "title_eng": "Device and method for providing floating user interface",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2013-0107974",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Device and method for providing floating user interface, Published (No: 10-2013-0107974, Date: 2013/10/02).",
+    "state": "complete",
     "id": "13e0178e-5bea-42f2-80da-1b2764c56c5e",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Park J, Yoo H"
   },
   {
@@ -1392,13 +1524,15 @@
     "title_kor": "플로팅 사용자 인터페이스 제공 장치 및 방법",
     "title_eng": "Device and method for providing floating user interface",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2012-0030197",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Device and method for providing floating user interface, Filed (No: 10-2012-0030197, Date: 2012/03/23).",
+    "state": "complete",
     "id": "feb892cd-2b11-4266-9f2a-05ed8ea65f0f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Park J, Yoo H"
   },
   {
@@ -1413,13 +1547,15 @@
     "title_kor": "화상디자인이 표시된 휴대용 단말기",
     "title_eng": "화상디자인이 표시된 휴대용 단말기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0658893",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 휴대용 단말기, Granted (No: 30-0658893, Date: 2012/09/04).",
+    "state": "complete",
     "id": "bfb9f517-d68b-49f2-bcb7-33ec591c6315",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1434,13 +1570,15 @@
     "title_kor": "화상디자인이 표시된 휴대용 단말기",
     "title_eng": "화상디자인이 표시된 휴대용 단말기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0024451",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 휴대용 단말기, Filed (No: 30-2012-0024451, Date: 2012/05/17).",
+    "state": "complete",
     "id": "34b6e352-1d1b-44fc-aafa-84544965c38c",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1455,13 +1593,15 @@
     "title_kor": "화상디자인이 표시된 컴퓨터모니터",
     "title_eng": "화상디자인이 표시된 컴퓨터모니터",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0668901",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 컴퓨터모니터, Granted (No: 30-0668901, Date: 2012/11/14).",
+    "state": "complete",
     "id": "f2cfa816-c6a4-4674-9bdc-bf38f8f35986",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1476,13 +1616,15 @@
     "title_kor": "화상디자인이 표시된 컴퓨터모니터",
     "title_eng": "화상디자인이 표시된 컴퓨터모니터",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0024980",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 컴퓨터모니터, Filed (No: 30-2012-0024980, Date: 2012/05/21).",
+    "state": "complete",
     "id": "0e23a43e-15fa-40dd-809c-6949c7558713",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1502,8 +1644,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Graphical user interface for a display screen or portion thereof, Granted (No: US D727,947 S, Date: 2015/04/28).",
+    "state": "complete",
     "id": "0ca83652-49a5-4f2e-94fd-a4a7ce1600a6",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1523,8 +1667,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Graphical user interface for a display screen or portion thereof, Filed (No: 29/423,286, Date: 2012/05/30).",
+    "state": "complete",
     "id": "539a3f09-4983-440d-bbce-b5a82194cd34",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1544,8 +1690,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Apparatus and method for providing an interface in a device with touch screen, Published (No: US 2012/0315607 A1, Date: 2012/12/13).",
+    "state": "complete",
     "id": "e180f950-e823-4b77-924d-43f4561ee619",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S"
   },
   {
@@ -1565,8 +1713,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Apparatus and method for providing an interface in a device with touch screen, Filed (No: 13/492,705, Date: 2012/06/08).",
+    "state": "complete",
     "id": "c9458666-a640-46fc-80e6-e9da75aaa7d1",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S"
   },
   {
@@ -1586,8 +1736,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Tablet PC with graphical user interface, Granted (No: US D716,829 S, Date: 2014/11/04).",
+    "state": "complete",
     "id": "26c7446b-514c-4ace-be2a-1d9caf0844d6",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1607,8 +1759,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Tablet PC with graphical user interface, Filed (No: 29/425,919, Date: 2012/06/28).",
+    "state": "complete",
     "id": "7e74493b-b3a9-4acb-9d68-ce6a1b83e9a6",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1628,8 +1782,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with an animated graphical user interface, Granted (No: US D718,330 S, Date: 2014/11/25).",
+    "state": "complete",
     "id": "fb0bd990-4d76-42cf-9dd7-6e7719536991",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1649,8 +1805,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with an animated graphical user interface, Filed (No: 29/425,953, Date: 2012/06/28).",
+    "state": "complete",
     "id": "02afad14-fec9-4e8e-8c84-f21b871686f5",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1670,8 +1828,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with an animated graphical user interface, Granted (No: US D718,329 S, Date: 2014/11/25).",
+    "state": "complete",
     "id": "20233c1c-befd-4fc1-90bc-c805a5969810",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1691,8 +1851,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with an animated graphical user interface, Filed (No: 29/425,947, Date: 2012/06/28).",
+    "state": "complete",
     "id": "6efde23e-761c-40ed-8d31-3539b9752b22",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1712,8 +1874,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device displaying graphic user interface, Granted (No: US D718,779 S, Date: 2014/12/02).",
+    "state": "complete",
     "id": "2e9bd27e-aabb-44ac-9f62-78b856006e2e",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1733,8 +1897,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device displaying graphic user interface, Filed (No: 29/426,095, Date: 2012/06/29).",
+    "state": "complete",
     "id": "7d79738e-f353-463d-a99c-9ba2114e43e8",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1754,8 +1920,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device displaying graphical user interface, Granted (No: US D719,182 S, Date: 2014/12/09).",
+    "state": "complete",
     "id": "a5f8b403-f6d8-45bb-a9c9-3ef2c8101590",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1775,8 +1943,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device displaying graphical user interface, Filed (No: 29/426,094, Date: 2012/06/29).",
+    "state": "complete",
     "id": "3296c2c2-e9ef-4771-8cb7-2edb2b6340a4",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1796,8 +1966,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device displaying graphical user interface, Granted (No: US D719,181 S, Date: 2014/12/09).",
+    "state": "complete",
     "id": "45b2ffb1-500c-4818-b649-0410e30664ab",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1817,8 +1989,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device displaying graphical user interface, Filed (No: 29/426,093, Date: 2012/06/29).",
+    "state": "complete",
     "id": "a6c6d277-4281-47fe-a0a1-8d956a7a0d98",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1838,8 +2012,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with a graphical user interface, Granted (No: US D724,618 S, Date: 2015/03/17).",
+    "state": "complete",
     "id": "905a5ea4-9228-49c8-9102-8e87b3a7bde7",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1859,8 +2035,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with a graphical user interface, Filed (No: 29/425,961, Date: 2012/06/28).",
+    "state": "complete",
     "id": "662023df-717f-44cd-afac-b145e8ac8556",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -1880,8 +2058,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with an animated graphical user interface, Granted (No: US D724,617 S, Date: 2015/03/17).",
+    "state": "complete",
     "id": "09459841-56f8-4ff9-b35f-85f2d25fc568",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1901,8 +2081,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Portable electronic device with an animated graphical user interface, Filed (No: 29/425,936, Date: 2012/06/28).",
+    "state": "complete",
     "id": "12afa98d-6cb6-4e18-b9d4-e5af93a95791",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -1917,13 +2099,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0654118",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654118, Date: 2012/07/24).",
+    "state": "complete",
     "id": "a09adf11-7f69-4768-a62f-756f59c83bd5",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1938,13 +2122,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0028916",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028916, Date: 2012/06/13).",
+    "state": "complete",
     "id": "00224a28-dde0-4ab9-93ab-b980aa7942f5",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -1959,13 +2145,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0654125",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654125, Date: 2012/07/24).",
+    "state": "complete",
     "id": "e690c4c4-418e-4306-9d50-c021d5a562ae",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -1980,13 +2168,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0028919",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028919, Date: 2012/06/13).",
+    "state": "complete",
     "id": "b33298a0-30a2-4e6e-81be-92b2e99b47b2",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -2001,13 +2191,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0654121",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654121, Date: 2012/07/24).",
+    "state": "complete",
     "id": "a543d40f-4004-4cb8-8042-646a609bc8f9",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2022,13 +2214,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0029133",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029133, Date: 2012/06/14).",
+    "state": "complete",
     "id": "41d63ede-6c60-4748-bae3-cc141e7a1b94",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2043,13 +2237,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0654120",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654120, Date: 2012/07/24).",
+    "state": "complete",
     "id": "a7ad53ed-622a-4cf0-a299-48e223f053b8",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2064,13 +2260,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0029136",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029136, Date: 2012/06/14).",
+    "state": "complete",
     "id": "06eda343-cc47-4922-beb9-112fd74a7207",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2085,13 +2283,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0654124",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654124, Date: 2012/07/31).",
+    "state": "complete",
     "id": "4cafb49f-4915-43fd-8b4d-8dcc6d6a6628",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -2106,13 +2306,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0029207",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029207, Date: 2012/06/15).",
+    "state": "complete",
     "id": "43a14c6e-616c-4754-bb49-f4041ec0ab48",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -2127,13 +2329,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0654119",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0654119, Date: 2012/07/31).",
+    "state": "complete",
     "id": "434c39ea-5d75-4b0e-b24a-5b867812377d",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2148,13 +2352,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0029208",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029208, Date: 2012/06/15).",
+    "state": "complete",
     "id": "c3064fd9-7367-427f-8e26-a4d76d5c6bb2",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2169,13 +2375,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0663556",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0663556, Date: 2012/10/17).",
+    "state": "complete",
     "id": "8b39ede3-4dab-4ba1-b613-5a51b84a38f3",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2190,13 +2398,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0028917",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028917, Date: 2012/06/13).",
+    "state": "complete",
     "id": "c287b6d4-cae2-4b5c-b6dd-6416a34a9f51",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2211,13 +2421,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0663554",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0663554, Date: 2012/10/17).",
+    "state": "complete",
     "id": "f369efdc-9925-4ece-96ee-35a9b57d30d9",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -2232,13 +2444,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0028920",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028920, Date: 2012/06/13).",
+    "state": "complete",
     "id": "f29c1809-a2fe-4bcb-b591-48774948e3ae",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -2253,13 +2467,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0663555",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0663555, Date: 2012/10/10).",
+    "state": "complete",
     "id": "45cfc979-8deb-4698-8495-8707ceb5c85a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -2274,13 +2490,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0028918",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0028918, Date: 2012/06/13).",
+    "state": "complete",
     "id": "4563fd37-232e-42bd-ab3f-e697c30fe42d",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -2295,13 +2513,15 @@
     "title_kor": "화상디자인이 표시된 태블릿 피씨(Tablet PC)",
     "title_eng": "화상디자인이 표시된 태블릿 피씨(Tablet PC)",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0663541",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 태블릿 피씨(Tablet PC), Granted (No: 30-0663541, Date: 2012/10/10).",
+    "state": "complete",
     "id": "b9cb61dc-92a6-4bc0-afd4-a687cb4d8ff2",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -2316,13 +2536,15 @@
     "title_kor": "화상디자인이 표시된 태블릿 피씨(Tablet PC)",
     "title_eng": "화상디자인이 표시된 태블릿 피씨(Tablet PC)",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0029134",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 태블릿 피씨(Tablet PC), Filed (No: 30-2012-0029134, Date: 2012/06/14).",
+    "state": "complete",
     "id": "14215f03-d995-4e79-b7ee-5d06dd070e5a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -2337,13 +2559,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0665356",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0665356, Date: 2012/10/23).",
+    "state": "complete",
     "id": "dd7b54ef-1603-4239-bf67-c684a857e6af",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -2358,13 +2582,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0029226",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029226, Date: 2012/06/15).",
+    "state": "complete",
     "id": "411b6253-a9d6-4135-8082-ba8acabadde9",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -2379,13 +2605,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0668893",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Granted (No: 30-0668893, Date: 2012/11/14).",
+    "state": "complete",
     "id": "bee2aaf2-f0b6-4bac-9e0a-70d4276ec5b4",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -2400,13 +2628,15 @@
     "title_kor": "화상디자인이 표시된 이동통신기기",
     "title_eng": "화상디자인이 표시된 이동통신기기",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2012-0029135",
     "acknowledgements": "사사확인불가",
     "class": "Domestic Design",
     "contents": "화상디자인이 표시된 이동통신기기, Filed (No: 30-2012-0029135, Date: 2012/06/14).",
+    "state": "complete",
     "id": "d261f547-7a66-4374-afc5-5eea215c89e4",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S"
   },
   {
@@ -2426,8 +2656,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Finger motion recognition glove using conductive materials and method thereof, Published (No: US 2015/0028538 A1, Date: 2014/01/30).",
+    "state": "complete",
     "id": "b038f7c1-6a41-4478-bae6-9d758b6a7935",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S, Kim D, Lee J, Jeong E"
   },
   {
@@ -2447,8 +2679,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Finger motion recognition glove using conductive materials and method thereof, Filed (No: 13/560,849, Date: 2012/07/27).",
+    "state": "complete",
     "id": "807164c4-a3eb-40ee-8d55-17aa01dd0715",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S, Kim D, Lee J, Jeong E"
   },
   {
@@ -2463,13 +2697,15 @@
     "title_kor": "점자 입출력 장치",
     "title_eng": "Braille input and output device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2014-0008823",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Braille input and output device, Published (No: 10-2014-0008823, Date: 2014/01/22).",
+    "state": "complete",
     "id": "b085a216-3143-4945-bc56-ea333b5f4d1b",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Ahn S"
   },
   {
@@ -2484,13 +2720,15 @@
     "title_kor": "점자 입출력 장치",
     "title_eng": "Braille input and output device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2012-0076069",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Braille input and output device, Filed (No: 10-2012-0076069, Date: 2012/07/12).",
+    "state": "complete",
     "id": "8ea150e4-47e3-4b45-9ddc-71d8b4b0572e",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Ahn S"
   },
   {
@@ -2505,13 +2743,15 @@
     "title_kor": "색각 이상자를 위한 색 변환 방법 및 장치",
     "title_eng": "Method and apparatus of converting color for color vision defectives",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1917776",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method and apparatus of converting color for color vision defectives, Granted (No: 10-1917776, Date: 2018/11/06).",
+    "state": "complete",
     "id": "afda268c-deee-4684-8d20-b31b5491acc9",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H"
   },
   {
@@ -2526,13 +2766,15 @@
     "title_kor": "색각 이상자를 위한 색 변환 방법 및 장치",
     "title_eng": "Method and apparatus of converting color for color vision defectives",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2012-0086746",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method and apparatus of converting color for color vision defectives, Filed (No: 10-2012-0086746, Date: 2012/08/08).",
+    "state": "complete",
     "id": "afd2d1ed-5a7f-4b5d-81ba-bb99b15a16b8",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H"
   },
   {
@@ -2547,13 +2789,15 @@
     "title_kor": "애플리케이션 실행 방법 및 이를 위한 단말",
     "title_eng": "Method for executing application and terminal thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1888650",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for executing application and terminal thereof, Granted (No: 10-1888650, Date: 2018/08/08).",
+    "state": "complete",
     "id": "073fb747-b728-44fe-b000-4a9bba6c199d",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2568,13 +2812,15 @@
     "title_kor": "애플리케이션 실행 방법 및 이를 위한 단말",
     "title_eng": "Method for executing application and terminal thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2012-0099465",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for executing application and terminal thereof, Filed (No: 10-2012-0099465, Date: 2012/09/07).",
+    "state": "complete",
     "id": "15abaa80-58d8-4006-8a83-635d1e444f05",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2589,13 +2835,15 @@
     "title_kor": "디바이스에서 어플리케이션을 실행하는 방법 및 그 장치",
     "title_eng": "Method for executing application on device and apparatus thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2011360",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for executing application on device and apparatus thereof, Granted (No: 10-2011360, Date: 2019/08/09).",
+    "state": "complete",
     "id": "1469c623-fdb3-4adf-8743-68e19d07a49f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -2610,13 +2858,15 @@
     "title_kor": "디바이스에서 어플리케이션을 실행하는 방법 및 그 장치",
     "title_eng": "Method for executing application on device and apparatus thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2012-0099738",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for executing application on device and apparatus thereof, Filed (No: 10-2012-0099738, Date: 2012/09/10).",
+    "state": "complete",
     "id": "09d20266-289d-4283-a34f-5d7599b72a88",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -2631,13 +2881,15 @@
     "title_kor": "디바이스에 연결된 외부 기기를 제어하는 시스템 및 방법",
     "title_eng": "System and method for controlling external apparatus connected with device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2014-0033654",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "System and method for controlling external apparatus connected with device, Published (No: 10-2014-0033654, Date: 2014/03/19).",
+    "state": "complete",
     "id": "58871efe-f308-4d83-8d5f-ce484d399c76",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -2652,13 +2904,15 @@
     "title_kor": "디바이스에 연결된 외부 기기를 제어하는 시스템 및 방법",
     "title_eng": "System and method for controlling external apparatus connected with device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2012-0099739",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "System and method for controlling external apparatus connected with device, Filed (No: 10-2012-0099739, Date: 2012/09/10).",
+    "state": "complete",
     "id": "63834861-ae51-443f-895b-8f5430dc7f6e",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -2673,13 +2927,15 @@
     "title_kor": "기기 제어 방법 및 이를 수행하는 기기",
     "title_eng": "Method for controlling a device and device performing the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1974820",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for controlling a device and device performing the same, Granted (No: 10-1974820, Date: 2019/04/26).",
+    "state": "complete",
     "id": "27685eb2-7709-40ce-8ad8-5bd65cc5fa77",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2694,13 +2950,15 @@
     "title_kor": "기기 제어 방법 및 이를 수행하는 기기",
     "title_eng": "Method for controlling a device and device performing the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2012-0099791",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for controlling a device and device performing the same, Filed (No: 10-2012-0099791, Date: 2012/09/10).",
+    "state": "complete",
     "id": "0d30eaf0-4b06-4ae2-99db-21b92dbd954e",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2720,8 +2978,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Display of a handheld terminal with graphical user interface, Granted (No: US D747,337 S, Date: 2016/01/12).",
+    "state": "complete",
     "id": "fa0a8f20-8d75-4964-b3e0-58828b25e8f1",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2741,8 +3001,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International Design",
     "contents": "Display of a handheld terminal with graphical user interface, Filed (No: 29/421,917, Date: 2012/10/18).",
+    "state": "complete",
     "id": "503cab3b-56c7-4081-82fe-be83bc1ec580",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J"
   },
   {
@@ -2762,8 +3024,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for providing floating user interface, Published (No: US 2013/0254714 A1, Date: 2013/09/26).",
+    "state": "complete",
     "id": "988fc77c-5a07-45bd-810a-e35fda6336cd",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Park J, Yoo H"
   },
   {
@@ -2783,8 +3047,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for providing floating user interface, Filed (No: 13/849,226, Date: 2013/03/22).",
+    "state": "complete",
     "id": "250ab501-3a40-4a8f-8a35-aeeada08aee8",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ahn S, Park J, Yoo H"
   },
   {
@@ -2804,8 +3070,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Published (No: CN 103870402 A, Date: 2014/06/18).",
+    "state": "complete",
     "id": "c79c4d35-f859-4070-8828-5e9ae5f02326",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H"
   },
   {
@@ -2824,8 +3092,10 @@
     "acknowledgements": "사사확인불가",
     "class": "Unknown",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Published (No: US 2014/0173082 A1, Date: 2014/01/19).",
+    "state": "complete",
     "id": "750f08d1-3d6d-4a81-b16a-6cdad361992a",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -2845,8 +3115,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Published (No: CN 104620597 A, Date: 2015/05/13).",
+    "state": "complete",
     "id": "688e106f-8bee-42b9-8984-62dcbda7358b",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -2866,8 +3138,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Connecting two devices, Published (No: EP 3101869 A1, Date: 2016/12/07).",
+    "state": "complete",
     "id": "67d6e7c6-ab87-4511-af4d-b5d8ef6e0c5e",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2887,8 +3161,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Published (No: AU 2013313849 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "d82cdf15-8385-419c-bfa2-1893f6ed1c79",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2908,8 +3184,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Published (No: AU 2013313746 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "609008db-5d8d-4a3b-916c-2cbfd22a93ce",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2929,8 +3207,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Published (No: US 2014/0070925 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "334c47ba-4f8f-4dc8-a1a2-da539ef89afd",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -2950,8 +3230,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Published (No: EP 2706726 A3, Date: 2014/03/12).",
+    "state": "complete",
     "id": "fc147ac9-9670-4c17-b1a4-744b0e1d4c4f",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2971,8 +3253,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Published (No: US 2014/0073244 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "aaa38bea-cdf4-40b9-beef-1c914dc6f85d",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -2992,8 +3276,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Published (No: CN 103677257 A, Date: 2014/03/26).",
+    "state": "complete",
     "id": "07213226-65b1-4d66-b8d5-2d272faca10d",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3013,8 +3299,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing an applicatin in a device, Published (No: EP 2706734 A1, Date: 2014/03/12).",
+    "state": "complete",
     "id": "a98f1885-1c97-4ace-9411-0aba2eb66630",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3034,8 +3322,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Published (No: CN 104620220 A, Date: 2015/05/13).",
+    "state": "complete",
     "id": "3877be5b-b94f-40d6-9ff4-fdc6f07e70cb",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3055,8 +3345,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Published (No: US 2014/0075056 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "81643142-be4d-4fb4-9e46-f549e47c4c9c",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3071,13 +3363,15 @@
     "title_kor": "휴대 단말 장치를 이용한 수면 품질 측정 방법 및 장치",
     "title_eng": "Method and apparatus for quality measurement of sleep using a portable terminal",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2014-0144499",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method and apparatus for quality measurement of sleep using a portable terminal, Published (No: 10-2014-0144499, Date: 2014/12/19).",
+    "state": "complete",
     "id": "c476eb34-fcce-43f8-99c3-15a668045df6",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Cho J, Choi B"
   },
   {
@@ -3092,13 +3386,15 @@
     "title_kor": "외부 기기 관리 방법, 외부 기기의 동작 방법, 호스트 단말, 관리 서버 및 외부 기기",
     "title_eng": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2037416",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device, Granted (No: 10-2037416, Date: 2019/10/22).",
+    "state": "complete",
     "id": "014bc757-6c96-48eb-a7b8-5ed70b73ad9f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -3113,13 +3409,15 @@
     "title_kor": "외부 기기 관리 방법, 외부 기기의 동작 방법, 호스트 단말, 관리 서버 및 외부 기기",
     "title_eng": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2014-0078518",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device, Granted (No: 10-2014-0078518, Date: 2014/06/25).",
+    "state": "complete",
     "id": "457231b7-9cd7-4214-a1e2-33a91ca4ec39",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -3134,13 +3432,15 @@
     "title_kor": "외부 기기 관리 방법, 외부 기기의 동작 방법, 호스트 단말, 관리 서버 및 외부 기기",
     "title_eng": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2013-0052754",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method for managing of external devices, method for operating of an external device, host device, management server, and the external device, Filed (No: 10-2013-0052754, Date: 2013/05/09).",
+    "state": "complete",
     "id": "52299952-e5e3-4fec-9706-ce91a8ac54f4",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -3155,13 +3455,15 @@
     "title_kor": "휴대 단말 장치를 이용한 수면 품질 측정 방법 및 장치",
     "title_eng": "Method and apparatus for quality measurement of sleep using a portable terminal",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2143499",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method and apparatus for quality measurement of sleep using a portable terminal, Granted (No: 10-2143499, Date: 2020/08/05).",
+    "state": "complete",
     "id": "d0473652-65a1-4b2e-8e68-ecfb87d35d45",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Cho J, Choi B"
   },
   {
@@ -3176,13 +3478,15 @@
     "title_kor": "휴대 단말 장치를 이용한 수면 품질 측정 방법 및 장치",
     "title_eng": "Method and apparatus for quality measurement of sleep using a portable terminal",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2013-0066552",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Method and apparatus for quality measurement of sleep using a portable terminal, Filed (No: 10-2013-0066552, Date: 2013/06/11).",
+    "state": "complete",
     "id": "50dcbe8c-1790-4b5a-bcd0-008615810318",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Cho J, Choi B"
   },
   {
@@ -3202,8 +3506,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Color transformation method and apparatus for person with color vision defect, Published (No: US 2014/0015850 A1, Date: 2014/01/16).",
+    "state": "complete",
     "id": "c1c4c2fb-6617-4975-a757-19b3ca922e08",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H"
   },
   {
@@ -3223,8 +3529,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Color transformation method and apparatus for person with color vision defect, Filed (No: 13/939,681, Date: 2013/07/11).",
+    "state": "complete",
     "id": "e6004bd1-bfbe-4b38-b444-ede3c28c9789",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H"
   },
   {
@@ -3244,8 +3552,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Granted (No: US 9,880,584 B2, Date: 2018/01/30).",
+    "state": "complete",
     "id": "1b069a3a-78ff-4fdc-805b-4afefaa82f3c",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3265,8 +3575,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Filed (No: 13/975,790, Date: 2013/08/26).",
+    "state": "complete",
     "id": "ecfe2786-51fb-4fcd-a16b-a63d45a84766",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3281,13 +3593,15 @@
     "title_kor": "Method and apparatus for executing application in device",
     "title_eng": "Method and apparatus for executing application in device",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "WO 2014/038828 A1",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Published (No: WO 2014/038828 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "be255815-b2c7-4b16-81a2-6fc58184e037",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3302,13 +3616,15 @@
     "title_kor": "Method and apparatus for executing application in device",
     "title_eng": "Method and apparatus for executing application in device",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "PCT/KR2013/007921",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Filed (No: PCT/KR2013/007921, Date: 2013/09/03).",
+    "state": "complete",
     "id": "1d3c3898-8ae0-43ee-9c1a-ac1c159c623e",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3328,8 +3644,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Granted (No: CN 104620220 B, Date: 2018/07/20).",
+    "state": "complete",
     "id": "1014ab12-104c-4e98-bc20-31b12399eee7",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3349,8 +3667,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Filed (No: 201380047076, Date: 2013/09/03).",
+    "state": "complete",
     "id": "7261d6a9-7380-446b-99de-8e9f08cae7cf",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3365,13 +3685,15 @@
     "title_kor": "Method of executing application and terminal using the method",
     "title_eng": "Method of executing application and terminal using the method",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "WO 2014/038860 A1",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Published (No: WO 2014/038860 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "c013c855-e9a4-4045-8812-d9167fcf817f",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3386,13 +3708,15 @@
     "title_kor": "Method of executing application and terminal using the method",
     "title_eng": "Method of executing application and terminal using the method",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "PCT/KR2013/008007",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Filed (No: PCT/KR2013/008007, Date: 2013/09/05).",
+    "state": "complete",
     "id": "546ba86a-c67f-4ec3-8326-67a73afcdfc7",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3412,8 +3736,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Application execution method and terminal thereof, Granted (No: JP 6258640 B2, Date: 2018/01/10).",
+    "state": "complete",
     "id": "d1b5ff9f-abba-42f0-9925-3063b7434040",
     "is_prev": true,
+    "country_code": "JP",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3433,8 +3759,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Application execution method and terminal thereof, Filed (No: 2013-183766, Date: 2013/09/05).",
+    "state": "complete",
     "id": "4e62a305-1cac-4c71-82fd-0c50ed6f3c24",
     "is_prev": true,
+    "country_code": "JP",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3452,6 +3780,7 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Filed (No: IN3979/CHE/2013, Date: 2013/09/05).",
+    "state": "complete",
     "id": "4ff40411-5ae5-4c5a-a92b-4f54ffe54025",
     "is_prev": true,
     "authors_text": "Ko J, Shin H, Park S"
@@ -3473,8 +3802,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing an applicatin in a device, Granted (No: EP 2706734 B1, Date: 2017/04/26).",
+    "state": "complete",
     "id": "9e6970cc-2a43-4fea-927e-8877f0eef78a",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3494,8 +3825,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing an applicatin in a device, Filed (No: 13183431.9, Date: 2013/09/06).",
+    "state": "complete",
     "id": "c0d0cfe3-f7ed-4366-ac7b-aecff3821e30",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3515,8 +3848,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Filed (No: 13183328.7, Date: 2013/09/06).",
+    "state": "complete",
     "id": "cccb7f47-5f34-4976-8477-70393a91d2b3",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3536,8 +3871,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Published (No: US 2014/0080469 A1, Date: 2014/03/20).",
+    "state": "complete",
     "id": "17cf7da5-5fe5-4924-8426-9ed24594f743",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3557,8 +3894,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Filed (No: 14/021,346, Date: 2013/09/09).",
+    "state": "complete",
     "id": "33669679-e21a-4d07-ad5a-729fb0b7bd5c",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3578,8 +3917,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Granted (No: CN 103677257 B, Date: 2018/10/19).",
+    "state": "complete",
     "id": "7e1ffe17-e7a1-4972-b742-8b8adbe39f33",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3599,8 +3940,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Filed (No: 201310406791, Date: 2013/09/09).",
+    "state": "complete",
     "id": "7653319e-7fb9-4270-86f1-6774755d72d4",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3615,13 +3958,15 @@
     "title_kor": "Method and divice for excuting application",
     "title_eng": "Method and divice for excuting application",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "WO 2014/038902 A1",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Published (No: WO 2014/038902 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "995c025f-33c1-4953-b504-6a0bdaf846f6",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3636,13 +3981,15 @@
     "title_kor": "Method and divice for excuting application",
     "title_eng": "Method and divice for excuting application",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "PCT/KR2013/008115",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Filed (No: PCT/KR2013/008115, Date: 2013/09/09).",
+    "state": "complete",
     "id": "8cab7acf-951d-4df6-83e9-0c9b33af7647",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3662,8 +4009,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Granted (No: US 9,277,576 B2, Date: 2016/03/01).",
+    "state": "complete",
     "id": "aeb9a6cf-3223-4406-aa7e-554c059c5aeb",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3683,8 +4032,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Filed (No: 14/022,903, Date: 2013/09/10).",
+    "state": "complete",
     "id": "d3f832f0-ffb4-4ea7-8af2-826a59ac1bef",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3704,8 +4055,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for controlling an external apparatus, Filed (No: 13183694.2, Date: 2013/09/10).",
+    "state": "complete",
     "id": "76c466ed-cf52-4df8-bbc8-e9e3eceabcc4",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Shin H, Ko JW, Park SJ"
   },
   {
@@ -3720,13 +4073,15 @@
     "title_kor": "System and method of controlling external apparatus connected with device",
     "title_eng": "System and method of controlling external apparatus connected with device",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "WO 2014/038916 A1",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Published (No: WO 2014/038916 A1, Date: 2014/03/13).",
+    "state": "complete",
     "id": "0777f505-ec8b-4cff-8137-9d1905e374ed",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3741,13 +4096,15 @@
     "title_kor": "System and method of controlling external apparatus connected with device",
     "title_eng": "System and method of controlling external apparatus connected with device",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "PCT/KR2013/008143",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Filed (No: PCT/KR2013/008143, Date: 2013/09/10).",
+    "state": "complete",
     "id": "3e026269-a001-4323-915a-b31a3207a109",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3767,8 +4124,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Granted (No: EP 2706726 B1, Date: 2016/10/12).",
+    "state": "complete",
     "id": "9631348b-4e15-4d25-9c48-83eb49abb163",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3788,8 +4147,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Filed (No: 13183817.9, Date: 2013/09/10).",
+    "state": "complete",
     "id": "1a2cb4fc-8aea-471f-beaf-eaa837f0fb3b",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3809,8 +4170,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Granted (No: US 9,842,490 B2, Date: 2017/12/12).",
+    "state": "complete",
     "id": "9c540e3f-7dae-4b9a-b68a-787299c1058e",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3830,8 +4193,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Granted (No: 14/022,556, Date: 2013/09/10).",
+    "state": "complete",
     "id": "5818489d-1311-4e9e-89c2-0947c389b792",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3851,8 +4216,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Filed (No: 2013313760, Date: 2013/09/10).",
+    "state": "complete",
     "id": "46115f1f-ca76-43b5-8af1-72926a01ff4b",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -3872,8 +4239,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Granted (No: AU 2013313746 B2, Date: 2015/12/03).",
+    "state": "complete",
     "id": "cd0381b1-d804-4603-b4c7-1744fab9ab1c",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3893,8 +4262,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and divice for excuting application, Filed (No: 2013313746, Date: 2013/09/09).",
+    "state": "complete",
     "id": "c7dc9223-9b7b-47dd-9a0e-86a878c1708f",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3914,8 +4285,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Granted (No: AU 2013313849 B2, Date: 2016/01/07).",
+    "state": "complete",
     "id": "11f1d4c1-6f26-45dc-a0fa-65395d1cfa90",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3935,8 +4308,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of executing application and terminal using the method, Filed (No: 2013313849, Date: 2013/09/05).",
+    "state": "complete",
     "id": "85d334ab-fe47-4015-8c9c-72fac0b35e1b",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3956,8 +4331,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Granted (No: RU 2585168 C1, Date: 2016/05/27).",
+    "state": "complete",
     "id": "c6368e46-7270-41e1-8393-1bb5c36244a9",
     "is_prev": true,
+    "country_code": "RU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3977,8 +4354,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Filed (No: 2015108018/07, Date: 2013/09/09).",
+    "state": "complete",
     "id": "71c2e027-5c28-40a0-afc0-029e7aeee082",
     "is_prev": true,
+    "country_code": "RU",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -3998,8 +4377,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external device connected with device, Granted (No: RU 2592062 C1, Date: 2016/07/20).",
+    "state": "complete",
     "id": "41140e2b-38bb-448e-8402-02ddc442628a",
     "is_prev": true,
+    "country_code": "RU",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4019,8 +4400,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external device connected with device, Filed (No: 2015108021/07, Date: 2013/09/10).",
+    "state": "complete",
     "id": "31f4edc5-c762-4e8a-896a-cb363ead7ae9",
     "is_prev": true,
+    "country_code": "RU",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4040,8 +4423,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Connecting two devices, Granted (No: EP 3101869 B1, Date: 2018/08/01).",
+    "state": "complete",
     "id": "c00ed65c-19db-4a71-9854-9862a187e978",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -4061,8 +4446,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Connecting two devices, Filed (No: 16181807.5, Date: 2013/09/10).",
+    "state": "complete",
     "id": "e926fdd6-eb1d-4db3-8f6f-a668f241983a",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -4082,8 +4469,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Published (No: CN 104620514 A, Date: 2015/05/13).",
+    "state": "complete",
     "id": "234961bc-084b-44f1-9553-a4ca9f9a685c",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4103,8 +4492,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Filed (No: 201380047145, Date: 2013/09/09).",
+    "state": "complete",
     "id": "51f00c06-488b-4004-ac58-50d4dd66bd44",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4124,8 +4515,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Granted (No: CN 104620597 B, Date: 2019/03/08).",
+    "state": "complete",
     "id": "8a612fcb-ddca-440c-b691-ad6ed7dc0470",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4145,8 +4538,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Filed (No: 201380047104, Date: 2013/09/10).",
+    "state": "complete",
     "id": "98ef4f84-c11a-4cbc-a9e4-0a412d54001b",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4161,13 +4556,15 @@
     "title_kor": "생체 신호를 측정하는 방법 및 장치",
     "title_eng": "Apparatus and method for measuring physiological signal",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2015-0061100",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Apparatus and method for measuring physiological signal, Published (No: 10-2015-0061100, Date: 2015/06/04).",
+    "state": "complete",
     "id": "97ecf2b4-f95a-457b-a71f-78df3bae2a52",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -4182,13 +4579,15 @@
     "title_kor": "생체 신호를 측정하는 방법 및 장치",
     "title_eng": "Apparatus and method for measuring physiological signal",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2013-0143950",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Apparatus and method for measuring physiological signal, Filed (No: 10-2013-0143950, Date: 2013/11/25).",
+    "state": "complete",
     "id": "9120ce21-95b5-432b-8fcd-d4b068e3ae9a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -4203,13 +4602,15 @@
     "title_kor": "Method of managing external devices, method of operating external device, host device, management server, and external device",
     "title_eng": "Method of managing external devices, method of operating external device, host device, management server, and external device",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "WO 2014/098415 A1",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Published (No: WO 2014/098415 A1, Date: 2014/06/26).",
+    "state": "complete",
     "id": "3d49e7b6-9a28-4cf8-83bb-75d2c2d23cdb",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H"
   },
   {
@@ -4224,13 +4625,15 @@
     "title_kor": "Method of managing external devices, method of operating external device, host device, management server, and external device",
     "title_eng": "Method of managing external devices, method of operating external device, host device, management server, and external device",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "PCT/KR2013/011565",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: PCT/KR2013/011565, Date: 2013/12/13).",
+    "state": "complete",
     "id": "751eb2e8-5916-4465-8c7b-3de4d2a9880e",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Shin H"
   },
   {
@@ -4250,8 +4653,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server and external device, Granted (No: RU 2654164 C2, Date: 2018/05/16).",
+    "state": "complete",
     "id": "42d70b9f-7458-43f1-8a1f-7d24195296be",
     "is_prev": true,
+    "country_code": "RU",
     "authors_text": "Shin H"
   },
   {
@@ -4271,8 +4676,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server and external device, Filed (No: 2015129073, Date: 2013/12/13).",
+    "state": "complete",
     "id": "c58208c8-85ac-4612-adcf-2a913c93bb72",
     "is_prev": true,
+    "country_code": "RU",
     "authors_text": "Shin H"
   },
   {
@@ -4292,8 +4699,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Management of managing external devices, method of operating external devices, host terminal, management server, and external devices, Filed (No: 2013-258972, Date: 2013/12/16).",
+    "state": "complete",
     "id": "4fd9b1fb-9b51-469c-851e-4778f54eeff4",
     "is_prev": true,
+    "country_code": "JP",
     "authors_text": "Shin H"
   },
   {
@@ -4313,8 +4722,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 9,740,470 B2, Date: 2017/08/22).",
+    "state": "complete",
     "id": "46c9d64e-c318-44fe-bde2-ea0062568cc3",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -4334,8 +4745,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 14/109,293, Date: 2013/12/17).",
+    "state": "complete",
     "id": "6752c8a1-cba8-4817-9d29-6fdc796d68d4",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -4355,8 +4768,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: CN 103870402 B, Date: 2019/02/01).",
+    "state": "complete",
     "id": "69942838-5514-494e-b601-df5fff786d32",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H"
   },
   {
@@ -4376,8 +4791,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 201310693765, Date: 2013/12/17).",
+    "state": "complete",
     "id": "865ace72-e098-47f6-a321-67bb52d27d6e",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Shin H"
   },
   {
@@ -4397,8 +4814,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of perating external device, host device, management server, and external device, Granted (No: EP 2743850 B1, Date: 2020/02/05).",
+    "state": "complete",
     "id": "dae945a7-85c9-468b-b0e0-d0c08f6624a4",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Shin H"
   },
   {
@@ -4418,8 +4837,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of perating external device, host device, management server, and external device, Filed (No: 13197690.4, Date: 2013/12/17).",
+    "state": "complete",
     "id": "607ce126-6bff-4b54-ad4a-33468d5a5ee2",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Shin H"
   },
   {
@@ -4439,8 +4860,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No:  AU 2013364704 B2, Date: 2017/07/06).",
+    "state": "complete",
     "id": "145b7958-245f-4ef7-81ca-d0beadbb3c4c",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Shin H"
   },
   {
@@ -4460,8 +4883,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 2013364704, Date: 2013/12/13).",
+    "state": "complete",
     "id": "6f4ed803-7144-488d-bc04-be020adeab41",
     "is_prev": true,
+    "country_code": "AU",
     "authors_text": "Shin H"
   },
   {
@@ -4476,13 +4901,15 @@
     "title_kor": "Method and apparatus for measuring bio signal",
     "title_eng": "Method and apparatus for measuring bio signal",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "WO 2015/076462 AI",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for measuring bio signal, Published (No: WO 2015/076462 AI, Date: 2015/05/28).",
+    "state": "complete",
     "id": "e043aa68-eca0-4e79-825a-e0533558504f",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -4497,13 +4924,15 @@
     "title_kor": "Method and apparatus for measuring bio signal",
     "title_eng": "Method and apparatus for measuring bio signal",
     "country_kor": "세계지식재산권기구",
-    "country_eng": "World Intellectual Property Organization",
+    "country_eng": "IMCF",
     "number": "PCT/KR2014/001973",
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for measuring bio signal, Filed (No: PCT/KR2014/001973, Date: 2014/03/11).",
+    "state": "complete",
     "id": "93435d72-55a9-4dc7-a7dd-0a7a3b9c7e0b",
     "is_prev": true,
+    "country_code": "PCT",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -4523,8 +4952,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for measuring bio signal, Granted (No: CN 105764414 B, Date: 2019/11/15).",
+    "state": "complete",
     "id": "7f4ac350-208a-44e2-9811-1096b0195971",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -4544,8 +4975,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for measuring bio signal, Filed (No: 201480064389, Date: 2014/03/11).",
+    "state": "complete",
     "id": "2f1ab0cd-b4a9-496c-bc9b-13c79d2c5db1",
     "is_prev": true,
+    "country_code": "CN",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -4565,8 +4998,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and appratus for measuring bio signal, Filed (No: 14086454.7, Date: 2014/03/11).",
+    "state": "complete",
     "id": "492de833-35ad-4c3f-a6bd-7521b90dfdd1",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -4586,8 +5021,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for measuring bio signal, Granted (No: EP 3075310 A1, Date: 2016/10/05).",
+    "state": "complete",
     "id": "c1c7efe5-cdd5-4581-a855-e38b38223bda",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin, H"
   },
   {
@@ -4607,8 +5044,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for measuring bio signal, Filed (No: 14864547.6, Date: 2014/03/11).",
+    "state": "complete",
     "id": "815d5b3b-47cc-4142-b575-013cbf49dc7e",
     "is_prev": true,
+    "country_code": "FR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin, H"
   },
   {
@@ -4628,8 +5067,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 10,459,712 B2, Date: 2019/10/29).",
+    "state": "complete",
     "id": "b9b2475b-6630-490f-a4c4-e8300c6aa309",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -4649,8 +5090,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 14/556,768, Date: 2014/12/01).",
+    "state": "complete",
     "id": "faf53eb3-658f-40d3-8081-5d0f195708d9",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -4670,8 +5113,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Granted (No: US 10,144,631 B2, Date: 2018/10/30).",
+    "state": "complete",
     "id": "fd045e78-e34c-4a19-989c-2b0d497ae278",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -4691,8 +5136,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method of managing external devices, method of operating external device, host device, management server, and external device, Filed (No: 14/610,165, Date: 2015/01/30).",
+    "state": "complete",
     "id": "c3e80893-1c76-4f1e-a8ad-923e0ae118be",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Shin H"
   },
   {
@@ -4716,6 +5163,7 @@
     "id": "f97659e2-e136-47ed-8c6c-b17dce7a9530",
     "contents_prev": "Method and device for executing application, Filed (No: BR1120150047947, Date: 2015/03/04). ",
     "is_prev": true,
+    "country_code": "BR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -4738,6 +5186,7 @@
     "id": "c0ad3b45-ac85-4525-9ace-c3f0c3fd8628",
     "contents_prev": "System and method of controlling external apparatus connected with device, Filed (No: BR1120150047963, Date: 2015/03/04). ",
     "is_prev": true,
+    "country_code": "BR",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4757,8 +5206,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and device for executing application, Filed (No: 473/MUMNP/2015, Date: 2015/03/05).",
+    "state": "complete",
     "id": "6b331d2a-9732-4be4-9f9b-808a9b5bee17",
     "is_prev": true,
+    "country_code": "IN",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -4778,8 +5229,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "System and method of controlling external apparatus connected with device, Filed (No: 474/MUMNP/2015, Date: 2015/03/05).",
+    "state": "complete",
     "id": "ab9facc4-ae3f-4d2f-85e6-00322e62feb6",
     "is_prev": true,
+    "country_code": "IN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4803,6 +5256,7 @@
     "id": "e8d267e3-5eaa-42e1-b354-8ade35c6bc3f",
     "contents_prev": "Method of executing application and terminal using the method, Filed (No: BR1120150050344, Date: 2015/03/06). ",
     "is_prev": true,
+    "country_code": "BR",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -4822,8 +5276,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "Method and apparatus for executing application in device, Filed (No: 727/MUMNP/2015, Date: 2015/04/02).",
+    "state": "complete",
     "id": "a30f93ec-1a92-4519-bfed-4425bc17a1f0",
     "is_prev": true,
+    "country_code": "IN",
     "authors_text": "Shin H, Ko J, Park S"
   },
   {
@@ -4843,8 +5299,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Granted (No: US 9,722,811 B2, Date: 2017/08/01).",
+    "state": "complete",
     "id": "e111aed9-2e59-4011-8af0-cc7e560b2a59",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J"
   },
   {
@@ -4864,8 +5322,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Filed (No: 14/679,749, Date: 2015/04/06).",
+    "state": "complete",
     "id": "fb15668c-e740-44a8-8ddb-b449ff12c9e8",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J"
   },
   {
@@ -4880,13 +5340,15 @@
     "title_kor": "웨어러블 생체신호측정 기기, 서버, 시스템 및 방법",
     "title_eng": "Wearable appaaratus, server, system, and method for extracting parameters of cardiovascular",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1674997",
     "acknowledgements": "1711026335;1711027612",
     "class": "Domestic",
     "contents": "Wearable appaaratus, server, system, and method for extracting parameters of cardiovascular, Granted (No: 10-1674997, Date: 2016/11/04).",
+    "state": "complete",
     "id": "1ace171b-11ab-45be-8fbf-1480aeaf69e3",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -4901,13 +5363,15 @@
     "title_kor": "웨어러블 생체신호측정 기기, 서버, 시스템 및 방법",
     "title_eng": "Wearable appaaratus, server, system, and method for extracting parameters of cardiovascular",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2015-0058001",
     "acknowledgements": "1711026335;1711027612",
     "class": "Domestic",
     "contents": "Wearable appaaratus, server, system, and method for extracting parameters of cardiovascular, Filed (No: 10-2015-0058001, Date: 2015/04/24).",
+    "state": "complete",
     "id": "fe9e31fd-20ff-49ec-9388-4742b1045656",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -4927,8 +5391,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "ELECTRONIC APPARATUS AND METHOD OF OUTPUTTING CONTENT BY THE ELECTRONIC APPARATUS, Granted (No: US 10,524,100 B2, Date: 2019/12/31).",
+    "state": "complete",
     "id": "9d09de27-1ce8-49c2-89a8-e38ba6270718",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D"
   },
   {
@@ -4948,8 +5414,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "ELECTRONIC APPARATUS AND METHOD OF OUTPUTTING CONTENT BY THE ELECTRONIC APPARATUS, Filed (No: 14/743,203, Date: 2015/06/18).",
+    "state": "complete",
     "id": "da33dbec-940a-46ce-8d1c-b517f5c42a31",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D"
   },
   {
@@ -4969,8 +5437,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "METHOD OF MANAGING EXTERNAL DEVICES METHOD OF OPERATING EXTERNAL DEVICE HOST DEVICE ANAGEMENT SERVER AND EXTERNAL DEVICE, Filed (No: 1644/MUMNP/2015, Date: 2015/06/24).",
+    "state": "complete",
     "id": "a5660f33-7948-42ec-8699-60d1a103e749",
     "is_prev": true,
+    "country_code": "IN",
     "authors_text": "Shin H"
   },
   {
@@ -4985,13 +5455,15 @@
     "title_kor": "스마트 기기 및 웨어러블 디바이스 인터렉션 기반 심혈관 평가 시스템 및 심혈관 평가 프로그램",
     "title_eng": "System and program for evaluating cardiovascular function based on interaction between smart device and wearable device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1803918",
     "acknowledgements": "1711026335;1711027612",
     "class": "Domestic",
     "contents": "System and program for evaluating cardiovascular function based on interaction between smart device and wearable device, Granted (No: 10-1803918, Date: 2017/11/27).",
+    "state": "complete",
     "id": "8b91c30e-08d5-40d4-ab97-409106b5a951",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5006,13 +5478,15 @@
     "title_kor": "스마트 기기 및 웨어러블 디바이스 인터렉션 기반 심혈관 평가 시스템 및 심혈관 평가 프로그램",
     "title_eng": "System and program for evaluating cardiovascular function based on interaction between smart device and wearable device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2015-0088175",
     "acknowledgements": "1711026335;1711027612",
     "class": "Domestic",
     "contents": "System and program for evaluating cardiovascular function based on interaction between smart device and wearable device, Filed (No: 10-2015-0088175, Date: 2015/06/22).",
+    "state": "complete",
     "id": "076319c8-b335-4cc8-b0c8-3c936acd600f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5027,13 +5501,15 @@
     "title_kor": "복수의 웨어러블 디바이스 인터렉션 기반 심혈관 평가 시스템 및 심혈관 평가 프로그램",
     "title_eng": "System and program for evaluating cardiovascular function based on interaction between multi wearable devices",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2015-0088176",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "System and program for evaluating cardiovascular function based on interaction between multi wearable devices, Filed (No: 10-2015-0088176, Date: 2015/06/22).",
+    "state": "complete",
     "id": "30a8a3f4-d4ad-4063-a998-f83cc04c955a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5048,13 +5524,15 @@
     "title_kor": "실시간 QRS파 검출 방법 및 그 프로그램",
     "title_eng": "Method for real-time QRS-complex detection and program thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1651875",
     "acknowledgements": "1711026335;1711027612",
     "class": "Domestic",
     "contents": "Method for real-time QRS-complex detection and program thereof, Granted (No: 10-1651875, Date: 2016/08/23).",
+    "state": "complete",
     "id": "2a8e9c18-bae6-4ce3-b843-075c4ad6e42f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim J"
   },
   {
@@ -5069,13 +5547,15 @@
     "title_kor": "실시간 QRS파 검출 방법 및 그 프로그램",
     "title_eng": "Method for real-time QRS-complex detection and program thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2015-0109889",
     "acknowledgements": "1711026335;1711027612",
     "class": "Domestic",
     "contents": "Method for real-time QRS-complex detection and program thereof, Filed (No: 10-2015-0109889, Date: 2015/08/04).",
+    "state": "complete",
     "id": "064e5412-7e34-4365-94fa-0f1b0eb3296a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim J"
   },
   {
@@ -5090,13 +5570,15 @@
     "title_kor": "준주기 신호의 실시간 극점 검출 방법 및 그 프로그램",
     "title_eng": "Quasi-periodic signal pole detection method of quasi-periodic signal and program thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1633665",
     "acknowledgements": "1711027612",
     "class": "Domestic",
     "contents": "Quasi-periodic signal pole detection method of quasi-periodic signal and program thereof, Granted (No: 10-1633665, Date: 2016/06/21).",
+    "state": "complete",
     "id": "ebced44e-8f92-490d-8b87-b5256925d34d",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5111,13 +5593,15 @@
     "title_kor": "준주기 신호의 실시간 극점 검출 방법 및 그 프로그램",
     "title_eng": "Quasi-periodic signal pole detection method of quasi-periodic signal and program thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2015-0131347",
     "acknowledgements": "1711027612",
     "class": "Domestic",
     "contents": "Quasi-periodic signal pole detection method of quasi-periodic signal and program thereof, Filed (No: 10-2015-0131347, Date: 2015/09/17).",
+    "state": "complete",
     "id": "ac8ae4e3-e8f7-44ac-8805-9e412688251e",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5137,8 +5621,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Granted (No: US 9,635,499 B2, Date: 2017/04/25).",
+    "state": "complete",
     "id": "91b697e3-caa1-4476-9a68-14ddac799d24",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -5158,8 +5644,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Filed (No: 15/010,659, Date: 2016/01/29).",
+    "state": "complete",
     "id": "324b1e7e-65dd-4b94-8bdc-4a38c4c663ee",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -5174,13 +5662,15 @@
     "title_kor": "영상에 기반한 비접촉 신장 측정 방법 및 그 시스템",
     "title_eng": "Contactless height measuring method based on image and system thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1789779",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Contactless height measuring method based on image and system thereof, Granted (No: 10-1789779, Date: 2017/10/18).",
+    "state": "complete",
     "id": "92d829e3-8366-45f3-ada8-2eb985ed1d03",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5195,13 +5685,15 @@
     "title_kor": "영상에 기반한 비접촉 신장 측정 방법 및 그 시스템",
     "title_eng": "Contactless height measuring method based on image and system thereof",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2016-0049809",
     "acknowledgements": "사사확인불가",
     "class": "Domestic",
     "contents": "Contactless height measuring method based on image and system thereof, Filed (No: 10-2016-0049809, Date: 2016/04/25).",
+    "state": "complete",
     "id": "a6eda51e-ce65-4e50-a1e9-429dba45992f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5221,8 +5713,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "METHOD AND APPARATUS FOR MEASURING BIO SIGNAL, Granted (No: US 10,251,607 B2, Date: 2019/04/09).",
+    "state": "complete",
     "id": "3b3b523a-f7d6-4aea-b855-ae8a2b750c09",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -5242,8 +5736,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "METHOD AND APPARATUS FOR MEASURING BIO SIGNAL, Filed (No: 15/163,073, Date: 2016/05/24).",
+    "state": "complete",
     "id": "e3a0f951-a861-4ea5-8a7a-531046c06974",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H"
   },
   {
@@ -5258,13 +5754,15 @@
     "title_kor": "다채널 센서를 이용한 생체 신호 모니터링 시스템",
     "title_eng": "Biosignal monitoring system using multi-channel sensor patch",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1809468",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "Biosignal monitoring system using multi-channel sensor patch, Granted (No: 10-1809468, Date: 2017/12/11).",
+    "state": "complete",
     "id": "97807d3a-66c7-438e-b7fc-9706140b1b07",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5279,13 +5777,15 @@
     "title_kor": "다채널 센서를 이용한 생체 신호 모니터링 시스템",
     "title_eng": "Biosignal monitoring system using multi-channel sensor patch",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2016-0059503",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "Biosignal monitoring system using multi-channel sensor patch, Filed (No: 10-2016-0059503, Date: 2016/05/16).",
+    "state": "complete",
     "id": "d370bcba-01f1-4ced-a546-740e85b13027",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5300,13 +5800,15 @@
     "title_kor": "심박변이도 시간영역 분석을 위한 Matlab(매트랩) 라이브러리",
     "title_eng": "심박변이도 시간영역 분석을 위한 Matlab(매트랩) 라이브러리",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2016-015989",
     "acknowledgements": "1711027612",
     "class": "Registered SW",
     "contents": "심박변이도 시간영역 분석을 위한 Matlab(매트랩) 라이브러리, Granted (No: C-2016-015989, Date: 2016/06/28).",
+    "state": "complete",
     "id": "b0143141-c911-4df2-b005-a7fa294dd2a8",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5321,13 +5823,15 @@
     "title_kor": "심박변이도 주파수영역 분석을 위한 Matlab(매트랩) 라이브러리",
     "title_eng": "심박변이도 주파수영역 분석을 위한 Matlab(매트랩) 라이브러리",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2016-015990",
     "acknowledgements": "1711027612",
     "class": "Registered SW",
     "contents": "심박변이도 주파수영역 분석을 위한 Matlab(매트랩) 라이브러리, Granted (No: C-2016-015990, Date: 2016/06/28).",
+    "state": "complete",
     "id": "6eb2419f-8d29-4460-9252-ab3ce28432bd",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5342,13 +5846,15 @@
     "title_kor": "다채널 정전용량 압력 센서",
     "title_eng": "Multi-channel capacitive pressure sensor",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1943492 ",
     "acknowledgements": "2016IBA0039",
     "class": "Domestic",
     "contents": "Multi-channel capacitive pressure sensor, Granted (No: 10-1943492 , Date: 2019/01/23).",
+    "state": "complete",
     "id": "8ee42e50-d716-4ee4-9f24-ada59cf7ff35",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5363,13 +5869,15 @@
     "title_kor": "다채널 정전용량 압력 센서",
     "title_eng": "Multi-channel capacitive pressure sensor",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2016-0183738",
     "acknowledgements": "2016IBA0039",
     "class": "Domestic",
     "contents": "Multi-channel capacitive pressure sensor, Filed (No: 10-2016-0183738, Date: 2016/12/30).",
+    "state": "complete",
     "id": "4510f362-178e-4e55-9f02-9357298d3e41",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5389,8 +5897,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Granted (No: US 10,244,570 B2, Date: 2019/03/26).",
+    "state": "complete",
     "id": "4b1755be-3936-41fc-a872-2701c7df5ff2",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -5410,8 +5920,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "METHOD AND DEVICE FOR EXECUTING APPLICATION, Filed (No: 15/471,832, Date: 2017/03/28).",
+    "state": "complete",
     "id": "7aa861c5-a993-4898-88a3-3875b0143bcf",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S"
   },
   {
@@ -5426,13 +5938,15 @@
     "title_kor": "두 표본간 정규성 검정, 등분산 검정, 가설검정을 위한 One-step GUI(원스텝 그래픽유저인터페이스)",
     "title_eng": "두 표본간 정규성 검정, 등분산 검정, 가설검정을 위한 One-step GUI(원스텝 그래픽유저인터페이스)",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-011973",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "두 표본간 정규성 검정, 등분산 검정, 가설검정을 위한 One-step GUI(원스텝 그래픽유저인터페이스), Granted (No: C-2017-011973, Date: 2017/05/23).",
+    "state": "complete",
     "id": "6d20674d-3dce-4932-bdc5-3c6c33004da6",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5447,13 +5961,15 @@
     "title_kor": "S5(에스5) 환자감시장치에서 추출된 심전도, 맥파의 극점 추출을 위한 프로그램",
     "title_eng": "S5(에스5) 환자감시장치에서 추출된 심전도, 맥파의 극점 추출을 위한 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-011974",
     "acknowledgements": "1711027612",
     "class": "Registered SW",
     "contents": "S5(에스5) 환자감시장치에서 추출된 심전도, 맥파의 극점 추출을 위한 프로그램, Granted (No: C-2017-011974, Date: 2017/05/23).",
+    "state": "complete",
     "id": "e8a8ba30-7a65-4f65-9da9-4ebbd0d469ba",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5468,13 +5984,15 @@
     "title_kor": "맥파도달시간(Pulse Transit Time) 측정을 위한 심전도, 광용적맥파(ECG, PPG) 극점 검출 및 교정 프로그램",
     "title_eng": "맥파도달시간(Pulse Transit Time) 측정을 위한 심전도, 광용적맥파(ECG, PPG) 극점 검출 및 교정 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-011975",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "맥파도달시간(Pulse Transit Time) 측정을 위한 심전도, 광용적맥파(ECG, PPG) 극점 검출 및 교정 프로그램, Granted (No: C-2017-011975, Date: 2017/05/23).",
+    "state": "complete",
     "id": "706bbe7c-5241-4f5a-9f41-25d8931256cb",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5489,13 +6007,15 @@
     "title_kor": "준주기신호 극점 검출을 위한 MATLAB(매트랩) 함수",
     "title_eng": "준주기신호 극점 검출을 위한 MATLAB(매트랩) 함수",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-011976",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "준주기신호 극점 검출을 위한 MATLAB(매트랩) 함수, Granted (No: C-2017-011976, Date: 2017/05/23).",
+    "state": "complete",
     "id": "29824644-1d7f-412a-a28b-37a96b8d3609",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5510,13 +6030,15 @@
     "title_kor": "심전도 QRS(큐-알-에스)검출을 위한 MATLAB(매트랩) 함수",
     "title_eng": "심전도 QRS(큐-알-에스)검출을 위한 MATLAB(매트랩) 함수",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-011977",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "심전도 QRS(큐-알-에스)검출을 위한 MATLAB(매트랩) 함수, Granted (No: C-2017-011977, Date: 2017/05/23).",
+    "state": "complete",
     "id": "242b6189-7a85-488e-9360-bb9cc41e745f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5531,13 +6053,15 @@
     "title_kor": "호흡 특성 분석 프로그램",
     "title_eng": "호흡 특성 분석 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-011978",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "호흡 특성 분석 프로그램, Granted (No: C-2017-011978, Date: 2017/05/23).",
+    "state": "complete",
     "id": "c57f8a8e-8946-412a-9fe6-bff46a0a2445",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5552,13 +6076,15 @@
     "title_kor": "무구속적 생체신호 측정센서 및 이를 포함하는 생체신호 측정시스템",
     "title_eng": "Unconstrained type bio signal measuring sensor and bio signal measuring system having the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-1974905",
     "acknowledgements": "1425102068",
     "class": "Domestic",
     "contents": "Unconstrained type bio signal measuring sensor and bio signal measuring system having the same, Granted (No: 10-1974905, Date: 2019/04/26).",
+    "state": "complete",
     "id": "3389cb13-dc67-4bbc-a323-2a66604c8aea",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park S"
   },
   {
@@ -5573,13 +6099,15 @@
     "title_kor": "무구속적 생체신호 측정센서 및 이를 포함하는 생체신호 측정시스템",
     "title_eng": "Unconstrained type bio signal measuring sensor and bio signal measuring system having the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2017-0076621",
     "acknowledgements": "1425102068",
     "class": "Domestic",
     "contents": "Unconstrained type bio signal measuring sensor and bio signal measuring system having the same, Filed (No: 10-2017-0076621, Date: 2017/06/16).",
+    "state": "complete",
     "id": "804e6d84-ed95-4741-995c-705589901995",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park S"
   },
   {
@@ -5599,8 +6127,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Granted (No: US 10,567,189 B2, Date: 2020/02/18).",
+    "state": "complete",
     "id": "eed58acf-21a9-4ad2-a257-29c274015427",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J"
   },
   {
@@ -5620,8 +6150,10 @@
     "acknowledgements": "사사확인불가",
     "class": "International",
     "contents": "SYSTEM AND METHOD OF CONTROLLING EXTERNAL APPARATUS CONNECTED WITH DEVICE, Filed (No: 15/654,829, Date: 2017/07/20).",
+    "state": "complete",
     "id": "aa3783be-2aaa-4551-8eaf-8b0462b798f1",
     "is_prev": true,
+    "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J"
   },
   {
@@ -5636,13 +6168,15 @@
     "title_kor": "다파장 광용적맥파 데이터 수집 및 표시를 위한 프로그램",
     "title_eng": "다파장 광용적맥파 데이터 수집 및 표시를 위한 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-029355",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "다파장 광용적맥파 데이터 수집 및 표시를 위한 프로그램, Granted (No: C-2017-029355, Date: 2017/11/22).",
+    "state": "complete",
     "id": "fa9fe87d-4391-43bc-9da8-697a5bac80ec",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Cho J, Choi A"
   },
   {
@@ -5657,13 +6191,15 @@
     "title_kor": "다파장 광용적맥파 데이터 수집 및 표시를 위한 매트랩 프로그램",
     "title_eng": "다파장 광용적맥파 데이터 수집 및 표시를 위한 매트랩 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-030070",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "다파장 광용적맥파 데이터 수집 및 표시를 위한 매트랩 프로그램, Granted (No: C-2017-030070, Date: 2017/11/24).",
+    "state": "complete",
     "id": "dc99c9d7-e837-410e-b15a-43a4609a09fa",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Cho J, Choi A"
   },
   {
@@ -5678,13 +6214,15 @@
     "title_kor": "딥러닝 기반의 혈압 예측 시스템 및 방법",
     "title_eng": "System and method for estimating blood pressure based on deep learning",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2042700",
     "acknowledgements": "NRF-2016M3A9F1941328;2015-0-00932",
     "class": "Domestic",
     "contents": "System and method for estimating blood pressure based on deep learning, Granted (No: 10-2042700, Date: 2019/11/04).",
+    "state": "complete",
     "id": "6afe2676-bccb-486c-9592-11bca331634c",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Choi A, Shin H, Jo J"
   },
   {
@@ -5699,13 +6237,15 @@
     "title_kor": "딥러닝 기반의 혈압 예측 시스템 및 방법",
     "title_eng": "System and method for estimating blood pressure based on deep learning",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2017-0154208",
     "acknowledgements": "NRF-2016M3A9F1941328;2015-0-00932",
     "class": "Domestic",
     "contents": "System and method for estimating blood pressure based on deep learning, Filed (No: 10-2017-0154208, Date: 2017/11/17).",
+    "state": "complete",
     "id": "5675ca89-8271-4bfe-acb7-60dafd9eb166",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Choi A, Shin H, Jo J"
   },
   {
@@ -5720,13 +6260,15 @@
     "title_kor": "2채널 실시간 데이터 수집 및 표시를 위한 프로그램",
     "title_eng": "2채널 실시간 데이터 수집 및 표시를 위한 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-035125",
     "acknowledgements": "1711026335",
     "class": "Registered SW",
     "contents": "2채널 실시간 데이터 수집 및 표시를 위한 프로그램, Granted (No: C-2017-035125, Date: 2017/12/21).",
+    "state": "complete",
     "id": "b31099a0-1657-49f8-b5cc-c1499e09f651",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5741,13 +6283,15 @@
     "title_kor": "실시간 압력파형 디스플레이를 위한 안드로이드 어플리케이션 ",
     "title_eng": "실시간 압력파형 디스플레이를 위한 안드로이드 어플리케이션 ",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2017-035126",
     "acknowledgements": "1711026335",
     "class": "Registered SW",
     "contents": "실시간 압력파형 디스플레이를 위한 안드로이드 어플리케이션, Granted (No: C-2017-035126, Date: 2017/12/21).",
+    "state": "complete",
     "id": "95bfaba0-a72a-464b-8d17-946dcd114116",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5762,13 +6306,15 @@
     "title_kor": "필름형 다채널 압전 센서를 이용한 생체신호 측정 시스템",
     "title_eng": "System for measuring bio signal usingmulti channel piezoelectric sensor of film",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2019-0089353",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "System for measuring bio signal usingmulti channel piezoelectric sensor of film, Published (No: 10-2019-0089353, Date: 2019/07/31).",
+    "state": "complete",
     "id": "a6311f6b-0530-4aae-a21a-fa5dc3168aa4",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park S"
   },
   {
@@ -5783,13 +6329,15 @@
     "title_kor": "필름형 다채널 압전 센서를 이용한 생체신호 측정 시스템",
     "title_eng": "System for measuring bio signal usingmulti channel piezoelectric sensor of film",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2018-0007731",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "System for measuring bio signal usingmulti channel piezoelectric sensor of film, Filed (No: 10-2018-0007731, Date: 2018/01/22).",
+    "state": "complete",
     "id": "b40c1ec1-a45b-4671-800d-c034093b539e",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park S"
   },
   {
@@ -5804,13 +6352,15 @@
     "title_kor": "다파장 광 감지장치",
     "title_eng": "Multi-wavelength light sensing device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2042613",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Multi-wavelength light sensing device, Granted (No: 10-2042613, Date: 2019/11/04).",
+    "state": "complete",
     "id": "691ba2b1-0f3a-4363-9304-5b0d631d78e3",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5825,13 +6375,15 @@
     "title_kor": "다파장 광 감지장치",
     "title_eng": "Multi-wavelength light sensing device",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2018-0025621",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Multi-wavelength light sensing device, Filed (No: 10-2018-0025621, Date: 2018/03/05).",
+    "state": "complete",
     "id": "1c8967a4-084e-4e20-99e0-2359c6b100c3",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -5846,13 +6398,15 @@
     "title_kor": "생체 신호 데이터 수집 프로그램",
     "title_eng": "생체 신호 데이터 수집 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-011582",
     "acknowledgements": "가천대과제사사",
     "class": "Registered SW",
     "contents": "생체 신호 데이터 수집 프로그램, Granted (No: C-2018-011582, Date: 2018/05/09).",
+    "state": "complete",
     "id": "ff121d60-95ee-497e-8011-a4daa436c111",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Lee Y, Shin H, Choi A"
   },
   {
@@ -5867,13 +6421,15 @@
     "title_kor": "생체 신호 데이터 모니터링 플랫폼",
     "title_eng": "생체 신호 데이터 모니터링 플랫폼",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-011581",
     "acknowledgements": "가천대과제사사",
     "class": "Registered SW",
     "contents": "생체 신호 데이터 모니터링 플랫폼, Granted (No: C-2018-011581, Date: 2018/05/09).",
+    "state": "complete",
     "id": "5b39433f-f2c8-48c7-98cf-674187971ea2",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Noh S, Shin H, Choi A"
   },
   {
@@ -5888,13 +6444,15 @@
     "title_kor": "다중 배열 요골동맥압 시뮬레이터",
     "title_eng": "다중 배열 요골동맥압 시뮬레이터",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-012615",
     "acknowledgements": "1711046913",
     "class": "Registered SW",
     "contents": "다중 배열 요골동맥압 시뮬레이터, Granted (No: C-2018-012615, Date: 2018/05/17).",
+    "state": "complete",
     "id": "8225997e-933e-4540-9150-2875fe7193c7",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Rho D"
   },
   {
@@ -5909,13 +6467,15 @@
     "title_kor": "의료용 다파장 광센서",
     "title_eng": "의료용 다파장 광센서",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-0998636",
     "acknowledgements": "1711046913",
     "class": "Domestic Design",
     "contents": "의료용 다파장 광센서, Granted (No: 30-0998636, Date: 2019/03/13).",
+    "state": "complete",
     "id": "91d8fa78-0a32-4cd9-a9c3-53088c5e23af",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Han S, Roh D"
   },
   {
@@ -5930,13 +6490,15 @@
     "title_kor": "의료용 다파장 광센서",
     "title_eng": "의료용 다파장 광센서",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "30-2018-0029691",
     "acknowledgements": "1711046913",
     "class": "Domestic Design",
     "contents": "의료용 다파장 광센서, Filed (No: 30-2018-0029691, Date: 2018/06/27).",
+    "state": "complete",
     "id": "2b1cd5f3-5a7b-4c63-8ed1-de76674ec1fe",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Han S, Roh D"
   },
   {
@@ -5951,13 +6513,15 @@
     "title_kor": "상태 분류기 생성 방법 및 이를 이용한 보행상태 판단 방법",
     "title_eng": "Method for generating of state classifier and for deciding walking state using the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2020-0017131",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Method for generating of state classifier and for deciding walking state using the same, Published (No: 10-2020-0017131, Date: 2020/02/18).",
+    "state": "complete",
     "id": "d9ffd18d-07a5-400a-9da3-9830eb16f522",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Lee J, Park S"
   },
   {
@@ -5972,13 +6536,15 @@
     "title_kor": "상태 분류기 생성 방법 및 이를 이용한 보행상태 판단 방법",
     "title_eng": "Method for generating of state classifier and for deciding walking state using the same",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2018-0092368",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Method for generating of state classifier and for deciding walking state using the same, Filed (No: 10-2018-0092368, Date: 2018/08/08).",
+    "state": "complete",
     "id": "a5df538c-e89d-485d-a409-8b0930690ccf",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Lee J, Park S"
   },
   {
@@ -5993,13 +6559,15 @@
     "title_kor": "맥파의 특정 진폭에 대한 박동 폭 계산 프로그램 ",
     "title_eng": "맥파의 특정 진폭에 대한 박동 폭 계산 프로그램 ",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-024252",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "맥파의 특정 진폭에 대한 박동 폭 계산 프로그램, Granted (No: C-2018-024252, Date: 2018/09/10).",
+    "state": "complete",
     "id": "af1d6dc1-648f-45ef-bab6-c92268a72889",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6014,13 +6582,15 @@
     "title_kor": "삼각화된 맥파 신호의 박동별 넓이 계산 프로그램 ",
     "title_eng": "삼각화된 맥파 신호의 박동별 넓이 계산 프로그램 ",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-024253",
     "acknowledgements": "1345281907",
     "class": "Registered SW",
     "contents": "삼각화된 맥파 신호의 박동별 넓이 계산 프로그램, Granted (No: C-2018-024253, Date: 2018/09/10).",
+    "state": "complete",
     "id": "cf902e18-ee4c-4441-a0fd-04b24eed7126",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6035,13 +6605,15 @@
     "title_kor": "맥파 신호의 박동별 수축기 및 이완기 분석 프로그램 ",
     "title_eng": "맥파 신호의 박동별 수축기 및 이완기 분석 프로그램 ",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-024254",
     "acknowledgements": "1345281907",
     "class": "Registered SW",
     "contents": "맥파 신호의 박동별 수축기 및 이완기 분석 프로그램, Granted (No: C-2018-024254, Date: 2018/09/10).",
+    "state": "complete",
     "id": "7e40d3eb-6f2f-4a45-9852-c3adf6e97cbb",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6056,13 +6628,15 @@
     "title_kor": "맥파 신호의 맥동별 진폭 계산 프로그램 ",
     "title_eng": "맥파 신호의 맥동별 진폭 계산 프로그램 ",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-024255",
     "acknowledgements": "1345281907",
     "class": "Registered SW",
     "contents": "맥파 신호의 맥동별 진폭 계산 프로그램, Granted (No: C-2018-024255, Date: 2018/09/10).",
+    "state": "complete",
     "id": "6e686801-99ff-4b90-a9b1-32cd96efab3a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6077,13 +6651,15 @@
     "title_kor": "맥파 신호의 박동별 기울기 분석 프로그램 ",
     "title_eng": "맥파 신호의 박동별 기울기 분석 프로그램 ",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-024256",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "맥파 신호의 박동별 기울기 분석 프로그램, Granted (No: C-2018-024256, Date: 2018/09/10).",
+    "state": "complete",
     "id": "a691aef4-64f5-4a9f-bc5c-d837ef24d675",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS, Yang YL"
   },
   {
@@ -6098,13 +6674,15 @@
     "title_kor": "맥파 신호의 박동별 넓이 계산 프로그램",
     "title_eng": "맥파 신호의 박동별 넓이 계산 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-024257",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "맥파 신호의 박동별 넓이 계산 프로그램, Granted (No: C-2018-024257, Date: 2018/09/10).",
+    "state": "complete",
     "id": "ae66efe3-9686-40f9-bd3e-75b24474e763",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS, Yang YL"
   },
   {
@@ -6119,13 +6697,15 @@
     "title_kor": "신호 동기화 프로그램",
     "title_eng": "신호 동기화 프로그램",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2018-039675",
     "acknowledgements": "1711070407",
     "class": "Registered SW",
     "contents": "신호 동기화 프로그램, Granted (No: C-2018-039675, Date: 2018/12/26).",
+    "state": "complete",
     "id": "14b7e784-59f2-4cb4-afa2-b8af7852eb1f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -6140,13 +6720,15 @@
     "title_kor": "힘 센서에 기반하여 각성 및 호흡률을 검출하기 위한 방법 및 장치",
     "title_eng": "A method and apparatus for detecting awakening and respiration rate based on force-sensor",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2019-0016809",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "A method and apparatus for detecting awakening and respiration rate based on force-sensor, Filed (No: 10-2019-0016809, Date: 2019/02/13).",
+    "state": "complete",
     "id": "514d1cbd-e81d-4e09-b18f-560370223af7",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park S"
   },
   {
@@ -6161,13 +6743,15 @@
     "title_kor": "벡불안척도(Beck Anxiety Inventory, BAI) 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "벡불안척도(Beck Anxiety Inventory, BAI) 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022410",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "벡불안척도(Beck Anxiety Inventory, BAI) 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022410, Date: 2019/08/12).",
+    "state": "complete",
     "id": "fc5d01ec-ce40-4433-829e-2f9cf7efcd12",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Seok HS"
   },
   {
@@ -6182,13 +6766,15 @@
     "title_kor": "벡우울척도(Beck Depression Inventory, BDI) 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "벡우울척도(Beck Depression Inventory, BDI) 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022411",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "벡우울척도(Beck Depression Inventory, BDI) 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022411, Date: 2019/08/12).",
+    "state": "complete",
     "id": "cec8101f-dece-4554-860b-7657a72589ae",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Seok HS"
   },
   {
@@ -6203,13 +6789,15 @@
     "title_kor": "한국판 역학연구 우울척도(K-CESD)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "한국판 역학연구 우울척도(K-CESD)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022412",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "한국판 역학연구 우울척도(K-CESD)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022412, Date: 2019/08/12).",
+    "state": "complete",
     "id": "6353522e-2779-456b-87f4-ee2ac4e95e2c",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Seok HS"
   },
   {
@@ -6224,13 +6812,15 @@
     "title_kor": "건강관련삶의질 평가도구(EQ-5D)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "건강관련삶의질 평가도구(EQ-5D)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022413",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "건강관련삶의질 평가도구(EQ-5D)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022413, Date: 2019/08/12).",
+    "state": "complete",
     "id": "61ce5562-7b0c-454e-8860-f49207fe91e5",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6245,13 +6835,15 @@
     "title_kor": "건강관련 삶의질, 불안 및 우울 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "건강관련 삶의질, 불안 및 우울 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022414",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "건강관련 삶의질, 불안 및 우울 설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022414, Date: 2019/08/12).",
+    "state": "complete",
     "id": "2c2a396c-7847-4942-8cc8-0bad13f49cdd",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kang J, Kim D, Seok HS, Kwon J, Han S"
   },
   {
@@ -6266,13 +6858,15 @@
     "title_kor": "SF36(건강관련삶의질 평가도구)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "SF36(건강관련삶의질 평가도구)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022415",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "SF36(건강관련삶의질 평가도구)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022415, Date: 2019/08/12).",
+    "state": "complete",
     "id": "96280732-8cb3-431a-a80a-460ec293bc1b",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6287,13 +6881,15 @@
     "title_kor": "상태불안척도(State-Trait Anxiety Inventory, STAI-X-1)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "상태불안척도(State-Trait Anxiety Inventory, STAI-X-1)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022416",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "상태불안척도(State-Trait Anxiety Inventory, STAI-X-1)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022416, Date: 2019/08/12).",
+    "state": "complete",
     "id": "2b5c1faf-c54b-4c3a-bbbb-aff1e49bf85a",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Seok HS"
   },
   {
@@ -6308,13 +6904,15 @@
     "title_kor": "특성불안척도(State-Trait Anxiety Inventory, STAI-X-2)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "특성불안척도(State-Trait Anxiety Inventory, STAI-X-2)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022417",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "특성불안척도(State-Trait Anxiety Inventory, STAI-X-2)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022417, Date: 2019/08/12).",
+    "state": "complete",
     "id": "e87e1bcb-1a56-4065-8c6c-116814a41a68",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Kim D, Seok HS"
   },
   {
@@ -6329,13 +6927,15 @@
     "title_kor": "건강관련삶의질 평가도구(WHOQOL-BREF)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "title_eng": "건강관련삶의질 평가도구(WHOQOL-BREF)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "C-2019-022418",
     "acknowledgements": "1711074231",
     "class": "Registered SW",
     "contents": "건강관련삶의질 평가도구(WHOQOL-BREF)설문 평가를 위한 플래시카드형 안드로이드 어플리케이션, Granted (No: C-2019-022418, Date: 2019/08/12).",
+    "state": "complete",
     "id": "4e7a731f-62b0-4271-acc3-1382d6e91534",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6350,13 +6950,15 @@
     "title_kor": "스태킹 콘 시스템",
     "title_eng": "Stacking cone system",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2019-0135734",
     "acknowledgements": "1711026335",
     "class": "Domestic",
     "contents": "Stacking cone system, Filed (No: 10-2019-0135734, Date: 2019/10/29).",
+    "state": "complete",
     "id": "ffc056b3-2897-444a-a319-4c3d77f97a76",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -6371,13 +6973,15 @@
     "title_kor": "압력 및 맥파에 기반한 평균동맥압 추정 방법 및 장치",
     "title_eng": "A method and apparatus for estimating mean arterial pressure based on pressure and pulse wave",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2019-0174119",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "A method and apparatus for estimating mean arterial pressure based on pressure and pulse wave, Filed (No: 10-2019-0174119, Date: 2019/12/24).",
+    "state": "complete",
     "id": "79ae23d8-345a-4892-8b9c-a76bebdac22f",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H"
   },
   {
@@ -6392,13 +6996,15 @@
     "title_kor": "광용적맥파의 미분 지표를 이용한 수술 후 통증 평가 방법 및 장치",
     "title_eng": "A method and apparatus for postoperative pain assessment using differential index of photoplethysmogram",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2020-0066975",
     "acknowledgements": "1711074231",
     "class": "Domestic",
     "contents": "A method and apparatus for postoperative pain assessment using differential index of photoplethysmogram, Filed (No: 10-2020-0066975, Date: 2020/06/03).",
+    "state": "complete",
     "id": "f44cff49-ff09-409a-aed9-84d4cef727b3",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Seok HS"
   },
   {
@@ -6413,13 +7019,15 @@
     "title_kor": "다중 배열 압력 센서를 포함하는 웨어러블 혈압 측정 장치",
     "title_eng": "Wearable blood pressure measuring device with multi-array pressure sensors",
     "country_kor": "대한민국",
-    "country_eng": "Republic of Korea",
+    "country_eng": "South Korea",
     "number": "10-2020-0072249",
     "acknowledgements": "1711046913",
     "class": "Domestic",
     "contents": "Wearable blood pressure measuring device with multi-array pressure sensors, Filed (No: 10-2020-0072249, Date: 2020/06/15).",
+    "state": "complete",
     "id": "df4bdfc7-8f34-4d6c-b69b-803b326c48d2",
     "is_prev": true,
+    "country_code": "KR",
     "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A"
   }
 ]
