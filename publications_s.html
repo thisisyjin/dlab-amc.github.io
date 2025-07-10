@@ -58,12 +58,7 @@ permalink: /publications_s/
           class="wrapper style2 container"
           style="margin-top: -1em; margin-bottom: 0"
         >
-          <div class="patent-tab-container">
-            <a href="#" class="patent-tab active" data-state="granted"
-              >Granted</a
-            >
-            <a href="#" class="patent-tab" data-state="filed">Filed</a>
-          </div>
+          <div class="patent-tab-container"></div>
         </div>
         <div
           id="pub-content"
@@ -134,18 +129,54 @@ permalink: /publications_s/
           filterContainer.appendChild(btn);
         });
 
-        // 상태 필터 탭
-        document.querySelectorAll('.patent-tab').forEach((tab) => {
-          tab.addEventListener('click', (e) => {
-            e.preventDefault();
-            selectedState = tab.dataset.state;
-            updateContent(data);
-            document
-              .querySelectorAll('.patent-tab')
-              .forEach((el) => el.classList.remove('active'));
-            tab.classList.add('active');
+        // 상태 필터 탭 생성
+        const stateTabContainer = document.querySelector(
+          '.patent-tab-container'
+        );
+        const uniqueStates = [
+          ...new Set(
+            data
+              .filter((item) => ALLOWED_CLASSES.includes(item.class))
+              .map((item) => item.patent_state)
+          ),
+        ];
+
+        if (uniqueStates.includes('granted')) {
+          const grantedTab = document.createElement('a');
+          grantedTab.href = '#';
+          grantedTab.className = 'patent-tab active';
+          grantedTab.dataset.state = 'granted';
+          grantedTab.textContent = 'Granted';
+          stateTabContainer.appendChild(grantedTab);
+        }
+
+        if (uniqueStates.includes('filed')) {
+          const filedTab = document.createElement('a');
+          filedTab.href = '#';
+          filedTab.className =
+            'patent-tab' + (selectedState === 'filed' ? ' active' : '');
+          filedTab.dataset.state = 'filed';
+          filedTab.textContent = 'Filed';
+          stateTabContainer.appendChild(filedTab);
+        }
+
+        // 상태 필터 탭 클릭 이벤트
+        document
+          .querySelectorAll('.patent-tab-container')
+          .forEach((container) => {
+            container.addEventListener('click', (e) => {
+              const tab = e.target.closest('.patent-tab');
+              if (tab) {
+                e.preventDefault();
+                selectedState = tab.dataset.state;
+                updateContent(data);
+                container
+                  .querySelectorAll('.patent-tab')
+                  .forEach((el) => el.classList.remove('active'));
+                tab.classList.add('active');
+              }
+            });
           });
-        });
 
         // 초기 콘텐츠 렌더링
         updateContent(data);
