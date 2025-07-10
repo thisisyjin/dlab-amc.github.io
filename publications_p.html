@@ -105,8 +105,8 @@ permalink: /publications_p/
 </style>
 
 <script>
-  const CLASS_ORDER = ['ALL', 'International', 'Domestic'];
-  const ALLOWED_CLASSES = ['International', 'Domestic'];
+  let classFilter = 'ALL';
+  let stateFilter = 'granted';
 
   document.addEventListener('DOMContentLoaded', () => {
     fetch('{{ site.baseurl }}/data/publications/pub_p.json')
@@ -114,28 +114,67 @@ permalink: /publications_p/
       .then((allData) => {
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
-        let selectedState = 'granted'; // default 탭
+
+        // 클래스 필터 버튼 만들기
+        CLASS_ORDER.forEach((cls) => {
+          const btn = document.createElement('a');
+          btn.textContent = cls;
+          btn.href = `#${cls.toLowerCase()}`;
+          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            classFilter = cls;
+            updateClassButtons(cls);
+            render();
+          });
+          filterContainer.appendChild(btn);
+        });
+
+        // 상태 탭 버튼 이벤트
+        document.querySelectorAll('.patent-tab').forEach((tab) => {
+          tab.addEventListener('click', (e) => {
+            e.preventDefault();
+            stateFilter = tab.dataset.state;
+            updateStateTabs(tab);
+            render();
+          });
+        });
+
+        const updateClassButtons = (activeCls) => {
+          document.querySelectorAll('.small-button').forEach((btn) => {
+            btn.classList.toggle('active', btn.textContent === activeCls);
+          });
+        };
+
+        const updateStateTabs = (activeTab) => {
+          document.querySelectorAll('.patent-tab').forEach((btn) => {
+            btn.classList.remove('active');
+          });
+          activeTab.classList.add('active');
+        };
 
         const render = () => {
-          // 기존 컨텐츠 비움
           contentContainer.innerHTML = '';
+          const filtered = allData.filter((item) => {
+            const matchClass =
+              classFilter === 'ALL'
+                ? ALLOWED_CLASSES.includes(item.class)
+                : item.class === classFilter;
+            const matchState = item.patent_state === stateFilter;
+            return matchClass && matchState;
+          });
 
-          const filteredData = allData.filter(
-            (d) =>
-              d.patent_state === selectedState &&
-              ALLOWED_CLASSES.includes(d.class)
-          );
-
-          const byClass = groupBy(filteredData, 'class');
+          const byClass = groupBy(filtered, 'class');
 
           CLASS_ORDER.forEach((cls) => {
             const section = document.createElement('div');
             section.className = 'class-section';
             section.id = `section-${cls.toLowerCase()}`;
-            section.style.display = cls === 'ALL' ? 'block' : 'none';
+            section.style.display =
+              cls === classFilter || classFilter === 'ALL' ? 'block' : 'none';
 
             const entries = (
-              cls === 'ALL' ? filteredData : [...(byClass[cls] || [])]
+              cls === 'ALL' ? filtered : [...(byClass[cls] || [])]
             )
               .filter((d) => d.date)
               .sort((a, b) => b.date.localeCompare(a.date));
@@ -143,12 +182,10 @@ permalink: /publications_p/
             entries.forEach((entry) => {
               const div = document.createElement('div');
               div.style.marginBottom = '20px';
-
               const content = buildPatentHTML(entry);
               const line = document.createElement('div');
               line.className = 'paperclick';
               line.textContent = content;
-
               div.appendChild(line);
               section.appendChild(div);
             });
@@ -157,43 +194,7 @@ permalink: /publications_p/
           });
         };
 
-        // 클래스 필터 버튼
-        CLASS_ORDER.forEach((cls) => {
-          const btn = document.createElement('a');
-          btn.textContent = cls;
-          btn.href = `#${cls.toLowerCase()}`;
-          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
-          btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            document
-              .querySelectorAll('.class-section')
-              .forEach((el) => (el.style.display = 'none'));
-            document
-              .querySelectorAll('.small-button')
-              .forEach((el) => el.classList.remove('active'));
-            document.getElementById(
-              `section-${cls.toLowerCase()}`
-            ).style.display = 'block';
-            btn.classList.add('active');
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          });
-          filterContainer.appendChild(btn);
-        });
-
-        // 상태 탭 필터링 (Granted/Filed)
-        document.querySelectorAll('.patent-tab').forEach((tab) => {
-          tab.addEventListener('click', (e) => {
-            e.preventDefault();
-            document
-              .querySelectorAll('.patent-tab')
-              .forEach((el) => el.classList.remove('active'));
-            tab.classList.add('active');
-            selectedState = tab.dataset.state;
-            render();
-          });
-        });
-
-        render(); // 최초 실행
+        render();
       });
 
     function groupBy(arr, key) {
