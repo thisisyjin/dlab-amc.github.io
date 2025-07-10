@@ -105,6 +105,9 @@ permalink: /publications_p/
 </style>
 
 <script>
+  const CLASS_ORDER = ['ALL', 'International', 'Domestic'];
+  const ALLOWED_CLASSES = ['International', 'Domestic'];
+
   let classFilter = 'ALL';
   let stateFilter = 'granted';
 
@@ -115,7 +118,7 @@ permalink: /publications_p/
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
 
-        // 클래스 필터 버튼 만들기
+        // 필터 버튼 생성
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
@@ -130,7 +133,7 @@ permalink: /publications_p/
           filterContainer.appendChild(btn);
         });
 
-        // 상태 탭 버튼 이벤트
+        // 상단 상태 필터 탭 이벤트
         document.querySelectorAll('.patent-tab').forEach((tab) => {
           tab.addEventListener('click', (e) => {
             e.preventDefault();
@@ -155,6 +158,7 @@ permalink: /publications_p/
 
         const render = () => {
           contentContainer.innerHTML = '';
+
           const filtered = allData.filter((item) => {
             const matchClass =
               classFilter === 'ALL'
@@ -182,10 +186,12 @@ permalink: /publications_p/
             entries.forEach((entry) => {
               const div = document.createElement('div');
               div.style.marginBottom = '20px';
+
               const content = buildPatentHTML(entry);
               const line = document.createElement('div');
               line.className = 'paperclick';
               line.textContent = content;
+
               div.appendChild(line);
               section.appendChild(div);
             });
