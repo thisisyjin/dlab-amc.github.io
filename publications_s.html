@@ -214,39 +214,43 @@ permalink: /publications_s/
 
     function buildPatentHTML(entry) {
       const authors = entry.authors_text || '';
-      const title = entry.title_eng || '';
-      const country = entry.country_code || '';
+      const countryType = entry.country === 'Domestic' ? 'kor' : 'eng';
+      const title = entry[`title_${countryType}`] || '';
+      const countryCode = entry.country_code || '';
       const number = entry.number || '';
-      const date = formatDate(entry.date);
+      const date = formatDate(entry.date, entry.country);
 
       const segments = [];
       if (authors) segments.push(`${authors}.`);
       if (title) segments.push(`${title}.`);
-      if (country && number) segments.push(`${country} ${number},`);
+      if (countryCode && number) segments.push(`${countryCode} ${number},`);
       if (date) segments.push(`${date}.`);
-      return segments.join(' ').replace(/\s+/g, ' ').trim();
+
+      return segments.join(' ').replace(/\s+/g, ' ').trim().replace(/;+$/, '');
     }
 
-    function formatDate(dateStr) {
+    function formatDate(dateStr, country) {
       if (!dateStr) return '';
       const normalized = dateStr.replace(/\./g, '-').replace(/\s/g, '').trim();
       const [yyyy, mm, dd] = normalized.split('-');
-      const monthNames = [
-        '',
-        'Jan',
-        'Feb',
-        'Mar',
-        'Apr',
-        'May',
-        'Jun',
-        'Jul',
-        'Aug',
-        'Sep',
-        'Oct',
-        'Nov',
-        'Dec',
-      ];
-      const month = monthNames[parseInt(mm, 10)] || '';
+      const month =
+        country === 'Domestic'
+          ? mm?.padStart(2, '0')
+          : [
+              '',
+              'Jan',
+              'Feb',
+              'Mar',
+              'Apr',
+              'May',
+              'Jun',
+              'Jul',
+              'Aug',
+              'Sep',
+              'Oct',
+              'Nov',
+              'Dec',
+            ][parseInt(mm, 10)] || '';
       return `${yyyy} ${month} ${parseInt(dd, 10)}`;
     }
   });
