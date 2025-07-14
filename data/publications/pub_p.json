@@ -3,7 +3,6 @@
     "_id": "686b4f8dbe6cdf4d03f6b75f",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2025-01-15",
     "inventor_kor": "이재형",
@@ -20,15 +19,15 @@
     "id": "56050b92-dd16-4742-a9de-5a2530fed2c8",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Lee J",
+    "authors_text": "이재형",
     "author_eng": "Jaehyung Lee",
-    "author_kor": "이재형"
+    "author_kor": "이재형",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b760",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2024-12-30",
     "inventor_kor": "이재형;신항식;임하민;왕창원",
@@ -47,13 +46,13 @@
     "country_code": "KR",
     "authors_text": "이재형, 신항식, 임하민, 왕창원",
     "author_eng": "이재형;신항식;임하민;왕창원",
-    "author_kor": "이재형;신항식;임하민;왕창원"
+    "author_kor": "이재형;신항식;임하민;왕창원",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b761",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2024-04-22",
     "inventor_kor": "신항식;최병문;최재문;류가연",
@@ -70,15 +69,15 @@
     "id": "3f037504-428d-406c-9c76-7d0fde04eb4c",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Choi B, Choi JM, Ryu G",
+    "authors_text": "신항식, 최병문, 최재문, 류가연",
     "author_eng": "Hangsik Shin;Byung-Moon Choi;Jae Moon Choi;Gayeon Ryu",
-    "author_kor": "신항식;최병문;최재문;류가연"
+    "author_kor": "신항식;최병문;최재문;류가연",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b762",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-12-13",
     "inventor_kor": "신항식;왕창원;임하민",
@@ -97,13 +96,13 @@
     "country_code": "KR",
     "authors_text": "신항식, 왕창원, 임하민",
     "author_eng": "신항식;왕창원;임하민",
-    "author_kor": "신항식;왕창원;임하민"
+    "author_kor": "신항식;왕창원;임하민",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b763",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-12-13",
     "inventor_kor": "신항식;왕창원;임하민",
@@ -122,13 +121,13 @@
     "country_code": "KR",
     "authors_text": "신항식, 왕창원, 임하민",
     "author_eng": "신항식;왕창원;임하민",
-    "author_kor": "신항식;왕창원;임하민"
+    "author_kor": "신항식;왕창원;임하민",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b764",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-12-15",
     "inventor_kor": "신항식",
@@ -145,13 +144,13 @@
     "id": "fb68311e-5892-4acf-8beb-3903f421a8a0",
     "is_prev": true,
     "country_code": "KR",
+    "country": "Domestic",
     "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b765",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-12-15",
     "inventor_kor": "신항식;이재형",
@@ -170,13 +169,13 @@
     "country_code": "KR",
     "authors_text": "신항식, 이재형",
     "author_eng": "신항식;이재형",
-    "author_kor": "신항식;이재형"
+    "author_kor": "신항식;이재형",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b766",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-12-13",
     "inventor_kor": "신항식;왕창원;임하민",
@@ -195,13 +194,13 @@
     "country_code": "KR",
     "authors_text": "신항식, 왕창원, 임하민",
     "author_eng": "신항식;왕창원;임하민",
-    "author_kor": "신항식;왕창원;임하민"
+    "author_kor": "신항식;왕창원;임하민",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b767",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2023-10-30",
     "inventor_kor": "신항식",
@@ -218,13 +217,13 @@
     "id": "7fece762-85cc-4c24-9624-c27843c785ef",
     "is_prev": true,
     "country_code": "KR",
+    "country": "Domestic",
     "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b768",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2023-12-29",
     "inventor_kor": "신항식;왕창원;이중선;주성우;임하민",
@@ -241,13 +240,13 @@
     "id": "e401d263-72e8-4304-a79d-d829488b7d8d",
     "is_prev": true,
     "country_code": "KR",
+    "country": "Domestic",
     "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b769",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2023-10-26",
     "inventor_kor": "신항식",
@@ -264,15 +263,15 @@
     "id": "8a4d751d-b46f-47e2-afbe-5e52dda4b5ed",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH",
+    "authors_text": "신항식",
     "author_eng": "SHIN, Hang Sik",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2023-10-13",
     "inventor_kor": "신항식",
@@ -289,13 +288,13 @@
     "id": "3312af4f-0f30-450f-a561-5e27deb07417",
     "is_prev": true,
     "country_code": "KR",
+    "country": "Domestic",
     "authors_text": ""
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76b",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-05-25",
     "inventor_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
@@ -311,15 +310,15 @@
     "id": "55078441-f6a7-4eac-ad08-c10488c2a1aa",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "아산사회복지재단 재, 산학협력단 울, 산학협력단 가",
+    "authors_text": "재단법인 아산사회복지재단, 울산대학교 산학협력단, 가천대학교 산학협력단",
     "author_eng": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
-    "author_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단"
+    "author_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76c",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-05-25",
     "inventor_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
@@ -335,15 +334,15 @@
     "id": "aa2c9aaf-e5d8-4595-9290-e5da3e26e0a0",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "아산사회복지재단 재, 산학협력단 울, 산학협력단 가",
+    "authors_text": "재단법인 아산사회복지재단, 울산대학교 산학협력단, 가천대학교 산학협력단",
     "author_eng": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
-    "author_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단"
+    "author_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76d",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2023-05-25",
     "inventor_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
@@ -359,15 +358,15 @@
     "id": "62eac829-8ba2-4a31-9cbd-7b4f5a15db39",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "아산사회복지재단 재, 산학협력단 울, 산학협력단 가",
+    "authors_text": "재단법인 아산사회복지재단, 울산대학교 산학협력단, 가천대학교 산학협력단",
     "author_eng": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
-    "author_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단"
+    "author_kor": "재단법인 아산사회복지재단;울산대학교 산학협력단;가천대학교 산학협력단",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2021-06-09",
     "inventor_kor": "신항식",
@@ -385,13 +384,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hang-Sik Shin\t",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b76f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2023-01-30",
     "inventor_kor": "신항식",
@@ -408,15 +407,15 @@
     "id": "fc03d603-79e0-45f6-a92c-155613ea8fe1",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH",
+    "authors_text": "신항식",
     "author_eng": "SHIN, Hang Sik",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b770",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2023-01-30",
     "inventor_kor": "신항식",
@@ -433,15 +432,15 @@
     "id": "00c11128-93cb-42b0-b955-7e9d364d107c",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH",
+    "authors_text": "신항식",
     "author_eng": "SHIN, Hang Sik",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b771",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2023-01-18",
     "inventor_kor": "신항식",
@@ -458,15 +457,15 @@
     "id": "a21dc4b9-d781-4382-b08e-add9fedaf479",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Sik SH",
+    "authors_text": "신항식",
     "author_eng": "SHIN, Hang Sik",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b772",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2022-08-08",
     "inventor_kor": "신항식",
@@ -483,15 +482,15 @@
     "id": "8bca95f2-8ec3-44ab-a585-64db04b28408",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b773",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2021-06-06",
     "inventor_kor": "Hangsik Shin",
@@ -510,13 +509,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b774",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2019-10-16",
     "inventor_kor": "Hangsik Shin",
@@ -535,13 +534,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b775",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2021-06-29",
     "inventor_kor": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim",
@@ -560,13 +559,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D",
     "author_eng": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim",
-    "author_kor": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim"
+    "author_kor": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b776",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2019-12-30",
     "inventor_kor": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim",
@@ -585,13 +584,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D",
     "author_eng": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim",
-    "author_kor": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim"
+    "author_kor": "Jae-woo Ko;Hang-sik Shin;Se-jun Park;Do-young Kim",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b777",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2021-12-31",
     "inventor_kor": "신항식;박준영;최용순;정진",
@@ -608,15 +607,15 @@
     "id": "3eb391b0-6b48-4486-83bc-179300e01f6a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Choi Y, Jung J",
+    "authors_text": "신항식, 박준영, 최용순, 정진",
     "author_eng": "Hangsik Shin;Junyung Park;Yongsoon Choi;Jin Jung",
-    "author_kor": "신항식;박준영;최용순;정진"
+    "author_kor": "신항식;박준영;최용순;정진",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b778",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2021-10-29",
     "inventor_kor": "신항식;노규정;최병문",
@@ -633,15 +632,15 @@
     "id": "4173ebdb-f818-486d-bfb6-bee33fc3e13f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Noh G, Choi B",
+    "authors_text": "신항식, 노규정, 최병문",
     "author_eng": "Hangsik Shin;Gyujeong Noh;Byungmoong Choi",
-    "author_kor": "신항식;노규정;최병문"
+    "author_kor": "신항식;노규정;최병문",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b779",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2019-08-16",
     "inventor_kor": "신항식;노규정;최병문",
@@ -658,15 +657,15 @@
     "id": "06c2622b-c8f0-4002-8367-e4abb388bd4b",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Noh G, Choi B",
+    "authors_text": "신항식, 노규정, 최병문",
     "author_eng": "Hangsik Shin;Gyujeong Noh;Byungmoong Choi",
-    "author_kor": "신항식;노규정;최병문"
+    "author_kor": "신항식;노규정;최병문",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b77a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2021-12-30",
     "inventor_kor": "신항식",
@@ -683,15 +682,15 @@
     "id": "e4a56844-65c7-4f83-b203-e9362104a8a8",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b77b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2021-12-30",
     "inventor_kor": "신항식;박준영",
@@ -708,15 +707,15 @@
     "id": "fe8e7c61-da65-408b-a6a6-ac8ebcd4a82a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J",
+    "authors_text": "신항식, 박준영",
     "author_eng": "Hangsik Shin;Junyung Park",
-    "author_kor": "신항식;박준영"
+    "author_kor": "신항식;박준영",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b77c",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2021-10-01",
     "inventor_kor": "신항식",
@@ -733,15 +732,15 @@
     "id": "2e0fbd54-d86b-4614-99dc-7a71f8ed4149",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b77d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2021-05-10",
     "inventor_kor": "신항식",
@@ -758,15 +757,15 @@
     "id": "fec326cf-165f-4f5d-ae92-06bb61090a14",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b77e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2021-03-04",
     "inventor_kor": "신항식;권단비",
@@ -785,13 +784,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Gwon D",
     "author_eng": "Hangsik Shin;Danbi Gwon",
-    "author_kor": "신항식;권단비"
+    "author_kor": "신항식;권단비",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b77f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2021-03-04",
     "inventor_kor": "신항식;임지연;최병문;노규정",
@@ -810,13 +809,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Yim J, Choi B, Noh G",
     "author_eng": "Hangsik Shin;JiYoen Yim;Byungmoon Choi;Gyujeong Noh",
-    "author_kor": "신항식;임지연;최병문;노규정"
+    "author_kor": "신항식;임지연;최병문;노규정",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b780",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2021-02-23",
     "inventor_kor": "신항식;박수지",
@@ -833,15 +832,15 @@
     "id": "3fa1e816-8085-43a5-bdf6-7afda40f4bf9",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park S",
+    "authors_text": "신항식, 박수지",
     "author_eng": "Hangsik Shin;Sooji Park",
-    "author_kor": "신항식;박수지"
+    "author_kor": "신항식;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b781",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2021-02-15",
     "inventor_kor": "신항식;박준영;노동근;최용순;김도유;최아영",
@@ -860,13 +859,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A",
     "author_eng": "Hangsik Shin;Junyung Park;Donggeun Roh;Yongsoon Choi;Doyu Kim;Ahyoung Choi",
-    "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영"
+    "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b782",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2021-02-08",
     "inventor_kor": "신항식;권단비",
@@ -885,13 +884,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Gwon D",
     "author_eng": "Hangsik Shin;Danbi Gwon",
-    "author_kor": "신항식;권단비"
+    "author_kor": "신항식;권단비",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b783",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2021-02-08",
     "inventor_kor": "신항식;임지연;최병문;노규정",
@@ -908,15 +907,15 @@
     "id": "72fa4a5f-5287-4140-a8ca-b20d3cb21184",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Yim J, Choi B, Noh G",
+    "authors_text": "신항식, 임지연, 최병문, 노규정",
     "author_eng": "Hangsik Shin;JiYoen Yim;Byungmoon Choi;Gyujeong Noh",
-    "author_kor": "신항식;임지연;최병문;노규정"
+    "author_kor": "신항식;임지연;최병문;노규정",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b784",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2021-02-05",
     "inventor_kor": "신항식;권단비",
@@ -933,15 +932,15 @@
     "id": "864acce6-7ca3-49af-89a9-6ef916f58d24",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Gwon D",
+    "authors_text": "신항식, 권단비",
     "author_eng": "Hangsik Shin;Danbi Gwon",
-    "author_kor": "신항식;권단비"
+    "author_kor": "신항식;권단비",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b785",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2021-01-28",
     "inventor_kor": "신항식;권단비",
@@ -958,15 +957,15 @@
     "id": "dfdea2b9-0376-4b00-a168-344daf816500",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Gwon D",
+    "authors_text": "신항식, 권단비",
     "author_eng": "Hangsik Shin;Danbi Gwon",
-    "author_kor": "신항식;권단비"
+    "author_kor": "신항식;권단비",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b786",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2021-01-28",
     "inventor_kor": "신항식;박준영;노동근;최용순;김도유;최아영",
@@ -983,15 +982,15 @@
     "id": "2e52b971-68a6-477e-81f9-d75c4c9ab47a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A",
+    "authors_text": "신항식, 박준영, 노동근, 최용순, 김도유, 최아영",
     "author_eng": "Hangsik Shin;Junyung Park;Donggeun Roh;Yongsoon Choi;Doyu Kim;Ahyoung Choi",
-    "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영"
+    "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b787",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2020-12-30",
     "inventor_kor": "신항식;이준석;박수지",
@@ -1008,15 +1007,15 @@
     "id": "9894a82e-6c28-4113-a803-3064e7416304",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Lee J, Park S",
+    "authors_text": "신항식, 이준석, 박수지",
     "author_eng": "Hangsik Shin;Junseok Lee;Sooji Park",
-    "author_kor": "신항식;이준석;박수지"
+    "author_kor": "신항식;이준석;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b788",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2020-11-16",
     "inventor_kor": "신항식;석현석",
@@ -1033,15 +1032,15 @@
     "id": "8d19fdd5-145a-4d53-8ccc-a844edab13b7",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b789",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2020-08-31",
     "inventor_kor": "신항식;권단비",
@@ -1058,15 +1057,15 @@
     "id": "e5b7bbbf-2106-47d0-8d53-0d704e0b2008",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Gwon D",
+    "authors_text": "신항식, 권단비",
     "author_eng": "Hangsik Shin;Danbi Gwon",
-    "author_kor": "신항식;권단비"
+    "author_kor": "신항식;권단비",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b78a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-10-29",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -1085,13 +1084,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b78b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2017-11-02",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -1110,13 +1109,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b78c",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-11-19",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -1135,13 +1134,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b78d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2019-08-20",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -1160,13 +1159,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b78e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2020-07-21",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -1185,13 +1184,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b78f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2019-08-08",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -1210,13 +1209,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b790",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2020-09-24",
     "inventor_kor": "신항식",
@@ -1235,13 +1234,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b791",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2020-03-25",
     "inventor_kor": "신항식;박수지",
@@ -1258,15 +1257,15 @@
     "id": "75328e09-2b24-4923-a6d5-419d6d7053c6",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park S",
+    "authors_text": "신항식, 박수지",
     "author_eng": "Hangsik Shin;Sooji Park",
-    "author_kor": "신항식;박수지"
+    "author_kor": "신항식;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b792",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2009-01-29",
     "inventor_kor": "이명호;윤성원;윤용현;신항식;주영민;정완진",
@@ -1283,15 +1282,15 @@
     "id": "0ff8db41-3ff3-405f-a09b-eef0b213b3e0",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Lee M, Yoon S, Yoon Y, Shin H, Choo Y, Jeong W",
+    "authors_text": "이명호, 윤성원, 윤용현, 신항식, 주영민, 정완진",
     "author_eng": "Myongho Lee;Sungwon Yoon;Yonghyeon Yoon;Hangsik Shin;Youngmin Choo;Wanjin Jeong",
-    "author_kor": "이명호;윤성원;윤용현;신항식;주영민;정완진"
+    "author_kor": "이명호;윤성원;윤용현;신항식;주영민;정완진",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b793",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2007-04-25",
     "inventor_kor": "이명호;윤성원;윤용현;신항식;주영민;정완진",
@@ -1308,15 +1307,15 @@
     "id": "aace2be3-bd38-442a-9f72-fc5e585f0312",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Lee M, Yoon S, Yoon Y, Shin H, Choo Y, Jeong W",
+    "authors_text": "이명호, 윤성원, 윤용현, 신항식, 주영민, 정완진",
     "author_eng": "Myongho Lee;Sungwon Yoon;Yonghyeon Yoon;Hangsik Shin;Youngmin Choo;Wanjin Jeong",
-    "author_kor": "이명호;윤성원;윤용현;신항식;주영민;정완진"
+    "author_kor": "이명호;윤성원;윤용현;신항식;주영민;정완진",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b794",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-05-18",
     "inventor_kor": "신항식;박정훈;안성주",
@@ -1333,15 +1332,15 @@
     "id": "d2a2143c-32da-4592-8a88-03a04c9e2a35",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Ahn S",
+    "authors_text": "신항식, 박정훈, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;안성주"
+    "author_kor": "신항식;박정훈;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b795",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2011-06-09",
     "inventor_kor": "신항식;박정훈;안성주",
@@ -1358,15 +1357,15 @@
     "id": "75f338a9-9398-4c3e-9738-345920485222",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Ahn S",
+    "authors_text": "신항식, 박정훈, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;안성주"
+    "author_kor": "신항식;박정훈;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b796",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-09-20",
     "inventor_kor": "신항식;김대은;박정훈;이재홍;안성주;정은석",
@@ -1383,15 +1382,15 @@
     "id": "4869b5bf-4dc1-422c-86ac-2ee4ca425911",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Park J, Lee J, Ahn S, Jung E",
+    "authors_text": "신항식, 김대은, 박정훈, 이재홍, 안성주, 정은석",
     "author_eng": "Hangsik Shin;Dae-eun Kim;Junghoon Park;Jaehong Lee;Sungjoo Ahn;Eunseak Jung",
-    "author_kor": "신항식;김대은;박정훈;이재홍;안성주;정은석"
+    "author_kor": "신항식;김대은;박정훈;이재홍;안성주;정은석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b797",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2011-07-27",
     "inventor_kor": "신항식;김대은;박정훈;이재홍;안성주;정은석",
@@ -1408,15 +1407,15 @@
     "id": "f894c4d6-4500-4fce-afe7-34113df9cfc3",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Park J, Lee J, Ahn S, Jung E",
+    "authors_text": "신항식, 김대은, 박정훈, 이재홍, 안성주, 정은석",
     "author_eng": "Hangsik Shin;Dae-eun Kim;Junghoon Park;Jaehong Lee;Sungjoo Ahn;Eunseak Jung",
-    "author_kor": "신항식;김대은;박정훈;이재홍;안성주;정은석"
+    "author_kor": "신항식;김대은;박정훈;이재홍;안성주;정은석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b798",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-08-25",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1435,13 +1434,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b799",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1460,13 +1459,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b79a",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-09-08",
     "inventor_kor": "Hangsik Shin",
@@ -1485,13 +1484,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b79b",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin",
@@ -1510,13 +1509,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b79c",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-09-22",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1535,13 +1534,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b79d",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1560,13 +1559,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b79e",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-09-22",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1585,13 +1584,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b79f",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1610,13 +1609,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a0",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2013-10-02",
     "inventor_kor": "신항식;안성주;박정훈;유현국",
@@ -1633,15 +1632,15 @@
     "id": "13e0178e-5bea-42f2-80da-1b2764c56c5e",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Park J, Yoo H",
+    "authors_text": "신항식, 안성주, 박정훈, 유현국",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyungok Yoo",
-    "author_kor": "신항식;안성주;박정훈;유현국"
+    "author_kor": "신항식;안성주;박정훈;유현국",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a1",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-03-23",
     "inventor_kor": "신항식;안성주;박정훈;유현국",
@@ -1658,15 +1657,15 @@
     "id": "feb892cd-2b11-4266-9f2a-05ed8ea65f0f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Park J, Yoo H",
+    "authors_text": "신항식, 안성주, 박정훈, 유현국",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyungok Yoo",
-    "author_kor": "신항식;안성주;박정훈;유현국"
+    "author_kor": "신항식;안성주;박정훈;유현국",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a2",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-09-04",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -1683,15 +1682,15 @@
     "id": "bfb9f517-d68b-49f2-bcb7-33ec591c6315",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a3",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-05-17",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -1708,15 +1707,15 @@
     "id": "34b6e352-1d1b-44fc-aafa-84544965c38c",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a4",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-11-14",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -1733,15 +1732,15 @@
     "id": "f2cfa816-c6a4-4674-9bdc-bf38f8f35986",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a5",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-05-21",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -1758,15 +1757,15 @@
     "id": "0e23a43e-15fa-40dd-809c-6949c7558713",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a6",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-04-28",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -1785,13 +1784,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a7",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-05-30",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -1810,13 +1809,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a8",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2012-12-13",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
@@ -1835,13 +1834,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7a9",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-08",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
@@ -1860,13 +1859,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7aa",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2014-11-04",
     "inventor_kor": "Hangsik Shin",
@@ -1885,13 +1884,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ab",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin",
@@ -1910,13 +1909,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ac",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2014-11-25",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1935,13 +1934,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ad",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -1960,13 +1959,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ae",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2014-11-25",
     "inventor_kor": "Hangsik Shin",
@@ -1985,13 +1984,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7af",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin",
@@ -2010,13 +2009,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b0",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2014-12-02",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -2035,13 +2034,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b1",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-29",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -2060,13 +2059,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b2",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2014-12-09",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -2085,13 +2084,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b3",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-29",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -2110,13 +2109,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b4",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2014-12-09",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -2135,13 +2134,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b5",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-29",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
@@ -2160,13 +2159,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b6",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-03-17",
     "inventor_kor": "Hangsik Shin",
@@ -2185,13 +2184,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b7",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin",
@@ -2210,13 +2209,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b8",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-03-17",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -2235,13 +2234,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7b9",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-06-28",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
@@ -2260,13 +2259,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Yoo H, Ahn S",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn"
+    "author_kor": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ba",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-07-24",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2283,15 +2282,15 @@
     "id": "a09adf11-7f69-4768-a62f-756f59c83bd5",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7bb",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-13",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2308,15 +2307,15 @@
     "id": "00224a28-dde0-4ab9-93ab-b980aa7942f5",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7bc",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-07-24",
     "inventor_kor": "신항식",
@@ -2333,15 +2332,15 @@
     "id": "e690c4c4-418e-4306-9d50-c021d5a562ae",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7bd",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-13",
     "inventor_kor": "신항식",
@@ -2358,15 +2357,15 @@
     "id": "b33298a0-30a2-4e6e-81be-92b2e99b47b2",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7be",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-07-24",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2383,15 +2382,15 @@
     "id": "a543d40f-4004-4cb8-8042-646a609bc8f9",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7bf",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-14",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2408,15 +2407,15 @@
     "id": "41d63ede-6c60-4748-bae3-cc141e7a1b94",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c0",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-07-24",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2433,15 +2432,15 @@
     "id": "a7ad53ed-622a-4cf0-a299-48e223f053b8",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c1",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-14",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2458,15 +2457,15 @@
     "id": "06eda343-cc47-4922-beb9-112fd74a7207",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c2",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-07-31",
     "inventor_kor": "신항식",
@@ -2483,15 +2482,15 @@
     "id": "4cafb49f-4915-43fd-8b4d-8dcc6d6a6628",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c3",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-15",
     "inventor_kor": "신항식",
@@ -2508,15 +2507,15 @@
     "id": "43a14c6e-616c-4754-bb49-f4041ec0ab48",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c4",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-07-31",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2533,15 +2532,15 @@
     "id": "434c39ea-5d75-4b0e-b24a-5b867812377d",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c5",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-15",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2558,15 +2557,15 @@
     "id": "c3064fd9-7367-427f-8e26-a4d76d5c6bb2",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c6",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-10-17",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2583,15 +2582,15 @@
     "id": "8b39ede3-4dab-4ba1-b613-5a51b84a38f3",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c7",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-13",
     "inventor_kor": "신항식;안성주;유현국;박정훈",
@@ -2608,15 +2607,15 @@
     "id": "c287b6d4-cae2-4b5c-b6dd-6416a34a9f51",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ahn S, Yoo H, Park J",
+    "authors_text": "신항식, 안성주, 유현국, 박정훈",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyungok Yoo;Junghoon Park",
-    "author_kor": "신항식;안성주;유현국;박정훈"
+    "author_kor": "신항식;안성주;유현국;박정훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c8",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-10-17",
     "inventor_kor": "신항식;박정훈;유현국;안성주",
@@ -2633,15 +2632,15 @@
     "id": "f369efdc-9925-4ece-96ee-35a9b57d30d9",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Yoo H, Ahn S",
+    "authors_text": "신항식, 박정훈, 유현국, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;유현국;안성주"
+    "author_kor": "신항식;박정훈;유현국;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7c9",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-13",
     "inventor_kor": "신항식;박정훈;유현국;안성주",
@@ -2658,15 +2657,15 @@
     "id": "f29c1809-a2fe-4bcb-b591-48774948e3ae",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Yoo H, Ahn S",
+    "authors_text": "신항식, 박정훈, 유현국, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;유현국;안성주"
+    "author_kor": "신항식;박정훈;유현국;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ca",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-10-10",
     "inventor_kor": "신항식;박정훈;유현국;안성주",
@@ -2683,15 +2682,15 @@
     "id": "45cfc979-8deb-4698-8495-8707ceb5c85a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Yoo H, Ahn S",
+    "authors_text": "신항식, 박정훈, 유현국, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;유현국;안성주"
+    "author_kor": "신항식;박정훈;유현국;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7cb",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-13",
     "inventor_kor": "신항식;박정훈;유현국;안성주",
@@ -2708,15 +2707,15 @@
     "id": "4563fd37-232e-42bd-ab3f-e697c30fe42d",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Yoo H, Ahn S",
+    "authors_text": "신항식, 박정훈, 유현국, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;유현국;안성주"
+    "author_kor": "신항식;박정훈;유현국;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7cc",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-10-10",
     "inventor_kor": "신항식",
@@ -2733,15 +2732,15 @@
     "id": "b9cb61dc-92a6-4bc0-afd4-a687cb4d8ff2",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7cd",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-14",
     "inventor_kor": "신항식",
@@ -2758,15 +2757,15 @@
     "id": "14215f03-d995-4e79-b7ee-5d06dd070e5a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ce",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-10-23",
     "inventor_kor": "신항식",
@@ -2783,15 +2782,15 @@
     "id": "dd7b54ef-1603-4239-bf67-c684a857e6af",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7cf",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-15",
     "inventor_kor": "신항식",
@@ -2808,15 +2807,15 @@
     "id": "411b6253-a9d6-4135-8082-ba8acabadde9",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d0",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2012-11-14",
     "inventor_kor": "신항식;박정훈;유현국;안성주",
@@ -2833,15 +2832,15 @@
     "id": "bee2aaf2-f0b6-4bac-9e0a-70d4276ec5b4",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Yoo H, Ahn S",
+    "authors_text": "신항식, 박정훈, 유현국, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;유현국;안성주"
+    "author_kor": "신항식;박정훈;유현국;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d1",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-06-14",
     "inventor_kor": "신항식;박정훈;유현국;안성주",
@@ -2858,15 +2857,15 @@
     "id": "d261f547-7a66-4374-afc5-5eea215c89e4",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Yoo H, Ahn S",
+    "authors_text": "신항식, 박정훈, 유현국, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Hyungok Yoo;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;유현국;안성주"
+    "author_kor": "신항식;박정훈;유현국;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d2",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-01-30",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong",
@@ -2885,13 +2884,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S, Kim D, Lee J, Jeong E",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong",
-    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong"
+    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d3",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-07-27",
     "inventor_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong",
@@ -2910,13 +2909,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Park J, Ahn S, Kim D, Lee J, Jeong E",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong",
-    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong"
+    "author_kor": "Hangsik Shin;Junghoon Park;Sungjoo Ahn;Daeeun Kim;Jaehong Lee;Eunseok Jeong",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d4",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2014-01-22",
     "inventor_kor": "신항식;박정훈;안성주",
@@ -2933,15 +2932,15 @@
     "id": "b085a216-3143-4945-bc56-ea333b5f4d1b",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Ahn S",
+    "authors_text": "신항식, 박정훈, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;안성주"
+    "author_kor": "신항식;박정훈;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d5",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-07-12",
     "inventor_kor": "신항식;박정훈;안성주",
@@ -2958,15 +2957,15 @@
     "id": "8ea150e4-47e3-4b45-9ddc-71d8b4b0572e",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Ahn S",
+    "authors_text": "신항식, 박정훈, 안성주",
     "author_eng": "Hangsik Shin;Junghoon Park;Sungjoo Ahn",
-    "author_kor": "신항식;박정훈;안성주"
+    "author_kor": "신항식;박정훈;안성주",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d6",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-11-06",
     "inventor_kor": "안성주;고성제;박정훈;신항식;김현지;정재윤;유현국",
@@ -2983,15 +2982,15 @@
     "id": "afda268c-deee-4684-8d20-b31b5491acc9",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H",
+    "authors_text": "안성주, 고성제, 박정훈, 신항식, 김현지, 정재윤, 유현국",
     "author_eng": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyungok Yoo",
-    "author_kor": "안성주;고성제;박정훈;신항식;김현지;정재윤;유현국"
+    "author_kor": "안성주;고성제;박정훈;신항식;김현지;정재윤;유현국",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d7",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-08-08",
     "inventor_kor": "안성주;고성제;박정훈;신항식;김현지;정재윤;유현국",
@@ -3008,15 +3007,15 @@
     "id": "afd2d1ed-5a7f-4b5d-81ba-bb99b15a16b8",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H",
+    "authors_text": "안성주, 고성제, 박정훈, 신항식, 김현지, 정재윤, 유현국",
     "author_eng": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyungok Yoo",
-    "author_kor": "안성주;고성제;박정훈;신항식;김현지;정재윤;유현국"
+    "author_kor": "안성주;고성제;박정훈;신항식;김현지;정재윤;유현국",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d8",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-08-08",
     "inventor_kor": "고재우;신항식;박세준",
@@ -3033,15 +3032,15 @@
     "id": "073fb747-b728-44fe-b000-4a9bba6c199d",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Ko J, Shin H, Park S",
+    "authors_text": "고재우, 신항식, 박세준",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "고재우;신항식;박세준"
+    "author_kor": "고재우;신항식;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7d9",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-09-07",
     "inventor_kor": "고재우;신항식;박세준",
@@ -3058,15 +3057,15 @@
     "id": "15abaa80-58d8-4006-8a83-635d1e444f05",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Ko J, Shin H, Park S",
+    "authors_text": "고재우, 신항식, 박세준",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "고재우;신항식;박세준"
+    "author_kor": "고재우;신항식;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7da",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-09",
     "inventor_kor": "신항식;고재우;박세준",
@@ -3083,15 +3082,15 @@
     "id": "1469c623-fdb3-4adf-8743-68e19d07a49f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ko J, Park S",
+    "authors_text": "신항식, 고재우, 박세준",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "신항식;고재우;박세준"
+    "author_kor": "신항식;고재우;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7db",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-09-10",
     "inventor_kor": "신항식;고재우;박세준",
@@ -3108,15 +3107,15 @@
     "id": "09d20266-289d-4283-a34f-5d7599b72a88",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ko J, Park S",
+    "authors_text": "신항식, 고재우, 박세준",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "신항식;고재우;박세준"
+    "author_kor": "신항식;고재우;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7dc",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2014-03-19",
     "inventor_kor": "신항식;고재우;박세준",
@@ -3133,15 +3132,15 @@
     "id": "58871efe-f308-4d83-8d5f-ce484d399c76",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ko J, Park S",
+    "authors_text": "신항식, 고재우, 박세준",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "신항식;고재우;박세준"
+    "author_kor": "신항식;고재우;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7dd",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-09-10",
     "inventor_kor": "신항식;고재우;박세준",
@@ -3158,15 +3157,15 @@
     "id": "63834861-ae51-443f-895b-8f5430dc7f6e",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Ko J, Park S",
+    "authors_text": "신항식, 고재우, 박세준",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "신항식;고재우;박세준"
+    "author_kor": "신항식;고재우;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7de",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-04-26",
     "inventor_kor": "고재우;신항식;박세준",
@@ -3183,15 +3182,15 @@
     "id": "27685eb2-7709-40ce-8ad8-5bd65cc5fa77",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Ko J, Shin H, Park S",
+    "authors_text": "고재우, 신항식, 박세준",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "고재우;신항식;박세준"
+    "author_kor": "고재우;신항식;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7df",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2012-09-10",
     "inventor_kor": "고재우;신항식;박세준",
@@ -3208,15 +3207,15 @@
     "id": "0d30eaf0-4b06-4ae2-99db-21b92dbd954e",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Ko J, Shin H, Park S",
+    "authors_text": "고재우, 신항식, 박세준",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "고재우;신항식;박세준"
+    "author_kor": "고재우;신항식;박세준",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e0",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2016-01-12",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park",
@@ -3235,13 +3234,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e1",
     "category": "patent",
     "class_category": "design",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2012-10-18",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park",
@@ -3260,13 +3259,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Yoo H, Park J",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Hyunkuk Yoo;Junghoon Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e2",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2013-09-26",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo",
@@ -3285,13 +3284,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Park J, Yoo H",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e3",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-03-22",
     "inventor_kor": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo",
@@ -3310,13 +3309,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ahn S, Park J, Yoo H",
     "author_eng": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo",
-    "author_kor": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo"
+    "author_kor": "Hangsik Shin;Sungjoo Ahn;Junghoon Park;Hyunguk Yoo",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e4",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-06-18",
     "inventor_kor": "Hangsik Shin",
@@ -3335,12 +3334,12 @@
     "country_code": "CN",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e5",
     "category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-01-19",
     "inventor_kor": "Hangsik Shin",
@@ -3359,13 +3358,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e6",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2015-05-13",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3384,13 +3383,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e7",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2016-12-07",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -3409,13 +3408,13 @@
     "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e8",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -3434,13 +3433,13 @@
     "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7e9",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -3459,13 +3458,13 @@
     "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ea",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3484,13 +3483,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7eb",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-12",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -3509,13 +3508,13 @@
     "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ec",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -3534,13 +3533,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ed",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-26",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -3559,13 +3558,13 @@
     "country_code": "CN",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ee",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-12",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3584,13 +3583,13 @@
     "country_code": "FR",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ef",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2015-05-13",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3609,13 +3608,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f0",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3634,13 +3633,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f1",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2014-12-19",
     "inventor_kor": "신항식;김도윤;조재걸;최병훈",
@@ -3657,15 +3656,15 @@
     "id": "c476eb34-fcce-43f8-99c3-15a668045df6",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Cho J, Choi B",
+    "authors_text": "신항식, 김도윤, 조재걸, 최병훈",
     "author_eng": "Hangsik Shin;Doyoon Kim;Jaegeol Cho;Byunghun Choi",
-    "author_kor": "신항식;김도윤;조재걸;최병훈"
+    "author_kor": "신항식;김도윤;조재걸;최병훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f2",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-10-22",
     "inventor_kor": "신항식",
@@ -3682,15 +3681,15 @@
     "id": "014bc757-6c96-48eb-a7b8-5ed70b73ad9f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f3",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2014-06-25",
     "inventor_kor": "신항식",
@@ -3707,15 +3706,15 @@
     "id": "457231b7-9cd7-4214-a1e2-33a91ca4ec39",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f4",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2013-05-09",
     "inventor_kor": "신항식",
@@ -3732,15 +3731,15 @@
     "id": "52299952-e5e3-4fec-9706-ce91a8ac54f4",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f5",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2020-08-05",
     "inventor_kor": "신항식;김도윤;조재걸;최병훈",
@@ -3757,15 +3756,15 @@
     "id": "d0473652-65a1-4b2e-8e68-ecfb87d35d45",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Cho J, Choi B",
+    "authors_text": "신항식, 김도윤, 조재걸, 최병훈",
     "author_eng": "Hangsik Shin;Doyoon Kim;Jaegeol Cho;Byunghun Choi",
-    "author_kor": "신항식;김도윤;조재걸;최병훈"
+    "author_kor": "신항식;김도윤;조재걸;최병훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f6",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2013-06-11",
     "inventor_kor": "신항식;김도윤;조재걸;최병훈",
@@ -3782,15 +3781,15 @@
     "id": "50dcbe8c-1790-4b5a-bcd0-008615810318",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Cho J, Choi B",
+    "authors_text": "신항식, 김도윤, 조재걸, 최병훈",
     "author_eng": "Hangsik Shin;Doyoon Kim;Jaegeol Cho;Byunghun Choi",
-    "author_kor": "신항식;김도윤;조재걸;최병훈"
+    "author_kor": "신항식;김도윤;조재걸;최병훈",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f7",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-01-16",
     "inventor_kor": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo",
@@ -3809,13 +3808,13 @@
     "country_code": "US",
     "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H",
     "author_eng": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo",
-    "author_kor": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo"
+    "author_kor": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f8",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-07-11",
     "inventor_kor": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo",
@@ -3834,13 +3833,13 @@
     "country_code": "US",
     "authors_text": "Ahn S, Ko S, Park J, Shin H, Kim H, Jeong J, Yoo H",
     "author_eng": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo",
-    "author_kor": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo"
+    "author_kor": "Sungjoo Ahn;Sungjea Ko;Junghoon Park;Hangsik Shin;Hyunji Kim;Jaeyun Jeong;Hyunguk Yoo",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7f9",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2018-01-30",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3859,13 +3858,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7fa",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-08-26",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3884,13 +3883,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7fb",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3909,13 +3908,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7fc",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-03",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3934,13 +3933,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7fd",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2018-07-20",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3959,13 +3958,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7fe",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-03",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -3984,13 +3983,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b7ff",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4009,13 +4008,13 @@
     "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b800",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-05",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4034,13 +4033,13 @@
     "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b801",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2018-01-10",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4059,13 +4058,13 @@
     "country_code": "JP",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b802",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-05",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4084,13 +4083,13 @@
     "country_code": "JP",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b803",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-05",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4106,13 +4105,13 @@
     "is_prev": true,
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b804",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2017-04-26",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4131,13 +4130,13 @@
     "country_code": "FR",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b805",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-06",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4156,13 +4155,13 @@
     "country_code": "FR",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b806",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-06",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4181,13 +4180,13 @@
     "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b807",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-20",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4206,13 +4205,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b808",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-09",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4231,13 +4230,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b809",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2018-10-19",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4256,13 +4255,13 @@
     "country_code": "CN",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b80a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-09",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4281,13 +4280,13 @@
     "country_code": "CN",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b80b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4306,13 +4305,13 @@
     "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b80c",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-09",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4331,13 +4330,13 @@
     "country_code": "PCT",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b80d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2016-03-01",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4356,13 +4355,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b80e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4381,13 +4380,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b80f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Hangsik Shin;Jae Woo Ko;Se Jun Park",
@@ -4406,13 +4405,13 @@
     "country_code": "FR",
     "authors_text": "Shin H, Ko JW, Park SJ",
     "author_eng": "Hangsik Shin;Jae Woo Ko;Se Jun Park",
-    "author_kor": "Hangsik Shin;Jae Woo Ko;Se Jun Park"
+    "author_kor": "Hangsik Shin;Jae Woo Ko;Se Jun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b810",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-03-13",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4431,13 +4430,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b811",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4456,13 +4455,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b812",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2016-10-12",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4481,13 +4480,13 @@
     "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b813",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4506,13 +4505,13 @@
     "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b814",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2017-12-12",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4531,13 +4530,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b815",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2013-09-10",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4556,13 +4555,13 @@
     "country_code": "US",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b816",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4581,13 +4580,13 @@
     "country_code": "AU",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b817",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2015-12-03",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4606,13 +4605,13 @@
     "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b818",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-09",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4631,13 +4630,13 @@
     "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b819",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2016-01-07",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4656,13 +4655,13 @@
     "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b81a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-05",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4681,13 +4680,13 @@
     "country_code": "AU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b81b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2016-05-27",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4706,13 +4705,13 @@
     "country_code": "RU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b81c",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-09",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4731,13 +4730,13 @@
     "country_code": "RU",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b81d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2016-07-20",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4756,13 +4755,13 @@
     "country_code": "RU",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b81e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4781,13 +4780,13 @@
     "country_code": "RU",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b81f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2018-08-01",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4806,13 +4805,13 @@
     "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b820",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -4831,13 +4830,13 @@
     "country_code": "FR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b821",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2015-05-13",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4856,13 +4855,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b822",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-09",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4881,13 +4880,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b823",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-03-08",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4906,13 +4905,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b824",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-09-10",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -4931,13 +4930,13 @@
     "country_code": "CN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b825",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2015-06-04",
     "inventor_kor": "조재걸;김광춘;김재필;민진홍;백현재;신항식",
@@ -4954,15 +4953,15 @@
     "id": "97ecf2b4-f95a-457b-a71f-78df3bae2a52",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
+    "authors_text": "조재걸, 김광춘, 김재필, 민진홍, 백현재, 신항식",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "조재걸;김광춘;김재필;민진홍;백현재;신항식"
+    "author_kor": "조재걸;김광춘;김재필;민진홍;백현재;신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b826",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2013-11-25",
     "inventor_kor": "조재걸;김광춘;김재필;민진홍;백현재;신항식",
@@ -4979,15 +4978,15 @@
     "id": "9120ce21-95b5-432b-8fcd-d4b068e3ae9a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
+    "authors_text": "조재걸, 김광춘, 김재필, 민진홍, 백현재, 신항식",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "조재걸;김광춘;김재필;민진홍;백현재;신항식"
+    "author_kor": "조재걸;김광춘;김재필;민진홍;백현재;신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b827",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2014-06-26",
     "inventor_kor": "Hangsik Shin",
@@ -5006,13 +5005,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b828",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-12-13",
     "inventor_kor": "Hangsik Shin",
@@ -5031,13 +5030,13 @@
     "country_code": "PCT",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b829",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2018-05-16",
     "inventor_kor": "Hangsik Shin",
@@ -5056,13 +5055,13 @@
     "country_code": "RU",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b82a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-12-13",
     "inventor_kor": "Hangsik Shin",
@@ -5081,13 +5080,13 @@
     "country_code": "RU",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b82b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-12-16",
     "inventor_kor": "Hangsik Shin",
@@ -5106,13 +5105,13 @@
     "country_code": "JP",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b82c",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2017-08-22",
     "inventor_kor": "Hangsik Shin",
@@ -5131,13 +5130,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b82d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-12-17",
     "inventor_kor": "Hangsik Shin",
@@ -5156,13 +5155,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b82e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-02-01",
     "inventor_kor": "Hangsik Shin",
@@ -5181,13 +5180,13 @@
     "country_code": "CN",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b82f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-12-17",
     "inventor_kor": "Hangsik Shin",
@@ -5206,13 +5205,13 @@
     "country_code": "CN",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b830",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2020-02-05",
     "inventor_kor": "Hangsik Shin",
@@ -5231,13 +5230,13 @@
     "country_code": "FR",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b831",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-12-17",
     "inventor_kor": "Hangsik Shin",
@@ -5256,13 +5255,13 @@
     "country_code": "FR",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b832",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2017-07-06",
     "inventor_kor": "Hangsik Shin",
@@ -5281,13 +5280,13 @@
     "country_code": "AU",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b833",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2013-12-13",
     "inventor_kor": "Hangsik Shin",
@@ -5306,13 +5305,13 @@
     "country_code": "AU",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b834",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "published",
     "date": "2015-05-28",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
@@ -5331,13 +5330,13 @@
     "country_code": "PCT",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin"
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b835",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2014-03-11",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
@@ -5356,13 +5355,13 @@
     "country_code": "PCT",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin"
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b836",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-11-15",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
@@ -5381,13 +5380,13 @@
     "country_code": "CN",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin"
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b837",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2014-03-11",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
@@ -5406,13 +5405,13 @@
     "country_code": "CN",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin"
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b838",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2014-03-11",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
@@ -5431,13 +5430,13 @@
     "country_code": "FR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin"
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b839",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2016-10-05",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, ",
@@ -5456,13 +5455,13 @@
     "country_code": "FR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin, H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, ",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, "
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, ",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b83a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2014-03-11",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, ",
@@ -5481,13 +5480,13 @@
     "country_code": "FR",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin, H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, ",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, "
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin, ",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b83b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-10-29",
     "inventor_kor": "Hangsik Shin",
@@ -5506,13 +5505,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b83c",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2014-12-01",
     "inventor_kor": "Hangsik Shin",
@@ -5531,13 +5530,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b83d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2018-10-30",
     "inventor_kor": "Hangsik Shin",
@@ -5556,13 +5555,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b83e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-01-30",
     "inventor_kor": "Hangsik Shin",
@@ -5581,13 +5580,13 @@
     "country_code": "US",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b83f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-03-04",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -5607,13 +5606,13 @@
     "country_code": "BR",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b840",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-03-04",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -5632,13 +5631,13 @@
     "country_code": "BR",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b841",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-03-05",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -5657,13 +5656,13 @@
     "country_code": "IN",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b842",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-03-05",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -5682,13 +5681,13 @@
     "country_code": "IN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b843",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2015-03-06",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -5706,15 +5705,15 @@
     "contents_prev": "Method of executing application and terminal using the method, Filed (No: BR1120150050344, Date: 2015/03/06). ",
     "is_prev": true,
     "country_code": "BR",
-    "authors_text": "Ko J, Shin H, Park S",
+    "authors_text": "Jaewoo Ko, Hangsik Shin, Sejun Park",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b844",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-04-02",
     "inventor_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
@@ -5733,13 +5732,13 @@
     "country_code": "IN",
     "authors_text": "Shin H, Ko J, Park S",
     "author_eng": "Hangsik Shin;Jaewoo Ko;Sejun Park",
-    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park"
+    "author_kor": "Hangsik Shin;Jaewoo Ko;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b845",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2017-08-01",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
@@ -5758,13 +5757,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b846",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-04-06",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
@@ -5783,13 +5782,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b847",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2016-11-04",
     "inventor_kor": "신항식",
@@ -5806,15 +5805,15 @@
     "id": "1ace171b-11ab-45be-8fbf-1480aeaf69e3",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b848",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2015-04-24",
     "inventor_kor": "신항식",
@@ -5831,15 +5830,15 @@
     "id": "fe9e31fd-20ff-49ec-9388-4742b1045656",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b849",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-12-31",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim",
@@ -5858,13 +5857,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b84a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-06-18",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim",
@@ -5883,13 +5882,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim D",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Doyoung Kim",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b84b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2015-06-24",
     "inventor_kor": "Hangsik Shin",
@@ -5908,13 +5907,13 @@
     "country_code": "IN",
     "authors_text": "Shin H",
     "author_eng": "Hangsik Shin",
-    "author_kor": "Hangsik Shin"
+    "author_kor": "Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b84c",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-11-27",
     "inventor_kor": "신항식",
@@ -5931,15 +5930,15 @@
     "id": "8b91c30e-08d5-40d4-ab97-409106b5a951",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b84d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2015-06-22",
     "inventor_kor": "신항식",
@@ -5956,15 +5955,15 @@
     "id": "076319c8-b335-4cc8-b0c8-3c936acd600f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b84e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2015-06-22",
     "inventor_kor": "신항식",
@@ -5981,15 +5980,15 @@
     "id": "30a8a3f4-d4ad-4063-a998-f83cc04c955a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b84f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2016-08-23",
     "inventor_kor": "신항식;김진권",
@@ -6006,15 +6005,15 @@
     "id": "2a8e9c18-bae6-4ce3-b843-075c4ad6e42f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim J",
+    "authors_text": "신항식, 김진권",
     "author_eng": "Hangsik Shin;Jinkwon Kim",
-    "author_kor": "신항식;김진권"
+    "author_kor": "신항식;김진권",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b850",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2015-08-04",
     "inventor_kor": "신항식;김진권",
@@ -6031,15 +6030,15 @@
     "id": "064e5412-7e34-4365-94fa-0f1b0eb3296a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim J",
+    "authors_text": "신항식, 김진권",
     "author_eng": "Hangsik Shin;Jinkwon Kim",
-    "author_kor": "신항식;김진권"
+    "author_kor": "신항식;김진권",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b851",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2016-06-21",
     "inventor_kor": "신항식",
@@ -6056,15 +6055,15 @@
     "id": "ebced44e-8f92-490d-8b87-b5256925d34d",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b852",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2015-09-17",
     "inventor_kor": "신항식",
@@ -6081,15 +6080,15 @@
     "id": "ac8ae4e3-e8f7-44ac-8805-9e412688251e",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b853",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2017-04-25",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -6108,13 +6107,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b854",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2016-01-29",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -6133,13 +6132,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b855",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-10-18",
     "inventor_kor": "신항식",
@@ -6156,15 +6155,15 @@
     "id": "92d829e3-8366-45f3-ada8-2eb985ed1d03",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b856",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2016-04-25",
     "inventor_kor": "신항식",
@@ -6181,15 +6180,15 @@
     "id": "a6eda51e-ce65-4e50-a1e9-429dba45992f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b857",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-04-09",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
@@ -6208,13 +6207,13 @@
     "country_code": "US",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin"
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b858",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2016-05-24",
     "inventor_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
@@ -6233,13 +6232,13 @@
     "country_code": "US",
     "authors_text": "Cho J, Kim K, Kim J, Min J, Baek H, Shin H",
     "author_eng": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
-    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin"
+    "author_kor": "Jaegeol Cho;Kwangchoon Kim;Jaepil Kim;Jinhong Min;Hyunjae Baek;Hangsik Shin",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b859",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-12-11",
     "inventor_kor": "신항식",
@@ -6256,15 +6255,15 @@
     "id": "97807d3a-66c7-438e-b7fc-9706140b1b07",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b85a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2016-05-16",
     "inventor_kor": "신항식",
@@ -6281,15 +6280,15 @@
     "id": "d370bcba-01f1-4ced-a546-740e85b13027",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b85b",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2016-06-28",
     "inventor_kor": "신항식",
@@ -6306,15 +6305,15 @@
     "id": "b0143141-c911-4df2-b005-a7fa294dd2a8",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b85c",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2016-06-28",
     "inventor_kor": "신항식",
@@ -6331,15 +6330,15 @@
     "id": "6eb2419f-8d29-4460-9252-ab3ce28432bd",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b85d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-01-23",
     "inventor_kor": "신항식",
@@ -6356,15 +6355,15 @@
     "id": "8ee42e50-d716-4ee4-9f24-ada59cf7ff35",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b85e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2016-12-30",
     "inventor_kor": "신항식",
@@ -6381,15 +6380,15 @@
     "id": "4510f362-178e-4e55-9f02-9357298d3e41",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b85f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2019-03-26",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -6408,13 +6407,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b860",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2017-03-28",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
@@ -6433,13 +6432,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b861",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-05-23",
     "inventor_kor": "신항식",
@@ -6456,15 +6455,15 @@
     "id": "6d20674d-3dce-4932-bdc5-3c6c33004da6",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b862",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-05-23",
     "inventor_kor": "신항식",
@@ -6481,15 +6480,15 @@
     "id": "e8a8ba30-7a65-4f65-9da9-4ebbd0d469ba",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b863",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-05-23",
     "inventor_kor": "신항식",
@@ -6506,15 +6505,15 @@
     "id": "706bbe7c-5241-4f5a-9f41-25d8931256cb",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b864",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-05-23",
     "inventor_kor": "신항식",
@@ -6531,15 +6530,15 @@
     "id": "29824644-1d7f-412a-a28b-37a96b8d3609",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b865",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-05-23",
     "inventor_kor": "신항식",
@@ -6556,15 +6555,15 @@
     "id": "242b6189-7a85-488e-9360-bb9cc41e745f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b866",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-05-23",
     "inventor_kor": "신항식",
@@ -6581,15 +6580,15 @@
     "id": "c57f8a8e-8946-412a-9fe6-bff46a0a2445",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b867",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-04-26",
     "inventor_kor": "신항식;박수지",
@@ -6606,15 +6605,15 @@
     "id": "3389cb13-dc67-4bbc-a323-2a66604c8aea",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park S",
+    "authors_text": "신항식, 박수지",
     "author_eng": "Hangsik Shin;Sooji Park",
-    "author_kor": "신항식;박수지"
+    "author_kor": "신항식;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b868",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2017-06-16",
     "inventor_kor": "신항식;박수지",
@@ -6631,15 +6630,15 @@
     "id": "804e6d84-ed95-4741-995c-705589901995",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park S",
+    "authors_text": "신항식, 박수지",
     "author_eng": "Hangsik Shin;Sooji Park",
-    "author_kor": "신항식;박수지"
+    "author_kor": "신항식;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b869",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "granted",
     "date": "2020-02-18",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
@@ -6658,13 +6657,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b86a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "International",
     "patent_state": "filed",
     "date": "2017-07-20",
     "inventor_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
@@ -6683,13 +6682,13 @@
     "country_code": "US",
     "authors_text": "Ko J, Shin H, Park S, Kim Y, Chun H, Jung J",
     "author_eng": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
-    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung"
+    "author_kor": "Jaewoo Ko;Hangsik Shin;Sejun Park;Yangwook Kim;Haein Chun;Jaeho Jung",
+    "country": "International"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b86b",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-11-22",
     "inventor_kor": "신항식;조진우;최아영",
@@ -6706,15 +6705,15 @@
     "id": "fa9fe87d-4391-43bc-9da8-697a5bac80ec",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Cho J, Choi A",
+    "authors_text": "신항식, 조진우, 최아영",
     "author_eng": "Hangsik Shin;Jinwoo Cho;Ahyoung Choi",
-    "author_kor": "신항식;조진우;최아영"
+    "author_kor": "신항식;조진우;최아영",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b86c",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-11-24",
     "inventor_kor": "신항식;조진우;최아영",
@@ -6731,15 +6730,15 @@
     "id": "dc99c9d7-e837-410e-b15a-43a4609a09fa",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Cho J, Choi A",
+    "authors_text": "신항식, 조진우, 최아영",
     "author_eng": "Hangsik Shin;Jinwoo Cho;Ahyoung Choi",
-    "author_kor": "신항식;조진우;최아영"
+    "author_kor": "신항식;조진우;최아영",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b86d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-11-04",
     "inventor_kor": "최아영;신항식;조진우",
@@ -6756,15 +6755,15 @@
     "id": "6afe2676-bccb-486c-9592-11bca331634c",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Choi A, Shin H, Jo J",
+    "authors_text": "최아영, 신항식, 조진우",
     "author_eng": "Ahyoung Choi;Hangsik Shin;Jinwoo Jo",
-    "author_kor": "최아영;신항식;조진우"
+    "author_kor": "최아영;신항식;조진우",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b86e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2017-11-17",
     "inventor_kor": "최아영;신항식;조진우",
@@ -6781,15 +6780,15 @@
     "id": "5675ca89-8271-4bfe-acb7-60dafd9eb166",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Choi A, Shin H, Jo J",
+    "authors_text": "최아영, 신항식, 조진우",
     "author_eng": "Ahyoung Choi;Hangsik Shin;Jinwoo Jo",
-    "author_kor": "최아영;신항식;조진우"
+    "author_kor": "최아영;신항식;조진우",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b86f",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-12-21",
     "inventor_kor": "신항식",
@@ -6806,15 +6805,15 @@
     "id": "b31099a0-1657-49f8-b5cc-c1499e09f651",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b870",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2017-12-21",
     "inventor_kor": "신항식",
@@ -6831,15 +6830,15 @@
     "id": "95bfaba0-a72a-464b-8d17-946dcd114116",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b871",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2019-07-31",
     "inventor_kor": "신항식;박수지",
@@ -6856,15 +6855,15 @@
     "id": "a6311f6b-0530-4aae-a21a-fa5dc3168aa4",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park S",
+    "authors_text": "신항식, 박수지",
     "author_eng": "Hangsik Shin;Sooji Park",
-    "author_kor": "신항식;박수지"
+    "author_kor": "신항식;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b872",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2018-01-22",
     "inventor_kor": "신항식;박수지",
@@ -6881,15 +6880,15 @@
     "id": "b40c1ec1-a45b-4671-800d-c034093b539e",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park S",
+    "authors_text": "신항식, 박수지",
     "author_eng": "Hangsik Shin;Sooji Park",
-    "author_kor": "신항식;박수지"
+    "author_kor": "신항식;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b873",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-11-04",
     "inventor_kor": "신항식",
@@ -6906,15 +6905,15 @@
     "id": "691ba2b1-0f3a-4363-9304-5b0d631d78e3",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b874",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2018-03-05",
     "inventor_kor": "신항식",
@@ -6931,15 +6930,15 @@
     "id": "1c8967a4-084e-4e20-99e0-2359c6b100c3",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b875",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-05-09",
     "inventor_kor": "이예준;신항식;최아영",
@@ -6956,15 +6955,15 @@
     "id": "ff121d60-95ee-497e-8011-a4daa436c111",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Lee Y, Shin H, Choi A",
+    "authors_text": "이예준, 신항식, 최아영",
     "author_eng": "Yejoon Lee;Hangsik Shin;Ahyoung Choi",
-    "author_kor": "이예준;신항식;최아영"
+    "author_kor": "이예준;신항식;최아영",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b876",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-05-09",
     "inventor_kor": "노상우;신항식;최아영",
@@ -6981,15 +6980,15 @@
     "id": "5b39433f-f2c8-48c7-98cf-674187971ea2",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Noh S, Shin H, Choi A",
+    "authors_text": "노상우, 신항식, 최아영",
     "author_eng": "Sangwoo Noh;Hangsik Shin;Ahyoung Choi",
-    "author_kor": "노상우;신항식;최아영"
+    "author_kor": "노상우;신항식;최아영",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b877",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-05-17",
     "inventor_kor": "신항식;노동근",
@@ -7006,15 +7005,15 @@
     "id": "8225997e-933e-4540-9150-2875fe7193c7",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Rho D",
+    "authors_text": "신항식, 노동근",
     "author_eng": "Hangsik Shin;Donggeun Rho",
-    "author_kor": "신항식;노동근"
+    "author_kor": "신항식;노동근",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b878",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-03-13",
     "inventor_kor": "신항식;한상진;노동근",
@@ -7031,15 +7030,15 @@
     "id": "91d8fa78-0a32-4cd9-a9c3-53088c5e23af",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Han S, Roh D",
+    "authors_text": "신항식, 한상진, 노동근",
     "author_eng": "Hangsik Shin;Sangjin Han;Donggeun Roh",
-    "author_kor": "신항식;한상진;노동근"
+    "author_kor": "신항식;한상진;노동근",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b879",
     "category": "patent",
     "class_category": "design",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2018-06-27",
     "inventor_kor": "신항식;한상진;노동근",
@@ -7056,15 +7055,15 @@
     "id": "2b1cd5f3-5a7b-4c63-8ed1-de76674ec1fe",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Han S, Roh D",
+    "authors_text": "신항식, 한상진, 노동근",
     "author_eng": "Hangsik Shin;Sangjin Han;Donggeun Roh",
-    "author_kor": "신항식;한상진;노동근"
+    "author_kor": "신항식;한상진;노동근",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b87a",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "published",
     "date": "2020-02-18",
     "inventor_kor": "신항식;이준석;박수지",
@@ -7081,15 +7080,15 @@
     "id": "d9ffd18d-07a5-400a-9da3-9830eb16f522",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Lee J, Park S",
+    "authors_text": "신항식, 이준석, 박수지",
     "author_eng": "Hangsik Shin;Junseok Lee;Sooji Park",
-    "author_kor": "신항식;이준석;박수지"
+    "author_kor": "신항식;이준석;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b87b",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2018-08-08",
     "inventor_kor": "신항식;이준석;박수지",
@@ -7106,15 +7105,15 @@
     "id": "a5df538c-e89d-485d-a409-8b0930690ccf",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Lee J, Park S",
+    "authors_text": "신항식, 이준석, 박수지",
     "author_eng": "Hangsik Shin;Junseok Lee;Sooji Park",
-    "author_kor": "신항식;이준석;박수지"
+    "author_kor": "신항식;이준석;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b87c",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-09-10",
     "inventor_kor": "신항식;석현석",
@@ -7131,15 +7130,15 @@
     "id": "af1d6dc1-648f-45ef-bab6-c92268a72889",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b87d",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-09-10",
     "inventor_kor": "신항식;석현석",
@@ -7156,15 +7155,15 @@
     "id": "cf902e18-ee4c-4441-a0fd-04b24eed7126",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b87e",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-09-10",
     "inventor_kor": "신항식;석현석",
@@ -7181,15 +7180,15 @@
     "id": "7e40d3eb-6f2f-4a45-9852-c3adf6e97cbb",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b87f",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-09-10",
     "inventor_kor": "신항식;석현석",
@@ -7206,15 +7205,15 @@
     "id": "6e686801-99ff-4b90-a9b1-32cd96efab3a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b880",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-09-10",
     "inventor_kor": "신항식;석현석;양윤라",
@@ -7231,15 +7230,15 @@
     "id": "a691aef4-64f5-4a9f-bc5c-d837ef24d675",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS, Yang YL",
+    "authors_text": "신항식, 석현석, 양윤라",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok;Yoon La Yang",
-    "author_kor": "신항식;석현석;양윤라"
+    "author_kor": "신항식;석현석;양윤라",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b881",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-09-10",
     "inventor_kor": "신항식;석현석;양윤라",
@@ -7256,15 +7255,15 @@
     "id": "ae66efe3-9686-40f9-bd3e-75b24474e763",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS, Yang YL",
+    "authors_text": "신항식, 석현석, 양윤라",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok;Yoon La Yang",
-    "author_kor": "신항식;석현석;양윤라"
+    "author_kor": "신항식;석현석;양윤라",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b882",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2018-12-26",
     "inventor_kor": "신항식",
@@ -7281,15 +7280,15 @@
     "id": "14b7e784-59f2-4cb4-afa2-b8af7852eb1f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b883",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2019-02-13",
     "inventor_kor": "신항식;박수지",
@@ -7306,15 +7305,15 @@
     "id": "514d1cbd-e81d-4e09-b18f-560370223af7",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park S",
+    "authors_text": "신항식, 박수지",
     "author_eng": "Hangsik Shin;Sooji Park",
-    "author_kor": "신항식;박수지"
+    "author_kor": "신항식;박수지",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b884",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;김도원;석현석",
@@ -7331,15 +7330,15 @@
     "id": "fc5d01ec-ce40-4433-829e-2f9cf7efcd12",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Seok HS",
+    "authors_text": "신항식, 김도원, 석현석",
     "author_eng": "Hangsik Shin;Do-Won Kim;Hyeon Seok Seok",
-    "author_kor": "신항식;김도원;석현석"
+    "author_kor": "신항식;김도원;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b885",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;김도원;석현석",
@@ -7356,15 +7355,15 @@
     "id": "cec8101f-dece-4554-860b-7657a72589ae",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Seok HS",
+    "authors_text": "신항식, 김도원, 석현석",
     "author_eng": "Hangsik Shin;Do-Won Kim;Hyeon Seok Seok",
-    "author_kor": "신항식;김도원;석현석"
+    "author_kor": "신항식;김도원;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b886",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;김도원;석현석",
@@ -7381,15 +7380,15 @@
     "id": "6353522e-2779-456b-87f4-ee2ac4e95e2c",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Seok HS",
+    "authors_text": "신항식, 김도원, 석현석",
     "author_eng": "Hangsik Shin;Do-Won Kim;Hyeon Seok Seok",
-    "author_kor": "신항식;김도원;석현석"
+    "author_kor": "신항식;김도원;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b887",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;석현석",
@@ -7406,15 +7405,15 @@
     "id": "61ce5562-7b0c-454e-8860-f49207fe91e5",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b888",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;강지훈;김도원;석현석;권주희;한수경",
@@ -7431,15 +7430,15 @@
     "id": "2c2a396c-7847-4942-8cc8-0bad13f49cdd",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kang J, Kim D, Seok HS, Kwon J, Han S",
+    "authors_text": "신항식, 강지훈, 김도원, 석현석, 권주희, 한수경",
     "author_eng": "Hangsik Shin;Jihoon Kang;Do-Won Kim;Hyeon Seok Seok;Joohee Kwon;Sookyeong Han",
-    "author_kor": "신항식;강지훈;김도원;석현석;권주희;한수경"
+    "author_kor": "신항식;강지훈;김도원;석현석;권주희;한수경",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b889",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;석현석",
@@ -7456,15 +7455,15 @@
     "id": "96280732-8cb3-431a-a80a-460ec293bc1b",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b88a",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;김도원;석현석",
@@ -7481,15 +7480,15 @@
     "id": "2b5c1faf-c54b-4c3a-bbbb-aff1e49bf85a",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Seok HS",
+    "authors_text": "신항식, 김도원, 석현석",
     "author_eng": "Hangsik Shin;Do-Won Kim;Hyeon Seok Seok",
-    "author_kor": "신항식;김도원;석현석"
+    "author_kor": "신항식;김도원;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b88b",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;김도원;석현석",
@@ -7506,15 +7505,15 @@
     "id": "e87e1bcb-1a56-4065-8c6c-116814a41a68",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Kim D, Seok HS",
+    "authors_text": "신항식, 김도원, 석현석",
     "author_eng": "Hangsik Shin;Do-Won Kim;Hyeon Seok Seok",
-    "author_kor": "신항식;김도원;석현석"
+    "author_kor": "신항식;김도원;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b88c",
     "category": "patent",
     "class_category": "SW",
-    "class_country": "Domestic",
     "patent_state": "granted",
     "date": "2019-08-12",
     "inventor_kor": "신항식;석현석",
@@ -7531,15 +7530,15 @@
     "id": "4e7a731f-62b0-4271-acc3-1382d6e91534",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b88d",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2019-10-29",
     "inventor_kor": "신항식",
@@ -7556,15 +7555,15 @@
     "id": "ffc056b3-2897-444a-a319-4c3d77f97a76",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b88e",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2019-12-24",
     "inventor_kor": "신항식",
@@ -7581,15 +7580,15 @@
     "id": "79ae23d8-345a-4892-8b9c-a76bebdac22f",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H",
+    "authors_text": "신항식",
     "author_eng": "Hangsik Shin",
-    "author_kor": "신항식"
+    "author_kor": "신항식",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b88f",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2020-06-03",
     "inventor_kor": "신항식;석현석",
@@ -7606,15 +7605,15 @@
     "id": "f44cff49-ff09-409a-aed9-84d4cef727b3",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Seok HS",
+    "authors_text": "신항식, 석현석",
     "author_eng": "Hangsik Shin;Hyeon Seok Seok",
-    "author_kor": "신항식;석현석"
+    "author_kor": "신항식;석현석",
+    "country": "Domestic"
   },
   {
     "_id": "686b4f8dbe6cdf4d03f6b890",
     "category": "patent",
     "class_category": "patent",
-    "class_country": "Domestic",
     "patent_state": "filed",
     "date": "2020-06-15",
     "inventor_kor": "신항식;박준영;노동근;최용순;김도유;최아영",
@@ -7631,8 +7630,9 @@
     "id": "df4bdfc7-8f34-4d6c-b69b-803b326c48d2",
     "is_prev": true,
     "country_code": "KR",
-    "authors_text": "Shin H, Park J, Roh D, Choi Y, Kim D, Choi A",
+    "authors_text": "신항식, 박준영, 노동근, 최용순, 김도유, 최아영",
     "author_eng": "Hangsik Shin;Junyung Park;Donggeun Roh;Yongsoon Choi;Doyu Kim;Ahyoung Choi",
-    "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영"
+    "author_kor": "신항식;박준영;노동근;최용순;김도유;최아영",
+    "country": "Domestic"
   }
 ]
