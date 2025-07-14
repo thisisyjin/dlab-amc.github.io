@@ -97,12 +97,15 @@ permalink: /publications_c/
       : str;
   }
 
-  function formatDateRange(dateStr, endStr) {
+  function formatDateRange(dateStr, endStr, country) {
     try {
       const start = new Date(dateStr.replace(/\./g, '-'));
       const end = new Date(endStr.replace(/\./g, '-'));
       const year = start.getFullYear();
-      const month = MONTHS[start.getMonth() + 1];
+      const month =
+        country === 'Domestic'
+          ? (start.getMonth() + 1).toString().padStart(2, '0')
+          : MONTHS[start.getMonth() + 1];
       const startDate = start.getDate();
       const endDate = end.getDate();
       return `${year} ${month} ${startDate}-${endDate}`;
@@ -120,23 +123,36 @@ permalink: /publications_c/
   }
 
   function buildConferenceHTML(entry) {
+    const country = entry.country;
     const authors = entry.authors_text?.trim();
-    const title = formatTitleCase(entry.title_eng)?.trim();
-    const conference = entry.conference_eng
-      ? `<em>${entry.conference_eng}</em>`
-      : '';
+
+    const title =
+      country === 'Domestic'
+        ? entry.title_kor?.trim()
+        : formatTitleCase(entry.title_eng?.trim());
+
+    const conf =
+      country === 'Domestic'
+        ? entry.conference_kor?.trim()
+        : formatTitleCase(entry.conference_eng?.trim());
+
+    const place =
+      country === 'Domestic'
+        ? entry.place_kor?.trim()
+        : entry.place_eng?.trim();
+
     const duration =
       entry.date && entry.end_date
-        ? formatDateRange(entry.date, entry.end_date)
+        ? formatDateRange(entry.date, entry.end_date, country)
         : '';
-    const place = entry.place_eng?.trim();
+
     const year = extractYear(entry.date);
 
     let result = '';
 
     if (authors) result += `${authors}. `;
     if (title) result += `${title}. `;
-    if (conference) result += `${conference}. `;
+    if (conf) result += `${conf}. `;
     if (duration) result += `${duration}; `;
     if (place) result += `${place}; `;
     if (year) result += `${year}.`;
