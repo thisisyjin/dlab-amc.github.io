@@ -2865,6 +2865,7 @@ hr {
   line-height: 1.5;
   font-size: 15px;
   height: 2.5rem;
+  outline: none;
 }
 
 .search-input:focus {
