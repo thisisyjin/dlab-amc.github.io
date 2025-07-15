@@ -14,29 +14,29 @@ permalink: /publications_d/
   <section class="wrapper style1 container special nav-container">
     <ul class="nav-container">
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_j" class="nav-link">
-          <span class="icon fa-solid fa-book"></span>Journal
-        </a>
+        <a href="{{site.baseurl}}/publications_j" class="nav-link"
+          ><span class="icon fa-solid fa-book"></span>Journal</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_c" class="nav-link">
-          <span class="icon fa-solid fa-building-columns"></span>Conference
-        </a>
+        <a href="{{site.baseurl}}/publications_c" class="nav-link"
+          ><span class="icon fa-solid fa-building-columns"></span>Conference</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_p" class="nav-link">
-          <span class="icon fa-regular fa-copyright"></span>Patent
-        </a>
+        <a href="{{site.baseurl}}/publications_p" class="nav-link"
+          ><span class="icon fa-regular fa-copyright"></span>Patent</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_d" class="nav-link active">
-          <span class="icon fa-solid fa-pen-nib"></span>Design
-        </a>
+        <a href="{{site.baseurl}}/publications_d" class="nav-link active"
+          ><span class="icon fa-solid fa-pen-nib"></span>Design</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_s" class="nav-link">
-          <span class="icon fa-brands fa-uncharted"></span>S/W
-        </a>
+        <a href="{{site.baseurl}}/publications_s" class="nav-link"
+          ><span class="icon fa-brands fa-uncharted"></span>S/W</a
+        >
       </li>
     </ul>
   </section>
@@ -47,13 +47,36 @@ permalink: /publications_d/
       <div class="2u">
         <div class="sidebar">
           <section>
-            <div class="sidebar small-sidebar" id="class-filter">
-              <!-- 필터 버튼 렌더링 -->
-            </div>
+            <div class="sidebar small-sidebar" id="class-filter"></div>
           </section>
         </div>
       </div>
       <div class="10u skel-cell-important">
+        <!-- 검색창 -->
+        <div class="search-input-wrap">
+          <input
+            class="search-input"
+            type="text"
+            id="search-input"
+            placeholder="검색어를 입력하세요."
+            style="
+              width: 12rem;
+              display: flex;
+              align-items: center;
+              border: none;
+              background-color: #eee;
+              padding: 0.5rem 1.2rem;
+              line-height: 1.5;
+              font-size: 15px;
+              height: 2.5rem;
+              outline: none;
+            "
+          />
+          <button id="search-button" class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
         <!-- 상태 필터 탭 -->
         <div
           class="wrapper style2 container"
@@ -66,6 +89,7 @@ permalink: /publications_d/
             <a href="#" class="patent-tab" data-state="filed">Filed</a>
           </div>
         </div>
+
         <div
           id="pub-content"
           class="my-div"
@@ -74,16 +98,57 @@ permalink: /publications_d/
             text-align: justify;
             padding: 1.5em 1em;
           "
-        >
-          <!-- 디자인 리스트 렌더링 -->
-        </div>
+        ></div>
       </div>
     </div>
   </section>
 </article>
 
 <style>
-  /* 상태 필터 탭 스타일 */
+  .skel-cell-important {
+    position: relative;
+  }
+
+  .search-input-wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+    gap: 8px;
+  }
+
+  .search-input:focus {
+    outline: none !important;
+    border: none !important;
+  }
+
+  .search-input::placeholder {
+    font-size: 15px;
+    line-height: normal;
+    vertical-align: middle;
+  }
+
+  .search-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #006065;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .search-button:hover {
+    background-color: rgb(0, 101, 101);
+  }
+
   .patent-tab {
     display: inline-block;
     padding: 6px 16px;
@@ -110,15 +175,15 @@ permalink: /publications_d/
 
   let classFilter = 'ALL';
   let stateFilter = 'granted';
+  let currentSearch = '';
 
   document.addEventListener('DOMContentLoaded', () => {
-    fetch('{{ site.baseurl }}/data/publications/pub_p.json')
+    fetch('{{ site.baseurl }}/data/publications/pub_d.json')
       .then((res) => res.json())
       .then((allData) => {
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
 
-        // 필터 버튼 생성
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
@@ -133,7 +198,6 @@ permalink: /publications_d/
           filterContainer.appendChild(btn);
         });
 
-        // 상단 상태 탭
         document.querySelectorAll('.patent-tab').forEach((tab) => {
           tab.addEventListener('click', (e) => {
             e.preventDefault();
@@ -143,20 +207,38 @@ permalink: /publications_d/
           });
         });
 
-        const updateClassButtons = (activeCls) => {
+        document
+          .getElementById('search-button')
+          .addEventListener('click', () => {
+            currentSearch = document
+              .getElementById('search-input')
+              .value.trim();
+            render();
+          });
+
+        document
+          .getElementById('search-input')
+          .addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+              currentSearch = e.target.value.trim();
+              render();
+            }
+          });
+
+        function updateClassButtons(activeCls) {
           document.querySelectorAll('.small-button').forEach((btn) => {
             btn.classList.toggle('active', btn.textContent === activeCls);
           });
-        };
+        }
 
-        const updateStateTabs = (activeTab) => {
+        function updateStateTabs(activeTab) {
           document.querySelectorAll('.patent-tab').forEach((btn) => {
             btn.classList.remove('active');
           });
           activeTab.classList.add('active');
-        };
+        }
 
-        const render = () => {
+        function render() {
           contentContainer.innerHTML = '';
 
           const filtered = allData.filter((item) => {
@@ -165,7 +247,9 @@ permalink: /publications_d/
                 ? ALLOWED_CLASSES.includes(item.class)
                 : item.class === classFilter;
             const matchState = item.patent_state === stateFilter;
-            return matchClass && matchState;
+            const matchSearch =
+              !currentSearch || buildPatentHTML(item).includes(currentSearch);
+            return matchClass && matchState && matchSearch;
           });
 
           const byClass = groupBy(filtered, 'class');
@@ -198,7 +282,7 @@ permalink: /publications_d/
 
             contentContainer.appendChild(section);
           });
-        };
+        }
 
         render();
       });
@@ -211,6 +295,7 @@ permalink: /publications_d/
         return acc;
       }, {});
     }
+
     function buildPatentHTML(entry) {
       const authors = entry.authors_text || '';
       const countryType = entry.country === 'Domestic' ? 'kor' : 'eng';

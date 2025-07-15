@@ -14,29 +14,29 @@ permalink: /publications_s/
   <section class="wrapper style1 container special nav-container">
     <ul class="nav-container">
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_j" class="nav-link">
-          <span class="icon fa-solid fa-book"></span>Journal
-        </a>
+        <a href="{{site.baseurl}}/publications_j" class="nav-link"
+          ><span class="icon fa-solid fa-book"></span>Journal</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_c" class="nav-link">
-          <span class="icon fa-solid fa-building-columns"></span>Conference
-        </a>
+        <a href="{{site.baseurl}}/publications_c" class="nav-link"
+          ><span class="icon fa-solid fa-building-columns"></span>Conference</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_p" class="nav-link">
-          <span class="icon fa-regular fa-copyright"></span>Patent
-        </a>
+        <a href="{{site.baseurl}}/publications_p" class="nav-link"
+          ><span class="icon fa-regular fa-copyright"></span>Patent</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_d" class="nav-link">
-          <span class="icon fa-solid fa-pen-nib"></span>Design
-        </a>
+        <a href="{{site.baseurl}}/publications_d" class="nav-link"
+          ><span class="icon fa-solid fa-pen-nib"></span>Design</a
+        >
       </li>
       <li class="nav-item">
-        <a href="{{site.baseurl}}/publications_s" class="nav-link active">
-          <span class="icon fa-brands fa-uncharted"></span>S/W
-        </a>
+        <a href="{{site.baseurl}}/publications_s" class="nav-link active"
+          ><span class="icon fa-brands fa-uncharted"></span>S/W</a
+        >
       </li>
     </ul>
   </section>
@@ -53,6 +53,31 @@ permalink: /publications_s/
       </div>
 
       <div class="10u skel-cell-important">
+        <!-- 검색창 -->
+        <div class="search-input-wrap">
+          <input
+            class="search-input"
+            type="text"
+            id="search-input"
+            placeholder="검색어를 입력하세요."
+            style="
+              width: 12rem;
+              display: flex;
+              align-items: center;
+              border: none;
+              background-color: #eee;
+              padding: 0.5rem 1.2rem;
+              line-height: 1.5;
+              font-size: 15px;
+              height: 2.5rem;
+              outline: none;
+            "
+          />
+          <button id="search-button" class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
         <!-- 상단 상태 필터 -->
         <div
           class="wrapper style2 container"
@@ -60,6 +85,7 @@ permalink: /publications_s/
         >
           <div class="patent-tab-container"></div>
         </div>
+
         <div
           id="pub-content"
           class="my-div"
@@ -68,16 +94,57 @@ permalink: /publications_s/
             text-align: justify;
             padding: 1.5em 1em;
           "
-        >
-          <!-- SW 리스트 렌더링 -->
-        </div>
+        ></div>
       </div>
     </div>
   </section>
 </article>
 
 <style>
-  /* 상태 필터 탭 스타일 */
+  .skel-cell-important {
+    position: relative;
+  }
+
+  .search-input-wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+    gap: 8px;
+  }
+
+  .search-input:focus {
+    outline: none !important;
+    border: none !important;
+  }
+
+  .search-input::placeholder {
+    font-size: 15px;
+    line-height: normal;
+    vertical-align: middle;
+  }
+
+  .search-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #006065;
+    color: #fff;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+  }
+
+  .search-button:hover {
+    background-color: rgb(0, 101, 101);
+  }
+
   .patent-tab {
     display: inline-block;
     padding: 6px 16px;
@@ -103,15 +170,16 @@ permalink: /publications_s/
   const ALLOWED_CLASSES = ['Registered SW'];
   let selectedClass = 'ALL';
   let selectedState = 'granted';
+  let currentSearch = '';
 
   document.addEventListener('DOMContentLoaded', () => {
-    fetch('{{ site.baseurl }}/data/publications/pub_p.json')
+    fetch('{{ site.baseurl }}/data/publications/pub_s.json')
       .then((res) => res.json())
       .then((data) => {
         const filterContainer = document.getElementById('class-filter');
         const contentContainer = document.getElementById('pub-content');
 
-        // class 필터 버튼 생성
+        // 필터 버튼 (ALL 고정)
         CLASS_ORDER.forEach((cls) => {
           const btn = document.createElement('a');
           btn.textContent = cls;
@@ -141,44 +209,49 @@ permalink: /publications_s/
           ),
         ];
 
-        if (uniqueStates.includes('granted')) {
-          const grantedTab = document.createElement('a');
-          grantedTab.href = '#';
-          grantedTab.className = 'patent-tab active';
-          grantedTab.dataset.state = 'granted';
-          grantedTab.textContent = 'Granted';
-          stateTabContainer.appendChild(grantedTab);
-        }
+        uniqueStates.forEach((state, idx) => {
+          const tab = document.createElement('a');
+          tab.href = '#';
+          tab.className =
+            'patent-tab' + (state === selectedState ? ' active' : '');
+          tab.dataset.state = state;
+          tab.textContent = state.charAt(0).toUpperCase() + state.slice(1);
+          stateTabContainer.appendChild(tab);
+        });
 
-        if (uniqueStates.includes('filed')) {
-          const filedTab = document.createElement('a');
-          filedTab.href = '#';
-          filedTab.className =
-            'patent-tab' + (selectedState === 'filed' ? ' active' : '');
-          filedTab.dataset.state = 'filed';
-          filedTab.textContent = 'Filed';
-          stateTabContainer.appendChild(filedTab);
-        }
+        // 상태 탭 클릭 이벤트
+        stateTabContainer.addEventListener('click', (e) => {
+          const tab = e.target.closest('.patent-tab');
+          if (tab) {
+            e.preventDefault();
+            selectedState = tab.dataset.state;
+            updateContent(data);
+            stateTabContainer
+              .querySelectorAll('.patent-tab')
+              .forEach((el) => el.classList.remove('active'));
+            tab.classList.add('active');
+          }
+        });
 
-        // 상태 필터 탭 클릭 이벤트
+        // 검색 이벤트
         document
-          .querySelectorAll('.patent-tab-container')
-          .forEach((container) => {
-            container.addEventListener('click', (e) => {
-              const tab = e.target.closest('.patent-tab');
-              if (tab) {
-                e.preventDefault();
-                selectedState = tab.dataset.state;
-                updateContent(data);
-                container
-                  .querySelectorAll('.patent-tab')
-                  .forEach((el) => el.classList.remove('active'));
-                tab.classList.add('active');
-              }
-            });
+          .getElementById('search-button')
+          .addEventListener('click', () => {
+            currentSearch = document
+              .getElementById('search-input')
+              .value.trim();
+            updateContent(data);
           });
 
-        // 초기 콘텐츠 렌더링
+        document
+          .getElementById('search-input')
+          .addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+              currentSearch = e.target.value.trim();
+              updateContent(data);
+            }
+          });
+
         updateContent(data);
       });
 
@@ -194,7 +267,9 @@ permalink: /publications_s/
               ? ALLOWED_CLASSES.includes(item.class)
               : item.class === selectedClass;
           const stateMatch = item.patent_state === selectedState;
-          return classMatch && stateMatch;
+          const searchMatch =
+            !currentSearch || buildPatentHTML(item).includes(currentSearch);
+          return classMatch && stateMatch && searchMatch;
         })
         .sort((a, b) => b.date.localeCompare(a.date));
 
