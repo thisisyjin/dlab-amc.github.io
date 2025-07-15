@@ -41,7 +41,6 @@ permalink: /publications_d/
     </ul>
   </section>
 
-  <!-- 콘텐츠 -->
   <section class="wrapper style4 container">
     <div class="row oneandhalf">
       <div class="2u">
@@ -77,7 +76,7 @@ permalink: /publications_d/
           </button>
         </div>
 
-        <!-- 상태 필터 탭 -->
+        <!-- 상태 필터 -->
         <div
           class="wrapper style2 container"
           style="margin-top: -1em; margin-bottom: 0"
@@ -108,7 +107,6 @@ permalink: /publications_d/
   .skel-cell-important {
     position: relative;
   }
-
   .search-input-wrap {
     position: absolute;
     display: flex;
@@ -118,18 +116,14 @@ permalink: /publications_d/
     transform: translateY(-50%);
     gap: 8px;
   }
-
   .search-input:focus {
     outline: none !important;
     border: none !important;
   }
-
   .search-input::placeholder {
     font-size: 15px;
     line-height: normal;
-    vertical-align: middle;
   }
-
   .search-button {
     cursor: pointer;
     display: flex;
@@ -142,13 +136,10 @@ permalink: /publications_d/
     background-color: #006065;
     color: #fff;
     font-size: 1rem;
-    transition: background-color 0.2s ease;
   }
-
   .search-button:hover {
     background-color: rgb(0, 101, 101);
   }
-
   .patent-tab {
     display: inline-block;
     padding: 6px 16px;
@@ -157,11 +148,9 @@ permalink: /publications_d/
     color: #999;
     font-size: 1.1em;
   }
-
   .patent-tab:hover {
     color: #6b6b6b;
   }
-
   .patent-tab.active {
     color: #036166;
     border-bottom: 2px solid #036166;
@@ -170,39 +159,28 @@ permalink: /publications_d/
 </style>
 
 <script>
-  const CLASS_ORDER = ['ALL', 'International Design', 'Domestic Design'];
-  const ALLOWED_CLASSES = ['International Design', 'Domestic Design'];
-
+  const DESIGN_CLASSES = ['International Design', 'Domestic Design'];
   let classFilter = 'ALL';
   let stateFilter = 'granted';
   let currentSearch = '';
 
   document.addEventListener('DOMContentLoaded', () => {
-    fetch('{{ site.baseurl }}/data/publications/pub_d.json')
+    fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
-      .then((allData) => {
-        const filterContainer = document.getElementById('class-filter');
-        const contentContainer = document.getElementById('pub-content');
-
-        CLASS_ORDER.forEach((cls) => {
-          const btn = document.createElement('a');
-          btn.textContent = cls;
-          btn.href = `#${cls.toLowerCase().replace(/\s+/g, '-')}`;
-          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
-          btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            classFilter = cls;
-            updateClassButtons(cls);
-            render();
-          });
-          filterContainer.appendChild(btn);
-        });
+      .then((data) => {
+        const filteredData = data.filter((d) =>
+          DESIGN_CLASSES.includes(d.class)
+        );
+        const contentEl = document.getElementById('pub-content');
 
         document.querySelectorAll('.patent-tab').forEach((tab) => {
           tab.addEventListener('click', (e) => {
             e.preventDefault();
             stateFilter = tab.dataset.state;
-            updateStateTabs(tab);
+            document
+              .querySelectorAll('.patent-tab')
+              .forEach((t) => t.classList.remove('active'));
+            tab.classList.add('active');
             render();
           });
         });
@@ -225,117 +203,48 @@ permalink: /publications_d/
             }
           });
 
-        function updateClassButtons(activeCls) {
-          document.querySelectorAll('.small-button').forEach((btn) => {
-            btn.classList.toggle('active', btn.textContent === activeCls);
-          });
-        }
-
-        function updateStateTabs(activeTab) {
-          document.querySelectorAll('.patent-tab').forEach((btn) => {
-            btn.classList.remove('active');
-          });
-          activeTab.classList.add('active');
-        }
-
         function render() {
-          contentContainer.innerHTML = '';
+          contentEl.innerHTML = '';
+          const shown = filteredData
+            .filter((d) => d.patent_state === stateFilter)
+            .filter((d) => {
+              if (!currentSearch) return true;
+              const str = buildHTML(d);
+              return str.includes(currentSearch);
+            })
+            .sort((a, b) => b.date.localeCompare(a.date));
 
-          const filtered = allData.filter((item) => {
-            const matchClass =
-              classFilter === 'ALL'
-                ? ALLOWED_CLASSES.includes(item.class)
-                : item.class === classFilter;
-            const matchState = item.patent_state === stateFilter;
-            const matchSearch =
-              !currentSearch || buildPatentHTML(item).includes(currentSearch);
-            return matchClass && matchState && matchSearch;
+          shown.forEach((entry) => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+            const line = document.createElement('div');
+            line.className = 'paperclick';
+            line.textContent = buildHTML(entry);
+            div.appendChild(line);
+            contentEl.appendChild(div);
           });
+        }
 
-          const byClass = groupBy(filtered, 'class');
+        function buildHTML(entry) {
+          const authors = entry.authors_text || '';
+          const title = entry.title_kor || entry.title_eng || '';
+          const number = entry.number || '';
+          const code = entry.country_code || '';
+          const date = formatDate(entry.date);
+          return (
+            [authors, title, `${code} ${number}`, date]
+              .filter(Boolean)
+              .join('. ') + '.'
+          );
+        }
 
-          CLASS_ORDER.forEach((cls) => {
-            const section = document.createElement('div');
-            section.className = 'class-section';
-            section.id = `section-${cls.toLowerCase().replace(/\s+/g, '-')}`;
-            section.style.display =
-              cls === classFilter || classFilter === 'ALL' ? 'block' : 'none';
-
-            const entries = (
-              cls === 'ALL' ? filtered : [...(byClass[cls] || [])]
-            )
-              .filter((d) => d.date)
-              .sort((a, b) => b.date.localeCompare(a.date));
-
-            entries.forEach((entry) => {
-              const div = document.createElement('div');
-              div.style.marginBottom = '20px';
-
-              const content = buildPatentHTML(entry);
-              const line = document.createElement('div');
-              line.className = 'paperclick';
-              line.textContent = content;
-
-              div.appendChild(line);
-              section.appendChild(div);
-            });
-
-            contentContainer.appendChild(section);
-          });
+        function formatDate(str) {
+          if (!str) return '';
+          const [y, m, d] = str.split('-');
+          return `${y} ${m.padStart(2, '0')} ${parseInt(d || '1')}`;
         }
 
         render();
       });
-
-    function groupBy(arr, key) {
-      return arr.reduce((acc, cur) => {
-        const k = cur[key] || '기타';
-        acc[k] = acc[k] || [];
-        acc[k].push(cur);
-        return acc;
-      }, {});
-    }
-
-    function buildPatentHTML(entry) {
-      const authors = entry.authors_text || '';
-      const countryType = entry.country === 'Domestic' ? 'kor' : 'eng';
-      const title = entry[`title_${countryType}`] || '';
-      const countryCode = entry.country_code || '';
-      const number = entry.number || '';
-      const date = formatDate(entry.date, entry.country);
-
-      const segments = [];
-      if (authors) segments.push(`${authors}.`);
-      if (title) segments.push(`${title}.`);
-      if (countryCode && number) segments.push(`${countryCode} ${number},`);
-      if (date) segments.push(`${date}.`);
-
-      return segments.join(' ').replace(/\s+/g, ' ').trim().replace(/;+$/, '');
-    }
-
-    function formatDate(dateStr, country) {
-      if (!dateStr) return '';
-      const normalized = dateStr.replace(/\./g, '-').replace(/\s/g, '').trim();
-      const [yyyy, mm, dd] = normalized.split('-');
-      const month =
-        country === 'Domestic'
-          ? mm?.padStart(2, '0')
-          : [
-              '',
-              'Jan',
-              'Feb',
-              'Mar',
-              'Apr',
-              'May',
-              'Jun',
-              'Jul',
-              'Aug',
-              'Sep',
-              'Oct',
-              'Nov',
-              'Dec',
-            ][parseInt(mm, 10)] || '';
-      return `${yyyy} ${month} ${parseInt(dd, 10)}`;
-    }
   });
 </script>

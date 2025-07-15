@@ -47,7 +47,7 @@ permalink: /publications_s/
       <div class="2u">
         <div class="sidebar">
           <section>
-            <div class="sidebar small-sidebar" id="class-filter"></div>
+            <div class="sidebar small-sidebar"></div>
           </section>
         </div>
       </div>
@@ -78,12 +78,17 @@ permalink: /publications_s/
           </button>
         </div>
 
-        <!-- 상단 상태 필터 -->
+        <!-- 상태 필터 탭 -->
         <div
           class="wrapper style2 container"
           style="margin-top: -1em; margin-bottom: 0"
         >
-          <div class="patent-tab-container"></div>
+          <div class="patent-tab-container">
+            <a href="#" class="patent-tab active" data-state="granted"
+              >Granted</a
+            >
+            <a href="#" class="patent-tab" data-state="filed">Filed</a>
+          </div>
         </div>
 
         <div
@@ -104,7 +109,6 @@ permalink: /publications_s/
   .skel-cell-important {
     position: relative;
   }
-
   .search-input-wrap {
     position: absolute;
     display: flex;
@@ -114,18 +118,14 @@ permalink: /publications_s/
     transform: translateY(-50%);
     gap: 8px;
   }
-
   .search-input:focus {
     outline: none !important;
     border: none !important;
   }
-
   .search-input::placeholder {
     font-size: 15px;
     line-height: normal;
-    vertical-align: middle;
   }
-
   .search-button {
     cursor: pointer;
     display: flex;
@@ -138,13 +138,10 @@ permalink: /publications_s/
     background-color: #006065;
     color: #fff;
     font-size: 1rem;
-    transition: background-color 0.2s ease;
   }
-
   .search-button:hover {
     background-color: rgb(0, 101, 101);
   }
-
   .patent-tab {
     display: inline-block;
     padding: 6px 16px;
@@ -153,11 +150,9 @@ permalink: /publications_s/
     color: #999;
     font-size: 1.1em;
   }
-
   .patent-tab:hover {
     color: #6b6b6b;
   }
-
   .patent-tab.active {
     color: #036166;
     border-bottom: 2px solid #036166;
@@ -166,81 +161,35 @@ permalink: /publications_s/
 </style>
 
 <script>
-  const CLASS_ORDER = ['ALL'];
-  const ALLOWED_CLASSES = ['Registered SW'];
-  let selectedClass = 'ALL';
-  let selectedState = 'granted';
+  let stateFilter = 'granted';
   let currentSearch = '';
 
   document.addEventListener('DOMContentLoaded', () => {
-    fetch('{{ site.baseurl }}/data/publications/pub_s.json')
+    fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
       .then((data) => {
-        const filterContainer = document.getElementById('class-filter');
-        const contentContainer = document.getElementById('pub-content');
+        const swData = data.filter((d) => d.class === 'Registered SW');
+        const contentEl = document.getElementById('pub-content');
 
-        // 필터 버튼 (ALL 고정)
-        CLASS_ORDER.forEach((cls) => {
-          const btn = document.createElement('a');
-          btn.textContent = cls;
-          btn.href = `#${cls.toLowerCase()}`;
-          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
-          btn.addEventListener('click', (e) => {
+        document.querySelectorAll('.patent-tab').forEach((tab) => {
+          tab.addEventListener('click', (e) => {
             e.preventDefault();
-            selectedClass = cls;
-            updateContent(data);
+            stateFilter = tab.dataset.state;
             document
-              .querySelectorAll('.small-button')
-              .forEach((el) => el.classList.remove('active'));
-            btn.classList.add('active');
-          });
-          filterContainer.appendChild(btn);
-        });
-
-        // 상태 필터 탭 생성
-        const stateTabContainer = document.querySelector(
-          '.patent-tab-container'
-        );
-        const uniqueStates = [
-          ...new Set(
-            data
-              .filter((item) => ALLOWED_CLASSES.includes(item.class))
-              .map((item) => item.patent_state)
-          ),
-        ];
-
-        uniqueStates.forEach((state, idx) => {
-          const tab = document.createElement('a');
-          tab.href = '#';
-          tab.className =
-            'patent-tab' + (state === selectedState ? ' active' : '');
-          tab.dataset.state = state;
-          tab.textContent = state.charAt(0).toUpperCase() + state.slice(1);
-          stateTabContainer.appendChild(tab);
-        });
-
-        // 상태 탭 클릭 이벤트
-        stateTabContainer.addEventListener('click', (e) => {
-          const tab = e.target.closest('.patent-tab');
-          if (tab) {
-            e.preventDefault();
-            selectedState = tab.dataset.state;
-            updateContent(data);
-            stateTabContainer
               .querySelectorAll('.patent-tab')
-              .forEach((el) => el.classList.remove('active'));
+              .forEach((t) => t.classList.remove('active'));
             tab.classList.add('active');
-          }
+            render();
+          });
         });
 
-        // 검색 이벤트
         document
           .getElementById('search-button')
           .addEventListener('click', () => {
             currentSearch = document
               .getElementById('search-input')
               .value.trim();
-            updateContent(data);
+            render();
           });
 
         document
@@ -248,85 +197,52 @@ permalink: /publications_s/
           .addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
               currentSearch = e.target.value.trim();
-              updateContent(data);
+              render();
             }
           });
 
-        updateContent(data);
+        function render() {
+          contentEl.innerHTML = '';
+          const shown = swData
+            .filter((d) => d.patent_state === stateFilter)
+            .filter((d) => {
+              if (!currentSearch) return true;
+              const str = buildHTML(d);
+              return str.includes(currentSearch);
+            })
+            .sort((a, b) => b.date.localeCompare(a.date));
+
+          shown.forEach((entry) => {
+            const div = document.createElement('div');
+            div.style.marginBottom = '20px';
+            const line = document.createElement('div');
+            line.className = 'paperclick';
+            line.textContent = buildHTML(entry);
+            div.appendChild(line);
+            contentEl.appendChild(div);
+          });
+        }
+
+        function buildHTML(entry) {
+          const authors = entry.authors_text || '';
+          const title = entry.title_kor || entry.title_eng || '';
+          const number = entry.number || '';
+          const code = entry.country_code || '';
+          const date = formatDate(entry.date);
+          return (
+            [authors, title, `${code} ${number}`, date]
+              .filter(Boolean)
+              .join('. ') + '.'
+          );
+        }
+
+        function formatDate(str) {
+          if (!str) return '';
+          const [y, m, d] = str.split('-');
+          return `${y} ${m.padStart(2, '0')} ${parseInt(d || '1')}`;
+        }
+
+        render();
       });
-
-    function updateContent(data) {
-      const container = document.getElementById('pub-content');
-      container.innerHTML = '';
-
-      const filtered = data
-        .filter((item) => item.date)
-        .filter((item) => {
-          const classMatch =
-            selectedClass === 'ALL'
-              ? ALLOWED_CLASSES.includes(item.class)
-              : item.class === selectedClass;
-          const stateMatch = item.patent_state === selectedState;
-          const searchMatch =
-            !currentSearch || buildPatentHTML(item).includes(currentSearch);
-          return classMatch && stateMatch && searchMatch;
-        })
-        .sort((a, b) => b.date.localeCompare(a.date));
-
-      filtered.forEach((entry) => {
-        const div = document.createElement('div');
-        div.style.marginBottom = '20px';
-
-        const content = buildPatentHTML(entry);
-        const line = document.createElement('div');
-        line.className = 'paperclick';
-        line.textContent = content;
-
-        div.appendChild(line);
-        container.appendChild(div);
-      });
-    }
-
-    function buildPatentHTML(entry) {
-      const authors = entry.authors_text || '';
-      const countryType = entry.country === 'Domestic' ? 'kor' : 'eng';
-      const title = entry[`title_${countryType}`] || '';
-      const countryCode = entry.country_code || '';
-      const number = entry.number || '';
-      const date = formatDate(entry.date, entry.country);
-
-      const segments = [];
-      if (authors) segments.push(`${authors}.`);
-      if (title) segments.push(`${title}.`);
-      if (countryCode && number) segments.push(`${countryCode} ${number},`);
-      if (date) segments.push(`${date}.`);
-
-      return segments.join(' ').replace(/\s+/g, ' ').trim().replace(/;+$/, '');
-    }
-
-    function formatDate(dateStr, country) {
-      if (!dateStr) return '';
-      const normalized = dateStr.replace(/\./g, '-').replace(/\s/g, '').trim();
-      const [yyyy, mm, dd] = normalized.split('-');
-      const month =
-        country === 'Domestic'
-          ? mm?.padStart(2, '0')
-          : [
-              '',
-              'Jan',
-              'Feb',
-              'Mar',
-              'Apr',
-              'May',
-              'Jun',
-              'Jul',
-              'Aug',
-              'Sep',
-              'Oct',
-              'Nov',
-              'Dec',
-            ][parseInt(mm, 10)] || '';
-      return `${yyyy} ${month} ${parseInt(dd, 10)}`;
-    }
   });
 </script>
