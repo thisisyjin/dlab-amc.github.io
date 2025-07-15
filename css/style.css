@@ -2853,3 +2853,21 @@ hr {
   width: 48%; /* Adjust the width to fit two columns */
   margin: 0;
 }
+
+/* Search Input */
+.search-input {
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: #ddd;
+  padding: 0.6rem 1.2rem;
+  line-height: 1.5;
+  font-size: 15px;
+  height: 2.5rem;
+}
+
+.search-input:focus {
+  outline: none;
+  border: none;
+}
