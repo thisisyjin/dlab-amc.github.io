@@ -2872,3 +2872,9 @@ hr {
   outline: none;
   border: none;
 }
+
+.search-input::placeholder {
+  font-size: 15px;
+  line-height: normal;
+  vertical-align: middle;
+}
