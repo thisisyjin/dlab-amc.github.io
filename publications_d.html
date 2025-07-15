@@ -50,6 +50,7 @@ permalink: /publications_d/
           </section>
         </div>
       </div>
+
       <div class="10u skel-cell-important">
         <!-- 검색창 -->
         <div class="search-input-wrap">
@@ -76,7 +77,7 @@ permalink: /publications_d/
           </button>
         </div>
 
-        <!-- 상태 필터 -->
+        <!-- 상태 필터 탭 -->
         <div
           class="wrapper style2 container"
           style="margin-top: -1em; margin-bottom: 0"
@@ -159,7 +160,9 @@ permalink: /publications_d/
 </style>
 
 <script>
-  const DESIGN_CLASSES = ['International Design', 'Domestic Design'];
+  const CLASS_ORDER = ['ALL', 'International Design', 'Domestic Design'];
+  const ALLOWED_CLASSES = ['International Design', 'Domestic Design'];
+
   let classFilter = 'ALL';
   let stateFilter = 'granted';
   let currentSearch = '';
@@ -167,20 +170,29 @@ permalink: /publications_d/
   document.addEventListener('DOMContentLoaded', () => {
     fetch('{{ site.baseurl }}/data/publications/pub_p.json')
       .then((res) => res.json())
-      .then((data) => {
-        const filteredData = data.filter((d) =>
-          DESIGN_CLASSES.includes(d.class)
-        );
-        const contentEl = document.getElementById('pub-content');
+      .then((allData) => {
+        const filterContainer = document.getElementById('class-filter');
+        const contentContainer = document.getElementById('pub-content');
+
+        CLASS_ORDER.forEach((cls) => {
+          const btn = document.createElement('a');
+          btn.textContent = cls;
+          btn.href = `#${cls.toLowerCase().replace(/\s+/g, '-')}`;
+          btn.className = 'small-button' + (cls === 'ALL' ? ' active' : '');
+          btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            classFilter = cls;
+            updateClassButtons(cls);
+            render();
+          });
+          filterContainer.appendChild(btn);
+        });
 
         document.querySelectorAll('.patent-tab').forEach((tab) => {
           tab.addEventListener('click', (e) => {
             e.preventDefault();
             stateFilter = tab.dataset.state;
-            document
-              .querySelectorAll('.patent-tab')
-              .forEach((t) => t.classList.remove('active'));
-            tab.classList.add('active');
+            updateStateTabs(tab);
             render();
           });
         });
@@ -203,48 +215,115 @@ permalink: /publications_d/
             }
           });
 
+        function updateClassButtons(activeCls) {
+          document
+            .querySelectorAll('.small-button')
+            .forEach((btn) =>
+              btn.classList.toggle('active', btn.textContent === activeCls)
+            );
+        }
+
+        function updateStateTabs(activeTab) {
+          document
+            .querySelectorAll('.patent-tab')
+            .forEach((btn) => btn.classList.remove('active'));
+          activeTab.classList.add('active');
+        }
+
         function render() {
-          contentEl.innerHTML = '';
-          const shown = filteredData
-            .filter((d) => d.patent_state === stateFilter)
-            .filter((d) => {
-              if (!currentSearch) return true;
-              const str = buildHTML(d);
-              return str.includes(currentSearch);
-            })
+          contentContainer.innerHTML = '';
+
+          const filtered = allData
+            .filter((item) =>
+              classFilter === 'ALL'
+                ? ALLOWED_CLASSES.includes(item.class)
+                : item.class === classFilter
+            )
+            .filter((item) => item.patent_state === stateFilter)
+            .filter((item) =>
+              currentSearch
+                ? buildPatentHTML(item).includes(currentSearch)
+                : true
+            )
             .sort((a, b) => b.date.localeCompare(a.date));
 
-          shown.forEach((entry) => {
-            const div = document.createElement('div');
-            div.style.marginBottom = '20px';
-            const line = document.createElement('div');
-            line.className = 'paperclick';
-            line.textContent = buildHTML(entry);
-            div.appendChild(line);
-            contentEl.appendChild(div);
+          const byClass = groupBy(filtered, 'class');
+
+          CLASS_ORDER.forEach((cls) => {
+            const section = document.createElement('div');
+            section.className = 'class-section';
+            section.id = `section-${cls.toLowerCase().replace(/\s+/g, '-')}`;
+            section.style.display =
+              cls === classFilter || classFilter === 'ALL' ? 'block' : 'none';
+
+            const entries = cls === 'ALL' ? filtered : byClass[cls] || [];
+
+            entries.forEach((entry) => {
+              const div = document.createElement('div');
+              div.style.marginBottom = '20px';
+              const content = buildPatentHTML(entry);
+              const line = document.createElement('div');
+              line.className = 'paperclick';
+              line.textContent = content;
+              div.appendChild(line);
+              section.appendChild(div);
+            });
+
+            contentContainer.appendChild(section);
           });
-        }
-
-        function buildHTML(entry) {
-          const authors = entry.authors_text || '';
-          const title = entry.title_kor || entry.title_eng || '';
-          const number = entry.number || '';
-          const code = entry.country_code || '';
-          const date = formatDate(entry.date);
-          return (
-            [authors, title, `${code} ${number}`, date]
-              .filter(Boolean)
-              .join('. ') + '.'
-          );
-        }
-
-        function formatDate(str) {
-          if (!str) return '';
-          const [y, m, d] = str.split('-');
-          return `${y} ${m.padStart(2, '0')} ${parseInt(d || '1')}`;
         }
 
         render();
       });
+
+    function groupBy(arr, key) {
+      return arr.reduce((acc, cur) => {
+        const k = cur[key] || '기타';
+        acc[k] = acc[k] || [];
+        acc[k].push(cur);
+        return acc;
+      }, {});
+    }
+
+    function buildPatentHTML(entry) {
+      const authors = entry.authors_text || '';
+      const title = entry.title_kor || entry.title_eng || '';
+      const countryCode = entry.country_code || '';
+      const number = entry.number || '';
+      const date = formatDate(entry.date, entry.country);
+
+      return (
+        [authors, title, `${countryCode} ${number}`, date]
+          .filter(Boolean)
+          .join('. ')
+          .replace(/\s+/g, ' ')
+          .trim()
+          .replace(/;+$/, '') + '.'
+      );
+    }
+
+    function formatDate(dateStr, country) {
+      if (!dateStr) return '';
+      const [yyyy, mm, dd] = dateStr.replace(/\./g, '-').split('-');
+      const month =
+        country === 'Domestic'
+          ? mm?.padStart(2, '0')
+          : [
+              '',
+              'Jan',
+              'Feb',
+              'Mar',
+              'Apr',
+              'May',
+              'Jun',
+              'Jul',
+              'Aug',
+              'Sep',
+              'Oct',
+              'Nov',
+              'Dec',
+            ][parseInt(mm)];
+      return `${yyyy} ${month} ${parseInt(dd || '1', 10)}`;
+    }
   });
 </script>
