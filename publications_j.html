@@ -55,24 +55,14 @@ permalink: /publications_j/
 
       <div class="10u skel-cell-important">
         <!-- 검색창 UI -->
-        <div style="text-align: right; margin-bottom: 0.5em">
+        <div class="search-input-wrap">
           <input
+            class="'search-input"
             type="text"
             id="search-input"
             placeholder="검색어를 입력하세요."
-            style="padding: 6px 8px; width: 220px; font-size: 0.9em"
           />
-          <button
-            id="search-button"
-            style="
-              background: transparent;
-              border: none;
-              cursor: pointer;
-              font-size: 1.1em;
-              vertical-align: middle;
-              margin-left: 4px;
-            "
-          >
+          <button id="search-button" class="search-button">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
         </div>
@@ -92,7 +82,53 @@ permalink: /publications_j/
   </section>
 </article>
 
-<style></style>
+<style>
+  .skel-cell-important {
+    position: relative;
+  }
+
+  .search-input-wrap {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+    gap: 8px;
+  }
+
+  .search-input {
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #ddd;
+    padding: 0.6rem 1.2rem;
+    line-height: 1.5;
+    font-size: 15px;
+    height: 2.5rem;
+  }
+
+  .search-input::placeholder {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .search-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    outline: none;
+    justify-content: center;
+    border: none;
+    padding: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #006065;
+    color: #fff;
+    font-size: 1rem;
+  }
+</style>
 
 <script>
   const CLASS_ORDER = [
