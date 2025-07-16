@@ -336,7 +336,9 @@ permalink: /publications_p/
               'Nov',
               'Dec',
             ][parseInt(mm, 10)] || '';
-      return `${yyyy} ${month} ${parseInt(dd, 10)}`;
+      return country === 'Domestic'
+        ? `${yyyy}. ${month}. ${dd.toString().padStart(2, '0')}`
+        : `${yyyy} ${month} ${parseInt(dd, 10)}`;
     }
   });
 </script>

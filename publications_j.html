@@ -170,7 +170,7 @@ permalink: /publications_j/
     const year = date.getFullYear();
     const monthNum = date.getMonth() + 1;
     return country === 'Domestic'
-      ? `${year} ${monthNum.toString().padStart(2, '0')}`
+      ? `${year}. ${monthNum.toString().padStart(2, '0')}`
       : `${year} ${MONTHS[monthNum]}`;
   }
 
@@ -229,8 +229,12 @@ permalink: /publications_j/
       if (jif) result += `${IF ? ' ' : ''}${jif}`;
       result += '; ';
     }
-    if (ack) result += `${ack}.`;
-    return result.trim().replace(/;+$/, '');
+    if (ack) result += `${ack}`;
+
+    result = result.trim().replace(/;+$/, '');
+    if (!result.endsWith('.')) result += '.';
+
+    return result;
   }
 
   document.addEventListener('DOMContentLoaded', () => {
